@@ -5,22 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy - TracklyLab</title>
 <style>
-  :root { color-scheme: light dark; }
+  /* The two app tokens this page borrows, restated: it is a standalone
+     document, not a screen inside the app, so index.css is not here. */
+  :root { color-scheme: light dark; --line: #E5E5EA; --ink-2: #67676F; }
   body { margin: 0 auto; padding: 40px 24px 80px; max-width: 680px;
          font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
          color: #1C1C1E; background: #fff; }
-  header { border-bottom: 1px solid #E5E5EA; padding-bottom: 20px; margin-bottom: 28px; }
-  .brand { font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #007AFF; }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 20px; margin-bottom: 28px; }
+  .brand { font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #4F74F3; }
   h1 { font-size: 30px; letter-spacing: -.5px; margin: 8px 0 6px; }
-  .updated { color: #8E8E93; font-size: 14px; margin: 0; }
+  .updated { color: var(--ink-2); font-size: 14px; margin: 0; }
   .intro { font-size: 17px; color: #3A3A3C; }
   h2 { font-size: 17px; margin: 32px 0 8px; }
   p { color: #48484A; margin: 0 0 10px; }
-  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid #E5E5EA; color: #8E8E93; font-size: 13px; }
-  a { color: #007AFF; }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--ink-2); font-size: 13px; }
+  a { color: #4F74F3; }
   @media (prefers-color-scheme: dark) {
-    body { color: #F2F2F7; background: #1C1C1E; }
-    header, footer { border-color: #3A3A3C; }
+    :root { --line: #3E3E47; --ink-2: #A6A6AE; }
+    body { color: #F2F1ED; background: #1C1C1E; }
     .intro { color: #D1D1D6; }
     p { color: #C7C7CC; }
   }
@@ -30,11 +32,11 @@
   <header>
     <div class="brand">TracklyLab</div>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated 28 July 2026</p>
+    <p class="updated">Last updated 14 September 2026</p>
   </header>
-  <p class="intro">TracklyLab is built device-first. If you use it without an account, what you record never leaves your phone. This policy explains exactly what is stored, where, and who can see it.</p>
+  <p class="intro">TracklyLab is built device-first. If you use it without an account, what you record never leaves your phone. Signed in, it leaves for two reasons only: to sync to your account, and, if you choose to use it, when you send a file through the AI import described below. This policy explains exactly what is stored, where, and who can see it.</p>
   <h2>Who is responsible</h2>
-  <p>TracklyLab is made and run by Pietro Zamboni, an individual developer, who also goes by Zambop. It is not operated by a company.</p>
+  <p>TracklyLab is made and run by Pietro Zamboni, an individual developer. It is not operated by a company.</p>
   <p>For anything about your data, or about this policy, write to support@tracklylab.com.</p>
   <h2>The short version</h2>
   <p>Your transactions stay on your device unless you choose to sign in.</p>
@@ -45,22 +47,31 @@
   <p>In guest mode, your transactions, categories, sources and settings are saved in your browser or app storage on your own device. They are not sent to us and we cannot read them.</p>
   <p>Because that data lives only on your device, clearing your browser storage, deleting the app, or losing the device will lose it. Settings &gt; Export data saves a full copy you keep yourself.</p>
   <h2>When you sign in</h2>
-  <p>Signing in with Google shares your name, email address and profile photo with us, so we can identify your account and show your picture in Settings. We never receive your Google password.</p>
+  <p>You can sign in with Google, or with a code sent to your email address. Signing in with Google shares your name, email address and profile photo with us, so we can identify your account and show your picture in Settings. We never receive your Google password.</p>
+  <p>If you sign in by email, we store the address you give us and send a one-time code to it. We do not use it to write to you about anything else.</p>
   <p>Once signed in, your TracklyLab data is stored in our database as a single record belonging to your account, so it can follow you across devices.</p>
   <p>Row-level security means no other TracklyLab user can read that record. It is not, however, encrypted in a way that hides it from us: as the person who runs the service, Pietro Zamboni holds the administrative keys to the database, because operating, backing up and supporting it requires them. Your transactions are not read, and are never used for anything other than making the app work for you.</p>
   <p>If you would rather nothing of yours ever left your device, use TracklyLab without signing in - guest mode keeps everything local, where we genuinely cannot reach it.</p>
   <h2>What we collect</h2>
-  <p>Account details: your name, email address and profile photo from the sign-in provider you choose.</p>
+  <p>Account details: your email address, plus your name and profile photo if you sign in with a provider that gives us them.</p>
   <p>Your TracklyLab data, but only if you are signed in: transactions, categories, sources, recurring schedules, budget and preferences.</p>
   <p>Usage analytics: which screens are opened and which features are used, plus general technical information such as device type, browser and approximate region derived from your IP address. These events never include transaction descriptions, amounts, categories, sources or your budget.</p>
   <p>Support messages: if you write to us from Settings &gt; Support, we receive your message and the email address you give us so we can reply.</p>
+  <p>Import counts: if you use the AI import, one row per day recording how many imports you made and roughly how much text they cost to read - never the file, and nothing from inside it.</p>
   <h2>Exchange rates</h2>
   <p>To convert foreign-currency transactions, the app fetches a table of daily exchange rates from an external rates provider. That request asks only for the rates themselves - it contains no personal data and no information about your transactions.</p>
+  <h2>Importing with AI</h2>
+  <p>Settings &gt; Import data can read a bank statement, a spreadsheet or a photo of one and turn it into transactions. It is optional, it is only available when you are signed in, and nothing is sent until you have picked a file and confirmed.</p>
+  <p>When you do, the file itself is sent, as it is, to a function we run, which passes it to Anthropic, the company behind the Claude models, to be read. A statement or a screenshot of one typically contains dates, amounts and the descriptions of your transactions. The names of your own categories travel with it, so the result can be filed under them, and so do any answers you type when the import asks you a question. A photo is reduced on your device to the size the model reads it at before it leaves.</p>
+  <p>The result comes back to your device and goes through the normal review before anything is added. We do not keep the file, or the transactions it produced, on our servers. Under its commercial terms Anthropic does not use what is sent through its API to train its models; how it otherwise handles that data is governed by its own privacy policy.</p>
+  <p>What we do keep is a count: one row per account per day saying how many imports were made and roughly how much text they cost to read, so the daily allowance can be enforced and the bill can be watched. It says nothing about the file.</p>
+  <p>If you would rather your statements never reached a third party, skip this feature. The same screen offers a ready-made prompt for whichever AI you already use, and a file import for the result.</p>
   <h2>Who we share it with</h2>
   <p>We do not sell your data or share it for advertising. We use a small number of service providers who process data on our behalf:</p>
   <p>Supabase - hosting, sign-in and the database that holds your synced data.</p>
   <p>PostHog - product analytics, as described above.</p>
-  <p>Resend - delivering the support messages you send us.</p>
+  <p>Resend - delivering the sign-in codes we email you, and the support messages you send us.</p>
+  <p>Anthropic - reading the files you choose to send through the AI import, as described above, and nothing else.</p>
   <p>We may also disclose information if we are legally required to.</p>
   <h2>How long we keep it</h2>
   <p>Your synced data is kept until you delete it. Settings &gt; Erase all data clears your records while keeping your account; Settings &gt; Delete account removes the account and its data.</p>
