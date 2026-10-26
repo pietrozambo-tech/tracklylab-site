@@ -115,7 +115,8 @@
   .copy h2 { margin-top: 14px; font-size: clamp(36px, 4.6vw, 56px); line-height: 1.06; letter-spacing: -0.03em; }
   .copy p { color: var(--ink-2); font-size: 18px; margin-top: 22px; max-width: 520px; }
   .copy .fine { color: var(--ink-3); font-size: 14.5px; margin-top: 16px; }
-  .visual { display: flex; justify-content: center; position: relative; }
+  .visual { display: flex; justify-content: center; position: relative; min-width: 0; }
+  .copy { min-width: 0; }
   .rule { border: 0; border-top: 1px solid var(--line); max-width: 1072px; margin: 0 auto; }
 
   /* The Reel, framed like a phone's screen. */
@@ -123,10 +124,23 @@
     box-shadow: 0 0 0 9px rgba(255,255,255,0.09), 0 30px 90px rgba(79,116,243,0.4); }
   .film video { display: block; width: 100%; height: 100%; object-fit: cover; }
 
-  /* The widgets: the Lock Screen, and the medium widget standing over it. */
-  .widgets { position: relative; padding-bottom: 80px; }
-  .widgets .medium { position: absolute; left: 50%; bottom: 0; width: min(442px, 92vw); height: auto; transform: translateX(-50%);
-    border-radius: 22px; box-shadow: 0 30px 80px rgba(3,6,24,0.6); }
+  /* The widgets: two iPhones side by side in a strip that scrolls a phone
+     at a time - the Lock Screen, then the Home Screen - with a switch above
+     it for a mouse, and the strip to swipe with a finger. */
+  .swipe { width: min(400px, 94vw); display: flex; flex-direction: column; align-items: center; gap: 18px; }
+  .seg { display: inline-flex; padding: 4px; border-radius: 999px; background: rgba(255,255,255,0.07); border: 1px solid var(--line); }
+  .seg button { font: 600 14px/1 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Inter, sans-serif; color: var(--ink-2);
+    background: none; border: 0; border-radius: 999px; padding: 9px 16px; cursor: pointer; }
+  .seg button[aria-selected="true"] { color: #fff; background: linear-gradient(135deg, var(--brand), var(--brand-2)); }
+  .seg button:focus-visible { outline: 2px solid #A9BCFF; outline-offset: 2px; }
+  .track { width: 100%; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth;
+    scrollbar-width: none; -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain; }
+  .track::-webkit-scrollbar { display: none; }
+  .slide { flex: 0 0 100%; scroll-snap-align: center; display: flex; justify-content: center; padding: 12px 0 0; margin: 0; }
+  .iphone.bright .sbar { color: #fff; }
+  .dots { display: flex; gap: 8px; }
+  .dots i { width: 7px; height: 7px; border-radius: 999px; background: rgba(255,255,255,0.25); transition: width 0.2s, background 0.2s; }
+  .dots i.on { width: 20px; background: #A9BCFF; }
 
   /* ── And more ─────────────────────────────────────────────────────────── */
   .more { padding: 120px 0; text-align: center; }
@@ -172,11 +186,11 @@
   @media (max-width: 820px) {
     .feature { padding: 84px 0 0; }
     .feature::before, .feature.flip::before { background: radial-gradient(70% 40% at 50% 80%, rgba(79,116,243,0.28) 0%, rgba(79,116,243,0) 70%); }
-    .feature .wrap { grid-template-columns: 1fr; gap: 44px; text-align: center; }
+    .feature .wrap { grid-template-columns: minmax(0, 1fr); gap: 44px; text-align: center; }
     .feature.flip .copy { order: 0; }
     .copy p { margin-left: auto; margin-right: auto; }
     .film { margin-bottom: 84px; }
-    .widgets { margin-bottom: 84px; }
+    .swipe { margin-bottom: 84px; }
     .rule { display: none; }
   }
   @media (max-width: 600px) {
@@ -301,9 +315,16 @@
         <p class="fine" data-t="widgetFine">In the iPhone app.</p>
       </div>
       <div class="visual">
-        <div class="widgets">
-          <div class="iphone light"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="lock" src="./shots/en-lock.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="The Lock Screen with the month's spending under the clock and a + to add an expense" data-t-alt="altLock"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"/></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"/></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"/></svg></span></div><div class="island"></div></div></div>
-          <img class="medium" data-shot="medium" src="./shots/en-medium.webp" width="1327" height="565" loading="lazy" decoding="async" alt="The medium Home Screen widget: spent this month, the budget bar and how much a day is left" data-t-alt="altMedium">
+        <div class="swipe">
+          <div class="seg" role="tablist" aria-label="Widgets">
+            <button type="button" role="tab" id="w-tab-0" aria-selected="true" data-go="0" data-t="wLock">Lock Screen</button>
+            <button type="button" role="tab" id="w-tab-1" aria-selected="false" data-go="1" data-t="wHome">Home Screen</button>
+          </div>
+          <div class="track" id="w-track">
+            <figure class="slide"><div class="iphone light"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="lock" src="./shots/en-lock.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="The Lock Screen with the month's spending under the clock and a + to add an expense" data-t-alt="altLock"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"/></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"/></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"/></svg></span></div><div class="island"></div></div></div></figure>
+            <figure class="slide"><div class="iphone bright"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="home" src="./shots/en-home.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="The Home Screen with the medium widget, the small one in red over budget, and the apps around them" data-t-alt="altHome"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"/></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"/></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"/></svg></span></div><div class="island"></div></div></div></figure>
+          </div>
+          <div class="dots" aria-hidden="true"><i class="on"></i><i></i></div>
         </div>
       </div>
     </div>
@@ -426,7 +447,8 @@
     altTrend: 'Andamento: il totale speso, la media mensile e il grafico di ogni mese',
     altTrips: 'Viaggi: Ibiza, Kenya, Patagonia e Lapponia, ognuno con il totale diviso in hotel, voli, cibo e attività',
     altLock: 'La schermata di blocco con la spesa del mese sotto l’ora e un + per aggiungere una spesa',
-    altMedium: 'Il widget medio della Home: speso questo mese, la barra del budget e quanto resta al giorno'
+    altHome: 'La schermata Home con il widget medio, quello piccolo in rosso oltre il budget e le app intorno',
+    wLock: 'Schermata di blocco', wHome: 'Schermata Home'
   };
   var EN = {};
   document.querySelectorAll('[data-t]').forEach(function (n) { EN[n.getAttribute('data-t')] = n.textContent; });
@@ -442,6 +464,24 @@
     document.querySelectorAll('[data-shot]').forEach(function (n) { n.src = './shots/' + lang + '-' + n.getAttribute('data-shot') + '.webp'; });
     document.title = lang === 'it' ? 'TracklyLab · La lente sulle tue spese' : 'TracklyLab · Your expense lens';
   }
+  // The widgets strip: the switch scrolls it, scrolling it moves the switch.
+  (function () {
+    var track = document.getElementById('w-track');
+    var tabs = document.querySelectorAll('.seg button');
+    var dots = document.querySelectorAll('.dots i');
+    var show = function (n) {
+      tabs.forEach(function (t, k) { t.setAttribute('aria-selected', String(k === n)); });
+      dots.forEach(function (d, k) { d.classList.toggle('on', k === n); });
+    };
+    tabs.forEach(function (t) {
+      t.addEventListener('click', function () {
+        var n = Number(t.getAttribute('data-go'));
+        track.scrollTo({ left: n * track.clientWidth, behavior: 'smooth' });
+        show(n);
+      });
+    });
+    track.addEventListener('scroll', function () { show(Math.round(track.scrollLeft / Math.max(1, track.clientWidth))); }, { passive: true });
+  })();
   var saved = null;
   try { saved = localStorage.getItem('lang'); } catch (e) {}
   var lang = saved || (/^it\b/i.test(navigator.language || '') ? 'it' : 'en');
