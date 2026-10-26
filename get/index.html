@@ -7,7 +7,7 @@
 <meta name="description" content="TracklyLab - Your Expense Lens. Get it on iPhone, or use it in your browser.">
 <meta property="og:title" content="Get TracklyLab">
 <meta property="og:description" content="Your expense lens. On iPhone, or in your browser.">
-<meta name="theme-color" content="#F5F5F7">
+<meta name="theme-color" content="#0B1028">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cdefs%3E%3ClinearGradient id='g' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='48' y2='48'%3E%3Cstop offset='0' stop-color='%233B82F6'/%3E%3Cstop offset='1' stop-color='%236366F1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='48' height='48' rx='13' fill='url(%23g)'/%3E%3Ccircle cx='24' cy='24' r='13.2' fill='none' stroke='%23fff' stroke-width='3'/%3E%3Ccircle cx='33.33' cy='14.67' r='5' fill='url(%23g)'/%3E%3Cpolyline points='17.5,27.8 21,23.8 24.5,26.3 33.33,14.67' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <!--
   tracklylab.com/get - the one link to share (Instagram bio, a message).
@@ -24,39 +24,38 @@
   once the app is live - the one line to change.
 -->
 <style>
-  :root { color-scheme: light dark; }
+  /* The landing page's dark blue (../index.html), so the step from one to
+     the other is no change of scene. */
+  :root { color-scheme: dark; }
   * { box-sizing: border-box; margin: 0; }
-  body { font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif; color: #1C1C1E; background: #F5F5F7;
-    -webkit-font-smoothing: antialiased; min-height: 100vh; display: flex; flex-direction: column; }
+  body { font: 16px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Inter, sans-serif; color: #fff;
+    background: radial-gradient(70% 45% at 50% 100%, rgba(79,116,243,0.42) 0%, rgba(79,116,243,0) 70%),
+      radial-gradient(50% 35% at 100% 0%, rgba(99,102,241,0.28) 0%, rgba(99,102,241,0) 70%),
+      linear-gradient(180deg, #0B1028 0%, #111A44 60%, #18246A 100%);
+    background-attachment: fixed; -webkit-font-smoothing: antialiased; min-height: 100vh; display: flex; flex-direction: column; }
   main { flex: 1; width: 100%; max-width: 400px; margin: 0 auto; padding: 48px 24px 24px; text-align: center;
     display: flex; flex-direction: column; justify-content: center; }
-  .mark { width: 92px; height: 92px; margin: 0 auto 22px; display: block; filter: drop-shadow(0 12px 24px rgba(80, 100, 240, 0.35)); }
-  h1 { font-size: 38px; font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; }
-  .tagline { color: #4F74F3; font-size: 18px; font-weight: 600; margin-top: 8px; }
-  .sub { color: #6B6B75; font-size: 16px; margin: 14px auto 0; max-width: 330px; text-wrap: balance; }
+  .mark { width: 92px; height: 92px; margin: 0 auto 24px; display: block; border-radius: 24px;
+    box-shadow: 0 18px 50px rgba(79,116,243,0.55), 0 0 0 6px rgba(255,255,255,0.07); }
+  h1 { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Inter, sans-serif; font-size: 38px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.1; }
+  .tagline { font-size: 18px; font-weight: 600; margin-top: 8px;
+    background: linear-gradient(90deg, #A9BCFF, #C7B8FF); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .sub { color: rgba(225,232,252,0.72); font-size: 16px; margin: 14px auto 0; max-width: 330px; text-wrap: balance; }
   .ways { display: flex; flex-direction: column; gap: 10px; margin-top: 30px; }
-  .way { display: flex; align-items: center; gap: 13px; padding: 12px 16px; border-radius: 14px; text-decoration: none; text-align: left;
-    background: #fff; color: #1C1C1E; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); transition: transform 0.15s ease; }
+  .way { display: flex; align-items: center; gap: 13px; padding: 12px 16px; border-radius: 16px; text-decoration: none; text-align: left;
+    color: #fff; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.10); transition: transform 0.15s ease; }
   .way:active { transform: scale(0.98); }
   .way svg { width: 24px; height: 24px; flex-shrink: 0; }
   .way b { display: block; font-size: 16px; font-weight: 600; line-height: 1.3; }
-  .way small { display: block; color: #8E8E93; font-size: 12.5px; line-height: 1.35; }
-  .way.first { background: #4F74F3; color: #fff; box-shadow: 0 6px 18px rgba(79, 116, 243, 0.35); }
-  .way.first small { color: rgba(255, 255, 255, 0.82); }
-  .qr { display: none; margin-top: 30px; padding: 20px; border-radius: 16px; background: #fff; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); }
+  .way small { display: block; color: rgba(225,232,252,0.6); font-size: 12.5px; line-height: 1.35; }
+  .way.first { background: linear-gradient(135deg, #4F74F3, #6366F1); border-color: transparent; box-shadow: 0 10px 30px rgba(79,116,243,0.45); }
+  .way.first small { color: rgba(255,255,255,0.82); }
+  .qr { display: none; margin-top: 30px; padding: 20px; border-radius: 18px; background: #fff; }
   .qr svg { width: 148px; height: 148px; display: block; margin: 0 auto 12px; color: #1C1C1E; fill: currentColor; }
   .qr p { color: #6B6B75; font-size: 14px; }
   .desktop .qr { display: block; }
-  footer { text-align: center; color: #8E8E93; font-size: 13px; padding: 24px; }
+  footer { text-align: center; color: rgba(225,232,252,0.5); font-size: 13px; padding: 24px; }
   footer a { color: inherit; }
-  @media (prefers-color-scheme: dark) {
-    body { background: #111114; color: #F2F2F7; }
-    .sub, .qr p { color: #A5A5AD; }
-    .way { background: #1C1C1E; color: #F2F2F7; box-shadow: none; border: 1px solid #2A2A2E; }
-    .way.first { border-color: transparent; }
-    .qr { background: #fff; box-shadow: none; }
-    .qr p { color: #6B6B75; }
-  }
 </style>
 </head>
 <body>

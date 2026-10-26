@@ -3,10 +3,26 @@
 This folder is the complete static site for **tracklylab.com**: a landing page
 plus the Privacy Policy and Terms of Service, ready to deploy as-is.
 
-- `index.html` - landing page (handwritten; edit freely)
+- `index.html` - landing page (handwritten; edit freely). The story in the
+  order of the Instagram posts and App Store screenshots, on the same dark
+  blue; English, or Italian on an Italian browser (screens too) and a switch
+  in the footer. Every "Get" goes to `get/`. No font, script or image from
+  another server.
+- `shots/` - the screens and widgets it shows, **generated**:
+  `PHONE_PX=987 node scripts/store-screenshots/capture.mjs <raw dir>` (dev
+  server on 5199), then `node scripts/site/shots.mjs <raw dir> site`. Cut
+  from the App Store capture, never resampled; also writes `og.png`, the
+  link preview.
+- `media/` - the Apple Pay Reel (`docs/social/instagram/reel-applepay.mp4`)
+  and its poster.
 - `privacy.html`, `terms.html` - **generated** from `src/app/lib/legalContent.ts`
   by `pnpm site`. Do not edit these by hand - change the source module and
   regenerate, so the site and the in-app screens always say the same thing.
+- `get/index.html` - **tracklylab.com/get**, the one link to share: it puts
+  the iPhone app first on iPhone and iPad (TestFlight's public link today, the
+  App Store's once live - one `href` to change), the web app first anywhere
+  else, with a QR code on computers. Never redirects on its own: inside
+  Instagram's browser a redirect to Apple often lands on a web page.
 - `CNAME` - tells GitHub Pages the custom domain (ignored by other hosts)
 
 ## Deploying (choose one)
@@ -39,6 +55,12 @@ their dashboard. Delete `CNAME` if the host complains about it.
 3. Leave the **logo** empty for now - uploading one triggers Google's brand
    verification review (days to weeks). Add it when the final logo is ready.
 
-Note: the consent screen may still say "to continue to *xxxx*.supabase.co" -
-that line names the OAuth redirect target and is fixed only by a Supabase
-custom auth domain (paid add-on), not by anything in this folder.
+Note: while the branding is unverified, the consent screen says "to continue
+to *xxxx*.supabase.co" - Google names the redirect's domain in place of the
+app. Once Google Auth Platform → Branding reports the branding verified,
+press **Publish branding** (the verified result lapses after 7 days if it
+is not published); from then on the line reads "to continue to TracklyLab".
+Verified and published on 15 Sep 2026. Uploading a logo later starts the
+verification over, so add it only when the final logo is ready. The other
+two ways - a Supabase custom auth domain (paid), or Google Identity
+Services on our own page with `signInWithIdToken` - were not needed.
