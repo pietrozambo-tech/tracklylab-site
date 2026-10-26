@@ -33,7 +33,7 @@
       radial-gradient(50% 35% at 100% 0%, rgba(99,102,241,0.28) 0%, rgba(99,102,241,0) 70%),
       linear-gradient(180deg, #0B1028 0%, #111A44 60%, #18246A 100%);
     background-attachment: fixed; -webkit-font-smoothing: antialiased; min-height: 100vh; display: flex; flex-direction: column; }
-  main { flex: 1; width: 100%; max-width: 400px; margin: 0 auto; padding: 48px 24px 24px; text-align: center;
+  main { flex: 1; width: 100%; max-width: 400px; margin: 0 auto; padding: 20px 24px 24px; text-align: center;
     display: flex; flex-direction: column; justify-content: center; }
   .mark { width: 92px; height: 92px; margin: 0 auto 24px; display: block; border-radius: 24px;
     box-shadow: 0 18px 50px rgba(79,116,243,0.55), 0 0 0 6px rgba(255,255,255,0.07); }
@@ -55,10 +55,18 @@
   .qr p { color: #6B6B75; font-size: 14px; }
   .desktop .qr { display: block; }
   footer { text-align: center; color: rgba(225,232,252,0.5); font-size: 13px; padding: 24px; }
+  /* The way home, top left, as the landing page's own bar has it. */
+  .bar { width: 100%; max-width: 1120px; margin: 0 auto; padding: 14px 24px; }
+  .home { display: inline-flex; align-items: center; gap: 10px; color: #fff; font-weight: 700; font-size: 17px; letter-spacing: -0.01em; text-decoration: none; }
+  .home svg { width: 28px; height: 28px; border-radius: 8px; display: block; }
+  .home:hover span { text-decoration: underline; }
   footer a { color: inherit; }
 </style>
 </head>
 <body>
+<header class="bar">
+  <a class="home" href="../" aria-label="TracklyLab home"><svg viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="h" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="48" y2="48"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#6366F1"/></linearGradient></defs><rect width="48" height="48" rx="13" fill="url(#h)"/><circle cx="24" cy="24" r="13.2" fill="none" stroke="#fff" stroke-width="3"/><circle cx="33.33" cy="14.67" r="5" fill="url(#h)"/><polyline points="17.5,27.8 21,23.8 24.5,26.3 33.33,14.67" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span>TracklyLab</span></a>
+</header>
 <main>
   <svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="m" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="48" y2="48"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#6366F1"/></linearGradient></defs>
     <rect width="48" height="48" rx="13" fill="url(#m)"/><circle cx="24" cy="24" r="13.2" fill="none" stroke="#fff" stroke-width="3"/>
