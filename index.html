@@ -72,13 +72,38 @@
   .hero .note { color: var(--ink-3); font-size: 14px; }
   .hero .stage { margin-top: 60px; display: flex; justify-content: center; }
 
-  /* A phone, as the posts show it: rising from the bottom, the screen
-     fading into the page rather than cut by an edge. */
-  .phone { position: relative; width: min(329px, 78vw); border-radius: 50px 50px 0 0; overflow: hidden; background: #F6F5F2;
-    box-shadow: 0 0 0 9px rgba(255,255,255,0.09), 0 -10px 90px rgba(79,116,243,0.45);
-    -webkit-mask-image: linear-gradient(to bottom, #000 72%, transparent); mask-image: linear-gradient(to bottom, #000 72%, transparent); }
-  .phone img { display: block; width: 100%; height: auto; }
-  .hero .phone { width: min(360px, 80vw); }
+  /* An iPhone, as the Reel draws it - a graphite titanium band, the black
+     border round the glass, the side buttons, the Dynamic Island and the
+     status bar, all drawn, so they are sharp at any size - rising from the
+     bottom and fading into the page rather than cut by an edge. The screen
+     is 360 points wide and its picture 1080 pixels: three to a point. Every
+     length is in --u, a point of that screen. */
+  .iphone { --w: min(360px, 80vw); --u: calc(var(--w) / 360); position: relative; box-sizing: content-box; width: var(--w);
+    padding: calc(5.4 * var(--u)) calc(5.4 * var(--u)) 0; border-radius: calc(50 * var(--u)) calc(50 * var(--u)) 0 0;
+    background: linear-gradient(90deg, #8b909a 0%, #3a3d44 1.6%, #23252b 4%, #1b1d22 50%, #23252b 96%, #3a3d44 98.4%, #8b909a 100%);
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.28), inset 0 1.5px 1.5px rgba(255,255,255,0.35);
+    -webkit-mask-image: linear-gradient(to bottom, #000 66%, transparent 97%); mask-image: linear-gradient(to bottom, #000 66%, transparent 97%); }
+  .iphone .glass { position: relative; overflow: hidden; border: calc(3.6 * var(--u)) solid #030304; border-bottom: 0;
+    border-radius: calc(44.6 * var(--u)) calc(44.6 * var(--u)) 0 0; background: #F6F5F2; }
+  .iphone .glass > img { display: block; width: 100%; height: auto; }
+  .iphone .sbar { position: absolute; left: 0; right: 0; top: 0; height: calc(49 * var(--u)); color: #111;
+    font: 600 calc(14.4 * var(--u)) / calc(49 * var(--u)) -apple-system, BlinkMacSystemFont, "SF Pro Text", Inter, sans-serif; letter-spacing: -0.01em; }
+  .iphone.light .sbar { color: #fff; }
+  .iphone.light .sbar .t { visibility: hidden; }
+  .iphone .sbar .t { position: absolute; left: 0; width: calc(128.6 * var(--u)); text-align: center; }
+  .iphone .sbar .ic { position: absolute; right: 0; top: 0; width: calc(128.6 * var(--u)); height: 100%;
+    display: flex; align-items: center; justify-content: center; gap: calc(4.6 * var(--u)); }
+  .iphone .sbar svg { display: block; height: calc(11 * var(--u)); width: auto; }
+  .iphone .island { position: absolute; top: calc(9.3 * var(--u)); left: 50%; transform: translateX(-50%);
+    width: calc(102.9 * var(--u)); height: calc(30.3 * var(--u)); border-radius: 999px; background: #000; }
+  .iphone .island::after { content: ""; position: absolute; right: calc(10.3 * var(--u)); top: calc(9.8 * var(--u));
+    width: calc(10.8 * var(--u)); height: calc(10.8 * var(--u)); border-radius: 50%;
+    background: radial-gradient(circle at 40% 38%, #3a4a7a 0%, #141a2c 45%, #050608 75%); }
+  .iphone .btn-s { position: absolute; width: calc(4 * var(--u)); border-radius: calc(1.6 * var(--u));
+    background: linear-gradient(90deg, #2c2f35, #7d828c 50%, #34373e); }
+  .stage, .visual { position: relative; }
+  .stage::before { content: ""; position: absolute; left: 50%; top: 4%; width: 120%; height: 80%; transform: translateX(-50%); pointer-events: none;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(79,116,243,0.45) 0%, rgba(79,116,243,0) 70%); }
 
   /* ── A feature: words on one side, the phone on the other ─────────────── */
   .feature { position: relative; padding: 120px 0; }
@@ -94,12 +119,12 @@
   .rule { border: 0; border-top: 1px solid var(--line); max-width: 1072px; margin: 0 auto; }
 
   /* The Reel, framed like a phone's screen. */
-  .film { position: relative; width: min(320px, 76vw); aspect-ratio: 9 / 16; border-radius: 44px; overflow: hidden; background: #0B1028;
+  .film { position: relative; width: min(380px, 84vw); aspect-ratio: 1080 / 1400; border-radius: 36px; overflow: hidden; background: #0B1028;
     box-shadow: 0 0 0 9px rgba(255,255,255,0.09), 0 30px 90px rgba(79,116,243,0.4); }
   .film video { display: block; width: 100%; height: 100%; object-fit: cover; }
 
   /* The widgets: the Lock Screen, and the medium widget standing over it. */
-  .widgets { position: relative; padding-bottom: 70px; }
+  .widgets { position: relative; padding-bottom: 80px; }
   .widgets .medium { position: absolute; left: 50%; bottom: 0; width: min(442px, 92vw); height: auto; transform: translateX(-50%);
     border-radius: 22px; box-shadow: 0 30px 80px rgba(3,6,24,0.6); }
 
@@ -173,6 +198,9 @@
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
     <linearGradient id="lg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="48" y2="48"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#6366F1"/></linearGradient>
+    <symbol id="sig" viewBox="0 0 34 22"><rect x="0" y="14" width="6" height="7" rx="1.6"/><rect x="9" y="10" width="6" height="11" rx="1.6"/><rect x="18" y="6" width="6" height="15" rx="1.6"/><rect x="27" y="2" width="6" height="19" rx="1.6"/></symbol>
+    <symbol id="wifi" viewBox="0 0 30 22"><path d="M3 9a17 17 0 0 1 24 0M7.6 13.4a10.5 10.5 0 0 1 14.8 0" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/><circle cx="15" cy="18" r="2.4"/></symbol>
+    <symbol id="bat" viewBox="0 0 50 24"><rect x="1" y="1" width="42" height="22" rx="7" fill="none" stroke="currentColor" stroke-opacity="0.4" stroke-width="2"/><rect x="4.5" y="4.5" width="30" height="15" rx="4"/><rect x="45" y="8" width="3.5" height="8" rx="1.6" fill-opacity="0.4"/></symbol>
     <symbol id="mark" viewBox="0 0 48 48">
       <rect width="48" height="48" rx="13" fill="url(#lg)"/><circle cx="24" cy="24" r="13.2" fill="none" stroke="#fff" stroke-width="3"/>
       <circle cx="33.33" cy="14.67" r="5" fill="url(#lg)"/><polyline points="17.5,27.8 21,23.8 24.5,26.3 33.33,14.67" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -198,7 +226,7 @@
         <span class="note" data-t="ctaNote">On iPhone, or in any browser</span>
       </div>
       <div class="stage">
-        <div class="phone"><img data-shot="dashboard" src="./shots/en-dashboard.webp" width="987" height="1560" alt="The Dashboard: the month's spending, income and savings, a budget bar and the categories" data-t-alt="altDashboard"></div>
+        <div class="iphone"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="dashboard" src="./shots/en-dashboard.webp" width="1080" height="1920" alt="The Dashboard: the month's spending, income and savings, a budget bar and the categories" data-t-alt="altDashboard"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"/></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"/></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"/></svg></span></div><div class="island"></div></div></div>
       </div>
     </div>
   </section>
@@ -213,8 +241,8 @@
       </div>
       <div class="visual">
         <div class="film">
-          <video autoplay muted loop playsinline preload="metadata" poster="./media/reel-applepay-poster.webp" aria-label="Paying with Apple Pay, the notification a second later, and the expense saved in one tap">
-            <source src="./media/reel-applepay.mp4" type="video/mp4">
+          <video autoplay muted loop playsinline preload="metadata" poster="./media/reel-site-poster.webp" aria-label="Paying with Apple Pay, the notification a second later, and the expense saved in one tap">
+            <source src="./media/reel-site.mp4" type="video/mp4">
           </video>
         </div>
       </div>
@@ -230,7 +258,7 @@
         <p data-t="addBody">Amount, category, done. Recurring expenses like rent appear on their own, on the right day. And if you like, a gentle reminder in the evening - only on days you haven't logged anything yet.</p>
       </div>
       <div class="visual">
-        <div class="phone"><img data-shot="add" src="./shots/en-add.webp" width="987" height="1560" loading="lazy" decoding="async" alt="Adding an expense: 32 euros, Pizza with friends, Food and Restaurant" data-t-alt="altAdd"></div>
+        <div class="iphone"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="add" src="./shots/en-add.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="Adding an expense: 32 euros, Pizza with friends, Food and Restaurant" data-t-alt="altAdd"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"/></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"/></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"/></svg></span></div><div class="island"></div></div></div>
       </div>
     </div>
   </section>
@@ -244,7 +272,7 @@
         <p data-t="trendBody">Months side by side, the best and the worst flagged, this year against last. And every finished month gets a short sentence written from your own numbers: what moved, by how much, against your usual.</p>
       </div>
       <div class="visual">
-        <div class="phone"><img data-shot="trend" src="./shots/en-trend.webp" width="987" height="1560" loading="lazy" decoding="async" alt="Trend: total spent, the monthly average and a chart of every month" data-t-alt="altTrend"></div>
+        <div class="iphone"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="trend" src="./shots/en-trend.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="Trend: total spent, the monthly average and a chart of every month" data-t-alt="altTrend"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"/></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"/></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"/></svg></span></div><div class="island"></div></div></div>
       </div>
     </div>
   </section>
@@ -258,7 +286,7 @@
         <p data-t="tripBody">Name the trip and TracklyLab does the maths: hotel, flights, food, activities. Spend in any of 155 currencies - each converted at the day's rate and locked there, so a trip keeps what it really cost you.</p>
       </div>
       <div class="visual">
-        <div class="phone"><img data-shot="trips" src="./shots/en-trips.webp" width="987" height="1420" loading="lazy" decoding="async" alt="Trips: Ibiza, Kenya, Patagonia and Lapland, each with its total split into hotel, flights, food and activities" data-t-alt="altTrips"></div>
+        <div class="iphone"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="trips" src="./shots/en-trips.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="Trips: Ibiza, Kenya, Patagonia and Lapland, each with its total split into hotel, flights, food and activities" data-t-alt="altTrips"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"/></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"/></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"/></svg></span></div><div class="island"></div></div></div>
       </div>
     </div>
   </section>
@@ -274,7 +302,7 @@
       </div>
       <div class="visual">
         <div class="widgets">
-          <div class="phone"><img data-shot="lock" src="./shots/en-lock.webp" width="987" height="1560" loading="lazy" decoding="async" alt="The Lock Screen with the month's spending under the clock and a + to add an expense" data-t-alt="altLock"></div>
+          <div class="iphone light"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="lock" src="./shots/en-lock.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="The Lock Screen with the month's spending under the clock and a + to add an expense" data-t-alt="altLock"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"/></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"/></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"/></svg></span></div><div class="island"></div></div></div>
           <img class="medium" data-shot="medium" src="./shots/en-medium.webp" width="1327" height="565" loading="lazy" decoding="async" alt="The medium Home Screen widget: spent this month, the budget bar and how much a day is left" data-t-alt="altMedium">
         </div>
       </div>
@@ -326,8 +354,8 @@
         <svg class="shield" viewBox="0 0 24 24" fill="none" stroke="#A9BCFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v5.5c0 4.4 3 8.2 7 9.5 4-1.3 7-5.1 7-9.5V6z"/><path d="m9 12 2 2 4-4"/></svg>
         <div class="kicker" data-t="privKicker">Private by design</div>
         <h2 data-t="privTitle">Your money is your business.</h2>
-        <p data-t-html="privBody">Use it without an account and your data never leaves your phone. Sign in with Apple or Google only if you want backup and sync across devices - and delete everything, at any time, from inside the app. The details are in the <a href="./privacy.html">Privacy Policy</a>.</p>
-        <div class="points"><span data-t="p1">No account needed</span><span data-t="p2">No ads</span><span data-t="p3">No selling of data</span><span data-t="p4">Delete everything, any time</span></div>
+        <p data-t-html="privBody">Sign in with Apple or Google and your expenses are backed up and in sync on all your devices - yours alone, never sold, never used for ads. And you can delete everything, at any time, from inside the app. The details are in the <a href="./privacy.html">Privacy Policy</a>.</p>
+        <div class="points"><span data-t="p1">Backup and sync</span><span data-t="p2">No ads</span><span data-t="p3">No selling of data</span><span data-t="p4">Delete everything, any time</span></div>
       </div>
     </div>
   </section>
@@ -389,8 +417,8 @@
     c6t: 'Fatta con cura',
     c6b: 'In italiano e inglese, chiara o scura, su ogni iPhone, anche il più piccolo. E in qualsiasi browser, su ogni telefono o computer.',
     privKicker: 'Privacy prima di tutto', privTitle: 'I tuoi soldi sono affari tuoi.',
-    privBody: 'Usala senza account e i tuoi dati non lasciano mai il telefono. Accedi con Apple o Google solo se vuoi backup e sincronizzazione tra dispositivi, e cancella tutto quando vuoi, direttamente dall’app. I dettagli sono nella <a href="./privacy.html">Privacy Policy</a>.',
-    p1: 'Nessun account obbligatorio', p2: 'Niente pubblicità', p3: 'Nessuna vendita di dati', p4: 'Cancelli tutto, quando vuoi',
+    privBody: 'Accedi con Apple o Google e le tue spese sono salvate e sincronizzate su tutti i tuoi dispositivi: restano tue, mai vendute, mai usate per la pubblicità. E puoi cancellare tutto, quando vuoi, direttamente dall’app. I dettagli sono nella <a href="./privacy.html">Privacy Policy</a>.',
+    p1: 'Backup e sincronizzazione', p2: 'Niente pubblicità', p3: 'Nessuna vendita di dati', p4: 'Cancelli tutto, quando vuoi',
     tagline: 'La lente sulle tue spese.',
     fPrivacy: 'Privacy Policy', fTerms: 'Termini di servizio', fLang: 'English',
     altDashboard: 'La Dashboard: spese, entrate e risparmi del mese, la barra del budget e le categorie',

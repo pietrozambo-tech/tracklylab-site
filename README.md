@@ -9,12 +9,13 @@ plus the Privacy Policy and Terms of Service, ready to deploy as-is.
   in the footer. Every "Get" goes to `get/`. No font, script or image from
   another server.
 - `shots/` - the screens and widgets it shows, **generated**:
-  `PHONE_PX=987 node scripts/store-screenshots/capture.mjs <raw dir>` (dev
-  server on 5199), then `node scripts/site/shots.mjs <raw dir> site`. Cut
-  from the App Store capture, never resampled; also writes `og.png`, the
-  link preview.
-- `media/` - the Apple Pay Reel (`docs/social/instagram/reel-applepay.mp4`)
-  and its poster.
+  `node scripts/store-screenshots/capture.mjs <raw dir>` (dev server on
+  5199, 1080px wide), then `node scripts/site/shots.mjs <raw dir> site`.
+  Cut from the App Store capture, never resampled, with room on top for the
+  status bar the page draws; also writes `og.png`, the link preview.
+- `media/` - the Apple Pay film: the Reel without its words, cut to where
+  the action is (`SITE=1 node scripts/social/compose-reel.mjs <raw dir> <out>`,
+  1080 x 1400), and its poster.
 - `privacy.html`, `terms.html` - **generated** from `src/app/lib/legalContent.ts`
   by `pnpm site`. Do not edit these by hand - change the source module and
   regenerate, so the site and the in-app screens always say the same thing.
