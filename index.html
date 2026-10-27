@@ -455,6 +455,13 @@
   document.querySelectorAll('[data-t-html]').forEach(function (n) { EN[n.getAttribute('data-t-html')] = n.innerHTML; });
   document.querySelectorAll('[data-t-alt]').forEach(function (n) { EN[n.getAttribute('data-t-alt')] = n.getAttribute('alt'); });
 
+  // A campaign link - tracklylab.com/?ct=instagram - keeps its name on the
+  // way to the download page, which hands it to the App Store (get/).
+  (function () {
+    var ct = (new URLSearchParams(location.search).get('ct') || '').toLowerCase().replace(/[^a-z0-9_-]/g, '').slice(0, 40);
+    if (ct) document.querySelectorAll('a[href="./get/"]').forEach(function (a) { a.href = './get/?ct=' + ct; });
+  })();
+
   function apply(lang) {
     var L = lang === 'it' ? IT : EN;
     document.documentElement.lang = lang;

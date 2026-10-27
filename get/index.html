@@ -104,6 +104,22 @@
   el.classList.add('first');
   ways.insertBefore(el, ways.firstChild);
   if (!phone) document.body.classList.add('desktop');
+  // Where the visitor came from - tracklylab.com/get/?ct=whatsapp - handed
+  // on to the App Store, whose Analytics then counts the page views and
+  // downloads of each campaign. PT is the provider token App Store Connect
+  // gives the account (Analytics -> Campaigns); both, or the link is left
+  // alone. Only once the iPhone link is the App Store's: TestFlight counts
+  // nothing.
+  var PT = '';
+  var ct = (new URLSearchParams(location.search).get('ct') || '').toLowerCase().replace(/[^a-z0-9_-]/g, '').slice(0, 40);
+  var ios = document.getElementById('ios');
+  if (PT && ct && /^https:\/\/apps\.apple\.com\//.test(ios.href)) {
+    var store = new URL(ios.href);
+    store.searchParams.set('pt', PT);
+    store.searchParams.set('ct', ct);
+    store.searchParams.set('mt', '8');
+    ios.href = store.toString();
+  }
   if (/^it\b/i.test(navigator.language || '')) {
     document.documentElement.lang = 'it';
     var IT = {
