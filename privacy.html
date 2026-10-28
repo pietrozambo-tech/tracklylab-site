@@ -32,7 +32,7 @@
   <header>
     <div class="brand">TracklyLab</div>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated 20 October 2026</p>
+    <p class="updated">Last updated 28 October 2026</p>
   </header>
   <p class="intro">TracklyLab is built device-first. If you use it without an account, what you record never leaves your phone. Signed in, it leaves for two reasons only: to sync to your account, and, if you choose to use it, when you send a file through the AI import described below. This policy explains exactly what is stored, where, and who can see it.</p>
   <h2>Who is responsible</h2>
@@ -47,18 +47,22 @@
   <p>In guest mode, your transactions, categories, accounts and settings are saved in your browser or app storage on your own device. They are not sent to us and we cannot read them.</p>
   <p>Because that data lives only on your device, clearing your browser storage, deleting the app, or losing the device will lose it. Settings &gt; Export data saves a full copy you keep yourself.</p>
   <h2>When you sign in</h2>
-  <p>You can sign in with Google, or with a code sent to your email address. Signing in with Google shares your name, email address and profile photo with us, so we can identify your account and show your picture in Settings. We never receive your Google password.</p>
+  <p>You can sign in with Apple, with Google, or with a code sent to your email address. Signing in with Google shares your name, email address and profile photo with us, so we can identify your account and show your picture in Settings. We never receive your Google password.</p>
+  <p>Signing in with Apple shares your email address - or, if you choose to hide it, a private address Apple creates that forwards to yours - and, the first time, your name. We keep a token Apple gives us at sign-in, used for one thing only: when you delete your account, it lets us revoke TracklyLab's access to your Apple ID. We never receive your Apple ID password.</p>
   <p>If you sign in by email, we store the address you give us and send a one-time code to it. We do not use it to write to you about anything else.</p>
   <p>Once signed in, your TracklyLab data is stored in our database as a single record belonging to your account, so it can follow you across devices.</p>
   <p>Row-level security means no other TracklyLab user can read that record. It is not, however, encrypted in a way that hides it from us: as the person who runs the service, Pietro Zamboni holds the administrative keys to the database, because operating, backing up and supporting it requires them. Your transactions are not read, and are never used for anything other than making the app work for you.</p>
   <p>If you would rather nothing of yours ever left your device, use TracklyLab without signing in - guest mode keeps everything local, where we genuinely cannot reach it.</p>
   <h2>What we collect</h2>
   <p>Account details: your email address, plus your name and profile photo if you sign in with a provider that gives us them.</p>
-  <p>Your TracklyLab data, but only if you are signed in: transactions, categories, accounts, recurring schedules, budget and preferences.</p>
+  <p>Your TracklyLab data, but only if you are signed in: transactions, categories, accounts, recurring schedules, budget and preferences, and what the Apple Pay automation has learned (described below).</p>
   <p>Usage analytics: which screens are opened and which features are used, plus general technical information such as device type, browser and approximate region derived from your IP address. These events never include transaction descriptions, amounts, categories, accounts or your budget.</p>
   <p>Days you opened the app: while you are signed in, one record per day saying that you opened TracklyLab and on what kind of device - for example "iPhone app" or "Mac browser". Nothing about what you did in it. We use it to count how many people use the app, and on what, so we know where to put our work.</p>
   <p>Support messages: if you write to us from Settings &gt; Support, we receive your message and the email address you give us so we can reply.</p>
   <p>Import counts: if you use the AI import, one row per day recording how many imports you made and roughly how much text they cost to read - never the file, and nothing from inside it.</p>
+  <h2>Apple Pay payments</h2>
+  <p>If you set up the optional Apple Pay automation in Apple's Shortcuts app, each time you pay in a shop Shortcuts hands TracklyLab three things: the amount, the merchant's name and the name of the card. The app reads nothing else from Wallet or from your bank, and a payment you have not saved stays on your phone.</p>
+  <p>So that the next payment at the same place fills itself in, the app remembers each place you have saved a payment from - its name, and the category and account you chose - and which account each card belongs to. Signed in, this is stored with the rest of your data, so it follows you to a new phone; without an account it stays on your device. Forgetting a card in Settings removes it.</p>
   <h2>Exchange rates</h2>
   <p>To convert foreign-currency transactions, the app fetches a table of daily exchange rates from an external rates provider. That request asks only for the rates themselves - it contains no personal data and no information about your transactions.</p>
   <h2>Importing with AI</h2>
