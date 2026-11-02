@@ -29,8 +29,10 @@
   code to carry the link to an iPhone. Without JavaScript both show, side by
   side. Italian on an Italian browser, English everywhere else.
 
-  The iPhone link (#ios) is TestFlight's public link today; the App Store's
-  once the app is live - the one line to change.
+  The iPhone link (#ios) is the App Store's, with no country in it
+  (apps.apple.com/app/id...): Apple sends each visitor to their own
+  storefront - Italy, Spain, the US - rather than to the one the link was
+  copied from. It was TestFlight's public link until the app went live.
 -->
 <style>
   /* The landing page's dark blue (../index.html), so the step from one to
@@ -85,9 +87,9 @@
   <p class="sub" data-t="sub">Apple Pay logs itself. Everything else, in two taps.</p>
 
   <div class="ways" id="ways">
-    <a class="way" id="ios" href="https://testflight.apple.com/join/EdXX9nDb">
+    <a class="way" id="ios" href="https://apps.apple.com/app/id6826675263">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18.5h2"/></svg>
-      <span><b data-t="iosTitle">Get it on iPhone</b><small data-t="iosNote">Free beta on TestFlight · App Store soon</small></span>
+      <span><b data-t="iosTitle">Get it on iPhone</b><small data-t="iosNote">Free on the App Store</small></span>
     </a>
     <a class="way" id="web" href="https://pietrozambo-tech.github.io/expense-tracker/">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.8 3.8 6 3.8 9.5S14.6 18.7 12 21.5M12 2.5C9.4 5.3 8.2 8.5 8.2 12s1.2 6.7 3.8 9.5"/></svg>
@@ -117,8 +119,7 @@
   // on to the App Store, whose Analytics then counts the page views and
   // downloads of each campaign. PT is the provider token App Store Connect
   // gives the account (Analytics -> Campaigns); both, or the link is left
-  // alone. Only once the iPhone link is the App Store's: TestFlight counts
-  // nothing.
+  // alone.
   var PT = '';
   var ct = (new URLSearchParams(location.search).get('ct') || '').toLowerCase().replace(/[^a-z0-9_-]/g, '').slice(0, 40);
   var ios = document.getElementById('ios');
@@ -135,7 +136,7 @@
       tagline: 'La lente sulle tue spese.',
       sub: 'Apple Pay si registra da solo. Tutto il resto, in due tocchi.',
       iosTitle: 'Scaricala su iPhone',
-      iosNote: 'Beta gratuita su TestFlight · App Store a breve',
+      iosNote: 'Gratis sull’App Store',
       webTitle: 'Usala dal browser',
       webNote: 'Telefono o computer · niente da installare',
       qr: 'Hai un iPhone? Inquadra il codice con la fotocamera.'
