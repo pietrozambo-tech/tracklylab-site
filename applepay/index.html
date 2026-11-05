@@ -15,8 +15,9 @@
 
   Linked from Settings › Apple Pay automation in the app ("See it done"),
   and from nowhere on the site: no link from the home page, noindex. The
-  video is a screen recording, `applepay.mp4` beside this page (H.264, no
-  sound, about 1 minute); until it is there the page says it is coming and
+  video is a screen recording made on an iPhone in English, `applepay.mp4`
+  beside this page (H.264, 720 wide, 30 fps, no sound, 33 s; poster.jpg is
+  its last frame, the automation finished); until it is there the page says it is coming and
   sends people back to the written steps in the app. Italian on an Italian
   browser, English everywhere else.
 -->
@@ -41,7 +42,9 @@
   .soon b { color: #fff; font-size: 17px; }
   .missing .soon { display: flex; }
   .missing video { display: none; }
-  .steps { margin: 28px auto 0; max-width: 420px; width: 100%; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .note { margin: 12px 0 0; color: #8F99C6; font-size: 12.5px; text-align: center; }
+  .note:empty { display: none; }
+  .steps { margin: 22px auto 0; max-width: 420px; width: 100%; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; }
   .steps li { display: flex; gap: 12px; align-items: flex-start; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 12px 14px; font-size: 14.5px; line-height: 1.45; color: #DDE3FF; }
   .steps li i { flex-shrink: 0; width: 24px; height: 24px; border-radius: 999px; display: grid; place-items: center; font-style: normal; font-weight: 700; font-size: 13px; color: #fff; background: linear-gradient(135deg, #4F74F3, #6366F1); }
   .back { margin-top: 26px; color: #8FA8FF; font-size: 14.5px; font-weight: 600; text-decoration: none; text-align: center; }
@@ -56,10 +59,11 @@
   <p class="lead" data-t="lead">The automation lives in Apple's Shortcuts app. Here it is done on a real iPhone, step by step - follow along, then pay with Apple Pay and the expense is already in TracklyLab.</p>
 
   <div class="phone"><div class="screen" id="screen">
-    <video id="video" src="applepay.mp4" controls playsinline muted preload="metadata"></video>
+    <video id="video" src="applepay.mp4" poster="poster.jpg" controls playsinline muted preload="metadata"></video>
     <div class="soon"><b data-t="soonTitle">The video is on its way</b><span data-t="soonBody">Meanwhile, the written steps are in the app: Settings › Apple Pay automation.</span></div>
   </div></div>
 
+  <p class="note" data-t="note"></p>
   <ol class="steps">
     <li><i>1</i><span data-t="s1">Shortcuts → Automation → New automation → <b>Wallet</b>.</span></li>
     <li><i>2</i><span data-t="s2">Pick only your <b>payment cards</b>, any merchant.</span></li>
@@ -71,9 +75,8 @@
   <footer>© 2026 TracklyLab</footer>
 
 <script>
-  // A missing or broken video says so instead of showing a black box.
-  var v = document.getElementById('video');
-  v.addEventListener('error', function () { document.getElementById('screen').classList.add('missing'); });
+  // Only a video that is not on the server reads as "coming"; one this
+  // browser cannot play keeps its poster, and a link opens the file itself.
   fetch('applepay.mp4', { method: 'HEAD' }).then(function (r) { if (!r.ok) document.getElementById('screen').classList.add('missing'); }).catch(function () {});
   if ((navigator.language || '').toLowerCase().indexOf('it') === 0) {
     document.documentElement.lang = 'it';
@@ -88,7 +91,8 @@
       s2: 'Scegli solo le tue <b>carte di pagamento</b>, qualsiasi esercente.',
       s3: '<b>Esegui immediatamente</b>, e <b>Notifica in caso di esecuzione</b> spenta.',
       s4: 'Aggiungi <b>Registra pagamento</b> di TracklyLab: Importo, Esercente e Carta dalla Transazione.',
-      get: 'Non hai ancora TracklyLab? Scaricala gratis →'
+      get: 'Non hai ancora TracklyLab? Scaricala gratis →',
+      note: 'Nel video l’iPhone è in inglese: i nomi in italiano sono quelli qui sotto.'
     };
     document.title = 'Automazione Apple Pay · TracklyLab';
     document.querySelectorAll('[data-t]').forEach(function (el) { var k = el.getAttribute('data-t'); if (IT[k]) el.innerHTML = IT[k]; });
