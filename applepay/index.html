@@ -17,7 +17,8 @@
   and from nowhere on the site: no link from the home page, noindex. The
   video is a screen recording made on an iPhone in English, `applepay.mp4`
   beside this page (H.264, 720 wide, 30 fps, no sound, 33 s; poster.jpg is
-  its last frame, the automation finished); until it is there the page says it is coming and
+  its last frame, the automation finished; applepay.webm, VP9, the same for
+  browsers without H.264); until it is there the page says it is coming and
   sends people back to the written steps in the app. Italian on an Italian
   browser, English everywhere else.
 -->
@@ -59,7 +60,10 @@
   <p class="lead" data-t="lead">The automation lives in Apple's Shortcuts app. Here it is done on a real iPhone, step by step - follow along, then pay with Apple Pay and the expense is already in TracklyLab.</p>
 
   <div class="phone"><div class="screen" id="screen">
-    <video id="video" src="applepay.mp4" poster="poster.jpg" controls playsinline muted preload="metadata"></video>
+    <video id="video" poster="poster.jpg" controls playsinline muted preload="metadata">
+      <source src="applepay.mp4" type="video/mp4">
+      <source src="applepay.webm" type="video/webm">
+    </video>
     <div class="soon"><b data-t="soonTitle">The video is on its way</b><span data-t="soonBody">Meanwhile, the written steps are in the app: Settings › Apple Pay automation.</span></div>
   </div></div>
 
