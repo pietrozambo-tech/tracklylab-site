@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apple Pay automation · TracklyLab</title>
+<meta name="description" content="How to set up the Apple Pay automation for TracklyLab in the Shortcuts app, on a real iPhone.">
+<!-- Not for search: it is reached from the guide inside the app. -->
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0B1028">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cdefs%3E%3ClinearGradient id='g' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='48' y2='48'%3E%3Cstop offset='0' stop-color='%233B82F6'/%3E%3Cstop offset='1' stop-color='%236366F1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='48' height='48' rx='13' fill='url(%23g)'/%3E%3Ccircle cx='24' cy='24' r='13.2' fill='none' stroke='%23fff' stroke-width='3'/%3E%3Ccircle cx='33.33' cy='14.67' r='5' fill='url(%23g)'/%3E%3Cpolyline points='17.5,27.8 21,23.8 24.5,26.3 33.33,14.67' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<!--
+  tracklylab.com/applepay - the Apple Pay automation, done on a real iPhone.
+
+  Linked from Settings › Apple Pay automation in the app ("See it done"),
+  and from nowhere on the site: no link from the home page, noindex. The
+  video is a screen recording, `applepay.mp4` beside this page (H.264, no
+  sound, about 1 minute); until it is there the page says it is coming and
+  sends people back to the written steps in the app. Italian on an Italian
+  browser, English everywhere else.
+-->
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+    background: radial-gradient(120% 80% at 50% 0%, #1B2558 0%, #0B1028 60%); color: #E8ECFF;
+    display: flex; flex-direction: column; align-items: center; padding: 28px 16px 40px;
+  }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 19px; letter-spacing: -0.3px; color: #fff; text-decoration: none; }
+  .kicker { margin-top: 26px; color: #8FA8FF; font-size: 13px; font-weight: 650; letter-spacing: 0.14em; text-transform: uppercase; text-align: center; }
+  h1 { margin: 8px 0 0; font-size: 30px; line-height: 1.12; letter-spacing: -0.8px; text-align: center; font-weight: 800; }
+  h1 span { background: linear-gradient(90deg, #8FA5FF, #B9A8FF); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .lead { margin: 12px auto 0; max-width: 420px; text-align: center; color: #B7C0E6; font-size: 15px; line-height: 1.5; }
+  .phone { margin-top: 26px; width: min(100%, 340px); border-radius: 44px; padding: 10px; background: #1C1F2B;
+    box-shadow: 0 0 0 1.5px #3A3F55, 0 30px 80px rgba(0,0,0,0.55), 0 0 90px rgba(79,116,243,0.25); }
+  .screen { position: relative; border-radius: 34px; overflow: hidden; background: #000; aspect-ratio: 9 / 19.5; }
+  video { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .soon { position: absolute; inset: 0; display: none; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 24px; text-align: center; color: #B7C0E6; font-size: 15px; line-height: 1.45; }
+  .soon b { color: #fff; font-size: 17px; }
+  .missing .soon { display: flex; }
+  .missing video { display: none; }
+  .steps { margin: 28px auto 0; max-width: 420px; width: 100%; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .steps li { display: flex; gap: 12px; align-items: flex-start; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 12px 14px; font-size: 14.5px; line-height: 1.45; color: #DDE3FF; }
+  .steps li i { flex-shrink: 0; width: 24px; height: 24px; border-radius: 999px; display: grid; place-items: center; font-style: normal; font-weight: 700; font-size: 13px; color: #fff; background: linear-gradient(135deg, #4F74F3, #6366F1); }
+  .back { margin-top: 26px; color: #8FA8FF; font-size: 14.5px; font-weight: 600; text-decoration: none; text-align: center; }
+  footer { margin-top: 34px; color: #6F79A6; font-size: 12px; }
+</style>
+</head>
+<body>
+  <a class="brand" href="/"><svg width="34" height="34" viewBox="0 0 48 48"><defs><linearGradient id="lg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="48" y2="48"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#6366F1"/></linearGradient></defs><rect width="48" height="48" rx="13" fill="url(#lg)"/><circle cx="24" cy="24" r="13.2" fill="none" stroke="#fff" stroke-width="3"/><circle cx="33.33" cy="14.67" r="5" fill="url(#lg)"/><polyline points="17.5,27.8 21,23.8 24.5,26.3 33.33,14.67" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>TracklyLab</a>
+
+  <div class="kicker" data-t="kicker">Apple Pay automation</div>
+  <h1><span data-t="h1a">Set it up once.</span><br><span data-t="h1b">See how, in one minute.</span></h1>
+  <p class="lead" data-t="lead">The automation lives in Apple's Shortcuts app. Here it is done on a real iPhone, step by step - follow along, then pay with Apple Pay and the expense is already in TracklyLab.</p>
+
+  <div class="phone"><div class="screen" id="screen">
+    <video id="video" src="applepay.mp4" controls playsinline muted preload="metadata"></video>
+    <div class="soon"><b data-t="soonTitle">The video is on its way</b><span data-t="soonBody">Meanwhile, the written steps are in the app: Settings › Apple Pay automation.</span></div>
+  </div></div>
+
+  <ol class="steps">
+    <li><i>1</i><span data-t="s1">Shortcuts → Automation → New automation → <b>Wallet</b>.</span></li>
+    <li><i>2</i><span data-t="s2">Pick only your <b>payment cards</b>, any merchant.</span></li>
+    <li><i>3</i><span data-t="s3"><b>Run Immediately</b>, and <b>Notify When Run</b> off.</span></li>
+    <li><i>4</i><span data-t="s4">Add TracklyLab's <b>Record payment</b>: Amount, Merchant and Card from the Transaction.</span></li>
+  </ol>
+
+  <a class="back" href="https://tracklylab.com/get?ct=applepay-page" data-t="get">Don't have TracklyLab yet? Get it free →</a>
+  <footer>© 2026 TracklyLab</footer>
+
+<script>
+  // A missing or broken video says so instead of showing a black box.
+  var v = document.getElementById('video');
+  v.addEventListener('error', function () { document.getElementById('screen').classList.add('missing'); });
+  fetch('applepay.mp4', { method: 'HEAD' }).then(function (r) { if (!r.ok) document.getElementById('screen').classList.add('missing'); }).catch(function () {});
+  if ((navigator.language || '').toLowerCase().indexOf('it') === 0) {
+    document.documentElement.lang = 'it';
+    var IT = {
+      kicker: 'Automazione Apple Pay',
+      h1a: 'Si imposta una volta.',
+      h1b: 'Guarda come, in un minuto.',
+      lead: 'L’automazione vive nell’app Comandi di Apple. Qui la vedi fatta su un iPhone vero, passo per passo: seguila, poi paga con Apple Pay e la spesa è già in TracklyLab.',
+      soonTitle: 'Il video sta arrivando',
+      soonBody: 'Nel frattempo i passaggi scritti sono nell’app: Impostazioni › Automazione Apple Pay.',
+      s1: 'Comandi → Automazione → Nuova automazione → <b>Wallet</b>.',
+      s2: 'Scegli solo le tue <b>carte di pagamento</b>, qualsiasi esercente.',
+      s3: '<b>Esegui immediatamente</b>, e <b>Notifica in caso di esecuzione</b> spenta.',
+      s4: 'Aggiungi <b>Registra pagamento</b> di TracklyLab: Importo, Esercente e Carta dalla Transazione.',
+      get: 'Non hai ancora TracklyLab? Scaricala gratis →'
+    };
+    document.title = 'Automazione Apple Pay · TracklyLab';
+    document.querySelectorAll('[data-t]').forEach(function (el) { var k = el.getAttribute('data-t'); if (IT[k]) el.innerHTML = IT[k]; });
+  }
+</script>
+</body>
+</html>
