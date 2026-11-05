@@ -151,6 +151,25 @@
   .card .ic { width: 44px; height: 44px; border-radius: 13px; display: grid; place-items: center; margin-bottom: 18px;
     background: linear-gradient(135deg, rgba(79,116,243,0.28), rgba(99,102,241,0.18)); box-shadow: inset 0 0 0 1px rgba(169,188,255,0.22); }
   .card .ic svg { width: 22px; height: 22px; }
+  /* Each card its own colour (--c, as r,g,b): the icon in it, a wash of it
+     behind, and a thread of it along the card's top. */
+  .card { position: relative; overflow: hidden; }
+  .card[style*="--c"] .ic { color: rgb(var(--c)); background: linear-gradient(135deg, rgba(var(--c),0.30), rgba(var(--c),0.10)); box-shadow: inset 0 0 0 1px rgba(var(--c),0.32); }
+  .card[style*="--c"]::before { content: ""; position: absolute; left: 24px; right: 24px; top: 0; height: 2px; border-radius: 2px;
+    background: linear-gradient(90deg, rgba(var(--c),0), rgba(var(--c),0.75), rgba(var(--c),0)); }
+  .new { display: inline-block; margin-left: 10px; padding: 3px 9px 3px; border-radius: 999px; font-size: 11px; letter-spacing: 0.1em; color: #fff;
+    background: linear-gradient(135deg, var(--brand), #8B5CF6); vertical-align: 1px; }
+  /* A small card that floats by a phone and says its point in figures. */
+  .float { position: absolute; z-index: 2; display: flex; align-items: center; gap: 12px; padding: 12px 16px; border-radius: 18px; text-align: left;
+    background: rgba(17,26,68,0.82); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+    border: 1px solid rgba(255,255,255,0.12); box-shadow: 0 18px 50px rgba(5,8,30,0.55); }
+  .float b { display: block; font-size: 17px; letter-spacing: -0.01em; white-space: nowrap; }
+  .float small { display: block; color: var(--ink-2); font-size: 12.5px; white-space: nowrap; }
+  .float .bars { display: grid; grid-template-columns: repeat(12, 6px); gap: 3px; align-items: end; height: 26px; }
+  .float .bars i { display: block; height: 100%; border-radius: 3px; background: linear-gradient(to top, #4F74F3, #A78BFA); }
+  .float .dot { width: 34px; height: 34px; border-radius: 11px; display: grid; place-items: center; flex-shrink: 0; }
+  .float.at-l { left: -6%; top: 34%; }
+  .float.at-r { right: -6%; bottom: 22%; }
   .card h3 { font-size: 18px; letter-spacing: -0.01em; }
   .card p { color: var(--ink-2); font-size: 15.5px; margin-top: 8px; line-height: 1.55; }
 
@@ -200,6 +219,8 @@
     .copy p { font-size: 17px; }
     .copy h2, .more h2 { font-size: 34px; }
     .cards { grid-template-columns: 1fr; }
+    .float.at-l { left: 2%; top: 30%; }
+    .float.at-r { right: 2%; bottom: 12%; }
     .more { padding: 84px 0; }
     .privacy { padding-bottom: 84px; }
     .privacy .box { padding: 40px 22px; border-radius: 24px; }
@@ -293,6 +314,34 @@
   </section>
   <hr class="rule">
 
+  <section class="feature flip" id="where-the-money-goes">
+    <div class="wrap">
+      <div class="copy">
+        <div class="kicker"><span data-t="flowKicker">Where the money goes</span><span class="new" data-t="newTag">New</span></div>
+        <h2><span data-t="flowL1">Every euro,</span><span class="grad" data-t="flowL2">followed to the end.</span></h2>
+        <p data-t="flowBody">From your salary to every category, in one picture: what came in, where it went and what was left. A month at a time or the whole year so far - and a tap on a category opens it.</p>
+      </div>
+      <div class="visual">
+        <div class="iphone"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="flow" src="./shots/en-flow.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="Where the money goes: the salary flowing into what was saved, travel, housing and the other categories" data-t-alt="altFlow"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"/></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"/></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"/></svg></span></div><div class="island"></div></div></div><div class="float at-r" aria-hidden="true"><span class="dot" style="background:linear-gradient(135deg,#2DD4BF,#0D9488)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg></span><span><b data-t="flowChip">950€ on travel</b><small data-t="flowChipSub">October’s biggest share</small></span></div>
+      </div>
+    </div>
+  </section>
+  <hr class="rule">
+
+  <section class="feature" id="spread">
+    <div class="wrap">
+      <div class="copy">
+        <div class="kicker"><span data-t="spreadKicker">Spread payments</span><span class="new" data-t="newTag2">New</span></div>
+        <h2><span data-t="spreadL1">Paid once.</span><span class="grad" data-t="spreadL2">Counted month by month.</span></h2>
+        <p data-t="spreadBody">A 1,200€ insurance doesn't wreck one month: spread it over 3, 6 or 12 and every month's budget counts its share. Rather see it as money out on the day you paid? One switch in your profile.</p>
+      </div>
+      <div class="visual">
+        <div class="iphone"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="spread" src="./shots/en-spread.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="Adding a 1,200€ health insurance, spread over 12 months: 100€ a month from November" data-t-alt="altSpread"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"/></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"/></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"/></svg></span></div><div class="island"></div></div></div><div class="float at-l" aria-hidden="true"><span class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span><b data-t="spreadChip">100€ a month</b><small data-t="spreadChipSub">not 1,200€ in November</small></span></div>
+      </div>
+    </div>
+  </section>
+  <hr class="rule">
+
   <section class="feature flip">
     <div class="wrap">
       <div class="copy">
@@ -336,35 +385,50 @@
       <div class="kicker" data-t="moreKicker">And there's more</div>
       <h2><span data-t="moreL1">Everything a month needs.</span><span class="grad" data-t="moreL2">Nothing it doesn't.</span></h2>
       <div class="cards">
-        <div class="card">
-          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#C7D3FF" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M12 17v-6M9.5 13.5 12 11l2.5 2.5"/></svg></div>
+        <div class="card" style="--c:94,234,212">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M12 17v-6M9.5 13.5 12 11l2.5 2.5"/></svg></div>
           <h3 data-t="c1t">A year of statements, in a minute</h3>
           <p data-t="c1b">A bank statement, a spreadsheet, a PDF or a screenshot: it is read for you, matched to your categories, and nothing comes in until you've checked it. Splitwise and Tricount exports too.</p>
         </div>
-        <div class="card">
-          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#C7D3FF" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><circle cx="17" cy="9.5" r="2.6"/><path d="M3.5 19c.6-3 2.9-4.8 5.5-4.8s4.9 1.8 5.5 4.8M15 14.4c2.6-.4 4.9 1.1 5.5 4.1"/></svg></div>
+        <div class="card" style="--c:165,190,255">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><circle cx="17" cy="9.5" r="2.6"/><path d="M3.5 19c.6-3 2.9-4.8 5.5-4.8s4.9 1.8 5.5 4.8M15 14.4c2.6-.4 4.9 1.1 5.5 4.1"/></svg></div>
           <h3 data-t="c2t">Shared, with your partner</h3>
           <p data-t="c2b">Mark an expense as shared and it shows on both phones, split your way. The balance keeps itself - and says whose turn it is to get dinner.</p>
         </div>
-        <div class="card">
-          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#C7D3FF" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 1 0 8-8"/><path d="M12 4v8l5 3"/></svg></div>
+        <div class="card" style="--c:252,211,77">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 1 0 8-8"/><path d="M12 4v8l5 3"/></svg></div>
           <h3 data-t="c3t">A budget that knows you</h3>
           <p data-t="c3b">A budget bar that compares you with your own usual month, not with an arbitrary target - and tells you, mid-month, whether you're on track.</p>
         </div>
-        <div class="card">
-          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#C7D3FF" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="3"/><path d="M3 10h18M16 15h2"/></svg></div>
+        <div class="card" style="--c:134,239,172">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="3"/><path d="M3 10h18M16 15h2"/></svg></div>
           <h3 data-t="c4t">Accounts and balances</h3>
           <p data-t="c4b">Cash, cards and bank accounts, with balances to check against your bank and transfers between them.</p>
         </div>
-        <div class="card">
-          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#C7D3FF" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg></div>
+        <div class="card" style="--c:165,180,252">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg></div>
           <h3 data-t="c5t">Find anything</h3>
           <p data-t="c5b">Every transaction, searchable and filterable by date, category and account. Export it all to CSV, any time.</p>
         </div>
-        <div class="card">
-          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#C7D3FF" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></div>
+        <div class="card" style="--c:216,180,254">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></div>
           <h3 data-t="c6t">Made with care</h3>
           <p data-t="c6b">In English and Italian, light or dark, on any iPhone - the smallest included. And in any browser, on any phone or computer.</p>
+        </div>
+        <div class="card" style="--c:249,168,212">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M8.3 10a.7.7 0 0 1-.6-1L11.4 3a.7.7 0 0 1 1.2 0L16.3 9a.7.7 0 0 1-.6 1z"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><circle cx="17.5" cy="17.5" r="3.5"/></svg></div>
+          <h3 data-t="c7t">Savings by group</h3>
+          <p data-t="c7b">Put a theme's income and spending together - the rent you collect, what the home costs - and see what it really nets, month by month.</p>
+        </div>
+        <div class="card" style="--c:253,186,116">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M19 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg></div>
+          <h3 data-t="c8t">The month, summed up</h3>
+          <p data-t="c8b">When a month ends, its summary is waiting: against your usual, what weighed most, and how it would have gone without the biggest expense.</p>
+        </div>
+        <div class="card" style="--c:125,211,252">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg></div>
+          <h3 data-t="c9t">A guide inside the app</h3>
+          <p data-t="c9b">Settings › Discover TracklyLab: every feature with a picture, a few lines and a button to try it there and then.</p>
         </div>
       </div>
     </div>
@@ -449,7 +513,22 @@
     altTrips: 'Viaggi: Ibiza, Kenya, Patagonia e Lapponia, ognuno con il totale diviso in hotel, voli, cibo e attività',
     altLock: 'La schermata di blocco con la spesa del mese sotto l’ora e un + per aggiungere una spesa',
     altHome: 'La schermata Home con il widget medio, quello piccolo in rosso oltre il budget e le app intorno',
-    wLock: 'Schermata di blocco', wHome: 'Schermata Home'
+    wLock: 'Schermata di blocco', wHome: 'Schermata Home',
+    newTag: 'Novità', newTag2: 'Novità',
+    flowKicker: 'Dove vanno i soldi', flowL1: 'Ogni euro,', flowL2: 'seguito fino in fondo.',
+    flowBody: 'Dallo stipendio a ogni categoria, in un’immagine sola: quanto è entrato, dove è andato e quanto è rimasto. Un mese alla volta o tutto l’anno fin qui, e tocchi una categoria per aprirla.',
+    flowChip: '950€ in viaggi', flowChipSub: 'la fetta più grande di ottobre',
+    spreadKicker: 'Spese spalmate', spreadL1: 'Pagata una volta.', spreadL2: 'Contata mese per mese.',
+    spreadBody: 'Un’assicurazione da 1.200€ non rovina un mese solo: spalmala su 3, 6 o 12 mesi e il budget di ogni mese ne conta la sua parte. Preferisci vederla come uscita il giorno in cui l’hai pagata? Un interruttore nel profilo.',
+    spreadChip: '100€ al mese', spreadChipSub: 'non 1.200€ a novembre',
+    altFlow: 'Dove vanno i soldi: lo stipendio che si divide tra risparmio, viaggi, casa e le altre categorie',
+    altSpread: 'Un’assicurazione sanitaria da 1.200€ spalmata su 12 mesi: 100€ al mese da novembre',
+    c7t: 'Risparmi per gruppo',
+    c7b: 'Metti insieme entrate e spese di un tema - l’affitto che incassi, i costi della casa - e vedi quanto rende davvero, mese per mese.',
+    c8t: 'Il mese, riassunto',
+    c8b: 'Quando un mese finisce, il suo riepilogo ti aspetta: rispetto al tuo solito, cosa ha pesato di più e come sarebbe andato senza la spesa più grande.',
+    c9t: 'Una guida dentro l’app',
+    c9b: 'Impostazioni › Scopri TracklyLab: ogni funzione con un’immagine, poche righe e un pulsante per provarla subito.'
   };
   var EN = {};
   document.querySelectorAll('[data-t]').forEach(function (n) { EN[n.getAttribute('data-t')] = n.textContent; });
