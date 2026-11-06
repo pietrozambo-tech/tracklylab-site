@@ -19,7 +19,9 @@
   beside this page (H.264, 720 wide, 30 fps, no sound, 33 s; poster.jpg is
   its last frame, the automation finished; applepay.webm, VP9, the same for
   browsers without H.264); until it is there the page says it is coming and
-  sends people back to the written steps in the app. Italian on an Italian
+  sends people back to the written steps in the app. Under it, the phone and
+  iOS it was recorded on, since Shortcuts moves things between versions (as
+  the guide in the app says too). Italian on an Italian
   browser, English everywhere else.
 -->
 <style>
@@ -43,7 +45,8 @@
   .soon b { color: #fff; font-size: 17px; }
   .missing .soon { display: flex; }
   .missing video { display: none; }
-  .note { margin: 12px 0 0; color: #8F99C6; font-size: 12.5px; text-align: center; }
+  .device { margin: 14px auto 0; max-width: 340px; color: #8F99C6; font-size: 12.5px; line-height: 1.45; text-align: center; text-wrap: balance; }
+  .note { margin: 8px 0 0; color: #8F99C6; font-size: 12.5px; text-align: center; }
   .note:empty { display: none; }
   .steps { margin: 22px auto 0; max-width: 420px; width: 100%; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; }
   .steps li { display: flex; gap: 12px; align-items: flex-start; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 12px 14px; font-size: 14.5px; line-height: 1.45; color: #DDE3FF; }
@@ -67,6 +70,7 @@
     <div class="soon"><b data-t="soonTitle">The video is on its way</b><span data-t="soonBody">Meanwhile, the written steps are in the app: Settings › Apple Pay automation.</span></div>
   </div></div>
 
+  <p class="device" data-t="device">Recorded on an iPhone 16 Pro with iOS 27.2. On other versions some names or steps may look a little different - the steps in the app say what to look for.</p>
   <p class="note" data-t="note"></p>
   <ol class="steps">
     <li><i>1</i><span data-t="s1">Shortcuts → Automation → New automation → <b>Wallet</b>.</span></li>
@@ -96,7 +100,8 @@
       s3: '<b>Esegui immediatamente</b>, e <b>Notifica in caso di esecuzione</b> spenta.',
       s4: 'Aggiungi <b>Registra pagamento</b> di TracklyLab: Importo, Esercente e Carta dalla Transazione.',
       get: 'Non hai ancora TracklyLab? Scaricala gratis →',
-      note: 'Nel video l’iPhone è in inglese: i nomi in italiano sono quelli qui sotto.'
+      note: 'Nel video l’iPhone è in inglese: i nomi in italiano sono quelli qui sotto.',
+      device: 'Registrato su un iPhone 16 Pro con iOS 27.2. Con altre versioni alcuni nomi o passaggi possono cambiare un po’: i passaggi nell’app dicono cosa cercare.'
     };
     document.title = 'Automazione Apple Pay · TracklyLab';
     document.querySelectorAll('[data-t]').forEach(function (el) { var k = el.getAttribute('data-t'); if (IT[k]) el.innerHTML = IT[k]; });
