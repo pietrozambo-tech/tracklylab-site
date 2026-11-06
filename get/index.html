@@ -26,8 +26,10 @@
   TestFlight or the App Store often lands on Apple's web page instead of the
   app, or is blocked; a tap on a button always works. On iPhone and iPad the
   first button is the iPhone app, on anything else the web app, with a QR
-  code to carry the link to an iPhone. Without JavaScript both show, side by
-  side. Italian on an Italian browser, English everywhere else.
+  code to carry the link to an iPhone. The iPhone button carries Apple's
+  logo; a muted row says the Android app comes in 2027 (on Android it stands
+  out a little and the iPhone button goes; on an iPhone it is not shown).
+  Without JavaScript all three show, in order. Italian on an Italian browser, English everywhere else.
 
   The iPhone link (#ios) is the App Store's, with no country in it
   (apps.apple.com/app/id...): Apple sends each visitor to their own
@@ -57,10 +59,17 @@
     color: #fff; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.10); transition: transform 0.15s ease; }
   .way:active { transform: scale(0.98); }
   .way svg { width: 24px; height: 24px; flex-shrink: 0; }
+  .way .apple { fill: currentColor; stroke: none; width: 22px; height: 26px; margin: -2px 1px 0; }
   .way b { display: block; font-size: 16px; font-weight: 600; line-height: 1.3; }
   .way small { display: block; color: rgba(225,232,252,0.6); font-size: 12.5px; line-height: 1.35; }
   .way.first { background: linear-gradient(135deg, #4F74F3, #6366F1); border-color: transparent; box-shadow: 0 10px 30px rgba(79,116,243,0.45); }
   .way.first small { color: rgba(255,255,255,0.82); }
+  .way.soon { cursor: default; background: transparent; border-style: dashed; border-color: rgba(255,255,255,0.14); color: rgba(225,232,252,0.62); }
+  .way.soon b { font-size: 14.5px; font-weight: 600; }
+  .way.soon svg { width: 22px; height: 22px; opacity: 0.75; }
+  .android .way.soon { color: #fff; border-color: rgba(169,188,255,0.35); }
+  .android .way.soon small { color: rgba(225,232,252,0.75); }
+  .android #ios { display: none; }
   .qr { display: none; margin-top: 30px; padding: 20px; border-radius: 18px; background: #fff; }
   .qr svg { width: 148px; height: 148px; display: block; margin: 0 auto 12px; color: #1C1C1E; fill: currentColor; }
   .qr p { color: #6B6B75; font-size: 14px; }
@@ -88,13 +97,17 @@
 
   <div class="ways" id="ways">
     <a class="way" id="ios" href="https://apps.apple.com/app/id6826675263">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18.5h2"/></svg>
+      <svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>
       <span><b data-t="iosTitle">Get it on iPhone</b><small data-t="iosNote">Free on the App Store</small></span>
     </a>
     <a class="way" id="web" href="https://pietrozambo-tech.github.io/expense-tracker/">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.8 3.8 6 3.8 9.5S14.6 18.7 12 21.5M12 2.5C9.4 5.3 8.2 8.5 8.2 12s1.2 6.7 3.8 9.5"/></svg>
       <span><b data-t="webTitle">Use it in your browser</b><small data-t="webNote">Any phone or computer · nothing to install</small></span>
     </a>
+    <div class="way soon" id="android" aria-disabled="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 18.5a8.5 8.5 0 0 1 17 0z"/><path d="M7.4 11.4 5.3 7.9M16.6 11.4l2.1-3.5"/><circle cx="8.8" cy="14.9" r="1" fill="currentColor" stroke="none"/><circle cx="15.2" cy="14.9" r="1" fill="currentColor" stroke="none"/></svg>
+      <span><b data-t="androidTitle">Android app: coming in 2027</b><small data-t="androidNote">Until then, it works in the browser</small></span>
+    </div>
   </div>
 
   <div class="qr" aria-hidden="true">
@@ -108,13 +121,26 @@
   // iPadOS asks for desktop pages and calls itself a Mac; the touch screen
   // gives it away.
   var apple = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
-  var phone = apple || /Android|Mobile/.test(ua);
+  var android = /Android/.test(ua);
+  var phone = apple || android || /Mobile/.test(ua);
   var ways = document.getElementById('ways');
   var first = apple ? 'ios' : 'web';
   var el = document.getElementById(first);
   el.classList.add('first');
   ways.insertBefore(el, ways.firstChild);
   if (!phone) document.body.classList.add('desktop');
+  // Android: no app yet. The browser first, the iPhone button out of the
+  // way, and the 2027 note a little brighter - it is about them. On an
+  // iPhone the note says nothing to the person holding it.
+  if (android) {
+    document.body.classList.add('android');
+    // Apple Pay means nothing on Android: the line under the name says what
+    // the browser version does there.
+    var sub = document.querySelector('.sub');
+    sub.setAttribute('data-t', 'subAndroid');
+    sub.textContent = 'Your month at a glance. Every expense in two taps.';
+  }
+  if (apple) document.getElementById('android').remove();
   // Where the visitor came from - tracklylab.com/get/?ct=whatsapp - handed
   // on to the App Store, whose Analytics then counts the page views and
   // downloads of each campaign. PT is the provider token App Store Connect
@@ -135,11 +161,14 @@
     var IT = {
       tagline: 'La lente sulle tue spese.',
       sub: 'Apple Pay si registra da solo. Tutto il resto, in due tocchi.',
+      subAndroid: 'Il mese a colpo d’occhio. Ogni spesa in due tocchi.',
       iosTitle: 'Scaricala su iPhone',
       iosNote: 'Gratis sull’App Store',
       webTitle: 'Usala dal browser',
       webNote: 'Telefono o computer · niente da installare',
-      qr: 'Hai un iPhone? Inquadra il codice con la fotocamera.'
+      qr: 'Hai un iPhone? Inquadra il codice con la fotocamera.',
+      androidTitle: 'App Android: in arrivo nel 2027',
+      androidNote: 'Intanto funziona dal browser'
     };
     document.querySelectorAll('[data-t]').forEach(function (n) { n.textContent = IT[n.getAttribute('data-t')]; });
     document.title = 'Scarica TracklyLab';
