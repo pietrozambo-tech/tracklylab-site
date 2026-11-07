@@ -1,0 +1,41 @@
+# TracklyLab
+
+> TracklyLab ("Your Expense Lens") is a personal expense tracker for iPhone and the web. Apple Pay payments in shops log themselves through a Shortcuts automation, everything else takes two taps, and it never asks for a bank login. Free, with no ads. In English and Italian.
+
+## What it does
+
+- Apple Pay automation: one Shortcuts automation on the iPhone (iOS 17 or later) hands the amount, the shop and the card of every Apple Pay payment in a shop to the app; a notification arrives with the expense ready, and at places it already knows it saves itself, with Undo. Online and in-app Apple Pay payments do not trigger it.
+- Manual entry in two taps (amount, category), recurring payments that add themselves, Home Screen and Lock Screen widgets, optional evening reminder.
+- Monthly budget with how much a day keeps you on track; trends month by month; a short written summary of each finished month; a chart of where the money goes.
+- Shared expenses between two people (a partner or a flatmate): each enters their own expenses on their own phone, shared ones reach both, only your half counts in your budget, and the balance keeps itself. Also works on one phone if the other person does not use the app.
+- Trips: group a trip's expenses and see what it really cost, in any of 155 currencies at the day's rate.
+- Spread payments: a large payment (such as yearly insurance) counted a part each month for 3, 6 or 12 months.
+- Savings groups: the net of chosen income and spending categories (a rented flat, a car) month by month.
+- Import a bank statement, spreadsheet, PDF or screenshot (needs an account; read by Anthropic's Claude model to categorise rows, file not kept; every row checked before it is added). Splitwise and Tricount exports too, importing only your share.
+- Export a full backup or CSV at any time.
+
+## Privacy
+
+- No bank connection, ever: no bank credentials or account access.
+- Without an account (iPhone app or browser) data stays on the device. With an account (Sign in with Apple, Google or an email code) it is backed up and synced; everything can be deleted from inside the app.
+- No ads, no data sold.
+
+## Platforms
+
+- iPhone app on the App Store: https://apps.apple.com/app/id6826675263
+- Web app in any browser, including Android and desktop, no account needed: https://pietrozambo-tech.github.io/expense-tracker/
+- An Android app is planned for 2027.
+
+## Guides
+
+- [Track Apple Pay payments automatically on iPhone](https://tracklylab.com/apple-pay-expense-tracker/): the Shortcuts automation, step by step, with a video
+- [An expense tracker that doesn't connect to your bank](https://tracklylab.com/expense-tracker-without-bank-connection/): how expenses get in without a bank login, and where data lives
+- [Shared expenses with a partner or flatmate](https://tracklylab.com/shared-expenses-partner-flatmate/): how splitting and the balance work
+- Italian versions: [Apple Pay](https://tracklylab.com/it/apple-pay-spese-automatiche/), [senza banca](https://tracklylab.com/it/app-spese-senza-collegare-la-banca/), [spese condivise](https://tracklylab.com/it/spese-condivise-coppia-coinquilini/)
+
+## Optional
+
+- [Home page](https://tracklylab.com/)
+- [Privacy Policy](https://tracklylab.com/privacy.html)
+- [Terms of Service](https://tracklylab.com/terms.html)
+- Contact: support@tracklylab.com

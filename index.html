@@ -465,6 +465,8 @@
   <div class="wrap">
     <nav>
       <a href="./apple-pay-expense-tracker/" data-guide data-t="fGuide">Apple Pay guide</a>
+      <a href="./expense-tracker-without-bank-connection/" data-guide-nobank data-t="fNoBank">No bank connection</a>
+      <a href="./shared-expenses-partner-flatmate/" data-guide-shared data-t="fShared">Shared expenses</a>
       <a href="./privacy.html" data-t="fPrivacy">Privacy Policy</a>
       <a href="./terms.html" data-t="fTerms">Terms of Service</a>
       <a href="mailto:support@tracklylab.com">support@tracklylab.com</a>
@@ -513,7 +515,7 @@
     privBody: 'Accedi con Apple o Google e le tue spese sono salvate e sincronizzate su tutti i tuoi dispositivi: restano tue, mai vendute, mai usate per la pubblicità. E puoi cancellare tutto, quando vuoi, direttamente dall’app. I dettagli sono nella <a href="./privacy.html">Privacy Policy</a>.',
     p1: 'Backup e sincronizzazione', p2: 'Niente pubblicità', p3: 'Nessuna vendita di dati', p4: 'Cancelli tutto, quando vuoi',
     tagline: 'La lente sulle tue spese.',
-    fGuide: 'Guida Apple Pay', fPrivacy: 'Privacy Policy', fTerms: 'Termini di servizio', fLang: 'English',
+    fGuide: 'Guida Apple Pay', fNoBank: 'Senza collegare la banca', fShared: 'Spese condivise', fPrivacy: 'Privacy Policy', fTerms: 'Termini di servizio', fLang: 'English',
     altDashboard: 'La Dashboard: spese, entrate e risparmi del mese, la barra del budget e le categorie',
     altAdd: 'Una spesa aggiunta: 32 euro, Pizza con amici, Cibo e Ristorante',
     altTrend: 'Andamento: il totale speso, la media mensile e il grafico di ogni mese',
@@ -557,6 +559,8 @@
     document.querySelectorAll('[data-t-alt]').forEach(function (n) { var v = L[n.getAttribute('data-t-alt')]; if (v) n.setAttribute('alt', v); });
     document.querySelectorAll('[data-shot]').forEach(function (n) { n.src = './shots/' + lang + '-' + n.getAttribute('data-shot') + '.webp'; });
     document.querySelectorAll('[data-guide]').forEach(function (n) { n.href = lang === 'it' ? './it/apple-pay-spese-automatiche/' : './apple-pay-expense-tracker/'; });
+    document.querySelectorAll('[data-guide-nobank]').forEach(function (n) { n.href = lang === 'it' ? './it/app-spese-senza-collegare-la-banca/' : './expense-tracker-without-bank-connection/'; });
+    document.querySelectorAll('[data-guide-shared]').forEach(function (n) { n.href = lang === 'it' ? './it/spese-condivise-coppia-coinquilini/' : './shared-expenses-partner-flatmate/'; });
     document.title = lang === 'it' ? 'TracklyLab · La lente sulle tue spese' : 'TracklyLab · Your expense lens';
   }
   // The widgets strip: the switch scrolls it, scrolling it moves the switch.

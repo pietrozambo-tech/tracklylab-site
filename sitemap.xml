@@ -20,6 +20,34 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://tracklylab.com/it/apple-pay-spese-automatiche/"/>
   </url>
   <url>
+    <loc>https://tracklylab.com/expense-tracker-without-bank-connection/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tracklylab.com/expense-tracker-without-bank-connection/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tracklylab.com/it/app-spese-senza-collegare-la-banca/"/>
+  </url>
+  <url>
+    <loc>https://tracklylab.com/it/app-spese-senza-collegare-la-banca/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tracklylab.com/expense-tracker-without-bank-connection/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tracklylab.com/it/app-spese-senza-collegare-la-banca/"/>
+  </url>
+  <url>
+    <loc>https://tracklylab.com/shared-expenses-partner-flatmate/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tracklylab.com/shared-expenses-partner-flatmate/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tracklylab.com/it/spese-condivise-coppia-coinquilini/"/>
+  </url>
+  <url>
+    <loc>https://tracklylab.com/it/spese-condivise-coppia-coinquilini/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tracklylab.com/shared-expenses-partner-flatmate/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tracklylab.com/it/spese-condivise-coppia-coinquilini/"/>
+  </url>
+  <url>
     <loc>https://tracklylab.com/privacy.html</loc>
     <lastmod>2026-11-07</lastmod>
     <priority>0.2</priority>
