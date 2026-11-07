@@ -10,6 +10,8 @@
 <meta property="og:image" content="https://tracklylab.com/og.png">
 <meta property="og:url" content="https://tracklylab.com/">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://tracklylab.com/">
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "TracklyLab", "alternateName": "TracklyLab: Your Expense Lens", "description": "Expense tracker: Apple Pay payments log themselves through a Shortcuts automation, everything else in two taps, trips in any currency, shared expenses, monthly summaries.", "applicationCategory": "FinanceApplication", "operatingSystem": "iOS, Web", "url": "https://tracklylab.com/", "installUrl": "https://apps.apple.com/app/id6826675263", "image": "https://tracklylab.com/og.png", "inLanguage": ["en", "it"], "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "publisher": {"@type": "Organization", "name": "TracklyLab", "url": "https://tracklylab.com/"}}, {"@context": "https://schema.org", "@type": "WebSite", "name": "TracklyLab", "url": "https://tracklylab.com/"}]</script>
 <meta name="theme-color" content="#0B1028">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cdefs%3E%3ClinearGradient id='g' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='48' y2='48'%3E%3Cstop offset='0' stop-color='%233B82F6'/%3E%3Cstop offset='1' stop-color='%236366F1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='48' height='48' rx='13' fill='url(%23g)'/%3E%3Ccircle cx='24' cy='24' r='13.2' fill='none' stroke='%23fff' stroke-width='3'/%3E%3Ccircle cx='33.33' cy='14.67' r='5' fill='url(%23g)'/%3E%3Cpolyline points='17.5,27.8 21,23.8 24.5,26.3 33.33,14.67' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
@@ -116,6 +118,8 @@
   .copy h2 { margin-top: 14px; font-size: clamp(36px, 4.6vw, 56px); line-height: 1.06; letter-spacing: -0.03em; }
   .copy p { color: var(--ink-2); font-size: 18px; margin-top: 22px; max-width: 520px; }
   .copy .fine { color: var(--ink-3); font-size: 14.5px; margin-top: 16px; }
+  .copy .fine a.guide { color: #A9BCFF; text-decoration: none; font-weight: 600; }
+  .copy .fine a.guide:hover { text-decoration: underline; }
   .visual { display: flex; justify-content: center; position: relative; min-width: 0; }
   .copy { min-width: 0; }
   .rule { border: 0; border-top: 1px solid var(--line); max-width: 1072px; margin: 0 auto; }
@@ -274,6 +278,7 @@
         <h2><span data-t="payL1">Pay with Apple Pay.</span><span class="grad" data-t="payL2">It’s already there.</span></h2>
         <p data-t="payBody">Set up one Shortcuts automation - the app walks you through it - and every time you pay with your iPhone in a shop, a notification arrives with the expense ready: amount, place and, from the second visit, category and account. Where you have saved it before, it saves itself, with Undo right in the notification.</p>
         <p class="fine" data-t="payFine">Works with Apple Pay in shops. Online and in-app payments take two taps.</p>
+        <p class="fine"><a class="guide" href="./apple-pay-expense-tracker/" data-guide data-t="payGuide">How to set it up, step by step →</a></p>
       </div>
       <div class="visual">
         <div class="film">
@@ -459,6 +464,7 @@
 <footer>
   <div class="wrap">
     <nav>
+      <a href="./apple-pay-expense-tracker/" data-guide data-t="fGuide">Apple Pay guide</a>
       <a href="./privacy.html" data-t="fPrivacy">Privacy Policy</a>
       <a href="./terms.html" data-t="fTerms">Terms of Service</a>
       <a href="mailto:support@tracklylab.com">support@tracklylab.com</a>
@@ -480,6 +486,7 @@
     payKicker: 'Apple Pay, in automatico', payL1: 'Paghi con Apple Pay.', payL2: 'È già lì.',
     payBody: 'Imposti una volta un’automazione in Comandi - l’app ti guida passo per passo - e ogni volta che paghi in negozio con l’iPhone arriva una notifica con la spesa già pronta: importo, negozio e, dalla seconda volta, categoria e conto. Dove l’hai già salvata, si salva da sola, con Annulla direttamente nella notifica.',
     payFine: 'Funziona con Apple Pay nei negozi. I pagamenti online e nelle app li aggiungi in due tocchi.',
+    payGuide: 'Come si imposta, passo per passo →',
     addKicker: 'Tutto il resto', addL1: 'Tutto il resto?', addL2: 'Due tocchi.',
     addBody: 'Importo, categoria, fatto. Le spese ricorrenti come l’affitto compaiono da sole, il giorno giusto. E se vuoi, un promemoria leggero la sera, solo nei giorni in cui non hai ancora segnato niente.',
     trendKicker: 'Andamento', trendL1: 'Mese dopo mese.', trendL2: 'Vedi cosa cambia.',
@@ -506,7 +513,7 @@
     privBody: 'Accedi con Apple o Google e le tue spese sono salvate e sincronizzate su tutti i tuoi dispositivi: restano tue, mai vendute, mai usate per la pubblicità. E puoi cancellare tutto, quando vuoi, direttamente dall’app. I dettagli sono nella <a href="./privacy.html">Privacy Policy</a>.',
     p1: 'Backup e sincronizzazione', p2: 'Niente pubblicità', p3: 'Nessuna vendita di dati', p4: 'Cancelli tutto, quando vuoi',
     tagline: 'La lente sulle tue spese.',
-    fPrivacy: 'Privacy Policy', fTerms: 'Termini di servizio', fLang: 'English',
+    fGuide: 'Guida Apple Pay', fPrivacy: 'Privacy Policy', fTerms: 'Termini di servizio', fLang: 'English',
     altDashboard: 'La Dashboard: spese, entrate e risparmi del mese, la barra del budget e le categorie',
     altAdd: 'Una spesa aggiunta: 32 euro, Pizza con amici, Cibo e Ristorante',
     altTrend: 'Andamento: il totale speso, la media mensile e il grafico di ogni mese',
@@ -549,6 +556,7 @@
     document.querySelectorAll('[data-t-html]').forEach(function (n) { var v = L[n.getAttribute('data-t-html')]; if (v) n.innerHTML = v; });
     document.querySelectorAll('[data-t-alt]').forEach(function (n) { var v = L[n.getAttribute('data-t-alt')]; if (v) n.setAttribute('alt', v); });
     document.querySelectorAll('[data-shot]').forEach(function (n) { n.src = './shots/' + lang + '-' + n.getAttribute('data-shot') + '.webp'; });
+    document.querySelectorAll('[data-guide]').forEach(function (n) { n.href = lang === 'it' ? './it/apple-pay-spese-automatiche/' : './apple-pay-expense-tracker/'; });
     document.title = lang === 'it' ? 'TracklyLab · La lente sulle tue spese' : 'TracklyLab · Your expense lens';
   }
   // The widgets strip: the switch scrolls it, scrolling it moves the switch.
