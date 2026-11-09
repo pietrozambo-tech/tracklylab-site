@@ -4,13 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>TracklyLab · Your expense lens</title>
-<meta name="description" content="Pay with Apple Pay and the expense is already there. Everything else in two taps, every month in plain words. TracklyLab, your expense lens.">
+<meta name="description" content="Pay with Apple Pay in a shop and the expense is already there. Everything else in two taps, every month in plain words. TracklyLab, your expense lens.">
 <meta property="og:title" content="TracklyLab · Your expense lens">
-<meta property="og:description" content="Pay with Apple Pay and the expense is already there. Everything else, in two taps.">
+<meta property="og:description" content="Pay with Apple Pay in a shop and the expense is already there. Everything else, in two taps.">
 <meta property="og:image" content="https://tracklylab.com/og.png">
 <meta property="og:url" content="https://tracklylab.com/">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://tracklylab.com/">
+<link rel="alternate" hreflang="en" href="https://tracklylab.com/">
+<link rel="alternate" hreflang="it" href="https://tracklylab.com/it/">
+<link rel="alternate" hreflang="x-default" href="https://tracklylab.com/">
+<script type="application/ld+json" id="faq-ld">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"en","mainEntity":[{"@type":"Question","name":"Does it log online Apple Pay payments too?","acceptedAnswer":{"@type":"Answer","text":"Not by itself: iOS runs the automation only when you pay in a shop. Online and in-app payments you add in two taps."}},{"@type":"Question","name":"What do I need for the Apple Pay automation?","acceptedAnswer":{"@type":"Answer","text":"An iPhone with iOS 17 or later and a card in Wallet. You set up one automation in Shortcuts, once - the app walks you through it."}},{"@type":"Question","name":"Do I have to connect my bank?","acceptedAnswer":{"@type":"Answer","text":"No, never. Expenses come in from Apple Pay, in two taps, or from a statement you choose to import. TracklyLab never asks for a bank login."}},{"@type":"Question","name":"Why sign in?","acceptedAnswer":{"@type":"Answer","text":"Sign in with Apple, Google or your email and your expenses are backed up and in sync on your iPhone, your computer and any browser - and they come back with you on a new phone."}},{"@type":"Question","name":"Is my data sold or used for ads?","acceptedAnswer":{"@type":"Answer","text":"No. Your expenses are yours: no ads, nothing sold. You can delete your account and everything in it from inside the app, at any time."}},{"@type":"Question","name":"Can I use it without an iPhone?","acceptedAnswer":{"@type":"Answer","text":"Yes: TracklyLab works in any browser, on Android phones and on computers. An Android app is coming in 2027. The widgets and the Apple Pay automation are iPhone only."}},{"@type":"Question","name":"Can I bring in what I tracked before?","acceptedAnswer":{"@type":"Answer","text":"Yes: a bank statement, a spreadsheet, a PDF or a screenshot is read for you and matched to your categories, and nothing comes in until you have checked it. Splitwise and Tricount exports too."}},{"@type":"Question","name":"Can I share expenses with my partner or a flatmate?","acceptedAnswer":{"@type":"Answer","text":"Yes. Connect with a code: shared expenses show on both phones, split your way, only your half counts in your budget, and the balance keeps itself."}},{"@type":"Question","name":"Does it work for trips abroad?","acceptedAnswer":{"@type":"Answer","text":"Yes. Spend in any of 155 currencies: each expense is converted at the day’s rate and fixed there, so a trip stays what it really cost you."}},{"@type":"Question","name":"I paid dinner for everyone: how do I log it?","acceptedAnswer":{"@type":"Answer","text":"Just your share, or the total and then the refunds as they come in - you choose once, in Profile › Paid for others."}},{"@type":"Question","name":"What about a big yearly payment?","acceptedAnswer":{"@type":"Answer","text":"Spread it over 3, 6 or 12 months and each month’s budget counts its part - the insurance, a new laptop, the car tax."}}]}</script>
 <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "TracklyLab", "alternateName": "TracklyLab: Your Expense Lens", "description": "Expense tracker: Apple Pay payments log themselves through a Shortcuts automation, everything else in two taps, trips in any currency, shared expenses, monthly summaries.", "applicationCategory": "FinanceApplication", "operatingSystem": "iOS, Web", "url": "https://tracklylab.com/", "installUrl": "https://apps.apple.com/app/id6826675263", "image": "https://tracklylab.com/og.png", "inLanguage": ["en", "it"], "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "publisher": {"@type": "Organization", "name": "TracklyLab", "url": "https://tracklylab.com/"}}, {"@context": "https://schema.org", "@type": "WebSite", "name": "TracklyLab", "url": "https://tracklylab.com/"}]</script>
 <meta name="theme-color" content="#0B1028">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -73,6 +77,7 @@
   .hero .lead { color: var(--ink-2); font-size: clamp(18px, 2.1vw, 21px); max-width: 560px; margin: 22px auto 0; }
   .hero .ctas { margin-top: 34px; display: flex; flex-direction: column; align-items: center; gap: 12px; }
   .hero .note { color: var(--ink-3); font-size: 14px; }
+  .note span { white-space: nowrap; }
   .hero .stage { margin-top: 60px; display: flex; justify-content: center; }
 
   /* An iPhone, as the Reel draws it - a graphite titanium band, the black
@@ -120,6 +125,15 @@
   .copy .fine { color: var(--ink-3); font-size: 14.5px; margin-top: 16px; }
   .copy .fine a.guide { color: #A9BCFF; text-decoration: none; font-weight: 600; }
   .copy .fine a.guide:hover { text-decoration: underline; }
+  .copy .fine.links { display: flex; flex-wrap: wrap; gap: 6px 22px; }
+  /* How Apple Pay works: three numbered steps. */
+  .how { list-style: none; counter-reset: how; margin: 28px 0 0; padding: 0; max-width: 520px; display: grid; gap: 16px; }
+  .how li { counter-increment: how; position: relative; padding-left: 52px; text-align: left; }
+  .how li::before { content: counter(how); position: absolute; left: 0; top: 0; width: 34px; height: 34px; border-radius: 11px;
+    display: grid; place-items: center; font-weight: 700; font-size: 15px; color: #fff;
+    background: linear-gradient(135deg, var(--brand), #8B5CF6); box-shadow: 0 6px 18px rgba(79,116,243,0.35); }
+  .how b { display: block; font-size: 18px; letter-spacing: -0.01em; }
+  .how span { display: block; color: var(--ink-2); font-size: 16px; margin-top: 3px; line-height: 1.5; }
   .visual { display: flex; justify-content: center; position: relative; min-width: 0; }
   .copy { min-width: 0; }
   .rule { border: 0; border-top: 1px solid var(--line); max-width: 1072px; margin: 0 auto; }
@@ -188,6 +202,20 @@
   .privacy .points span { font-size: 14px; color: #fff; padding: 7px 14px; border-radius: 999px; background: rgba(255,255,255,0.07); border: 1px solid var(--line); }
   .privacy a { color: #A9BCFF; text-decoration: none; }
 
+  /* ── Questions ────────────────────────────────────────────────────────── */
+  .faq { padding: 0 0 120px; text-align: center; }
+  .faq h2 { margin-top: 14px; font-size: clamp(32px, 4vw, 48px); line-height: 1.08; letter-spacing: -0.03em; }
+  .faq h2 span { display: block; }
+  .faq .qa { max-width: 760px; margin: 44px auto 0; text-align: left; display: grid; gap: 10px; }
+  .faq details { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 0 22px; }
+  .faq details[open] { background: rgba(255,255,255,0.06); }
+  .faq summary { cursor: pointer; list-style: none; padding: 18px 34px 18px 0; position: relative; font-weight: 600; font-size: 17px; letter-spacing: -0.01em; }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::after { content: ""; position: absolute; right: 4px; top: 50%; width: 9px; height: 9px; margin-top: -7px;
+    border-right: 2px solid #A9BCFF; border-bottom: 2px solid #A9BCFF; transform: rotate(45deg); transition: transform 0.2s ease; }
+  .faq details[open] summary::after { transform: rotate(-135deg); margin-top: -2px; }
+  .faq details p { color: var(--ink-2); font-size: 16px; line-height: 1.6; padding: 0 0 20px; }
+
   /* ── The last word ────────────────────────────────────────────────────── */
   .end { text-align: center; padding: 110px 0 120px;
     background: radial-gradient(55% 60% at 50% 40%, rgba(79,116,243,0.45) 0%, rgba(79,116,243,0) 70%), linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%); }
@@ -213,6 +241,8 @@
     .feature .wrap { grid-template-columns: minmax(0, 1fr); gap: 44px; text-align: center; }
     .feature.flip .copy { order: 0; }
     .copy p { margin-left: auto; margin-right: auto; }
+    .how { margin-left: auto; margin-right: auto; }
+    .copy .fine.links { justify-content: center; }
     .film { margin-bottom: 84px; }
     .swipe { margin-bottom: 84px; }
     .rule { display: none; }
@@ -228,8 +258,15 @@
     .more { padding: 84px 0; }
     .privacy { padding-bottom: 84px; }
     .privacy .box { padding: 40px 22px; border-radius: 24px; }
+    .faq { padding-bottom: 84px; }
+    .faq summary { font-size: 16px; }
     .end { padding: 84px 0 96px; }
     footer .wrap { flex-direction: column; align-items: flex-start; }
+  }
+  @media (max-width: 360px) {
+    .float { padding: 10px 12px; gap: 10px; }
+    .float.at-l { left: 1%; }
+    .float.at-r { right: 1%; }
   }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 </style>
@@ -260,10 +297,10 @@
     <div class="wrap">
       <div class="kicker" data-t="heroKicker">Your expense lens</div>
       <h1><span data-t="heroL1">Your money,</span><span class="grad" data-t="heroL2">finally in focus.</span></h1>
-      <p class="lead" data-t="heroLead">Pay with Apple Pay and the expense is already there. Everything else takes two taps. And every month reads like a sentence.</p>
+      <p class="lead" data-t="heroLead">Pay with Apple Pay in a shop and the expense is already there. Everything else takes two taps. And every month reads like a sentence.</p>
       <div class="ctas">
         <a class="btn big" href="./get/" data-t="cta">Get TracklyLab</a>
-        <span class="note" data-t="ctaNote">On iPhone, or in any browser</span>
+        <span class="note" data-t-html="ctaNote"><span>On iPhone or in any browser</span> · <span>No bank login</span></span>
       </div>
       <div class="stage">
         <div class="iphone"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="dashboard" src="./shots/en-dashboard.webp" width="1080" height="1920" alt="The Dashboard: the month's spending, income and savings, a budget bar and the categories" data-t-alt="altDashboard"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"/></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"/></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"/></svg></span></div><div class="island"></div></div></div>
@@ -276,9 +313,13 @@
       <div class="copy">
         <div class="kicker" data-t="payKicker">Apple Pay, automated</div>
         <h2><span data-t="payL1">Pay with Apple Pay.</span><span class="grad" data-t="payL2">It’s already there.</span></h2>
-        <p data-t="payBody">Set up one Shortcuts automation - the app walks you through it - and every time you pay with your iPhone in a shop, a notification arrives with the expense ready: amount, place and, from the second visit, category and account. Where you have saved it before, it saves itself, with Undo right in the notification.</p>
+        <ol class="how">
+          <li><b data-t="s1t">Set it up once</b><span data-t="s1b">One automation in Shortcuts. The app walks you through it, in a minute or two.</span></li>
+          <li><b data-t="s2t">Pay in a shop</b><span data-t="s2b">With Apple Pay on your iPhone, as always.</span></li>
+          <li><b data-t="s3t">It’s already there</b><span data-t="s3b">A notification with the amount and the shop. From the second visit, category and account too - and where you’ve saved it before, it saves itself, with Undo.</span></li>
+        </ol>
         <p class="fine" data-t="payFine">Works with Apple Pay in shops. Online and in-app payments take two taps.</p>
-        <p class="fine"><a class="guide" href="./apple-pay-expense-tracker/" data-guide data-t="payGuide">How to set it up, step by step →</a></p>
+        <p class="fine links"><a class="guide" href="./applepay/" data-t="payVideo">Watch the setup, 1 minute →</a><a class="guide" href="./apple-pay-expense-tracker/" data-guide data-t="payGuide">The guide, step by step →</a></p>
       </div>
       <div class="visual">
         <div class="film">
@@ -353,6 +394,7 @@
         <div class="kicker" data-t="tripKicker">Trips</div>
         <h2><span data-t="tripL1">Every trip.</span><span class="grad" data-t="tripL2">What it really cost.</span></h2>
         <p data-t="tripBody">Name the trip and TracklyLab does the maths: hotel, flights, food, activities. Spend in any of 155 currencies - each converted at the day's rate and locked there, so a trip keeps what it really cost you.</p>
+        <p class="fine"><a class="guide" href="./travel-expense-tracker/" data-guide-travel data-t="tripGuide">How trips and currencies work →</a></p>
       </div>
       <div class="visual">
         <div class="iphone"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="trips" src="./shots/en-trips.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="Trips: Ibiza, Kenya, Patagonia and Lapland, each with its total split into hotel, flights, food and activities" data-t-alt="altTrips"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"/></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"/></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"/></svg></span></div><div class="island"></div></div></div>
@@ -408,7 +450,7 @@
         <div class="card" style="--c:134,239,172">
           <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="3"/><path d="M3 10h18M16 15h2"/></svg></div>
           <h3 data-t="c4t">Accounts and balances</h3>
-          <p data-t="c4b">Cash, cards and bank accounts, with balances to check against your bank and transfers between them.</p>
+          <p data-t="c4b">Cash, cards and bank accounts: what you have right now, on which account, and how it changes over time - with transfers between them and balances to check against the bank.</p>
         </div>
         <div class="card" style="--c:165,180,252">
           <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg></div>
@@ -416,9 +458,9 @@
           <p data-t="c5b">Every transaction, searchable and filterable by date, category and account. Export it all to CSV, any time.</p>
         </div>
         <div class="card" style="--c:216,180,254">
-          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></div>
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7.5-4.4-7.5-10A4.3 4.3 0 0 1 12 7.2 4.3 4.3 0 0 1 19.5 10c0 5.6-7.5 10-7.5 10z"/></svg></div>
           <h3 data-t="c6t">Made with care</h3>
-          <p data-t="c6b">In English and Italian, light or dark, on any iPhone - the smallest included. And in any browser, on any phone or computer.</p>
+          <p data-t="c6b">In English and Italian, on any iPhone - the smallest included. And in any browser, on any phone or computer.</p>
         </div>
         <div class="card" style="--c:249,168,212">
           <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M8.3 10a.7.7 0 0 1-.6-1L11.4 3a.7.7 0 0 1 1.2 0L16.3 9a.7.7 0 0 1-.6 1z"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><circle cx="17.5" cy="17.5" r="3.5"/></svg></div>
@@ -429,6 +471,21 @@
           <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M19 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg></div>
           <h3 data-t="c8t">The month, summed up</h3>
           <p data-t="c8b">When a month ends, its summary is waiting: against your usual, what weighed most, and how it would have gone without the biggest expense.</p>
+        </div>
+        <div class="card" style="--c:110,231,183">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2.5l3 3-3 3"/><path d="M4 11.5V10a4.5 4.5 0 0 1 4.5-4.5H20"/><path d="M7 21.5l-3-3 3-3"/><path d="M20 12.5V14a4.5 4.5 0 0 1-4.5 4.5H4"/></svg></div>
+          <h3 data-t="c10t">Recurring, on their own</h3>
+          <p data-t="c10b">Rent, subscriptions, salary: set up once what repeats, and it is added every week, month or year - and you see what is coming up.</p>
+        </div>
+        <div class="card" style="--c:251,113,133">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="9" cy="6.5" rx="5.5" ry="2.5"/><path d="M3.5 6.5v4c0 1.4 2.5 2.5 5.5 2.5s5.5-1.1 5.5-2.5v-4"/><path d="M9.5 15.4c-.2 0-.3 0-.5 0-3 0-5.5-1.1-5.5-2.5"/><path d="M14 13.5c0-1.4 2.5-2.5 5-2.5s4.5 1.1 4.5 2.5-2 2.5-4.5 2.5-5-1.1-5-2.5z" transform="translate(-1.5 0)"/><path d="M12.5 13.5v4c0 1.4 2.2 2.5 5 2.5s4.5-1.1 4.5-2.5v-4"/></svg></div>
+          <h3 data-t="c11t">Paid for everyone?</h3>
+          <p data-t="c11b">Log just your share, or the total and then the refunds as they come in: who owes you what, with no maths by hand.</p>
+        </div>
+        <div class="card" style="--c:196,181,253">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></div>
+          <h3 data-t="c12t">Light by day, dark at night</h3>
+          <p data-t="c12b">Light, dark, or following your iPhone - every screen is made for both.</p>
         </div>
         <div class="card" style="--c:125,211,252">
           <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg></div>
@@ -445,8 +502,28 @@
         <svg class="shield" viewBox="0 0 24 24" fill="none" stroke="#A9BCFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v5.5c0 4.4 3 8.2 7 9.5 4-1.3 7-5.1 7-9.5V6z"/><path d="m9 12 2 2 4-4"/></svg>
         <div class="kicker" data-t="privKicker">Private by design</div>
         <h2 data-t="privTitle">Your money is your business.</h2>
-        <p data-t-html="privBody">Sign in with Apple or Google and your expenses are backed up and in sync on all your devices - yours alone, never sold, never used for ads. And you can delete everything, at any time, from inside the app. The details are in the <a href="./privacy.html">Privacy Policy</a>.</p>
+        <p data-t-html="privBody">Sign in with Apple, Google or your email and your expenses are backed up and in sync on all your devices - yours alone, never sold, never used for ads. And you can delete everything, at any time, from inside the app. The details are in the <a href="./privacy.html">Privacy Policy</a>.</p>
         <div class="points"><span data-t="p1">Backup and sync</span><span data-t="p2">No ads</span><span data-t="p3">No selling of data</span><span data-t="p4">Delete everything, any time</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <div class="wrap">
+      <div class="kicker" data-t="faqKicker">Questions</div>
+      <h2><span data-t="faqL1">Good to know,</span><span class="grad" data-t="faqL2">before you start.</span></h2>
+      <div class="qa">
+        <details><summary data-t="q1">Does it log online Apple Pay payments too?</summary><p data-t="a1">Not by itself: iOS runs the automation only when you pay in a shop. Online and in-app payments you add in two taps.</p></details>
+        <details><summary data-t="q2">What do I need for the Apple Pay automation?</summary><p data-t="a2">An iPhone with iOS 17 or later and a card in Wallet. You set up one automation in Shortcuts, once - the app walks you through it.</p></details>
+        <details><summary data-t="q3">Do I have to connect my bank?</summary><p data-t="a3">No, never. Expenses come in from Apple Pay, in two taps, or from a statement you choose to import. TracklyLab never asks for a bank login.</p></details>
+        <details><summary data-t="q4">Why sign in?</summary><p data-t="a4">Sign in with Apple, Google or your email and your expenses are backed up and in sync on your iPhone, your computer and any browser - and they come back with you on a new phone.</p></details>
+        <details><summary data-t="q5">Is my data sold or used for ads?</summary><p data-t="a5">No. Your expenses are yours: no ads, nothing sold. You can delete your account and everything in it from inside the app, at any time.</p></details>
+        <details><summary data-t="q6">Can I use it without an iPhone?</summary><p data-t="a6">Yes: TracklyLab works in any browser, on Android phones and on computers. An Android app is coming in 2027. The widgets and the Apple Pay automation are iPhone only.</p></details>
+        <details><summary data-t="q7">Can I bring in what I tracked before?</summary><p data-t="a7">Yes: a bank statement, a spreadsheet, a PDF or a screenshot is read for you and matched to your categories, and nothing comes in until you have checked it. Splitwise and Tricount exports too.</p></details>
+        <details><summary data-t="q8">Can I share expenses with my partner or a flatmate?</summary><p data-t="a8">Yes. Connect with a code: shared expenses show on both phones, split your way, only your half counts in your budget, and the balance keeps itself.</p></details>
+        <details><summary data-t="q9">Does it work for trips abroad?</summary><p data-t="a9">Yes. Spend in any of 155 currencies: each expense is converted at the day’s rate and fixed there, so a trip stays what it really cost you.</p></details>
+        <details><summary data-t="q10">I paid dinner for everyone: how do I log it?</summary><p data-t="a10">Just your share, or the total and then the refunds as they come in - you choose once, in Profile › Paid for others.</p></details>
+        <details><summary data-t="q11">What about a big yearly payment?</summary><p data-t="a11">Spread it over 3, 6 or 12 months and each month’s budget counts its part - the insurance, a new laptop, the car tax.</p></details>
       </div>
     </div>
   </section>
@@ -456,7 +533,7 @@
       <svg class="mark" aria-hidden="true"><use href="#mark"/></svg>
       <h2><span>TracklyLab</span><span class="grad" data-t="tagline">Your expense lens.</span></h2>
       <a class="btn big" href="./get/" data-t="cta">Get TracklyLab</a>
-      <p class="note" data-t="ctaNote">On iPhone, or in any browser</p>
+      <p class="note" data-t-html="ctaNote"><span>On iPhone or in any browser</span> · <span>No bank login</span></p>
     </div>
   </section>
 </main>
@@ -467,6 +544,7 @@
       <a href="./apple-pay-expense-tracker/" data-guide data-t="fGuide">Apple Pay guide</a>
       <a href="./expense-tracker-without-bank-connection/" data-guide-nobank data-t="fNoBank">No bank connection</a>
       <a href="./shared-expenses-partner-flatmate/" data-guide-shared data-t="fShared">Shared expenses</a>
+      <a href="./travel-expense-tracker/" data-guide-travel data-t="fTravel">Travel expenses</a>
       <a href="./privacy.html" data-t="fPrivacy">Privacy Policy</a>
       <a href="./terms.html" data-t="fTerms">Terms of Service</a>
       <a href="mailto:support@tracklylab.com">support@tracklylab.com</a>
@@ -477,23 +555,28 @@
 </footer>
 
 <script>
-  // English, or Italian on an Italian browser - and the footer's switch,
-  // remembered on this device. The screens follow the words.
+  // Two pages, one source: this one in English, and /it/, written from it by
+  // scripts/site/home.mjs (apply('it') below, run at build time) - so a search
+  // engine finds each language at its own address. An Italian browser, or
+  // the footer's switch remembered on this device, goes to the other page.
   var IT = {
     navCta: 'Scarica l’app',
     heroKicker: 'La lente sulle tue spese',
     heroL1: 'I tuoi soldi,', heroL2: 'finalmente a fuoco.',
-    heroLead: 'Paghi con Apple Pay e la spesa è già lì. Tutto il resto, in due tocchi. E ogni mese si legge come una frase.',
-    cta: 'Scarica TracklyLab', ctaNote: 'Su iPhone, o in qualsiasi browser',
+    heroLead: 'Paghi con Apple Pay in negozio e la spesa è già lì. Tutto il resto, in due tocchi. E ogni mese si legge come una frase.',
+    cta: 'Scarica TracklyLab', ctaNote: '<span>Su iPhone o in qualsiasi browser</span> · <span>Senza collegare la banca</span>',
     payKicker: 'Apple Pay, in automatico', payL1: 'Paghi con Apple Pay.', payL2: 'È già lì.',
-    payBody: 'Imposti una volta un’automazione in Comandi - l’app ti guida passo per passo - e ogni volta che paghi in negozio con l’iPhone arriva una notifica con la spesa già pronta: importo, negozio e, dalla seconda volta, categoria e conto. Dove l’hai già salvata, si salva da sola, con Annulla direttamente nella notifica.',
+    s1t: 'La imposti una volta', s1b: 'Un’automazione in Comandi. L’app ti guida passo per passo, in un paio di minuti.',
+    s2t: 'Paghi in negozio', s2b: 'Con Apple Pay sull’iPhone, come sempre.',
+    s3t: 'È già lì', s3b: 'Una notifica con importo e negozio. Dalla seconda volta anche categoria e conto, e dove l’hai già salvata si salva da sola, con Annulla.',
     payFine: 'Funziona con Apple Pay nei negozi. I pagamenti online e nelle app li aggiungi in due tocchi.',
-    payGuide: 'Come si imposta, passo per passo →',
+    payVideo: 'Guarda come si imposta, 1 minuto →', payGuide: 'La guida, passo per passo →',
     addKicker: 'Tutto il resto', addL1: 'Tutto il resto?', addL2: 'Due tocchi.',
     addBody: 'Importo, categoria, fatto. Le spese ricorrenti come l’affitto compaiono da sole, il giorno giusto. E se vuoi, un promemoria leggero la sera, solo nei giorni in cui non hai ancora segnato niente.',
     trendKicker: 'Andamento', trendL1: 'Mese dopo mese.', trendL2: 'Vedi cosa cambia.',
     trendBody: 'I mesi uno accanto all’altro, il migliore e il peggiore segnalati, quest’anno contro l’anno scorso. E ogni mese concluso riceve una frase scritta dai tuoi numeri: cosa è cambiato, di quanto, rispetto al solito.',
     tripKicker: 'Viaggi', tripL1: 'Ogni viaggio.', tripL2: 'Quanto è costato davvero.',
+    tripGuide: 'Come funzionano viaggi e valute →', fTravel: 'Spese di viaggio',
     tripBody: 'Dai un nome al viaggio e TracklyLab fa i conti: hotel, voli, cibo, attività. Spendi in 155 valute, ognuna convertita al cambio del giorno e fissata lì: un viaggio resta quanto ti è costato davvero.',
     widgetKicker: 'Widget', widgetL1: 'Il tuo mese,', widgetL2: 'sempre sotto gli occhi.',
     widgetBody: 'Sulla schermata di blocco, quanto hai speso e i giorni che mancano. Sulla Home, quanto puoi ancora spendere al giorno. E un + per aggiungere una spesa senza nemmeno aprire l’app.',
@@ -506,13 +589,16 @@
     c3t: 'Un budget che ti conosce',
     c3b: 'Una barra del budget che ti confronta con il tuo mese abituale, non con un obiettivo a caso, e a metà mese ti dice se sei in linea.',
     c4t: 'Conti e saldi',
-    c4b: 'Contanti, carte e conti correnti, con saldi da verificare con la banca e trasferimenti tra conti.',
+    c4b: 'Contanti, carte e conti correnti: quanto hai adesso, su quale conto e come cambia nel tempo, con i trasferimenti tra conti e i saldi da verificare con la banca.',
+    c10t: 'Ricorrenti, da sole', c10b: 'Affitto, abbonamenti, stipendio: imposti una volta ciò che si ripete e viene aggiunto ogni settimana, mese o anno, e vedi in anticipo cosa sta per arrivare.',
+    c11t: 'Hai pagato per tutti?', c11b: 'Segna solo la tua quota, oppure il totale e poi i rimborsi che arrivano: chi ti deve cosa, senza conti a mano.',
+    c12t: 'Chiara di giorno, scura la sera', c12b: 'Chiara, scura o come il tuo iPhone: ogni schermata è pensata per entrambe.',
     c5t: 'Trovi tutto',
     c5b: 'Ogni movimento, cercabile e filtrabile per data, categoria e conto. Esporti tutto in CSV, quando vuoi.',
     c6t: 'Fatta con cura',
-    c6b: 'In italiano e inglese, chiara o scura, su ogni iPhone, anche il più piccolo. E in qualsiasi browser, su ogni telefono o computer.',
+    c6b: 'In italiano e inglese, su ogni iPhone, anche il più piccolo. E in qualsiasi browser, su ogni telefono o computer.',
     privKicker: 'Privacy prima di tutto', privTitle: 'I tuoi soldi sono affari tuoi.',
-    privBody: 'Accedi con Apple o Google e le tue spese sono salvate e sincronizzate su tutti i tuoi dispositivi: restano tue, mai vendute, mai usate per la pubblicità. E puoi cancellare tutto, quando vuoi, direttamente dall’app. I dettagli sono nella <a href="./privacy.html">Privacy Policy</a>.',
+    privBody: 'Accedi con Apple, Google o la tua email e le tue spese sono salvate e sincronizzate su tutti i tuoi dispositivi: restano tue, mai vendute, mai usate per la pubblicità. E puoi cancellare tutto, quando vuoi, direttamente dall’app. I dettagli sono nella <a href="./privacy.html">Privacy Policy</a>.',
     p1: 'Backup e sincronizzazione', p2: 'Niente pubblicità', p3: 'Nessuna vendita di dati', p4: 'Cancelli tutto, quando vuoi',
     tagline: 'La lente sulle tue spese.',
     fGuide: 'Guida Apple Pay', fNoBank: 'Senza collegare la banca', fShared: 'Spese condivise', fPrivacy: 'Privacy Policy', fTerms: 'Termini di servizio', fLang: 'English',
@@ -537,7 +623,19 @@
     c8t: 'Il mese, riassunto',
     c8b: 'Quando un mese finisce, il suo riepilogo ti aspetta: rispetto al tuo solito, cosa ha pesato di più e come sarebbe andato senza la spesa più grande.',
     c9t: 'Una guida dentro l’app',
-    c9b: 'Impostazioni › Scopri TracklyLab: ogni funzione con un’immagine, poche righe e un pulsante per provarla subito.'
+    c9b: 'Impostazioni › Scopri TracklyLab: ogni funzione con un’immagine, poche righe e un pulsante per provarla subito.',
+    faqKicker: 'Domande', faqL1: 'Da sapere,', faqL2: 'prima di iniziare.',
+    q1: 'Registra anche i pagamenti Apple Pay online?', a1: 'Non da solo: iOS fa partire l’automazione solo quando paghi in negozio. I pagamenti online e nelle app li aggiungi in due tocchi.',
+    q2: 'Cosa serve per l’automazione di Apple Pay?', a2: 'Un iPhone con iOS 17 o successivo e una carta nel Wallet. Imposti una volta un’automazione in Comandi: l’app ti guida passo per passo.',
+    q3: 'Devo collegare la banca?', a3: 'No, mai. Le spese arrivano da Apple Pay, in due tocchi o da un estratto conto che scegli tu di importare. TracklyLab non chiede mai l’accesso alla banca.',
+    q4: 'Perché accedere con un account?', a4: 'Accedi con Apple, Google o la tua email e le tue spese sono salvate e sincronizzate su iPhone, computer e qualsiasi browser, e tornano con te su un telefono nuovo.',
+    q5: 'I miei dati vengono venduti o usati per la pubblicità?', a5: 'No. Le tue spese sono tue: niente pubblicità, niente venduto. Puoi cancellare l’account e tutto ciò che contiene direttamente dall’app, quando vuoi.',
+    q6: 'Posso usarla senza iPhone?', a6: 'Sì: TracklyLab funziona in qualsiasi browser, sui telefoni Android e sui computer. L’app per Android arriva nel 2027. I widget e l’automazione di Apple Pay sono solo su iPhone.',
+    q7: 'Posso portare dentro quello che segnavo prima?', a7: 'Sì: un estratto conto, un foglio Excel, un PDF o uno screenshot vengono letti per te e abbinati alle tue categorie, e niente entra finché non l’hai controllato. Anche gli export di Splitwise e Tricount.',
+    q8: 'Posso dividere le spese con il partner o un coinquilino?', a8: 'Sì. Vi collegate con un codice: le spese condivise compaiono su entrambi i telefoni, divise come volete, nel tuo budget conta solo la tua metà e il saldo si tiene da solo.',
+    q9: 'Funziona anche per i viaggi all’estero?', a9: 'Sì. Spendi in 155 valute: ogni spesa è convertita al cambio del giorno e fissata lì, così un viaggio resta quanto ti è costato davvero.',
+    q10: 'Ho pagato la cena per tutti: come la segno?', a10: 'Solo la tua quota, oppure il totale e poi i rimborsi che arrivano: lo scegli una volta, in Profilo › Spese per altri.',
+    q11: 'E una spesa grossa annuale?', a11: 'Spalmala su 3, 6 o 12 mesi e il budget di ogni mese ne conta la sua parte: l’assicurazione, un computer nuovo, il bollo.'
   };
   var EN = {};
   document.querySelectorAll('[data-t]').forEach(function (n) { EN[n.getAttribute('data-t')] = n.textContent; });
@@ -548,7 +646,7 @@
   // way to the download page, which hands it to the App Store (get/).
   (function () {
     var ct = (new URLSearchParams(location.search).get('ct') || '').toLowerCase().replace(/[^a-z0-9_-]/g, '').slice(0, 40);
-    if (ct) document.querySelectorAll('a[href="./get/"]').forEach(function (a) { a.href = './get/?ct=' + ct; });
+    if (ct) document.querySelectorAll('a[href$="get/"]').forEach(function (a) { a.href = a.getAttribute('href') + '?ct=' + ct; });
   })();
 
   function apply(lang) {
@@ -561,6 +659,7 @@
     document.querySelectorAll('[data-guide]').forEach(function (n) { n.href = lang === 'it' ? './it/apple-pay-spese-automatiche/' : './apple-pay-expense-tracker/'; });
     document.querySelectorAll('[data-guide-nobank]').forEach(function (n) { n.href = lang === 'it' ? './it/app-spese-senza-collegare-la-banca/' : './expense-tracker-without-bank-connection/'; });
     document.querySelectorAll('[data-guide-shared]').forEach(function (n) { n.href = lang === 'it' ? './it/spese-condivise-coppia-coinquilini/' : './shared-expenses-partner-flatmate/'; });
+    document.querySelectorAll('[data-guide-travel]').forEach(function (n) { n.href = lang === 'it' ? './it/spese-di-viaggio/' : './travel-expense-tracker/'; });
     document.title = lang === 'it' ? 'TracklyLab · La lente sulle tue spese' : 'TracklyLab · Your expense lens';
   }
   // The widgets strip: the switch scrolls it, scrolling it moves the switch.
@@ -581,14 +680,15 @@
     });
     track.addEventListener('scroll', function () { show(Math.round(track.scrollLeft / Math.max(1, track.clientWidth))); }, { passive: true });
   })();
+  var PAGE = document.documentElement.getAttribute('lang') === 'it' ? 'it' : 'en';
   var saved = null;
   try { saved = localStorage.getItem('lang'); } catch (e) {}
-  var lang = saved || (/^it\b/i.test(navigator.language || '') ? 'it' : 'en');
-  if (lang === 'it') apply('it');
+  if (PAGE === 'en' && (saved === 'it' || (!saved && /^it\b/i.test(navigator.language || '')))) {
+    location.replace('./it/' + location.search + location.hash);
+  }
   document.getElementById('lang').addEventListener('click', function () {
-    lang = lang === 'it' ? 'en' : 'it';
-    try { localStorage.setItem('lang', lang); } catch (e) {}
-    apply(lang);
+    try { localStorage.setItem('lang', PAGE === 'it' ? 'en' : 'it'); } catch (e) {}
+    location.href = (PAGE === 'it' ? '../' : './it/') + location.search;
   });
 </script>
 </body>

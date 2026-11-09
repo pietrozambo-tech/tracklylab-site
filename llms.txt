@@ -1,6 +1,6 @@
 # TracklyLab
 
-> TracklyLab ("Your Expense Lens") is a personal expense tracker for iPhone and the web. Apple Pay payments in shops log themselves through a Shortcuts automation, everything else takes two taps, and it never asks for a bank login. Free, with no ads. In English and Italian.
+> TracklyLab ("Your Expense Lens") is a personal expense tracker for iPhone and the web. Apple Pay payments in shops log themselves through a Shortcuts automation, everything else takes two taps, and it never asks for a bank login. No ads, no data sold. In English and Italian.
 
 ## What it does
 
@@ -17,13 +17,13 @@
 ## Privacy
 
 - No bank connection, ever: no bank credentials or account access.
-- Without an account (iPhone app or browser) data stays on the device. With an account (Sign in with Apple, Google or an email code) it is backed up and synced; everything can be deleted from inside the app.
+- With an account (Sign in with Apple, Google or an email code) expenses are backed up and synced across devices; everything can be deleted from inside the app. Without signing in, data stays on the device.
 - No ads, no data sold.
 
 ## Platforms
 
 - iPhone app on the App Store: https://apps.apple.com/app/id6826675263
-- Web app in any browser, including Android and desktop, no account needed: https://pietrozambo-tech.github.io/expense-tracker/
+- Web app in any browser, including Android and desktop: https://pietrozambo-tech.github.io/expense-tracker/
 - An Android app is planned for 2027.
 
 ## Guides
@@ -31,7 +31,8 @@
 - [Track Apple Pay payments automatically on iPhone](https://tracklylab.com/apple-pay-expense-tracker/): the Shortcuts automation, step by step, with a video
 - [An expense tracker that doesn't connect to your bank](https://tracklylab.com/expense-tracker-without-bank-connection/): how expenses get in without a bank login, and where data lives
 - [Shared expenses with a partner or flatmate](https://tracklylab.com/shared-expenses-partner-flatmate/): how splitting and the balance work
-- Italian versions: [Apple Pay](https://tracklylab.com/it/apple-pay-spese-automatiche/), [senza banca](https://tracklylab.com/it/app-spese-senza-collegare-la-banca/), [spese condivise](https://tracklylab.com/it/spese-condivise-coppia-coinquilini/)
+- [Travel expenses in any currency](https://tracklylab.com/travel-expense-tracker/): trips, and 155 currencies at the day's rate
+- Italian versions: [home](https://tracklylab.com/it/), [Apple Pay](https://tracklylab.com/it/apple-pay-spese-automatiche/), [senza banca](https://tracklylab.com/it/app-spese-senza-collegare-la-banca/), [spese condivise](https://tracklylab.com/it/spese-condivise-coppia-coinquilini/), [viaggi](https://tracklylab.com/it/spese-di-viaggio/)
 
 ## Optional
 
