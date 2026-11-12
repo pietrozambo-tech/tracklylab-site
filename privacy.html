@@ -32,9 +32,9 @@
   <header>
     <div class="brand">TracklyLab</div>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated 28 October 2026</p>
+    <p class="updated">Last updated 12 November 2026</p>
   </header>
-  <p class="intro">TracklyLab is built device-first. If you use it without an account, what you record never leaves your phone. Signed in, it leaves for two reasons only: to sync to your account, and, if you choose to use it, when you send a file through the AI import described below. This policy explains exactly what is stored, where, and who can see it.</p>
+  <p class="intro">TracklyLab is built device-first. If you use it without an account, what you record never leaves your phone. Signed in, it leaves only for what you ask of it: to sync to your account, together with any receipt photos you choose to keep with your expenses, and, if you choose to use it, when you send a file through the AI import described below. This policy explains exactly what is stored, where, and who can see it.</p>
   <h2>Who is responsible</h2>
   <p>TracklyLab is made and run by Pietro Zamboni, an individual developer. It is not operated by a company.</p>
   <p>For anything about your data, or about this policy, write to support@tracklylab.com.</p>
@@ -60,29 +60,36 @@
   <p>Days you opened the app: while you are signed in, one record per day saying that you opened TracklyLab and on what kind of device - for example "iPhone app" or "Mac browser". Nothing about what you did in it. We use it to count how many people use the app, and on what, so we know where to put our work.</p>
   <p>Support messages: if you write to us from Settings &gt; Support, we receive your message and the email address you give us so we can reply.</p>
   <p>Import counts: if you use the AI import, one row per day recording how many imports you made and roughly how much text they cost to read - never the file, and nothing from inside it.</p>
+  <p>Receipt photos: only if you are signed in and choose to attach one to an expense, as described below.</p>
   <h2>Apple Pay payments</h2>
   <p>If you set up the optional Apple Pay automation in Apple's Shortcuts app, each time you pay in a shop Shortcuts hands TracklyLab three things: the amount, the merchant's name and the name of the card. The app reads nothing else from Wallet or from your bank, and a payment you have not saved stays on your phone.</p>
   <p>So that the next payment at the same place fills itself in, the app remembers each place you have saved a payment from - its name, and the category and account you chose - and which account each card belongs to. Signed in, this is stored with the rest of your data, so it follows you to a new phone; without an account it stays on your device. Forgetting a card in Settings removes it.</p>
+  <h2>Receipt photos</h2>
+  <p>Signed in, you can keep a photo of a receipt with an expense - for an insurance claim, a reimbursement or your tax return. It is optional, it is not available without an account, and the app explains where the photos are kept and asks before the first one.</p>
+  <p>A photo you attach is made smaller on your device (to at most 1600 pixels on its longest side) and uploaded to private file storage in your account, in a folder that only your account can open. The expense itself carries only a reference to it. The app shows the photo through links that expire within an hour; it is never public.</p>
+  <p>A receipt can say more than a price: one from a pharmacy or a doctor, for example, can reveal something about your health. That is why the photo is stored only when you choose to attach it, is visible only to your account, and is never analysed, never used for anything other than showing it back to you, and never sent to anyone - including the AI provider below. As with the rest of your synced data, it is not encrypted in a way that hides it from the person who runs the service, who holds the administrative keys to the storage but does not look at it.</p>
+  <p>If a receipt photo is what you send through the AI import, and you keep it with the expense it produced, the copy kept is this one, stored as described here.</p>
+  <p>A photo is deleted when you remove it from its expense, replace it, or delete the expense (once the few seconds to undo have passed), when you erase all your data, and when you delete your account. Settings &gt; Data &gt; Export receipts gives you the photos of a year, as a PDF or a ZIP file you keep yourself.</p>
   <h2>Exchange rates</h2>
   <p>To convert foreign-currency transactions, the app fetches a table of daily exchange rates from an external rates provider. That request asks only for the rates themselves - it contains no personal data and no information about your transactions.</p>
   <h2>Importing with AI</h2>
   <p>Settings &gt; Import data can read a bank statement, a spreadsheet or a photo of one and turn it into transactions. It is optional, it is only available when you are signed in, and nothing is sent until you have picked a file and confirmed.</p>
   <p>When you do, the file itself is sent, as it is, to a function we run, which passes it to Anthropic, the company behind the Claude models, to be read. A statement or a screenshot of one typically contains dates, amounts and the descriptions of your transactions. The names of your own categories travel with it, so the result can be filed under them, and so do any answers you type when the import asks you a question. A photo is reduced on your device to the size the model reads it at before it leaves.</p>
-  <p>The result comes back to your device and goes through the normal review before anything is added. We do not keep the file, or the transactions it produced, on our servers. Under its commercial terms Anthropic does not use what is sent through its API to train its models; how it otherwise handles that data is governed by its own privacy policy.</p>
+  <p>The result comes back to your device and goes through the normal review before anything is added. We do not keep the file, or the transactions it produced, on our servers - unless the file is a receipt photo you choose to keep with its expense, in which case it is stored as described under Receipt photos, and is not sent anywhere again. Under its commercial terms Anthropic does not use what is sent through its API to train its models; how it otherwise handles that data is governed by its own privacy policy.</p>
   <p>What we do keep is a count: one row per account per day saying how many imports were made and roughly how much text they cost to read, so the daily allowance can be enforced and the bill can be watched. It says nothing about the file.</p>
   <p>If you would rather your statements never reached a third party, skip this feature. The same screen offers a ready-made prompt for whichever AI you already use, and a file import for the result.</p>
   <h2>Who we share it with</h2>
   <p>We do not sell your data or share it for advertising. We use a small number of service providers who process data on our behalf:</p>
-  <p>Supabase - hosting, sign-in and the database that holds your synced data.</p>
+  <p>Supabase - hosting, sign-in, the database that holds your synced data, and the private storage that holds the receipt photos you attach.</p>
   <p>PostHog - product analytics, as described above.</p>
   <p>Resend - delivering the sign-in codes we email you, and the support messages you send us.</p>
   <p>Anthropic - reading the files you choose to send through the AI import, as described above, and nothing else.</p>
   <p>We may also disclose information if we are legally required to.</p>
   <h2>How long we keep it</h2>
-  <p>Your synced data is kept until you delete it. Settings &gt; Erase all data clears your records while keeping your account; Settings &gt; Delete account removes the account and its data.</p>
+  <p>Your synced data is kept until you delete it. Settings &gt; Erase all data clears your records while keeping your account; Settings &gt; Delete account removes the account and its data, receipt photos included.</p>
   <p>After deletion, copies may persist in routine backups for up to 30 days before being deleted.</p>
   <h2>Your rights</h2>
-  <p>You can export a full copy of your data at any time from Settings &gt; Export data, correct any entry by editing it, and delete your data or your whole account from Settings.</p>
+  <p>You can export a full copy of your data at any time from Settings &gt; Export data, and your receipt photos from Settings &gt; Data &gt; Export receipts, correct any entry by editing it, and delete your data or your whole account from Settings.</p>
   <p>Depending on where you live you may have additional rights over your personal data, including asking us for a copy or objecting to certain processing. Write to us and we will help.</p>
   <h2>Children</h2>
   <p>TracklyLab is not intended for children, and we do not knowingly collect their data.</p>

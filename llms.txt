@@ -12,6 +12,7 @@
 - Spread payments: a large payment (such as yearly insurance) counted a part each month for 3, 6 or 12 months.
 - Savings groups: the net of chosen income and spending categories (a rented flat, a car) month by month.
 - Import a bank statement, spreadsheet, PDF or screenshot (needs an account; read by Anthropic's Claude model to categorise rows, file not kept; every row checked before it is added). Splitwise and Tricount exports too, importing only your share.
+- Receipts (needs an account): a photo of the receipt kept with each expense, made smaller on the phone (about 200 KB) and stored privately in the account; Activity filters the expenses that have one; at year end, export a year's receipts (all or some categories) as a PDF - the list with the total, then one receipt per page - or a ZIP of the photos with a CSV list. Pharmacy and medical receipts for tax returns and health insurance claims above all; also work expense reports and warranties.
 - Export a full backup or CSV at any time.
 
 ## Privacy
@@ -32,7 +33,8 @@
 - [An expense tracker that doesn't connect to your bank](https://tracklylab.com/expense-tracker-without-bank-connection/): how expenses get in without a bank login, and where data lives
 - [Shared expenses with a partner or flatmate](https://tracklylab.com/shared-expenses-partner-flatmate/): how splitting and the balance work
 - [Travel expenses in any currency](https://tracklylab.com/travel-expense-tracker/): trips, and 155 currencies at the day's rate
-- Italian versions: [home](https://tracklylab.com/it/), [Apple Pay](https://tracklylab.com/it/apple-pay-spese-automatiche/), [senza banca](https://tracklylab.com/it/app-spese-senza-collegare-la-banca/), [spese condivise](https://tracklylab.com/it/spese-condivise-coppia-coinquilini/), [viaggi](https://tracklylab.com/it/spese-di-viaggio/)
+- [Receipts for your taxes and insurance](https://tracklylab.com/receipts-tax-insurance/): a receipt kept with each expense - pharmacy and medical ones above all - and the year's receipts as one PDF or ZIP
+- Italian versions: [home](https://tracklylab.com/it/), [Apple Pay](https://tracklylab.com/it/apple-pay-spese-automatiche/), [senza banca](https://tracklylab.com/it/app-spese-senza-collegare-la-banca/), [spese condivise](https://tracklylab.com/it/spese-condivise-coppia-coinquilini/), [viaggi](https://tracklylab.com/it/spese-di-viaggio/), [scontrini](https://tracklylab.com/it/scontrini-730-assicurazione/)
 
 ## Optional
 

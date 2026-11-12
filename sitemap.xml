@@ -71,6 +71,20 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://tracklylab.com/it/spese-di-viaggio/"/>
   </url>
   <url>
+    <loc>https://tracklylab.com/receipts-tax-insurance/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tracklylab.com/receipts-tax-insurance/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tracklylab.com/it/scontrini-730-assicurazione/"/>
+  </url>
+  <url>
+    <loc>https://tracklylab.com/it/scontrini-730-assicurazione/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tracklylab.com/receipts-tax-insurance/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tracklylab.com/it/scontrini-730-assicurazione/"/>
+  </url>
+  <url>
     <loc>https://tracklylab.com/privacy.html</loc>
     <lastmod>2026-11-07</lastmod>
     <priority>0.2</priority>
