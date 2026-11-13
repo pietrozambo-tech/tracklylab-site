@@ -201,8 +201,10 @@ var CALM = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: r
 // The strips of screens: the switch above one (or the list beside it)
 // scrolls it, scrolling it moves the switch. While a strip is in sight it
 // turns by itself every few seconds - until a hand touches it, then never
-// again.
+// again. Only where there is a mouse: on a touch screen a screen that
+// changes while it is being read is in the way, and a finger turns it.
 var TURN = 5200;
+var MOUSE = !!(window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches);
 document.querySelectorAll('.swipe').forEach(function (sw) {
   var box = sw.closest('section') || sw;
   var track = sw.querySelector('.track');
@@ -231,7 +233,7 @@ document.querySelectorAll('.swipe').forEach(function (sw) {
     if (heading !== null) { if (n === heading) heading = null; return; }
     if (n !== at) show(n);
   }, { passive: true });
-  if (CALM || !('IntersectionObserver' in window)) return;
+  if (CALM || !MOUSE || !('IntersectionObserver' in window)) return;
   box.style.setProperty('--turn', TURN + 'ms');
   new IntersectionObserver(function (es) {
     es.forEach(function (e) {
