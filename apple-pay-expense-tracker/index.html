@@ -28,7 +28,14 @@
   body { font: 17px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Inter, Roboto, sans-serif; color: var(--ink);
     background: radial-gradient(90% 40% at 50% 0%, #1B2558 0%, var(--bg) 70%) no-repeat, var(--bg); -webkit-font-smoothing: antialiased; }
   a { color: #A9BCFF; }
-  .bar { max-width: 1120px; margin: 0 auto; padding: 14px 20px; display: flex; align-items: center; justify-content: space-between; }
+  /* The bar: always in sight, with "Get the app" - as on every page of the site. */
+  .barwrap { position: sticky; top: 0; z-index: 10; background: rgba(11,16,40,0.78); -webkit-backdrop-filter: saturate(160%) blur(16px);
+    backdrop-filter: saturate(160%) blur(16px); border-bottom: 1px solid var(--line); }
+  .bar { max-width: 1120px; margin: 0 auto; padding: 0 20px; height: 60px; display: flex; align-items: center; gap: 10px; }
+  .bar .home { margin-right: auto; }
+  .bar .get { display: inline-flex; align-items: center; font-size: 14px; font-weight: 600; color: #fff; text-decoration: none; padding: 8px 16px;
+    border-radius: 999px; background: linear-gradient(135deg, #4F74F3, #6366F1); white-space: nowrap; }
+  h2 { scroll-margin-top: 76px !important; }
   .home { display: inline-flex; align-items: center; gap: 10px; color: #fff; font-weight: 700; font-size: 17px; text-decoration: none; }
   .home svg { width: 28px; height: 28px; display: block; }
   .bar .lang { color: var(--ink-2); font-size: 14px; text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; }
@@ -80,10 +87,11 @@
 </style>
 </head>
 <body>
-<header class="bar">
+<header class="barwrap"><div class="bar">
   <a class="home" href="/" aria-label="TracklyLab"><svg viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="h" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="48" y2="48"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#6366F1"/></linearGradient></defs><rect width="48" height="48" rx="13" fill="url(#h)"/><circle cx="24" cy="24" r="13.2" fill="none" stroke="#fff" stroke-width="3"/><circle cx="33.33" cy="14.67" r="5" fill="url(#h)"/><polyline points="17.5,27.8 21,23.8 24.5,26.3 33.33,14.67" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span>TracklyLab</span></a>
   <a class="lang" href="/it/apple-pay-spese-automatiche/" hreflang="it" lang="it">Italiano</a>
-</header>
+  <a class="get" href="/get/?ct=guide-applepay">Get the app</a>
+</div></header>
 <main>
   <article>
     <div class="kicker">Guide · Apple Pay</div>

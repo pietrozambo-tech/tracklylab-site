@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="it"><head>
+<!-- Written by scripts/site/pages.mjs from site/features/index.html (pietrozambo-tech/expense-tracker) - edit that one. -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Funzioni · TracklyLab</title>
+<meta name="description" content="Tutto quello che fa TracklyLab: Apple Pay che si registra da solo, scontrini, budget per categoria, andamento, dove vanno i soldi, spese spalmate, viaggi, widget, spese condivise e altro.">
+<meta property="og:title" content="Funzioni · TracklyLab">
+<meta property="og:locale" content="it_IT">
+<meta property="og:description" content="Tutto quello che fa TracklyLab, ognuno con la schermata in cui vive.">
+<meta property="og:image" content="https://tracklylab.com/og.png">
+<meta property="og:url" content="https://tracklylab.com/it/funzioni/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://tracklylab.com/it/funzioni/">
+<link rel="alternate" hreflang="en" href="https://tracklylab.com/features/">
+<link rel="alternate" hreflang="it" href="https://tracklylab.com/it/funzioni/">
+<link rel="alternate" hreflang="x-default" href="https://tracklylab.com/features/">
+<meta name="theme-color" content="#0B1028">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cdefs%3E%3ClinearGradient id='g' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='48' y2='48'%3E%3Cstop offset='0' stop-color='%233B82F6'/%3E%3Cstop offset='1' stop-color='%236366F1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='48' height='48' rx='13' fill='url(%23g)'/%3E%3Ccircle cx='24' cy='24' r='13.2' fill='none' stroke='%23fff' stroke-width='3'/%3E%3Ccircle cx='33.33' cy='14.67' r='5' fill='url(%23g)'/%3E%3Cpolyline points='17.5,27.8 21,23.8 24.5,26.3 33.33,14.67' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<!--
+  tracklylab.com: the home page, /features/ and /faq/ - handwritten, no
+  framework, no font or script from anyone else's server. One stylesheet
+  (/site.css) and one script (/site.js, which also holds the Italian words)
+  for all three. Each page's Italian twin (/it/, /it/funzioni/,
+  /it/domande/) is written from it by scripts/site/pages.mjs.
+-->
+<link rel="stylesheet" href="/site.css?v=2">
+</head>
+<body data-page="features" class="tabbed" href="/it/funzioni/">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="lg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="48" y2="48"><stop offset="0" stop-color="#3B82F6"></stop><stop offset="1" stop-color="#6366F1"></stop></linearGradient>
+    <symbol id="sig" viewBox="0 0 34 22"><rect x="0" y="14" width="6" height="7" rx="1.6"></rect><rect x="9" y="10" width="6" height="11" rx="1.6"></rect><rect x="18" y="6" width="6" height="15" rx="1.6"></rect><rect x="27" y="2" width="6" height="19" rx="1.6"></rect></symbol>
+    <symbol id="wifi" viewBox="0 0 30 22"><path d="M3 9a17 17 0 0 1 24 0M7.6 13.4a10.5 10.5 0 0 1 14.8 0" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"></path><circle cx="15" cy="18" r="2.4"></circle></symbol>
+    <symbol id="bat" viewBox="0 0 50 24"><rect x="1" y="1" width="42" height="22" rx="7" fill="none" stroke="currentColor" stroke-opacity="0.4" stroke-width="2"></rect><rect x="4.5" y="4.5" width="30" height="15" rx="4"></rect><rect x="45" y="8" width="3.5" height="8" rx="1.6" fill-opacity="0.4"></rect></symbol>
+    <symbol id="mark" viewBox="0 0 48 48">
+      <rect width="48" height="48" rx="13" fill="url(#lg)"></rect><circle cx="24" cy="24" r="13.2" fill="none" stroke="#fff" stroke-width="3"></circle>
+      <circle cx="33.33" cy="14.67" r="5" fill="url(#lg)"></circle><polyline points="17.5,27.8 21,23.8 24.5,26.3 33.33,14.67" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></polyline>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="/it/" data-page="home"><svg aria-hidden="true"><use href="#mark"></use></svg>TracklyLab</a>
+    <nav class="links" id="site-links" aria-label="TracklyLab">
+      <a href="/it/funzioni/" data-page="features" data-t="navFeatures">Funzioni</a>
+      <a href="/it/#new" data-page="home" data-hash="#new" data-t="navNew">Novità</a>
+      <a href="/it/funzioni/#guides" data-page="features" data-hash="#guides" data-t="navGuides">Guide</a>
+      <a href="/it/domande/" data-page="faq" data-t="navFaq">Domande</a>
+    </nav>
+    <div class="act">
+      <a class="btn small" href="/get/" data-t="navCta">Scarica l’app</a>
+      <button type="button" class="menu" aria-expanded="false" aria-controls="site-links" aria-label="Menu"><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="phero">
+    <div class="wrap">
+      <div class="kicker" data-t="ftKicker">Funzioni</div>
+      <h1><span data-t="ftL1">Tutto quello che fa TracklyLab,</span><span class="grad" data-t="ftL2">in un posto solo.</span></h1>
+      <p class="lead" data-t="ftLead">Apple Pay che si registra da solo, scontrini, budget, andamento, viaggi e tutto il resto - ognuno con la schermata in cui vive.</p>
+    </div>
+  </section>
+
+<nav class="subnav" aria-label="Features"><div class="row"><a href="#apple-pay" data-t="sn1">Apple Pay</a><a href="#two-taps" data-t="sn2">Due tocchi</a><a href="#receipts" data-t="sn3">Scontrini</a><a href="#category-budgets" data-t="sn4">Budget per categoria</a><a href="#trends" data-t="sn5">Andamento</a><a href="#where-the-money-goes" data-t="sn6">Dove vanno i soldi</a><a href="#spread" data-t="sn7">Spese spalmate</a><a href="#trips" data-t="sn8">Viaggi</a><a href="#widgets" data-t="sn9">Widget</a><a href="#more" data-t="sn10">E altro</a><a href="#guides" data-t="sn11">Guide</a></div></nav>
+
+  <section class="feature" id="apple-pay">
+    <div class="wrap">
+      <div class="copy">
+        <div class="kicker" data-t="payKicker">Apple Pay, in automatico</div>
+        <h2><span data-t="payL1">Paghi con Apple Pay.</span><span class="grad" data-t="payL2">È già lì.</span></h2>
+        <ol class="how">
+          <li><b data-t="s1t">La imposti una volta</b><span data-t="s1b">Un’automazione in Comandi. L’app ti guida passo per passo, in un paio di minuti.</span></li>
+          <li><b data-t="s2t">Paghi in negozio</b><span data-t="s2b">Con Apple Pay sull’iPhone, come sempre.</span></li>
+          <li><b data-t="s3t">È già lì</b><span data-t="s3b">Una notifica con importo e negozio. Dalla seconda volta anche categoria e conto, e dove l’hai già salvata si salva da sola, con Annulla.</span></li>
+        </ol>
+        <p class="fine" data-t="payFine">Funziona con Apple Pay nei negozi. I pagamenti online e nelle app li aggiungi in due tocchi.</p>
+        <p class="fine links"><a class="guide" href="/applepay/" data-t="payVideo">Guarda come si imposta, 1 minuto →</a><a class="guide" href="/it/apple-pay-spese-automatiche/" data-page="applepay" data-t="payGuide">La guida, passo per passo →</a></p>
+      </div>
+      <div class="visual">
+        <div class="film">
+          <video autoplay="" muted="" loop="" playsinline="" preload="metadata" poster="/media/reel-site-poster.webp" aria-label="Paying with Apple Pay, the notification a second later, and the expense saved in one tap">
+            <source src="/media/reel-site.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="rule">
+
+  <section class="feature flip" id="two-taps">
+    <div class="wrap">
+      <div class="copy">
+        <div class="kicker" data-t="addKicker">Tutto il resto</div>
+        <h2><span data-t="addL1">Tutto il resto?</span><span class="grad" data-t="addL2">Due tocchi.</span></h2>
+        <p data-t="addBody">Importo, categoria, fatto. Le spese ricorrenti come l’affitto compaiono da sole, il giorno giusto. E se vuoi, un promemoria leggero la sera, solo nei giorni in cui non hai ancora segnato niente.</p>
+      </div>
+      <div class="visual">
+        <div class="iphone"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="add" src="/shots/it-add.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="Una spesa aggiunta: 32 euro, Pizza con amici, Cibo e Ristorante" data-t-alt="altAdd"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"></use></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"></use></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"></use></svg></span></div><div class="island"></div></div></div>
+      </div>
+    </div>
+  </section>
+  <hr class="rule">
+
+  <section class="feature" id="receipts">
+    <div class="wrap">
+      <div class="copy">
+        <div class="kicker"><span data-t="rcptKicker">Scontrini</span><span class="new" data-t="newTag3">Novità</span></div>
+        <h2><span data-t="rcptL1">Ogni scontrino, con la sua spesa.</span><span class="grad" data-t="rcptL2">Pronti per il 730.</span></h2>
+        <p data-t="rcptBody">Fotografa lo scontrino quando registri un acquisto - la farmacia, il dentista, il computer nuovo - o allega la fattura, e resta con lei, nel tuo account, su ogni dispositivo. A fine anno esporti quelli che ti servono in un PDF con il totale: per il 730, l’assicurazione sanitaria, una nota spese.</p>
+        <p class="fine"><a class="guide" href="/it/scontrini-730-assicurazione/" data-page="receipts" data-t="rcptGuide">Come funzionano gli scontrini e l’export di fine anno →</a></p>
+      </div>
+      <div class="visual">
+        <div class="swipe">
+          <div class="seg" role="tablist" aria-label="Receipts">
+            <button type="button" role="tab" id="r-tab-0" aria-selected="true" data-go="0" data-t="rOnExpense">Con la spesa</button>
+            <button type="button" role="tab" id="r-tab-1" aria-selected="false" data-go="1" data-t="rExport">A fine anno</button>
+          </div>
+          <div class="track">
+            <figure class="slide"><div class="iphone"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="receipts" src="/shots/it-receipts.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="Una spesa in farmacia da 18,40€ aperta in TracklyLab, con lo scontrino sotto la data" data-t-alt="altReceipts"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"></use></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"></use></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"></use></svg></span></div><div class="island"></div></div></div></figure>
+            <figure class="slide"><div class="iphone"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="receipts-export" src="/shots/it-receipts-export.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="Esporta scontrini: 2026, tutte le categorie, 7 scontrini per 361,30€, in un PDF" data-t-alt="altReceiptsExport"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"></use></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"></use></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"></use></svg></span></div><div class="island"></div></div></div></figure>
+          </div>
+          <div class="dots" aria-hidden="true"><i class="on"></i><i></i></div>
+        </div>
+<div class="float at-l" aria-hidden="true"><span class="dot" style="background:linear-gradient(135deg,#F472B6,#DB2777)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"></path><path d="M14 8H8"></path><path d="M16 12H8"></path><path d="M13 16H8"></path></svg></span><span><b data-t="rcptChip">7 scontrini · 361,30€</b><small data-t="rcptChipSub">il 2026, in un PDF</small></span></div>
+      </div>
+    </div>
+  </section>
+  <hr class="rule">
+
+  <section class="feature flip" id="category-budgets">
+    <div class="wrap">
+      <div class="copy">
+        <div class="kicker"><span data-t="cbKicker">Budget per categoria</span><span class="new" data-t="newTag4">Novità</span></div>
+        <h2><span data-t="cbL1">Un limite dove lo vuoi tu.</span><span class="grad" data-t="cbL2">Solo lì.</span></h2>
+        <p data-t="cbBody">Dai un budget mensile alle categorie che vuoi tenere d’occhio: lo shopping, le cene fuori, il weekend. Nella Dashboard, sotto il budget del mese, ognuna mostra come sta andando: arancione quando si avvicina, rosso quando lo raggiunge - e l’app te lo dice, una volta sola.</p>
+        <p class="fine" data-t="cbFine">In Impostazioni › Budget, con quanto spendi di solito come suggerimento.</p>
+      </div>
+      <div class="visual">
+        <div class="iphone"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="catbudgets" src="/shots/it-catbudgets.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="La Dashboard: il budget del mese e, sotto, lo Shopping oltre il suo budget e Cibo &amp; Bevande vicino al limite" data-t-alt="altCatBudgets"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"></use></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"></use></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"></use></svg></span></div><div class="island"></div></div></div>
+        <div class="float at-r" aria-hidden="true"><span class="dot" style="background:linear-gradient(135deg,#F472B6,#DB2777)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path><path d="M3 6h18"></path><path d="M16 10a4 4 0 0 1-8 0"></path></svg></span><span><b data-t="cbChip">Shopping · 174€ / 145€</b><small data-t="cbChipSub">Budget raggiunto</small><span class="meter"><i style="width:100%"></i></span></span></div>
+      </div>
+    </div>
+  </section>
+  <hr class="rule">
+
+  <section class="feature" id="trends">
+    <div class="wrap">
+      <div class="copy">
+        <div class="kicker" data-t="trendKicker">Andamento</div>
+        <h2><span data-t="trendL1">Mese dopo mese.</span><span class="grad" data-t="trendL2">Vedi cosa cambia.</span></h2>
+        <p data-t="trendBody">I mesi uno accanto all’altro, il migliore e il peggiore segnalati, quest’anno contro l’anno scorso. E ogni mese concluso riceve una frase scritta dai tuoi numeri: cosa è cambiato, di quanto, rispetto al solito.</p>
+      </div>
+      <div class="visual">
+        <div class="iphone"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="trend" src="/shots/it-trend.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="Andamento: il totale speso, la media mensile e il grafico di ogni mese" data-t-alt="altTrend"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"></use></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"></use></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"></use></svg></span></div><div class="island"></div></div></div>
+      </div>
+    </div>
+  </section>
+  <hr class="rule">
+
+  <section class="feature flip" id="where-the-money-goes">
+    <div class="wrap">
+      <div class="copy">
+        <div class="kicker"><span data-t="flowKicker">Dove vanno i soldi</span></div>
+        <h2><span data-t="flowL1">Ogni euro,</span><span class="grad" data-t="flowL2">seguito fino in fondo.</span></h2>
+        <p data-t="flowBody">Dallo stipendio a ogni categoria, in un’immagine sola: quanto è entrato, dove è andato e quanto è rimasto. Un mese alla volta o tutto l’anno fin qui, e tocchi una categoria per aprirla.</p>
+      </div>
+      <div class="visual">
+        <div class="iphone"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="flow" src="/shots/it-flow.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="Dove vanno i soldi: lo stipendio che si divide tra risparmio, viaggi, casa e le altre categorie" data-t-alt="altFlow"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"></use></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"></use></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"></use></svg></span></div><div class="island"></div></div></div><div class="float at-r" aria-hidden="true"><span class="dot" style="background:linear-gradient(135deg,#2DD4BF,#0D9488)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"></path></svg></span><span><b data-t="flowChip">950€ in viaggi</b><small data-t="flowChipSub">la fetta più grande di ottobre</small></span></div>
+      </div>
+    </div>
+  </section>
+  <hr class="rule">
+
+  <section class="feature" id="spread">
+    <div class="wrap">
+      <div class="copy">
+        <div class="kicker"><span data-t="spreadKicker">Spese spalmate</span></div>
+        <h2><span data-t="spreadL1">Pagata una volta.</span><span class="grad" data-t="spreadL2">Contata mese per mese.</span></h2>
+        <p data-t="spreadBody">Un’assicurazione da 1.200€ non rovina un mese solo: spalmala su 3, 6 o 12 mesi e il budget di ogni mese ne conta la sua parte. Preferisci vederla come uscita il giorno in cui l’hai pagata? Un interruttore nel profilo.</p>
+      </div>
+      <div class="visual">
+        <div class="iphone"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="spread" src="/shots/it-spread.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="Un’assicurazione sanitaria da 1.200€ spalmata su 12 mesi: 100€ al mese da novembre" data-t-alt="altSpread"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"></use></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"></use></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"></use></svg></span></div><div class="island"></div></div></div><div class="float at-l" aria-hidden="true"><span class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span><b data-t="spreadChip">100€ al mese</b><small data-t="spreadChipSub">non 1.200€ a novembre</small></span></div>
+      </div>
+    </div>
+  </section>
+  <hr class="rule">
+
+  <section class="feature flip" id="trips">
+    <div class="wrap">
+      <div class="copy">
+        <div class="kicker" data-t="tripKicker">Viaggi</div>
+        <h2><span data-t="tripL1">Ogni viaggio.</span><span class="grad" data-t="tripL2">Quanto è costato davvero.</span></h2>
+        <p data-t="tripBody">Dai un nome al viaggio e TracklyLab fa i conti: hotel, voli, cibo, attività. Spendi in 155 valute, ognuna convertita al cambio del giorno e fissata lì: un viaggio resta quanto ti è costato davvero.</p>
+        <p class="fine"><a class="guide" href="/it/spese-di-viaggio/" data-page="travel" data-t="tripGuide">Come funzionano viaggi e valute →</a></p>
+      </div>
+      <div class="visual">
+        <div class="iphone"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="trips" src="/shots/it-trips.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="Viaggi: Ibiza, Kenya, Patagonia e Lapponia, ognuno con il totale diviso in hotel, voli, cibo e attività" data-t-alt="altTrips"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"></use></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"></use></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"></use></svg></span></div><div class="island"></div></div></div>
+      </div>
+    </div>
+  </section>
+  <hr class="rule">
+
+  <section class="feature" id="widgets">
+    <div class="wrap">
+      <div class="copy">
+        <div class="kicker" data-t="widgetKicker">Widget</div>
+        <h2><span data-t="widgetL1">Il tuo mese,</span><span class="grad" data-t="widgetL2">sempre sotto gli occhi.</span></h2>
+        <p data-t="widgetBody">Sulla schermata di blocco, quanto hai speso e i giorni che mancano. Sulla Home, quanto puoi ancora spendere al giorno. E un + per aggiungere una spesa senza nemmeno aprire l’app.</p>
+        <p class="fine" data-t="widgetFine">Nell’app per iPhone.</p>
+      </div>
+      <div class="visual">
+        <div class="swipe">
+          <div class="seg" role="tablist" aria-label="Widgets">
+            <button type="button" role="tab" id="w-tab-0" aria-selected="true" data-go="0" data-t="wLock">Schermata di blocco</button>
+            <button type="button" role="tab" id="w-tab-1" aria-selected="false" data-go="1" data-t="wHome">Schermata Home</button>
+          </div>
+          <div class="track" id="w-track">
+            <figure class="slide"><div class="iphone light"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="lock" src="/shots/it-lock.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="La schermata di blocco con la spesa del mese sotto l’ora e un + per aggiungere una spesa" data-t-alt="altLock"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"></use></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"></use></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"></use></svg></span></div><div class="island"></div></div></div></figure>
+            <figure class="slide"><div class="iphone bright"><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(123 * var(--u));height:calc(32 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(180 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="left:calc(-4 * var(--u));top:calc(247 * var(--u));height:calc(58 * var(--u))"></i><i class="btn-s" style="right:calc(-4 * var(--u));top:calc(206 * var(--u));height:calc(87 * var(--u))"></i><div class="glass"><img data-shot="home" src="/shots/it-home.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="La schermata Home con il widget medio, quello piccolo in rosso oltre il budget e le app intorno" data-t-alt="altHome"><div class="sbar"><span class="t">9:41</span><span class="ic"><svg viewBox="0 0 34 22" fill="currentColor"><use href="#sig"></use></svg><svg viewBox="0 0 30 22" fill="currentColor"><use href="#wifi"></use></svg><svg viewBox="0 0 50 24" fill="currentColor"><use href="#bat"></use></svg></span></div><div class="island"></div></div></div></figure>
+          </div>
+          <div class="dots" aria-hidden="true"><i class="on"></i><i></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="more" id="more">
+    <div class="wrap">
+      <div class="kicker" data-t="moreKicker">E non è tutto</div>
+      <h2><span data-t="moreL1">Tutto quello che serve al mese.</span><span class="grad" data-t="moreL2">Niente di più.</span></h2>
+      <div class="cards">
+        <div class="card" style="--c:94,234,212">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M12 17v-6M9.5 13.5 12 11l2.5 2.5"></path></svg></div>
+          <h3 data-t="c1t">Un anno di estratti conto, in un minuto</h3>
+          <p data-t="c1b">Un estratto conto, un foglio Excel, un PDF o uno screenshot: viene letto per te, abbinato alle tue categorie, e niente entra finché non l’hai controllato. Anche gli export di Splitwise e Tricount.</p>
+        </div>
+        <div class="card" style="--c:165,190,255">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"></circle><circle cx="17" cy="9.5" r="2.6"></circle><path d="M3.5 19c.6-3 2.9-4.8 5.5-4.8s4.9 1.8 5.5 4.8M15 14.4c2.6-.4 4.9 1.1 5.5 4.1"></path></svg></div>
+          <h3 data-t="c2t">Spese condivise, in coppia</h3>
+          <p data-t="c2b">Segna una spesa come condivisa e compare su entrambi i telefoni, divisa come volete. Il saldo si tiene da solo, e ti dice a chi tocca offrire la prossima cena.</p>
+        </div>
+        <div class="card" style="--c:252,211,77">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 1 0 8-8"></path><path d="M12 4v8l5 3"></path></svg></div>
+          <h3 data-t="c3t">Un budget che ti conosce</h3>
+          <p data-t="c3b">Una barra del budget che ti confronta con il tuo mese abituale, non con un obiettivo a caso, e a metà mese ti dice se sei in linea.</p>
+        </div>
+        <div class="card" style="--c:134,239,172">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="3"></rect><path d="M3 10h18M16 15h2"></path></svg></div>
+          <h3 data-t="c4t">Conti e saldi</h3>
+          <p data-t="c4b">Contanti, carte e conti correnti: quanto hai adesso, su quale conto e come cambia nel tempo, con i trasferimenti tra conti e i saldi da verificare con la banca.</p>
+        </div>
+        <div class="card" style="--c:165,180,252">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"></circle><path d="m20 20-4.2-4.2"></path></svg></div>
+          <h3 data-t="c5t">Trovi tutto</h3>
+          <p data-t="c5b">Ogni movimento, cercabile e filtrabile per data, categoria e conto. Esporti tutto in CSV, quando vuoi.</p>
+        </div>
+        <div class="card" style="--c:216,180,254">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7.5-4.4-7.5-10A4.3 4.3 0 0 1 12 7.2 4.3 4.3 0 0 1 19.5 10c0 5.6-7.5 10-7.5 10z"></path></svg></div>
+          <h3 data-t="c6t">Fatta con cura</h3>
+          <p data-t="c6b">In italiano e inglese, su ogni iPhone, anche il più piccolo. E in qualsiasi browser, su ogni telefono o computer.</p>
+        </div>
+        <div class="card" style="--c:249,168,212">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M8.3 10a.7.7 0 0 1-.6-1L11.4 3a.7.7 0 0 1 1.2 0L16.3 9a.7.7 0 0 1-.6 1z"></path><rect x="3" y="14" width="7" height="7" rx="1.5"></rect><circle cx="17.5" cy="17.5" r="3.5"></circle></svg></div>
+          <h3 data-t="c7t">Risparmi per gruppo</h3>
+          <p data-t="c7b">Metti insieme entrate e spese di un tema - l’affitto che incassi, i costi della casa - e vedi quanto rende davvero, mese per mese.</p>
+        </div>
+        <div class="card" style="--c:253,186,116">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"></path><path d="M19 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"></path></svg></div>
+          <h3 data-t="c8t">Il mese, riassunto</h3>
+          <p data-t="c8b">Quando un mese finisce, il suo riepilogo ti aspetta: rispetto al tuo solito, cosa ha pesato di più e come sarebbe andato senza la spesa più grande.</p>
+        </div>
+        <div class="card" style="--c:110,231,183">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2.5l3 3-3 3"></path><path d="M4 11.5V10a4.5 4.5 0 0 1 4.5-4.5H20"></path><path d="M7 21.5l-3-3 3-3"></path><path d="M20 12.5V14a4.5 4.5 0 0 1-4.5 4.5H4"></path></svg></div>
+          <h3 data-t="c10t">Ricorrenti, da sole</h3>
+          <p data-t="c10b">Affitto, abbonamenti, stipendio: imposti una volta ciò che si ripete e viene aggiunto ogni settimana, mese o anno, e vedi in anticipo cosa sta per arrivare.</p>
+        </div>
+        <div class="card" style="--c:251,113,133">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="9" cy="6.5" rx="5.5" ry="2.5"></ellipse><path d="M3.5 6.5v4c0 1.4 2.5 2.5 5.5 2.5s5.5-1.1 5.5-2.5v-4"></path><path d="M9.5 15.4c-.2 0-.3 0-.5 0-3 0-5.5-1.1-5.5-2.5"></path><path d="M14 13.5c0-1.4 2.5-2.5 5-2.5s4.5 1.1 4.5 2.5-2 2.5-4.5 2.5-5-1.1-5-2.5z" transform="translate(-1.5 0)"></path><path d="M12.5 13.5v4c0 1.4 2.2 2.5 5 2.5s4.5-1.1 4.5-2.5v-4"></path></svg></div>
+          <h3 data-t="c11t">Hai pagato per tutti?</h3>
+          <p data-t="c11b">Segna solo la tua quota, oppure il totale e poi i rimborsi che arrivano: chi ti deve cosa, senza conti a mano.</p>
+        </div>
+        <div class="card" style="--c:196,181,253">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"></path></svg></div>
+          <h3 data-t="c12t">Chiara di giorno, scura la sera</h3>
+          <p data-t="c12b">Chiara, scura o come il tuo iPhone: ogni schermata è pensata per entrambe.</p>
+        </div>
+        <div class="card" style="--c:125,211,252">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="m15.5 8.5-2 5-5 2 2-5z"></path></svg></div>
+          <h3 data-t="c9t">Una guida dentro l’app</h3>
+          <p data-t="c9b">Impostazioni › Scopri TracklyLab: ogni funzione con un’immagine, poche righe e un pulsante per provarla subito - e in cima, le novità di ogni versione.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="more" id="guides">
+    <div class="wrap">
+      <div class="kicker" data-t="gKicker">Guide</div>
+      <h2><span data-t="gL1">Passo per passo,</span><span class="grad" data-t="gL2">per le cose che contano.</span></h2>
+      <div class="cards five">
+        <a class="card" href="/it/apple-pay-spese-automatiche/" data-page="applepay" style="--c:79,116,243">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"></path></svg></div>
+          <h3 data-t="g1t">Apple Pay, in automatico</h3>
+          <p data-t="g1b">L’automazione di Comandi, passo per passo, con un video.</p>
+          <span class="go" data-t="gGo">Leggi la guida →</span>
+        </a>
+        <a class="card" href="/it/app-spese-senza-collegare-la-banca/" data-page="nobank" style="--c:94,234,212">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 5 6v5.5c0 4.4 3 8.2 7 9.5 4-1.3 7-5.1 7-9.5V6z"></path><path d="m9 12 2 2 4-4"></path></svg></div>
+          <h3 data-t="g2t">Senza collegare la banca</h3>
+          <p data-t="g2b">Come entrano le spese senza accesso alla banca, e dove stanno i tuoi dati.</p>
+          <span class="go" data-t="gGo">Leggi la guida →</span>
+        </a>
+        <a class="card" href="/it/spese-condivise-coppia-coinquilini/" data-page="shared" style="--c:165,190,255">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"></circle><circle cx="17" cy="9.5" r="2.6"></circle><path d="M3.5 19c.6-3 2.9-4.8 5.5-4.8s4.9 1.8 5.5 4.8M15 14.4c2.6-.4 4.9 1.1 5.5 4.1"></path></svg></div>
+          <h3 data-t="g3t">Spese condivise</h3>
+          <p data-t="g3b">Con il partner o un coinquilino: come funzionano la divisione e il saldo.</p>
+          <span class="go" data-t="gGo">Leggi la guida →</span>
+        </a>
+        <a class="card" href="/it/spese-di-viaggio/" data-page="travel" style="--c:253,186,116">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"></path></svg></div>
+          <h3 data-t="g4t">Spese di viaggio</h3>
+          <p data-t="g4b">I viaggi in una qualsiasi di 155 valute, ogni spesa al cambio del giorno.</p>
+          <span class="go" data-t="gGo">Leggi la guida →</span>
+        </a>
+        <a class="card" href="/it/scontrini-730-assicurazione/" data-page="receipts" style="--c:249,168,212">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"></path><path d="M14 8H8M16 12H8M13 16H8"></path></svg></div>
+          <h3 data-t="g5t">Scontrini per il 730</h3>
+          <p data-t="g5b">Ogni scontrino con la sua spesa, e quelli dell’anno in un PDF.</p>
+          <span class="go" data-t="gGo">Leggi la guida →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="end">
+    <div class="wrap">
+      <svg class="mark" aria-hidden="true"><use href="#mark"></use></svg>
+      <h2><span>TracklyLab</span><span class="grad" data-t="tagline">La lente sulle tue spese.</span></h2>
+      <a class="btn big" href="/get/" data-t="cta">Scarica TracklyLab</a>
+      <p class="note" data-t-html="ctaNote"><span>Su iPhone o in qualsiasi browser</span> · <span>Senza collegare la banca</span></p>
+      <div class="contact">
+        <p data-t="contactLead">Domande o idee? Scrivici.</p>
+        <a href="https://www.instagram.com/tracklylab/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5.2"></rect><circle cx="12" cy="12" r="4.1"></circle><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"></circle></svg><span>@tracklylab</span></a>
+        <a href="mailto:support@tracklylab.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"></rect><path d="m4 7 8 6 8-6"></path></svg><span>support@tracklylab.com</span></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <nav>
+      <a href="/it/funzioni/" data-page="features" data-t="fFeatures">Funzioni</a>
+      <a href="/it/domande/" data-page="faq" data-t="fFaq">Domande</a>
+      <a href="/it/apple-pay-spese-automatiche/" data-page="applepay" data-t="fGuide">Guida Apple Pay</a>
+      <a href="/it/app-spese-senza-collegare-la-banca/" data-page="nobank" data-t="fNoBank">Senza collegare la banca</a>
+      <a href="/it/spese-condivise-coppia-coinquilini/" data-page="shared" data-t="fShared">Spese condivise</a>
+      <a href="/it/spese-di-viaggio/" data-page="travel" data-t="fTravel">Spese di viaggio</a>
+      <a href="/it/scontrini-730-assicurazione/" data-page="receipts" data-t="fReceipts">Scontrini per il 730</a>
+      <a href="/privacy.html" data-t="fPrivacy">Privacy Policy</a>
+      <a href="/terms.html" data-t="fTerms">Termini di servizio</a>
+      <a href="https://www.instagram.com/tracklylab/" target="_blank" rel="noopener">Instagram</a>
+      <a href="mailto:support@tracklylab.com">support@tracklylab.com</a>
+    </nav>
+    <div class="fr"><button type="button" id="lang" data-t="fLang">English</button><span>© 2026 TracklyLab</span></div>
+  </div>
+</footer>
+
+<script src="/site.js?v=2"></script>
+
+
+</body></html>

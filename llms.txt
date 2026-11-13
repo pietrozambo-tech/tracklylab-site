@@ -39,6 +39,8 @@
 ## Optional
 
 - [Home page](https://tracklylab.com/)
+- [Every feature, one by one](https://tracklylab.com/features/) ([in Italian](https://tracklylab.com/it/funzioni/))
+- [Questions and answers](https://tracklylab.com/faq/) ([in Italian](https://tracklylab.com/it/domande/))
 - [Privacy Policy](https://tracklylab.com/privacy.html)
 - [Terms of Service](https://tracklylab.com/terms.html)
 - Contact: support@tracklylab.com

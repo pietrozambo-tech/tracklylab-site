@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="it"><head>
+<!-- Written by scripts/site/pages.mjs from site/faq/index.html (pietrozambo-tech/expense-tracker) - edit that one. -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Domande · TracklyLab</title>
+<meta name="description" content="Le risposte su TracklyLab: l’automazione di Apple Pay, privacy e account, le spese con il partner, i viaggi, gli scontrini e i budget.">
+<meta property="og:title" content="Domande · TracklyLab">
+<meta property="og:locale" content="it_IT">
+<meta property="og:description" content="Buono a sapersi, prima di iniziare.">
+<meta property="og:image" content="https://tracklylab.com/og.png">
+<meta property="og:url" content="https://tracklylab.com/it/domande/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://tracklylab.com/it/domande/">
+<link rel="alternate" hreflang="en" href="https://tracklylab.com/faq/">
+<link rel="alternate" hreflang="it" href="https://tracklylab.com/it/domande/">
+<link rel="alternate" hreflang="x-default" href="https://tracklylab.com/faq/">
+<script type="application/ld+json" id="faq-ld">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"it","mainEntity":[{"@type":"Question","name":"Registra anche i pagamenti Apple Pay online?","acceptedAnswer":{"@type":"Answer","text":"Non da solo: iOS fa partire l’automazione solo quando paghi in negozio. I pagamenti online e nelle app li aggiungi in due tocchi."}},{"@type":"Question","name":"Cosa serve per l’automazione di Apple Pay?","acceptedAnswer":{"@type":"Answer","text":"Un iPhone con iOS 17 o successivo e una carta nel Wallet. Imposti una volta un’automazione in Comandi: l’app ti guida passo per passo."}},{"@type":"Question","name":"Devo collegare la banca?","acceptedAnswer":{"@type":"Answer","text":"No, mai. Le spese arrivano da Apple Pay, in due tocchi o da un estratto conto che scegli tu di importare. TracklyLab non chiede mai l’accesso alla banca."}},{"@type":"Question","name":"Perché accedere con un account?","acceptedAnswer":{"@type":"Answer","text":"Accedi con Apple, Google o la tua email e le tue spese sono salvate e sincronizzate su iPhone, computer e qualsiasi browser, e tornano con te su un telefono nuovo."}},{"@type":"Question","name":"I miei dati vengono venduti o usati per la pubblicità?","acceptedAnswer":{"@type":"Answer","text":"No. Le tue spese sono tue: niente pubblicità, niente venduto. Puoi cancellare l’account e tutto ciò che contiene direttamente dall’app, quando vuoi."}},{"@type":"Question","name":"Posso usarla senza iPhone?","acceptedAnswer":{"@type":"Answer","text":"Sì: TracklyLab funziona in qualsiasi browser, sui telefoni Android e sui computer. L’app per Android arriva nel 2027. I widget e l’automazione di Apple Pay sono solo su iPhone."}},{"@type":"Question","name":"Posso portare dentro quello che segnavo prima?","acceptedAnswer":{"@type":"Answer","text":"Sì: un estratto conto, un foglio Excel, un PDF o uno screenshot vengono letti per te e abbinati alle tue categorie, e niente entra finché non l’hai controllato. Anche gli export di Splitwise e Tricount."}},{"@type":"Question","name":"Posso dividere le spese con il partner o un coinquilino?","acceptedAnswer":{"@type":"Answer","text":"Sì. Vi collegate con un codice: le spese condivise compaiono su entrambi i telefoni, divise come volete, nel tuo budget conta solo la tua metà e il saldo si tiene da solo."}},{"@type":"Question","name":"Funziona anche per i viaggi all’estero?","acceptedAnswer":{"@type":"Answer","text":"Sì. Spendi in 155 valute: ogni spesa è convertita al cambio del giorno e fissata lì, così un viaggio resta quanto ti è costato davvero."}},{"@type":"Question","name":"Ho pagato la cena per tutti: come la segno?","acceptedAnswer":{"@type":"Answer","text":"Solo la tua quota, oppure il totale e poi i rimborsi che arrivano: lo scegli una volta, in Profilo › Spese per altri."}},{"@type":"Question","name":"E una spesa grossa annuale?","acceptedAnswer":{"@type":"Answer","text":"Spalmala su 3, 6 o 12 mesi e il budget di ogni mese ne conta la sua parte: l’assicurazione, un computer nuovo, il bollo."}},{"@type":"Question","name":"Posso tenere gli scontrini, per esempio per il 730?","acceptedAnswer":{"@type":"Answer","text":"Sì, con un account: fotografa lo scontrino o allega la fattura quando registri la spesa, e resta con lei. A fine anno esporti gli scontrini dell’anno - tutti, o solo alcune categorie come Salute - in un PDF con il totale, o in uno ZIP con l’elenco in CSV."}},{"@type":"Question","name":"Posso dare un budget a una sola categoria?","acceptedAnswer":{"@type":"Answer","text":"Sì: in Impostazioni › Budget dai un budget mensile alle categorie che scegli. La Dashboard mostra quelle vicine al limite e ti avvisa una volta quando ne raggiungi uno."}}]}</script>
+<meta name="theme-color" content="#0B1028">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cdefs%3E%3ClinearGradient id='g' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='48' y2='48'%3E%3Cstop offset='0' stop-color='%233B82F6'/%3E%3Cstop offset='1' stop-color='%236366F1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='48' height='48' rx='13' fill='url(%23g)'/%3E%3Ccircle cx='24' cy='24' r='13.2' fill='none' stroke='%23fff' stroke-width='3'/%3E%3Ccircle cx='33.33' cy='14.67' r='5' fill='url(%23g)'/%3E%3Cpolyline points='17.5,27.8 21,23.8 24.5,26.3 33.33,14.67' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<!--
+  tracklylab.com: the home page, /features/ and /faq/ - handwritten, no
+  framework, no font or script from anyone else's server. One stylesheet
+  (/site.css) and one script (/site.js, which also holds the Italian words)
+  for all three. Each page's Italian twin (/it/, /it/funzioni/,
+  /it/domande/) is written from it by scripts/site/pages.mjs.
+-->
+<link rel="stylesheet" href="/site.css?v=2">
+</head>
+<body data-page="faq" href="/it/domande/">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="lg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="48" y2="48"><stop offset="0" stop-color="#3B82F6"></stop><stop offset="1" stop-color="#6366F1"></stop></linearGradient>
+    <symbol id="sig" viewBox="0 0 34 22"><rect x="0" y="14" width="6" height="7" rx="1.6"></rect><rect x="9" y="10" width="6" height="11" rx="1.6"></rect><rect x="18" y="6" width="6" height="15" rx="1.6"></rect><rect x="27" y="2" width="6" height="19" rx="1.6"></rect></symbol>
+    <symbol id="wifi" viewBox="0 0 30 22"><path d="M3 9a17 17 0 0 1 24 0M7.6 13.4a10.5 10.5 0 0 1 14.8 0" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"></path><circle cx="15" cy="18" r="2.4"></circle></symbol>
+    <symbol id="bat" viewBox="0 0 50 24"><rect x="1" y="1" width="42" height="22" rx="7" fill="none" stroke="currentColor" stroke-opacity="0.4" stroke-width="2"></rect><rect x="4.5" y="4.5" width="30" height="15" rx="4"></rect><rect x="45" y="8" width="3.5" height="8" rx="1.6" fill-opacity="0.4"></rect></symbol>
+    <symbol id="mark" viewBox="0 0 48 48">
+      <rect width="48" height="48" rx="13" fill="url(#lg)"></rect><circle cx="24" cy="24" r="13.2" fill="none" stroke="#fff" stroke-width="3"></circle>
+      <circle cx="33.33" cy="14.67" r="5" fill="url(#lg)"></circle><polyline points="17.5,27.8 21,23.8 24.5,26.3 33.33,14.67" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></polyline>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="/it/" data-page="home"><svg aria-hidden="true"><use href="#mark"></use></svg>TracklyLab</a>
+    <nav class="links" id="site-links" aria-label="TracklyLab">
+      <a href="/it/funzioni/" data-page="features" data-t="navFeatures">Funzioni</a>
+      <a href="/it/#new" data-page="home" data-hash="#new" data-t="navNew">Novità</a>
+      <a href="/it/funzioni/#guides" data-page="features" data-hash="#guides" data-t="navGuides">Guide</a>
+      <a href="/it/domande/" data-page="faq" data-t="navFaq">Domande</a>
+    </nav>
+    <div class="act">
+      <a class="btn small" href="/get/" data-t="navCta">Scarica l’app</a>
+      <button type="button" class="menu" aria-expanded="false" aria-controls="site-links" aria-label="Menu"><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="phero">
+    <div class="wrap">
+      <div class="kicker" data-t="faqKicker">Domande</div>
+      <h1><span data-t="faqL1">Da sapere,</span><span class="grad" data-t="faqL2">prima di iniziare.</span></h1>
+      <p class="lead" data-t-html="qLead">Non la trovi qui? Scrivici a <a href="mailto:support@tracklylab.com">support@tracklylab.com</a>.</p>
+    </div>
+  </section>
+
+  <section class="faq page">
+    <div class="wrap">
+      <div class="group">
+        <h3 data-t="grp1">Apple Pay</h3>
+        <div class="qa">
+          <details><summary data-t="q1">Registra anche i pagamenti Apple Pay online?</summary><p data-t="a1">Non da solo: iOS fa partire l’automazione solo quando paghi in negozio. I pagamenti online e nelle app li aggiungi in due tocchi.</p></details>
+          <details><summary data-t="q2">Cosa serve per l’automazione di Apple Pay?</summary><p data-t="a2">Un iPhone con iOS 17 o successivo e una carta nel Wallet. Imposti una volta un’automazione in Comandi: l’app ti guida passo per passo.</p></details>
+        </div>
+      </div>
+      <div class="group">
+        <h3 data-t="grp2">Privacy e account</h3>
+        <div class="qa">
+          <details><summary data-t="q3">Devo collegare la banca?</summary><p data-t="a3">No, mai. Le spese arrivano da Apple Pay, in due tocchi o da un estratto conto che scegli tu di importare. TracklyLab non chiede mai l’accesso alla banca.</p></details>
+          <details><summary data-t="q4">Perché accedere con un account?</summary><p data-t="a4">Accedi con Apple, Google o la tua email e le tue spese sono salvate e sincronizzate su iPhone, computer e qualsiasi browser, e tornano con te su un telefono nuovo.</p></details>
+          <details><summary data-t="q5">I miei dati vengono venduti o usati per la pubblicità?</summary><p data-t="a5">No. Le tue spese sono tue: niente pubblicità, niente venduto. Puoi cancellare l’account e tutto ciò che contiene direttamente dall’app, quando vuoi.</p></details>
+        </div>
+      </div>
+      <div class="group">
+        <h3 data-t="grp3">Tutti i giorni</h3>
+        <div class="qa">
+          <details><summary data-t="q6">Posso usarla senza iPhone?</summary><p data-t="a6">Sì: TracklyLab funziona in qualsiasi browser, sui telefoni Android e sui computer. L’app per Android arriva nel 2027. I widget e l’automazione di Apple Pay sono solo su iPhone.</p></details>
+          <details><summary data-t="q7">Posso portare dentro quello che segnavo prima?</summary><p data-t="a7">Sì: un estratto conto, un foglio Excel, un PDF o uno screenshot vengono letti per te e abbinati alle tue categorie, e niente entra finché non l’hai controllato. Anche gli export di Splitwise e Tricount.</p></details>
+          <details><summary data-t="q8">Posso dividere le spese con il partner o un coinquilino?</summary><p data-t="a8">Sì. Vi collegate con un codice: le spese condivise compaiono su entrambi i telefoni, divise come volete, nel tuo budget conta solo la tua metà e il saldo si tiene da solo.</p></details>
+          <details><summary data-t="q9">Funziona anche per i viaggi all’estero?</summary><p data-t="a9">Sì. Spendi in 155 valute: ogni spesa è convertita al cambio del giorno e fissata lì, così un viaggio resta quanto ti è costato davvero.</p></details>
+          <details><summary data-t="q10">Ho pagato la cena per tutti: come la segno?</summary><p data-t="a10">Solo la tua quota, oppure il totale e poi i rimborsi che arrivano: lo scegli una volta, in Profilo › Spese per altri.</p></details>
+          <details><summary data-t="q11">E una spesa grossa annuale?</summary><p data-t="a11">Spalmala su 3, 6 o 12 mesi e il budget di ogni mese ne conta la sua parte: l’assicurazione, un computer nuovo, il bollo.</p></details>
+          <details><summary data-t="q12">Posso tenere gli scontrini, per esempio per il 730?</summary><p data-t="a12">Sì, con un account: fotografa lo scontrino o allega la fattura quando registri la spesa, e resta con lei. A fine anno esporti gli scontrini dell’anno - tutti, o solo alcune categorie come Salute - in un PDF con il totale, o in uno ZIP con l’elenco in CSV.</p></details>
+          <details><summary data-t="q13">Posso dare un budget a una sola categoria?</summary><p data-t="a13">Sì: in Impostazioni › Budget dai un budget mensile alle categorie che scegli. La Dashboard mostra quelle vicine al limite e ti avvisa una volta quando ne raggiungi uno.</p></details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="end">
+    <div class="wrap">
+      <svg class="mark" aria-hidden="true"><use href="#mark"></use></svg>
+      <h2><span>TracklyLab</span><span class="grad" data-t="tagline">La lente sulle tue spese.</span></h2>
+      <a class="btn big" href="/get/" data-t="cta">Scarica TracklyLab</a>
+      <p class="note" data-t-html="ctaNote"><span>Su iPhone o in qualsiasi browser</span> · <span>Senza collegare la banca</span></p>
+      <div class="contact">
+        <p data-t="contactLead">Domande o idee? Scrivici.</p>
+        <a href="https://www.instagram.com/tracklylab/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5.2"></rect><circle cx="12" cy="12" r="4.1"></circle><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"></circle></svg><span>@tracklylab</span></a>
+        <a href="mailto:support@tracklylab.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"></rect><path d="m4 7 8 6 8-6"></path></svg><span>support@tracklylab.com</span></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <nav>
+      <a href="/it/funzioni/" data-page="features" data-t="fFeatures">Funzioni</a>
+      <a href="/it/domande/" data-page="faq" data-t="fFaq">Domande</a>
+      <a href="/it/apple-pay-spese-automatiche/" data-page="applepay" data-t="fGuide">Guida Apple Pay</a>
+      <a href="/it/app-spese-senza-collegare-la-banca/" data-page="nobank" data-t="fNoBank">Senza collegare la banca</a>
+      <a href="/it/spese-condivise-coppia-coinquilini/" data-page="shared" data-t="fShared">Spese condivise</a>
+      <a href="/it/spese-di-viaggio/" data-page="travel" data-t="fTravel">Spese di viaggio</a>
+      <a href="/it/scontrini-730-assicurazione/" data-page="receipts" data-t="fReceipts">Scontrini per il 730</a>
+      <a href="/privacy.html" data-t="fPrivacy">Privacy Policy</a>
+      <a href="/terms.html" data-t="fTerms">Termini di servizio</a>
+      <a href="https://www.instagram.com/tracklylab/" target="_blank" rel="noopener">Instagram</a>
+      <a href="mailto:support@tracklylab.com">support@tracklylab.com</a>
+    </nav>
+    <div class="fr"><button type="button" id="lang" data-t="fLang">English</button><span>© 2026 TracklyLab</span></div>
+  </div>
+</footer>
+
+<script src="/site.js?v=2"></script>
+
+
+</body></html>
