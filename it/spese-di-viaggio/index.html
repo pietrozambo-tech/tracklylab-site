@@ -36,6 +36,20 @@
   .bar .get { display: inline-flex; align-items: center; font-size: 14px; font-weight: 600; color: #fff; text-decoration: none; padding: 8px 16px;
     border-radius: 999px; background: linear-gradient(135deg, #4F74F3, #6366F1); white-space: nowrap; }
   h2 { scroll-margin-top: 76px !important; }
+  /* Fingers: the links of a guide are tall enough to tap. */
+  .bar .home { min-height: 44px; }
+  .bar .lang { display: inline-flex; align-items: center; min-height: 42px; padding: 0 14px !important; }
+  details { padding: 0 !important; }
+  summary { padding: 15px 0; }
+  details p { margin: 0 0 15px !important; }
+  .bar .home { min-width: 44px; }
+  .bar .get { min-height: 42px; }
+  nav.toc a { display: inline-block; padding: 7px 0; }
+  .related a { padding: 8px 0; }
+  footer { gap: 0 16px !important; }
+  footer a { display: inline-block; padding: 10px 0; }
+  .bar .get, .bar .lang { white-space: nowrap; }
+  @media (max-width: 400px) { .bar { gap: 8px; padding: 0 14px; } .bar .lang { padding: 0 11px !important; } .bar .get { padding: 8px 13px; font-size: 13.5px; } .bar .home span { display: none; } }
   .home { display: inline-flex; align-items: center; gap: 10px; color: #fff; font-weight: 700; font-size: 17px; text-decoration: none; }
   .home svg { width: 28px; height: 28px; display: block; }
   .bar .lang { color: var(--ink-2); font-size: 14px; text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; }

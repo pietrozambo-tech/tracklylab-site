@@ -1,7 +1,7 @@
 /* tracklylab.com - one stylesheet for the home page, /features/ and /faq/. */
   :root {
     color-scheme: dark;
-    --bg: #0B1028; --bg-2: #111A44; --ink: #fff; --ink-2: rgba(225,232,252,0.74); --ink-3: rgba(225,232,252,0.5);
+    --bg: #0B1028; --bg-2: #111A44; --ink: #fff; --ink-2: rgba(225,232,252,0.74); --ink-3: rgba(225,232,252,0.6);
     --kicker: #8FA8FF; --line: rgba(255,255,255,0.09); --card: rgba(255,255,255,0.045);
     --brand: #4F74F3; --brand-2: #6366F1;
   }
@@ -248,7 +248,7 @@
      script on (html.js) - and none of it for anyone who asked for less. */
   [id] { scroll-margin-top: 84px; }
   .js .rv { opacity: 0; transform: translateY(26px); transition: opacity 0.9s cubic-bezier(0.2, 0.7, 0.2, 1), transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1); transition-delay: var(--d, 0s); }
-  .js .visual.rv, .js .stage.rv { transform: translateY(44px) scale(0.965); }
+  .js .visual.rv { transform: translateY(44px) scale(0.965); }
   .js .rv.in { opacity: 1; transform: none; }
   @keyframes drift { 0%, 100% { translate: 0 0; } 50% { translate: 0 -9px; } }
   .float { animation: drift 6.5s ease-in-out infinite; }
@@ -310,11 +310,11 @@
   .pick b::before { content: ""; width: 8px; height: 8px; border-radius: 999px; background: rgba(255,255,255,0.22); flex: none; transition: background 0.3s, box-shadow 0.3s; }
   .pick .pb { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.4s ease; }
   .pick .pb > span { overflow: hidden; color: var(--ink-2); font-size: 16px; line-height: 1.55; padding-left: 20px; }
+  .pick[aria-selected="true"] .pb { padding-top: 6px; }
   .pick[aria-selected="true"] { background: var(--card); border-color: var(--line); }
   .pick[aria-selected="true"] b { color: #fff; }
   .pick[aria-selected="true"] b::before { background: #A9BCFF; box-shadow: 0 0 0 4px rgba(169,188,255,0.18); }
   .pick[aria-selected="true"] .pb { grid-template-rows: 1fr; }
-  .pick[aria-selected="true"] .pb > span { padding-top: 6px; }
   .pick .prog { position: absolute; left: 20px; right: 20px; bottom: 0; height: 2px; border-radius: 2px; overflow: hidden; opacity: 0; }
   .pick .prog::after { content: ""; display: block; height: 100%; width: 100%; transform-origin: left; transform: scaleX(0);
     background: linear-gradient(90deg, var(--brand), #A78BFA); }
@@ -413,7 +413,11 @@
      swipe changes the words and the picture together and nothing jumps. */
   .slide .cap { display: none; }
   @media (min-width: 821px) {
-    .pick[aria-selected="true"] .pb > span { min-height: calc(1.55em * 3 + 6px); }
+    /* --pbh: the tallest of the list's texts at this width, measured by the
+       script. Every text is held to it by a strut inside, so as one opens
+       and another closes the two heights mirror each other and their sum
+       never changes. */
+    .pick .pb > span::before { content: ""; float: left; width: 0; height: var(--pbh, 0px); }
   }
   @media (max-width: 820px) {
     .picked .picks { display: none; }
@@ -423,4 +427,76 @@
     .slide .cap { display: block; text-align: center; max-width: 340px; padding: 0 8px; }
     .slide .cap b { display: block; font-size: 19px; letter-spacing: -0.01em; }
     .slide .cap span { display: block; color: var(--ink-2); font-size: 16px; line-height: 1.5; margin-top: 6px; }
+  }
+
+  /* The top of a page arrives by itself, in the stylesheet: it must not
+     wait for the script, or it would show, vanish and come back. */
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes rise { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: none; } }
+    .hero .news, .hero .kicker, .hero h1, .hero .lead, .hero .ctas, .hero .stage, .phero .kicker, .phero h1, .phero .lead {
+      animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+    .hero .kicker, .phero h1 { animation-delay: 0.08s; }
+    .hero h1, .phero .lead { animation-delay: 0.16s; }
+    .hero .lead { animation-delay: 0.24s; }
+    .hero .ctas { animation-delay: 0.32s; }
+    .hero .stage { animation-delay: 0.4s; }
+  }
+
+  /* Fingers. On a touch screen nothing to tap is shorter than 44px, and
+     the small cards by the phones stay inside the screen on a tablet too. */
+  .brand { min-height: 44px; min-width: 44px; }
+  .nav .menu { width: 44px; height: 44px; flex: none; }
+  .nav .menu i { left: 13px; right: 13px; }
+  .nav .menu i:first-child { top: 17px; }
+  .nav .menu i:last-child { top: 25px; }
+  .nav.open .menu i:first-child, .nav.open .menu i:last-child { top: 21px; }
+  .after-link { display: none; }
+  @media (max-width: 820px) {
+    .nav .btn.small { min-height: 42px; }
+    .seg button { padding: 14px 16px; }
+    .copyaddr { padding: 13px 16px; }
+    .reach .acts .btn { min-height: 44px; }
+    footer nav { gap: 0 22px; }
+    footer nav a { display: inline-block; padding: 11px 0; }
+    footer button { padding: 11px 16px; }
+    .copy .fine a.guide, .after-link a { display: inline-block; padding: 11px 0; }
+    .copy .fine.links { gap: 0 22px; }
+    .contact a.all { padding: 12px 18px; }
+    .float.at-l { left: 2%; }
+    .float.at-r { right: 2%; }
+    /* The guide's link comes after the screens it is about, not before. */
+    .picked .copy .fine.links { display: none; }
+    .after-link { display: block; margin: 0; text-align: center; font-size: 14.5px; }
+    .picked .visual { flex-direction: column; align-items: center; gap: 6px; }
+    .picked .swipe { margin-bottom: 0; }
+    .picked .after-link { margin-bottom: 72px; }
+    .after-link a { color: #A9BCFF; text-decoration: none; font-weight: 600; }
+  }
+
+  /* The bar on the narrowest phones: the button stays on one line and in
+     full; the name gives way to the mark alone before the button does. */
+  .nav .btn.small { white-space: nowrap; }
+  @media (max-width: 400px) {
+    .nav .wrap { padding: 0 16px; gap: 10px; }
+    .nav .btn.small { padding: 8px 13px; font-size: 13.5px; }
+    .nav .act { gap: 6px; }
+    .brand { font-size: 17px; gap: 8px; }
+    .news { font-size: 13.5px; gap: 8px; padding-right: 12px; }
+  }
+  @media (max-width: 345px) {
+    .brand { font-size: 0; gap: 0; }
+  }
+
+  /* A phone on its side has little height: the Features tabs scroll away
+     with the page there, and only the bar stays. */
+  @media (max-height: 480px) {
+    .subnav { position: static; }
+    .tabbed [id] { scroll-margin-top: 76px; }
+  }
+
+  /* A tablet is a touch screen too, however wide. */
+  @media (hover: none) {
+    footer nav { gap: 0 22px; }
+    footer nav a { display: inline-block; padding: 11px 0; }
+    footer button { padding: 11px 16px; }
   }

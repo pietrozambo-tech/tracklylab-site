@@ -209,20 +209,26 @@ document.querySelectorAll('.swipe').forEach(function (sw) {
   var slides = track.children.length;
   var ctrls = box.querySelectorAll('[data-go]');
   var dots = sw.querySelectorAll('.dots i');
-  var at = 0, timer = null, touched = false;
+  var at = 0, timer = null, touched = false, heading = null, arrive = null;
   var show = function (n) {
     at = n;
     ctrls.forEach(function (t) { t.setAttribute('aria-selected', String(Number(t.getAttribute('data-go')) === n)); });
     dots.forEach(function (d, k) { d.classList.toggle('on', k === n); });
   };
-  var go = function (n) { track.scrollTo({ left: n * track.clientWidth, behavior: CALM ? 'auto' : 'smooth' }); show(n); };
+  // On the way to a screen it was sent to, the strip passes the others: the
+  // switch already says where it is going, and does not flicker back.
+  var go = function (n) {
+    heading = n; clearTimeout(arrive); arrive = setTimeout(function () { heading = null; }, 900);
+    track.scrollTo({ left: n * track.clientWidth, behavior: CALM ? 'auto' : 'smooth' }); show(n);
+  };
   var stop = function () { touched = true; box.classList.remove('auto'); if (timer) { clearInterval(timer); timer = null; } };
   ctrls.forEach(function (t) {
     t.addEventListener('click', function () { stop(); go(Number(t.getAttribute('data-go'))); });
   });
-  ['pointerdown', 'touchstart', 'wheel', 'keydown'].forEach(function (e) { sw.addEventListener(e, stop, { passive: true }); });
+  ['pointerdown', 'touchstart', 'wheel', 'keydown'].forEach(function (e) { sw.addEventListener(e, function () { heading = null; stop(); }, { passive: true }); });
   track.addEventListener('scroll', function () {
     var n = Math.round(track.scrollLeft / Math.max(1, track.clientWidth));
+    if (heading !== null) { if (n === heading) heading = null; return; }
     if (n !== at) show(n);
   }, { passive: true });
   if (CALM || !('IntersectionObserver' in window)) return;
@@ -238,6 +244,22 @@ document.querySelectorAll('.swipe').forEach(function (sw) {
     });
   }, { threshold: 0.55 }).observe(track);
 });
+
+// A list that picks the phone's screen: the open item keeps the height of
+// the longest text, so the words around it never move as it turns.
+(function () {
+  var fit = function () {
+    document.querySelectorAll('.picks').forEach(function (box) {
+      var h = 0;
+      box.style.removeProperty('--pbh');
+      box.querySelectorAll('.pb > span').forEach(function (n) { h = Math.max(h, n.scrollHeight); });
+      if (h) box.style.setProperty('--pbh', h + 'px');
+    });
+  };
+  fit();
+  window.addEventListener('resize', fit);
+  window.addEventListener('load', fit);
+})();
 
 // The sub-tabs of the Features page: the section on screen is the one lit,
 // and the row scrolls to keep it in view.
@@ -263,8 +285,6 @@ document.querySelectorAll('.swipe').forEach(function (sw) {
 (function () {
   if (CALM || !('IntersectionObserver' in window)) return;
   var groups = [
-    ['.hero .news, .hero .kicker, .hero h1, .hero .lead, .hero .ctas, .hero .stage', 0.08],
-    ['.phero .kicker, .phero h1, .phero .lead', 0.08],
     ['.feature .copy, .feature .visual', 0.12],
     ['.more .kicker, .more h2, .cards.strip, .more .after', 0.08], ['.cards:not(.strip) .card', 0.07],
     ['.reach', 0.09], ['.reachus .first', 0], ['.privacy .box, .faq .kicker, .faq h2, .faq .group, .faq .qa, .faq .after, .end .wrap > *', 0.06],
@@ -277,6 +297,8 @@ document.querySelectorAll('.swipe').forEach(function (sw) {
     var seen = new Map();
     document.querySelectorAll(g[0]).forEach(function (n) {
       var box = n.parentElement, k = seen.get(box) || 0; seen.set(box, k + 1);
+      // Already on screen when the script arrives: it has been seen, leave it.
+      if (n.getBoundingClientRect().top < window.innerHeight) return;
       n.classList.add('rv');
       n.style.setProperty('--d', (n.classList.contains('card') ? (k % 3) : Math.min(k, 5)) * g[1] + 's');
       io.observe(n);
