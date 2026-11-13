@@ -406,3 +406,21 @@
   .contact a.all { background: none; border-color: transparent; color: #A9BCFF; }
   @media (max-width: 900px) { .reaches { grid-template-columns: minmax(0, 1fr); max-width: 520px; margin: 0 auto; } }
   @media (max-width: 600px) { .reachus { padding-bottom: 84px; } .reach { padding: 26px 22px 22px; } }
+
+  /* A list that picks the phone's screen, without moving the page: beside
+     the phone the open item always keeps room for three lines; on a phone
+     the list gives way to a caption that travels with each screen, so a
+     swipe changes the words and the picture together and nothing jumps. */
+  .slide .cap { display: none; }
+  @media (min-width: 821px) {
+    .pick[aria-selected="true"] .pb > span { min-height: calc(1.55em * 3 + 6px); }
+  }
+  @media (max-width: 820px) {
+    .picked .picks { display: none; }
+    .picked .swipe { gap: 16px; }
+    .picked .dots { order: -1; }
+    .picked .slide { flex-direction: column; align-items: center; justify-content: flex-end; gap: 22px; padding-top: 2px; }
+    .slide .cap { display: block; text-align: center; max-width: 340px; padding: 0 8px; }
+    .slide .cap b { display: block; font-size: 19px; letter-spacing: -0.01em; }
+    .slide .cap span { display: block; color: var(--ink-2); font-size: 16px; line-height: 1.5; margin-top: 6px; }
+  }
