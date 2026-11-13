@@ -43,6 +43,20 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://tracklylab.com/it/domande/"/>
   </url>
   <url>
+    <loc>https://tracklylab.com/contact/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tracklylab.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tracklylab.com/it/contatti/"/>
+  </url>
+  <url>
+    <loc>https://tracklylab.com/it/contatti/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tracklylab.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://tracklylab.com/it/contatti/"/>
+  </url>
+  <url>
     <loc>https://tracklylab.com/apple-pay-expense-tracker/</loc>
     <lastmod>2026-11-07</lastmod>
     <priority>0.8</priority>

@@ -374,3 +374,35 @@
     .cards.strip::-webkit-scrollbar { display: none; }
     .cards.strip .card { flex: 0 0 82%; scroll-snap-align: start; }
   }
+
+  /* ── Contact us ──────────────────────────────────────────────────────
+     Three ways to reach us, each its own colour: who it is for, the
+     address in full, a button to write and one to copy it. */
+  .reachus { padding: 8px 0 120px; }
+  .reaches { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+  .reach { position: relative; overflow: hidden; display: flex; flex-direction: column; padding: 30px 28px 28px; border-radius: 26px;
+    background: radial-gradient(90% 70% at 0% 0%, rgba(var(--c),0.16) 0%, rgba(var(--c),0) 60%), var(--card);
+    border: 1px solid var(--line); transition: transform 0.25s ease, border-color 0.25s ease; }
+  .reach:hover { transform: translateY(-3px); border-color: rgba(var(--c),0.4); }
+  .reach::before { content: ""; position: absolute; left: 28px; right: 28px; top: 0; height: 2px; border-radius: 2px;
+    background: linear-gradient(90deg, rgba(var(--c),0), rgba(var(--c),0.8), rgba(var(--c),0)); }
+  .reach .ic { width: 52px; height: 52px; border-radius: 16px; display: grid; place-items: center; color: rgb(var(--c));
+    background: linear-gradient(135deg, rgba(var(--c),0.30), rgba(var(--c),0.10)); box-shadow: inset 0 0 0 1px rgba(var(--c),0.32); }
+  .reach .ic svg { width: 26px; height: 26px; }
+  .reach h3 { margin-top: 22px; font-size: 21px; letter-spacing: -0.015em; }
+  .reach p { color: var(--ink-2); font-size: 16px; line-height: 1.55; margin-top: 8px; flex: 1; }
+  .reach .addr { margin-top: 22px; font-size: 16.5px; font-weight: 600; color: #fff; overflow-wrap: anywhere;
+    padding: 12px 14px; border-radius: 14px; background: rgba(255,255,255,0.05); border: 1px solid var(--line); }
+  .reach .acts { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .reach .acts .btn svg { width: 15px; height: 15px; }
+  .copyaddr { display: inline-flex; align-items: center; gap: 7px; font: 600 14px/1 -apple-system, BlinkMacSystemFont, "SF Pro Text", Inter, sans-serif;
+    color: var(--ink-2); background: rgba(255,255,255,0.05); border: 1px solid var(--line); border-radius: 999px; padding: 8px 14px; cursor: pointer;
+    transition: color 0.2s, border-color 0.2s, background 0.2s; }
+  .copyaddr svg { width: 15px; height: 15px; }
+  .copyaddr:hover { color: #fff; border-color: rgba(169,188,255,0.4); }
+  .copyaddr.done { color: #86EFAC; border-color: rgba(134,239,172,0.45); }
+  .reachus .first { margin-top: 36px; text-align: center; color: var(--ink-2); font-size: 16px; }
+  .reachus .first a { color: #A9BCFF; text-decoration: none; font-weight: 600; }
+  .contact a.all { background: none; border-color: transparent; color: #A9BCFF; }
+  @media (max-width: 900px) { .reaches { grid-template-columns: minmax(0, 1fr); max-width: 520px; margin: 0 auto; } }
+  @media (max-width: 600px) { .reachus { padding-bottom: 84px; } .reach { padding: 26px 22px 22px; } }
