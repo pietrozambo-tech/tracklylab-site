@@ -330,3 +330,43 @@ document.querySelectorAll('.swipe').forEach(function (sw) {
     location.href = (twin(to) || (to === 'it' ? '/it/' : '/')) + location.search;
   });
 })();
+
+// The film by the second section: asked for only when it comes near, so on
+// a phone it never shares the first seconds' bandwidth with the first
+// screen; then it plays, muted and looping, as autoplay did. Without
+// IntersectionObserver it starts at once.
+(function () {
+  var vids = document.querySelectorAll('video[data-autoplay]');
+  var go = function (v) {
+    if (v.getAttribute('data-on')) return;
+    v.setAttribute('data-on', '1');
+    v.preload = 'auto';
+    var p = v.play();
+    if (p && p.catch) p.catch(function () {});
+  };
+  if (!vids.length) return;
+  if (!('IntersectionObserver' in window)) { vids.forEach(go); return; }
+  var io = new IntersectionObserver(function (es) {
+    es.forEach(function (e) { if (e.isIntersecting) { io.unobserve(e.target); go(e.target); } });
+  }, { rootMargin: '600px 0px' });
+  vids.forEach(function (v) { io.observe(v); });
+})();
+
+// The pictures further down: "lazy" keeps them out of the first load, but
+// a phone only asks for them as they come into view, and a reader scrolling
+// watched them arrive. Once the page has loaded they are fetched in reading
+// order, two at a time, so they are there before the reader is. Not on a
+// connection that asks to save data.
+window.addEventListener('load', function () {
+  if (navigator.connection && navigator.connection.saveData) return;
+  var imgs = [].slice.call(document.querySelectorAll('img[loading="lazy"]'));
+  var next = function () {
+    var i = imgs.shift();
+    if (!i) return;
+    if (i.complete) { next(); return; }
+    i.addEventListener('load', next, { once: true });
+    i.addEventListener('error', next, { once: true });
+    i.loading = 'eager';
+  };
+  setTimeout(function () { next(); next(); }, 150);
+});
