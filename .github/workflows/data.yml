@@ -1,0 +1,36 @@
+# Public reference data for the app (see .github/data/build.mjs): the ECB's
+# euro exchange rates and Eurostat's consumer price indices, refreshed daily
+# into data/ and served by this site. The app asks only tracklylab.com.
+name: Reference data
+
+on:
+  schedule:
+    - cron: '41 16 * * *' # after the ECB's ~16:00 CET publication
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build the data files
+        run: node .github/data/build.mjs data
+      - name: Publish if anything changed
+        run: |
+          set -euo pipefail
+          git add data
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git -c user.name="reference-data" -c user.email="reference-data@users.noreply.github.com" commit -qm "Reference data $(date -u +%F)"
+          git push -q
+          git log --stat -1 | tail -5
