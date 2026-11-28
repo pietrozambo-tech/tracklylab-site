@@ -60,6 +60,19 @@ for (const [name, domain] of list) {
   cands.push({ src: 'apple-touch-icon', href: `${origin}/apple-touch-icon.png` });
   cands.push({ src: 'google-s2', href: `https://www.google.com/s2/favicons?domain=${domain}&sz=256` });
   cands.push({ src: 'duckduckgo', href: `https://icons.duckduckgo.com/ip3/${domain}.ico` });
+  // The brand's own iPhone app icon, at 512px, from the App Store's search
+  // (Italian store first, then the US one): sharp where a site offers a
+  // 16px favicon. The match is logged, to be checked by eye.
+  for (const country of ['it', 'us']) {
+    const r = await get(`https://itunes.apple.com/search?term=${encodeURIComponent(name)}&country=${country}&entity=software&limit=8`);
+    if (!r) continue;
+    try {
+      const hits = JSON.parse(r.body.toString('utf8')).results ?? [];
+      const want = name.toLowerCase().replace(/[^a-z0-9]/g, '');
+      const hit = hits.find((h) => (h.sellerName + ' ' + h.trackName).toLowerCase().replace(/[^a-z0-9]/g, '').includes(want));
+      if (hit?.artworkUrl512) { cands.unshift({ src: `appstore-${country} ${hit.trackName} | ${hit.sellerName}`.replace(/\s+/g, ' '), href: hit.artworkUrl512 }); break; }
+    } catch {}
+  }
   const seen = new Set(); let n = 0; const got = [];
   for (const c of cands) {
     if (seen.has(c.href)) continue; seen.add(c.href);
