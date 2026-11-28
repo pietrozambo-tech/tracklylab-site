@@ -20,7 +20,6 @@ jobs:
           node-version: 22
       - name: Collect candidates
         run: |
-          command -v convert identify
           node .github/brands/fetch.mjs .github/brands/list.json .github/brands/out
       - name: Keep them
         run: |

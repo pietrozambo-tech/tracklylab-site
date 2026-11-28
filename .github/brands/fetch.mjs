@@ -1,13 +1,11 @@
 // Brand icons for the app's expense rows, for the brands the open icon
 // library (Simple Icons) does not carry. Run by .github/workflows/brands.yml
 // on request: every candidate a brand's own site offers (its declared icons,
-// its web manifest, apple-touch-icon) plus two favicon services, normalised
-// to 128px PNG next to each other, so a person can pick the right one per
+// its web manifest, apple-touch-icon) plus two favicon services, kept as served, so a person can pick the right one per
 // brand. Nothing here is served to the app directly.
 //
 //   node fetch.mjs list.json out/
-import { execFileSync } from 'node:child_process';
-import { mkdirSync, writeFileSync, readFileSync, readdirSync, rmSync } from 'node:fs';
+import { mkdirSync, writeFileSync, readFileSync, rmSync } from 'node:fs';
 
 const [listPath, OUT] = process.argv.slice(2);
 const list = JSON.parse(readFileSync(listPath, 'utf8'));
@@ -71,13 +69,8 @@ for (const [name, domain] of list) {
     n++;
     const raw = `${dir}/${n}.${ext}`;
     writeFileSync(raw, r.body);
-    // Normalised for the side-by-side look: 128px, largest frame of an .ico.
-    try {
-      const src = ext === 'ico' ? `${raw}` : raw;
-      execFileSync('convert', ['-background', 'none', '-density', '384', src, '-thumbnail', '128x128', '-gravity', 'center', '-extent', '128x128', '-delete', '0--2', `${dir}/${n}.png.norm.png`], { stdio: 'ignore' });
-    } catch { /* not an image ImageMagick reads */ }
-    let px = '';
-    try { px = execFileSync('identify', ['-format', '%wx%h ', raw]).toString().trim().split(' ').pop(); } catch {}
+    // Kept as served: the choosing and resizing happen on review.
+    const px = '';
     got.push({ n, src: c.src, ext, px, bytes: r.body.length, href: c.href.slice(0, 140) });
   }
   report.push({ name, id, domain, home: home ? home.url : null, got });
