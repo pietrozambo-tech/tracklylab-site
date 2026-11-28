@@ -1,297 +1,161 @@
 [
  {
-  "name": "Disney+",
-  "id": "disneyplus",
-  "domain": "disneyplus.com",
-  "home": "https://www.disneyplus.com/",
+  "name": "Netflix",
+  "id": "netflix",
+  "domain": "netflix.com",
+  "home": "https://www.netflix.com/",
   "got": [
    {
     "n": 1,
-    "src": "appstore-it Disney+ | Disney Electronic Content, Inc.",
+    "src": "appstore-it Netflix | Netflix, Inc.",
     "ext": "jpg",
     "px": "",
-    "bytes": 32894,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/04/20/c9042033-641e-f439-37eb-4ce174e477ff/AppIcon-0-0-1x_U007emarketing-0-8-0-0-0-"
-   },
-   {
-    "n": 2,
-    "src": "mask-icon",
-    "ext": "svg",
-    "px": "",
-    "bytes": 2693,
-    "href": "https://static-assets.bamgrid.com/product/disneyplus/favicons/mask-icon-aurora.86b2f302cf50180b25ddd8835041b1c3.svg"
-   },
-   {
-    "n": 3,
-    "src": "apple-touch-icon 180x180",
-    "ext": "png",
-    "px": "",
-    "bytes": 35962,
-    "href": "https://static-assets.bamgrid.com/product/disneyplus/favicons/disPlus-favicon-180x180.7d56f648dc95f591721935193bc827cb.png"
-   },
-   {
-    "n": 4,
-    "src": "icon 48x48",
-    "ext": "png",
-    "px": "",
-    "bytes": 10444,
-    "href": "https://static-assets.bamgrid.com/product/disneyplus/favicons/favicon_dis_48x48_@2X.2eebc912779d4f2ee8d9c6204d443ab6.png"
-   },
-   {
-    "n": 5,
-    "src": "manifest 192x192",
-    "ext": "png",
-    "px": "",
-    "bytes": 46114,
-    "href": "https://static-assets.bamgrid.com/product/disneyplus/favicons/msftpwa-192x192-aurora.97f08a1eb58995c81687d0cf3f953796.png"
-   },
-   {
-    "n": 6,
-    "src": "manifest 256x256",
-    "ext": "png",
-    "px": "",
-    "bytes": 74376,
-    "href": "https://static-assets.bamgrid.com/product/disneyplus/favicons/msftpwa-256x256-aurora.d7cb966c59969da508b52f70d3013707.png"
-   },
-   {
-    "n": 7,
-    "src": "manifest 512x512",
-    "ext": "png",
-    "px": "",
-    "bytes": 286947,
-    "href": "https://static-assets.bamgrid.com/product/disneyplus/favicons/msftpwa-512x512-aurora.b544236c6734eb78083b1f4f31d6f873.png"
-   },
-   {
-    "n": 8,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 2615,
-    "href": "https://www.disneyplus.com/apple-touch-icon.png"
-   },
-   {
-    "n": 9,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 35962,
-    "href": "https://www.google.com/s2/favicons?domain=disneyplus.com&sz=256"
-   },
-   {
-    "n": 10,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 10444,
-    "href": "https://icons.duckduckgo.com/ip3/disneyplus.com.ico"
-   }
-  ]
- },
- {
-  "name": "Prime Video",
-  "id": "prime-video",
-  "domain": "primevideo.com",
-  "home": "https://www.primevideo.com/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Amazon Prime Video | AMZN Mobile LLC",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 32352,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/ce/51/0fce51d0-438b-6e58-a389-88d140aca3db/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.p"
+    "bytes": 23300,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/5d/8d/4d5d8d1d-8455-6c65-a256-f41ac98a2419/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-"
    },
    {
     "n": 2,
     "src": "shortcut icon",
-    "ext": "png",
+    "ext": "ico",
     "px": "",
-    "bytes": 290,
-    "href": "https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/favicon.png"
+    "bytes": 9854,
+    "href": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico"
    },
    {
     "n": 3,
-    "src": "apple-touch-icon 57x57",
+    "src": "apple-touch-icon",
     "ext": "png",
     "px": "",
-    "bytes": 1529,
-    "href": "https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/apple-touch-icon-57x57.png"
+    "bytes": 1755,
+    "href": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png"
    },
    {
     "n": 4,
-    "src": "apple-touch-icon 60x60",
+    "src": "apple-touch-icon",
     "ext": "png",
     "px": "",
-    "bytes": 1812,
-    "href": "https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/apple-touch-icon-60x60.png"
+    "bytes": 23489,
+    "href": "https://www.netflix.com/apple-touch-icon.png"
    },
    {
     "n": 5,
-    "src": "apple-touch-icon 72x72",
-    "ext": "png",
-    "px": "",
-    "bytes": 1592,
-    "href": "https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/apple-touch-icon-72x72.png"
-   },
-   {
-    "n": 6,
-    "src": "apple-touch-icon 76x76",
-    "ext": "png",
-    "px": "",
-    "bytes": 1651,
-    "href": "https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/apple-touch-icon-76x76.png"
-   },
-   {
-    "n": 7,
-    "src": "apple-touch-icon 114x114",
-    "ext": "png",
-    "px": "",
-    "bytes": 2368,
-    "href": "https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/apple-touch-icon-114x114.png"
-   },
-   {
-    "n": 8,
-    "src": "apple-touch-icon 120x120",
-    "ext": "png",
-    "px": "",
-    "bytes": 2419,
-    "href": "https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/apple-touch-icon-120x120.png"
-   },
-   {
-    "n": 9,
-    "src": "apple-touch-icon 144x144",
-    "ext": "png",
-    "px": "",
-    "bytes": 2863,
-    "href": "https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/apple-touch-icon-144x144.png"
-   },
-   {
-    "n": 10,
-    "src": "apple-touch-icon 152x152",
-    "ext": "png",
-    "px": "",
-    "bytes": 3021,
-    "href": "https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/apple-touch-icon-152x152.png"
-   },
-   {
-    "n": 11,
-    "src": "apple-touch-icon-precomposed",
-    "ext": "png",
-    "px": "",
-    "bytes": 2312,
-    "href": "https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/apple-touch-icon-precomposed.png"
-   },
-   {
-    "n": 12,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 1651,
-    "href": "https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/apple-touch-icon.png"
-   },
-   {
-    "n": 13,
-    "src": "icon 16x16",
-    "ext": "png",
-    "px": "",
-    "bytes": 525,
-    "href": "https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/favicon-16x16.png"
-   },
-   {
-    "n": 14,
-    "src": "icon 32x32",
-    "ext": "png",
-    "px": "",
-    "bytes": 421,
-    "href": "https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/favicon-32x32.png"
-   },
-   {
-    "n": 15,
-    "src": "icon 96x96",
-    "ext": "png",
-    "px": "",
-    "bytes": 895,
-    "href": "https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/favicon-96x96.png"
-   },
-   {
-    "n": 16,
-    "src": "icon 128x128",
-    "ext": "png",
-    "px": "",
-    "bytes": 1135,
-    "href": "https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/favicon-128x128.png"
-   },
-   {
-    "n": 17,
-    "src": "icon 196x196",
-    "ext": "png",
-    "px": "",
-    "bytes": 1858,
-    "href": "https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/favicon-196x196.png"
-   },
-   {
-    "n": 18,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 1651,
-    "href": "https://www.primevideo.com/apple-touch-icon.png"
-   },
-   {
-    "n": 19,
     "src": "google-s2",
     "ext": "png",
     "px": "",
-    "bytes": 2086,
-    "href": "https://www.google.com/s2/favicons?domain=primevideo.com&sz=256"
+    "bytes": 1468,
+    "href": "https://www.google.com/s2/favicons?domain=netflix.com&sz=256"
    },
    {
-    "n": 20,
+    "n": 6,
     "src": "duckduckgo",
     "ext": "ico",
     "px": "",
-    "bytes": 421,
-    "href": "https://icons.duckduckgo.com/ip3/primevideo.com.ico"
+    "bytes": 9854,
+    "href": "https://icons.duckduckgo.com/ip3/netflix.com.ico"
    }
   ]
  },
  {
-  "name": "Amazon",
-  "id": "amazon",
-  "domain": "amazon.com",
-  "home": "https://www.amazon.com/",
+  "name": "Spotify",
+  "id": "spotify",
+  "domain": "spotify.com",
+  "home": "https://open.spotify.com/intl-it/",
   "got": [
    {
     "n": 1,
-    "src": "appstore-it Amazon Shopping | Amazon Europe Core SARL",
+    "src": "appstore-it Spotify: musica e podcast | Spotify",
     "ext": "jpg",
     "px": "",
-    "bytes": 27543,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/61/5e/7a615eea-119f-3ef5-7974-6a056427fe45/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.p"
+    "bytes": 36958,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/b5/1c/ceb51c33-0a63-56fb-db99-5d345728ae9e/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.p"
    },
    {
     "n": 2,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 1129,
+    "href": "https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png"
+   },
+   {
+    "n": 3,
+    "src": "icon 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 491,
+    "href": "https://open.spotifycdn.com/cdn/images/favicon16.1c487bff.png"
+   },
+   {
+    "n": 4,
     "src": "icon",
     "ext": "ico",
     "px": "",
     "bytes": 15086,
-    "href": "https://www.amazon.com/favicon.ico"
+    "href": "https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico"
    },
    {
-    "n": 3,
+    "n": 5,
+    "src": "manifest 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 471,
+    "href": "https://open.spotifycdn.com/cdn/images/icons/Spotify_16.0689c81c.png"
+   },
+   {
+    "n": 6,
+    "src": "manifest 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 936,
+    "href": "https://open.spotifycdn.com/cdn/images/icons/Spotify_32.581ad6d0.png"
+   },
+   {
+    "n": 7,
+    "src": "manifest 128x128",
+    "ext": "png",
+    "px": "",
+    "bytes": 4896,
+    "href": "https://open.spotifycdn.com/cdn/images/icons/Spotify_128.45316d66.png"
+   },
+   {
+    "n": 8,
+    "src": "manifest 256x256",
+    "ext": "png",
+    "px": "",
+    "bytes": 10395,
+    "href": "https://open.spotifycdn.com/cdn/images/icons/Spotify_256.17e41e58.png"
+   },
+   {
+    "n": 9,
+    "src": "manifest 512x512",
+    "ext": "png",
+    "px": "",
+    "bytes": 23118,
+    "href": "https://open.spotifycdn.com/cdn/images/icons/Spotify_512.7e07796d.png"
+   },
+   {
+    "n": 10,
+    "src": "manifest 1024x1024",
+    "ext": "png",
+    "px": "",
+    "bytes": 47149,
+    "href": "https://open.spotifycdn.com/cdn/images/icons/Spotify_1024.31b25879.png"
+   },
+   {
+    "n": 11,
     "src": "google-s2",
     "ext": "png",
     "px": "",
-    "bytes": 658,
-    "href": "https://www.google.com/s2/favicons?domain=amazon.com&sz=256"
+    "bytes": 704,
+    "href": "https://www.google.com/s2/favicons?domain=spotify.com&sz=256"
    },
    {
-    "n": 4,
+    "n": 12,
     "src": "duckduckgo",
     "ext": "ico",
     "px": "",
-    "bytes": 15086,
-    "href": "https://icons.duckduckgo.com/ip3/amazon.com.ico"
+    "bytes": 1129,
+    "href": "https://icons.duckduckgo.com/ip3/spotify.com.ico"
    }
   ]
  },
@@ -336,2802 +200,2618 @@
   ]
  },
  {
-  "name": "ChatGPT",
-  "id": "chatgpt",
-  "domain": "openai.com",
-  "home": "https://openai.com/",
+  "name": "Audible",
+  "id": "audible",
+  "domain": "audible.com",
+  "home": "https://www.audible.com/",
   "got": [
    {
     "n": 1,
-    "src": "appstore-it ChatGPT | OpenAI OpCo, LLC",
+    "src": "appstore-it Audible: Audiolibri e podcast | Audible, Inc.",
     "ext": "jpg",
     "px": "",
-    "bytes": 40867,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/d8/a7/04d8a7fa-77ca-bf40-12e4-5f32c94b8824/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-2"
+    "bytes": 27807,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/60/59/8b605958-c071-e962-9bea-2da9593927e5/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-"
    },
    {
     "n": 2,
-    "src": "icon",
-    "ext": "svg",
-    "px": "",
-    "bytes": 2466,
-    "href": "https://openai.com/favicon.svg"
-   },
-   {
-    "n": 3,
-    "src": "icon 48x48",
-    "ext": "ico",
-    "px": "",
-    "bytes": 15406,
-    "href": "https://openai.com/favicon.ico?favicon.1ui9v3a-0dgo4.ico"
-   },
-   {
-    "n": 4,
-    "src": "apple-touch-icon 180x180",
-    "ext": "png",
-    "px": "",
-    "bytes": 6578,
-    "href": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png"
-   },
-   {
-    "n": 5,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 6578,
-    "href": "https://openai.com/apple-touch-icon.png"
-   },
-   {
-    "n": 6,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 2556,
-    "href": "https://www.google.com/s2/favicons?domain=openai.com&sz=256"
-   },
-   {
-    "n": 7,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 15406,
-    "href": "https://icons.duckduckgo.com/ip3/openai.com.ico"
-   }
-  ]
- },
- {
-  "name": "Microsoft",
-  "id": "microsoft",
-  "domain": "microsoft.com",
-  "home": "https://www.microsoft.com/en-us",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Microsoft Outlook | Microsoft Corporation",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 19496,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/87/36/e08736f5-1004-4af4-9a2b-8b6e6603bea4/AppIcon-outlook.prod-0-0-1x_U007epad-0-1"
-   },
-   {
-    "n": 2,
-    "src": "icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 17174,
-    "href": "https://www.microsoft.com/favicon.ico?v2"
-   },
-   {
-    "n": 3,
-    "src": "apple-touch-icon",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 843,
-    "href": "https://www.microsoft.com/apple-touch-icon.png"
-   },
-   {
-    "n": 4,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 426,
-    "href": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=256"
-   },
-   {
-    "n": 5,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 17174,
-    "href": "https://icons.duckduckgo.com/ip3/microsoft.com.ico"
-   }
-  ]
- },
- {
-  "name": "Xbox",
-  "id": "xbox",
-  "domain": "xbox.com",
-  "home": "https://www.xbox.com/en-US/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it XBOX | Microsoft Corporation",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 33421,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/ec/c3/57ecc381-d729-e437-9e06-48e7766d35de/AppIcon-1x_U007epad-0-1-85-220-0.png/512"
-   },
-   {
-    "n": 2,
-    "src": "icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 65780,
-    "href": "https://cms-assets.xboxservices.com/assets/1f/f1/1ff14720-aa8b-4642-8b4a-10096d5cf03b.ico?n=favicon.ico"
-   },
-   {
-    "n": 3,
     "src": "icon 16x16",
     "ext": "png",
     "px": "",
-    "bytes": 813,
-    "href": "https://cms-assets.xboxservices.com/assets/32/a4/32a4b03d-9354-4c01-b194-7b50762a3961.png?n=favicon-16x16.png"
-   },
-   {
-    "n": 4,
-    "src": "icon 32x32",
-    "ext": "png",
-    "px": "",
-    "bytes": 2214,
-    "href": "https://cms-assets.xboxservices.com/assets/5c/00/5c000795-0763-433f-9f5b-29a9c792d9e9.png?n=favicon-32x32.png"
-   },
-   {
-    "n": 5,
-    "src": "apple-touch-icon 180x180",
-    "ext": "png",
-    "px": "",
-    "bytes": 21659,
-    "href": "https://cms-assets.xboxservices.com/assets/34/2a/342ab54f-f3c6-4e0f-b0f3-91f81a20b15b.png?n=apple-touch-icon.png"
-   },
-   {
-    "n": 6,
-    "src": "icon 192x192",
-    "ext": "png",
-    "px": "",
-    "bytes": 27240,
-    "href": "https://cms-assets.xboxservices.com/assets/b1/ed/b1ed23d2-019e-4e67-a870-0f40825289f9.png?n=android-chrome-192x192.png"
-   },
-   {
-    "n": 7,
-    "src": "icon 512x512",
-    "ext": "png",
-    "px": "",
-    "bytes": 120081,
-    "href": "https://cms-assets.xboxservices.com/assets/73/60/73601350-03f6-4fe5-a213-bce56aefff33.png?n=android-chrome-512x512.png"
-   },
-   {
-    "n": 8,
-    "src": "icon",
-    "ext": "svg",
-    "px": "",
-    "bytes": 712319,
-    "href": "https://cms-assets.xboxservices.com/assets/bf/a7/bfa78b03-47f1-4113-94a0-0094e615a81a.svg?n=Favicon.svg"
-   },
-   {
-    "n": 9,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 39140,
-    "href": "https://www.google.com/s2/favicons?domain=xbox.com&sz=256"
-   },
-   {
-    "n": 10,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 2214,
-    "href": "https://icons.duckduckgo.com/ip3/xbox.com.ico"
-   }
-  ]
- },
- {
-  "name": "Nintendo",
-  "id": "nintendo",
-  "domain": "nintendo.com",
-  "home": "https://www.nintendo.com/us/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Nintendo Store | Nintendo Co., Ltd.",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 16980,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/10/04/5010042d-bc4f-dd7f-bc24-6ab39f3ddd20/AppIconProd-0-0-1x_U007epad-0-1-0-85-220"
-   },
-   {
-    "n": 2,
-    "src": "apple-touch-icon 180x180",
-    "ext": "png",
-    "px": "",
-    "bytes": 6142,
-    "href": "https://assets.nintendo.com/image/upload/ncom/icons/fav-icons/apple-touch-icon.png"
+    "bytes": 1262,
+    "href": "https://images-na.ssl-images-amazon.com/images/G/01/audiblemobile/store/image/favicons/icons16px.png"
    },
    {
     "n": 3,
     "src": "icon 32x32",
     "ext": "png",
     "px": "",
-    "bytes": 1853,
-    "href": "https://assets.nintendo.com/image/upload/ncom/icons/fav-icons/favicon-32x32.png"
+    "bytes": 1669,
+    "href": "https://images-na.ssl-images-amazon.com/images/G/01/audiblemobile/store/image/favicons/icons32px.png"
    },
    {
     "n": 4,
-    "src": "icon 16x16",
-    "ext": "png",
-    "px": "",
-    "bytes": 1431,
-    "href": "https://assets.nintendo.com/image/upload/ncom/icons/fav-icons/favicon-16x16.png"
-   },
-   {
-    "n": 5,
-    "src": "manifest 192x192",
-    "ext": "png",
-    "px": "",
-    "bytes": 9125,
-    "href": "https://assets.nintendo.com/image/upload/ncom/icons/fav-icons/android-chrome-192x192.png"
-   },
-   {
-    "n": 6,
-    "src": "manifest 512x512",
-    "ext": "png",
-    "px": "",
-    "bytes": 16770,
-    "href": "https://assets.nintendo.com/image/upload/ncom/icons/fav-icons/android-chrome-512x512.png"
-   },
-   {
-    "n": 7,
-    "src": "shortcut icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 15086,
-    "href": "https://assets.nintendo.com/image/upload/ncom/icons/fav-icons/favicon.ico"
-   },
-   {
-    "n": 8,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 1186,
-    "href": "https://www.google.com/s2/favicons?domain=nintendo.com&sz=256"
-   },
-   {
-    "n": 9,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 1853,
-    "href": "https://icons.duckduckgo.com/ip3/nintendo.com.ico"
-   }
-  ]
- },
- {
-  "name": "Adobe",
-  "id": "adobe",
-  "domain": "adobe.com",
-  "home": "https://www.adobe.com/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Acrobat Reader: PDF Converter | ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 23521,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/76/a4/9d76a404-7354-c465-9de7-b18b87af36d9/ReleaseAppIcon-0-0-1x_U007emarketing-0-8"
-   },
-   {
-    "n": 2,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 3524,
-    "href": "https://www.adobe.com/apple-touch-icon.png"
-   },
-   {
-    "n": 3,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 4176,
-    "href": "https://www.google.com/s2/favicons?domain=adobe.com&sz=256"
-   }
-  ]
- },
- {
-  "name": "Canva",
-  "id": "canva",
-  "domain": "canva.com",
-  "home": null,
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Canva: Editor Foto e Video AI | Canva Pty Ltd",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 26169,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/51/0e/84510e17-e311-0070-9581-47de23ea10fa/AppIcon-0-0-1x_U007epad-0-11-0-85-220.pn"
-   },
-   {
-    "n": 2,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 26675,
-    "href": "https://www.google.com/s2/favicons?domain=canva.com&sz=256"
-   },
-   {
-    "n": 3,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 4414,
-    "href": "https://icons.duckduckgo.com/ip3/canva.com.ico"
-   }
-  ]
- },
- {
-  "name": "LinkedIn",
-  "id": "linkedin",
-  "domain": "linkedin.com",
-  "home": "https://linkedin.com/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it LinkedIn: Rete Professionale | LinkedIn Corporation",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 14490,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/bb/91/f1bb91ff-6346-da9f-d7a3-b8eb4d0fd110/AppIcon-0-0-1x_U007emarketing-0-8-0-85-2"
-   },
-   {
-    "n": 2,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 20535,
-    "href": "https://linkedin.com/apple-touch-icon.png"
-   },
-   {
-    "n": 3,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 834,
-    "href": "https://www.google.com/s2/favicons?domain=linkedin.com&sz=256"
-   },
-   {
-    "n": 4,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 24838,
-    "href": "https://icons.duckduckgo.com/ip3/linkedin.com.ico"
-   }
-  ]
- },
- {
-  "name": "Bumble",
-  "id": "bumble",
-  "domain": "bumble.com",
-  "home": "https://bumble.com/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Bumble: App di incontri | Bumble Holding Limited",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 19825,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/cf/84/b0cf8401-f93e-2105-087a-f62145805afe/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.p"
-   },
-   {
-    "n": 2,
-    "src": "apple-touch-icon 180x180",
-    "ext": "png",
-    "px": "",
-    "bytes": 3232,
-    "href": "https://bumble.com/bumble-brand-assets/favicon/apple-touch-icon.png"
-   },
-   {
-    "n": 3,
-    "src": "icon 32x32",
-    "ext": "png",
-    "px": "",
-    "bytes": 720,
-    "href": "https://bumble.com/bumble-brand-assets/favicon/favicon-32x32.png"
-   },
-   {
-    "n": 4,
-    "src": "icon 16x16",
-    "ext": "png",
-    "px": "",
-    "bytes": 475,
-    "href": "https://bumble.com/bumble-brand-assets/favicon/favicon-16x16.png"
-   },
-   {
-    "n": 5,
-    "src": "manifest 192x192",
-    "ext": "png",
-    "px": "",
-    "bytes": 3525,
-    "href": "https://bumble.com/bumble-brand-assets/favicon/android-chrome-192x192.png"
-   },
-   {
-    "n": 6,
-    "src": "manifest 384x384",
-    "ext": "png",
-    "px": "",
-    "bytes": 7263,
-    "href": "https://bumble.com/bumble-brand-assets/favicon/android-chrome-384x384.png"
-   },
-   {
-    "n": 7,
-    "src": "mask-icon",
-    "ext": "svg",
-    "px": "",
-    "bytes": 1222,
-    "href": "https://bumble.com/bumble-brand-assets/favicon/safari-pinned-tab.svg"
-   },
-   {
-    "n": 8,
-    "src": "shortcut icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 15406,
-    "href": "https://bumble.com/bumble-brand-assets/favicon/favicon.ico"
-   },
-   {
-    "n": 9,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 326,
-    "href": "https://bumble.com/apple-touch-icon.png"
-   },
-   {
-    "n": 10,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 3442,
-    "href": "https://www.google.com/s2/favicons?domain=bumble.com&sz=256"
-   },
-   {
-    "n": 11,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 720,
-    "href": "https://icons.duckduckgo.com/ip3/bumble.com.ico"
-   }
-  ]
- },
- {
-  "name": "Satispay",
-  "id": "satispay",
-  "domain": "satispay.com",
-  "home": "https://satispay.com/it-it/privati/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Satispay: Conto e investimenti | MOMENTUM S.P.A",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 23110,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/cc/c4/89ccc4ac-bcbb-f436-63df-a61e928c0941/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png"
-   },
-   {
-    "n": 2,
-    "src": "icon any",
-    "ext": "ico",
-    "px": "",
-    "bytes": 10462,
-    "href": "https://satispay.com/favicon.ico"
-   },
-   {
-    "n": 3,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 35441,
-    "href": "https://satispay.com/apple-touch-icon.png"
-   },
-   {
-    "n": 4,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 1667,
-    "href": "https://www.google.com/s2/favicons?domain=satispay.com&sz=256"
-   },
-   {
-    "n": 5,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 10462,
-    "href": "https://icons.duckduckgo.com/ip3/satispay.com.ico"
-   }
-  ]
- },
- {
-  "name": "Bolt",
-  "id": "bolt",
-  "domain": "bolt.eu",
-  "home": "https://bolt.eu/en/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Bolt: Richiedi una corsa | BOLT TECHNOLOGY OU",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 15341,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/d1/df/ead1dfef-326f-c861-3182-05ef62b4499b/AppIcon-0-0-1x_U007emarketing-0-6-0-85-2"
-   },
-   {
-    "n": 2,
-    "src": "icon 16x16",
-    "ext": "ico",
-    "px": "",
-    "bytes": 15406,
-    "href": "https://assets.homepage.bolt.eu/1.27.6/public/common-assets/favicon.ico"
-   },
-   {
-    "n": 3,
-    "src": "icon any",
-    "ext": "svg",
-    "px": "",
-    "bytes": 900,
-    "href": "https://assets.homepage.bolt.eu/1.27.6/public/common-assets/icon.svg"
-   },
-   {
-    "n": 4,
-    "src": "apple-touch-icon 180x180",
-    "ext": "png",
-    "px": "",
-    "bytes": 2897,
-    "href": "https://assets.homepage.bolt.eu/1.27.6/public/common-assets/apple-icon.png"
-   },
-   {
-    "n": 5,
     "src": "icon 192x192",
     "ext": "png",
     "px": "",
-    "bytes": 3044,
-    "href": "https://assets.homepage.bolt.eu/1.27.6/public/common-assets/android-chrome-192x192.png"
-   },
-   {
-    "n": 6,
-    "src": "icon 512x512",
-    "ext": "png",
-    "px": "",
-    "bytes": 8377,
-    "href": "https://assets.homepage.bolt.eu/1.27.6/public/common-assets/android-chrome-512x512.png"
-   },
-   {
-    "n": 7,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 2669,
-    "href": "https://www.google.com/s2/favicons?domain=bolt.eu&sz=256"
-   },
-   {
-    "n": 8,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 15406,
-    "href": "https://icons.duckduckgo.com/ip3/bolt.eu.ico"
-   }
-  ]
- },
- {
-  "name": "FREENOW",
-  "id": "freenow",
-  "domain": "free-now.com",
-  "home": null,
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Freenow by Lyft – taxi e oltre | Intelligent Apps GmbH",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 18328,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/e7/aa/56e7aa50-b0a1-05d3-036c-7a7b73d74e09/AppIcon-Release-0-0-1x_U007epad-0-1-0-85"
-   },
-   {
-    "n": 2,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 11733,
-    "href": "https://www.google.com/s2/favicons?domain=free-now.com&sz=256"
-   },
-   {
-    "n": 3,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 11435,
-    "href": "https://icons.duckduckgo.com/ip3/free-now.com.ico"
-   }
-  ]
- },
- {
-  "name": "Domino's",
-  "id": "domino-s",
-  "domain": "dominos.com",
-  "home": "https://www.dominos.com/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Domino's Pizza Delivery UK&ROI | Dominos Pizza Group Ltd",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 31889,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/fc/17/f7fc17a6-fe4a-67b1-0f1e-947b0364fcb7/AppIcon-0-1x_U007emarketing-0-11-0-85-22"
-   },
-   {
-    "n": 2,
-    "src": "icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 5430,
-    "href": "https://www.dominos.com/static/1.122.1/images/favicons/favicon.ico"
-   },
-   {
-    "n": 3,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 585,
-    "href": "https://www.dominos.com/static/1.122.1/images/favicons/favicon.png"
-   },
-   {
-    "n": 4,
-    "src": "apple-touch-icon 72x72",
-    "ext": "png",
-    "px": "",
-    "bytes": 697,
-    "href": "https://www.dominos.com/static/1.122.1/images/favicons/favicon72.png"
+    "bytes": 2689,
+    "href": "https://m.media-amazon.com/images/G/01/seo/creative/Audible_Google_Favicon_192px.png"
    },
    {
     "n": 5,
-    "src": "apple-touch-icon 114x114",
-    "ext": "png",
-    "px": "",
-    "bytes": 1188,
-    "href": "https://www.dominos.com/static/1.122.1/images/favicons/favicon114.png"
-   },
-   {
-    "n": 6,
-    "src": "apple-touch-icon 144x144",
-    "ext": "png",
-    "px": "",
-    "bytes": 1183,
-    "href": "https://www.dominos.com/static/1.122.1/images/favicons/favicon144.png"
-   },
-   {
-    "n": 7,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 1774,
-    "href": "https://www.google.com/s2/favicons?domain=dominos.com&sz=256"
-   },
-   {
-    "n": 8,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 5430,
-    "href": "https://icons.duckduckgo.com/ip3/dominos.com.ico"
-   }
-  ]
- },
- {
-  "name": "Trenitalia",
-  "id": "trenitalia",
-  "domain": "trenitalia.com",
-  "home": "https://www.trenitalia.com/it.html",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Trenitalia | Trenitalia S.p.A.",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 36868,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/59/d4/5c59d45c-480e-d42b-6f88-ad7da0bafb43/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB"
-   },
-   {
-    "n": 2,
-    "src": "shortcut icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 1406,
-    "href": "https://www.trenitalia.com/etc.clientlibs/trenitalia/clientlibs/clientlib-site/resources/images/favicon.ico"
-   },
-   {
-    "n": 3,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 368,
-    "href": "https://www.google.com/s2/favicons?domain=trenitalia.com&sz=256"
-   },
-   {
-    "n": 4,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 1406,
-    "href": "https://icons.duckduckgo.com/ip3/trenitalia.com.ico"
-   }
-  ]
- },
- {
-  "name": "Italo",
-  "id": "italo",
-  "domain": "italotreno.com",
-  "home": "https://www.italotreno.com/it",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Italo Treno: treni e biglietti | Italo S.p.A.",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 16259,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/88/18/778818a0-d7dc-74d0-0420-85cc09300052/AppIcon-0-0-1x_U007epad-0-1-85-220.png/5"
-   },
-   {
-    "n": 2,
-    "src": "icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 450,
-    "href": "https://www.italotreno.com/Content/favicon/favicon-32x32.png"
-   },
-   {
-    "n": 3,
-    "src": "apple-touch-icon 57x57",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 993,
-    "href": "https://www.italotreno.com/Content/favicon/apple-touch-icon-57x57.png"
-   },
-   {
-    "n": 4,
-    "src": "apple-touch-icon 60x60",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 921,
-    "href": "https://www.italotreno.com/Content/favicon/apple-touch-icon-60x60.png"
-   },
-   {
-    "n": 5,
-    "src": "apple-touch-icon 72x72",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 1100,
-    "href": "https://www.italotreno.com/Content/favicon/apple-touch-icon-72x72.png"
-   },
-   {
-    "n": 6,
-    "src": "apple-touch-icon 76x76",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 1191,
-    "href": "https://www.italotreno.com/Content/favicon/apple-touch-icon-76x76.png"
-   },
-   {
-    "n": 7,
-    "src": "apple-touch-icon 114x114",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 1563,
-    "href": "https://www.italotreno.com/Content/favicon/apple-touch-icon-114x114.png"
-   },
-   {
-    "n": 8,
-    "src": "apple-touch-icon 120x120",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 1569,
-    "href": "https://www.italotreno.com/Content/favicon/apple-touch-icon-120x120.png"
-   },
-   {
-    "n": 9,
-    "src": "apple-touch-icon 144x144",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 1725,
-    "href": "https://www.italotreno.com/Content/favicon/apple-touch-icon-144x144.png"
-   },
-   {
-    "n": 10,
-    "src": "apple-touch-icon 152x152",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 1962,
-    "href": "https://www.italotreno.com/Content/favicon/apple-touch-icon-152x152.png"
-   },
-   {
-    "n": 11,
-    "src": "apple-touch-icon 180x180",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 2065,
-    "href": "https://www.italotreno.com/Content/favicon/apple-touch-icon-180x180.png"
-   },
-   {
-    "n": 12,
-    "src": "icon 192x192",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 2278,
-    "href": "https://www.italotreno.com/Content/favicon/android-chrome-192x192.png"
-   },
-   {
-    "n": 13,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 137432,
-    "href": "https://www.italotreno.com/apple-touch-icon.png"
-   },
-   {
-    "n": 14,
-    "src": "google-s2",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 1875,
-    "href": "https://www.google.com/s2/favicons?domain=italotreno.com&sz=256"
-   },
-   {
-    "n": 15,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 450,
-    "href": "https://icons.duckduckgo.com/ip3/italotreno.com.ico"
-   }
-  ]
- },
- {
-  "name": "ITA Airways",
-  "id": "ita-airways",
-  "domain": "ita-airways.com",
-  "home": null,
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it ITA Airways | ITALIA TRASPORTO AEREO SPA",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 30932,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/4f/35/7e4f358d-d871-9bea-293c-0552e46a8564/AppIcon_AZ-0-0-1x_U007epad-0-1-0-0-85-22"
-   },
-   {
-    "n": 2,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 11944,
-    "href": "https://www.google.com/s2/favicons?domain=ita-airways.com&sz=256"
-   }
-  ]
- },
- {
-  "name": "Vueling",
-  "id": "vueling",
-  "domain": "vueling.com",
-  "home": null,
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Vueling Airlines-Cheap Flights | Vueling Airlines",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 16083,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/08/f9/ac08f9b3-8eea-ff50-854d-500a9cdee572/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-"
-   },
-   {
-    "n": 2,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 362,
-    "href": "https://www.google.com/s2/favicons?domain=vueling.com&sz=256"
-   },
-   {
-    "n": 3,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 428,
-    "href": "https://icons.duckduckgo.com/ip3/vueling.com.ico"
-   }
-  ]
- },
- {
-  "name": "Trainline",
-  "id": "trainline",
-  "domain": "thetrainline.com",
-  "home": "https://www.thetrainline.com/it",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Trainline: trova il tuo treno | thetrainline",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 22603,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/f9/e8/2ef9e84d-f4f1-1da4-cd20-191a882b0a6c/app-icon-classic-0-0-1x_U007epad-0-1-0-s"
-   },
-   {
-    "n": 2,
-    "src": "shortcut icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 2318,
-    "href": "https://static.trainlinecontent.com/content/WEB/images/favicon.ico"
-   },
-   {
-    "n": 3,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 2091,
-    "href": "https://www.google.com/s2/favicons?domain=thetrainline.com&sz=256"
-   },
-   {
-    "n": 4,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 2318,
-    "href": "https://icons.duckduckgo.com/ip3/thetrainline.com.ico"
-   }
-  ]
- },
- {
-  "name": "FlixBus",
-  "id": "flixbus",
-  "domain": "flixbus.com",
-  "home": "https://www.flixbus.com/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it FlixBus: Biglietti Autobus | Flix SE",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 22245,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/6d/ea/e56dea51-ef94-9710-b1a1-8f34e6911455/flix-production-icon-0-0-1x_U007ephone-0"
-   },
-   {
-    "n": 2,
-    "src": "apple-touch-icon 57x57",
-    "ext": "png",
-    "px": "",
-    "bytes": 3234,
-    "href": "https://cdn-cf.cms.flixbus.com/drupal-assets/favicon/flixbus/apple-icon-57x57.png"
-   },
-   {
-    "n": 3,
-    "src": "apple-touch-icon 60x60",
-    "ext": "png",
-    "px": "",
-    "bytes": 3307,
-    "href": "https://cdn-cf.cms.flixbus.com/drupal-assets/favicon/flixbus/apple-icon-60x60.png"
-   },
-   {
-    "n": 4,
-    "src": "apple-touch-icon 72x72",
-    "ext": "png",
-    "px": "",
-    "bytes": 3871,
-    "href": "https://cdn-cf.cms.flixbus.com/drupal-assets/favicon/flixbus/apple-icon-72x72.png"
-   },
-   {
-    "n": 5,
-    "src": "apple-touch-icon 76x76",
-    "ext": "png",
-    "px": "",
-    "bytes": 4073,
-    "href": "https://cdn-cf.cms.flixbus.com/drupal-assets/favicon/flixbus/apple-icon-76x76.png"
-   },
-   {
-    "n": 6,
-    "src": "apple-touch-icon 114x114",
-    "ext": "png",
-    "px": "",
-    "bytes": 5756,
-    "href": "https://cdn-cf.cms.flixbus.com/drupal-assets/favicon/flixbus/apple-icon-114x114.png"
-   },
-   {
-    "n": 7,
-    "src": "apple-touch-icon 120x120",
-    "ext": "png",
-    "px": "",
-    "bytes": 6056,
-    "href": "https://cdn-cf.cms.flixbus.com/drupal-assets/favicon/flixbus/apple-icon-120x120.png"
-   },
-   {
-    "n": 8,
-    "src": "apple-touch-icon 144x144",
-    "ext": "png",
-    "px": "",
-    "bytes": 7304,
-    "href": "https://cdn-cf.cms.flixbus.com/drupal-assets/favicon/flixbus/apple-icon-144x144.png"
-   },
-   {
-    "n": 9,
-    "src": "apple-touch-icon 152x152",
-    "ext": "png",
-    "px": "",
-    "bytes": 7700,
-    "href": "https://cdn-cf.cms.flixbus.com/drupal-assets/favicon/flixbus/apple-icon-152x152.png"
-   },
-   {
-    "n": 10,
-    "src": "apple-touch-icon 180x180",
-    "ext": "png",
-    "px": "",
-    "bytes": 9547,
-    "href": "https://cdn-cf.cms.flixbus.com/drupal-assets/favicon/flixbus/apple-icon-180x180.png"
-   },
-   {
-    "n": 11,
-    "src": "icon 192x192",
-    "ext": "png",
-    "px": "",
-    "bytes": 8121,
-    "href": "https://cdn-cf.cms.flixbus.com/drupal-assets/favicon/flixbus/android-icon-192x192.png"
-   },
-   {
-    "n": 12,
-    "src": "icon 32x32",
-    "ext": "png",
-    "px": "",
-    "bytes": 1848,
-    "href": "https://cdn-cf.cms.flixbus.com/drupal-assets/favicon/flixbus/favicon-32x32.png"
-   },
-   {
-    "n": 13,
-    "src": "icon 96x96",
-    "ext": "png",
-    "px": "",
-    "bytes": 4942,
-    "href": "https://cdn-cf.cms.flixbus.com/drupal-assets/favicon/flixbus/favicon-96x96.png"
-   },
-   {
-    "n": 14,
-    "src": "icon 16x16",
-    "ext": "png",
-    "px": "",
-    "bytes": 1160,
-    "href": "https://cdn-cf.cms.flixbus.com/drupal-assets/favicon/flixbus/favicon-16x16.png"
-   },
-   {
-    "n": 15,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 9010,
-    "href": "https://www.google.com/s2/favicons?domain=flixbus.com&sz=256"
-   },
-   {
-    "n": 16,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 1848,
-    "href": "https://icons.duckduckgo.com/ip3/flixbus.com.ico"
-   }
-  ]
- },
- {
-  "name": "BlaBlaCar",
-  "id": "blablacar",
-  "domain": "blablacar.com",
-  "home": "https://blablacar.com/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it BlaBlaCar: passaggi e autobus | Comuto",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 24861,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/99/1c/2e991c35-9afd-53ab-7e5e-0df66bce9534/AppIcon-0-0-1x_U007ephone-0-1-85-220.png"
-   },
-   {
-    "n": 2,
-    "src": "icon 48x48",
-    "ext": "ico",
-    "px": "",
-    "bytes": 15086,
-    "href": "https://cdn.blablacar.com/language-selector/assets/images/favicon-69df5f97119f5b13.ico"
-   },
-   {
-    "n": 3,
-    "src": "icon",
-    "ext": "svg",
-    "px": "",
-    "bytes": 1491,
-    "href": "https://cdn.blablacar.com/language-selector/assets/images/favicon-a73bd49737b2c145.svg"
-   },
-   {
-    "n": 4,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 6407,
-    "href": "https://cdn.blablacar.com/language-selector/assets/images/apple-touch-icon-e35ef6a3c7072847.png"
-   },
-   {
-    "n": 5,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 6407,
-    "href": "https://blablacar.com/apple-touch-icon.png"
-   },
-   {
-    "n": 6,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 13355,
-    "href": "https://www.google.com/s2/favicons?domain=blablacar.com&sz=256"
-   },
-   {
-    "n": 7,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 15086,
-    "href": "https://icons.duckduckgo.com/ip3/blablacar.com.ico"
-   }
-  ]
- },
- {
-  "name": "Telepass",
-  "id": "telepass",
-  "domain": "telepass.com",
-  "home": "https://www.telepass.com/it/privati",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Telepass: pedaggi e parcheggi | Telepass SpA",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 14839,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/d5/be/88d5bede-8b4a-a160-ea8b-7ed5f5a2b1fc/telepassClubAppIcon-0-0-1x_U007epad-0-1-"
-   },
-   {
-    "n": 2,
     "src": "icon",
     "ext": "ico",
     "px": "",
-    "bytes": 133982,
-    "href": "https://www.telepass.com/favicon.ico"
-   },
-   {
-    "n": 3,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 7336,
-    "href": "https://www.telepass.com/touch-icon.png"
-   },
-   {
-    "n": 4,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 7336,
-    "href": "https://www.telepass.com/apple-touch-icon.png"
-   },
-   {
-    "n": 5,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 2219,
-    "href": "https://www.google.com/s2/favicons?domain=telepass.com&sz=256"
+    "bytes": 16678,
+    "href": "https://www.audible.com/favicon.ico"
    },
    {
     "n": 6,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 133982,
-    "href": "https://icons.duckduckgo.com/ip3/telepass.com.ico"
-   }
-  ]
- },
- {
-  "name": "Eni",
-  "id": "eni",
-  "domain": "eni.com",
-  "home": "https://www.eni.com/it-IT/home.html",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Enilive | ENI spa",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 27352,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/88/85/04888554-7ee7-5521-1197-c5eaa98708c2/AppIcon-0-0-1x_U007emarketing-0-6-0-85-2"
-   },
-   {
-    "n": 2,
-    "src": "icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 882,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/favicon.ico"
-   },
-   {
-    "n": 3,
-    "src": "icon",
-    "ext": "svg",
-    "px": "",
-    "bytes": 8477,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/favicon.svg"
-   },
-   {
-    "n": 4,
-    "src": "icon 16x16",
-    "ext": "png",
-    "px": "",
-    "bytes": 530,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/favicon-16x16.png"
-   },
-   {
-    "n": 5,
-    "src": "icon 32x32",
-    "ext": "png",
-    "px": "",
-    "bytes": 1119,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/favicon-32x32.png"
-   },
-   {
-    "n": 6,
-    "src": "icon 96x96",
-    "ext": "png",
-    "px": "",
-    "bytes": 3994,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/favicon-96x96.png"
-   },
-   {
-    "n": 7,
-    "src": "icon 192x192",
-    "ext": "png",
-    "px": "",
-    "bytes": 8624,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/android-icon-192x192.png"
-   },
-   {
-    "n": 8,
-    "src": "apple-touch-icon 57x57",
-    "ext": "png",
-    "px": "",
-    "bytes": 2136,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/apple-touch-icon-57x57.png"
-   },
-   {
-    "n": 9,
-    "src": "apple-touch-icon 60x60",
-    "ext": "png",
-    "px": "",
-    "bytes": 2402,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/apple-touch-icon-60x60.png"
-   },
-   {
-    "n": 10,
-    "src": "apple-touch-icon 72x72",
-    "ext": "png",
-    "px": "",
-    "bytes": 2977,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/apple-touch-icon-72x72.png"
-   },
-   {
-    "n": 11,
-    "src": "apple-touch-icon 76x76",
-    "ext": "png",
-    "px": "",
-    "bytes": 3106,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/apple-touch-icon-76x76.png"
-   },
-   {
-    "n": 12,
-    "src": "apple-touch-icon 114x114",
-    "ext": "png",
-    "px": "",
-    "bytes": 4878,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/apple-touch-icon-114x114.png"
-   },
-   {
-    "n": 13,
-    "src": "apple-touch-icon 120x120",
-    "ext": "png",
-    "px": "",
-    "bytes": 5119,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/apple-touch-icon-120x120.png"
-   },
-   {
-    "n": 14,
-    "src": "apple-touch-icon 144x144",
-    "ext": "png",
-    "px": "",
-    "bytes": 6161,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/apple-touch-icon-144x144.png"
-   },
-   {
-    "n": 15,
-    "src": "apple-touch-icon 152x152",
-    "ext": "png",
-    "px": "",
-    "bytes": 6681,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/apple-touch-icon-152x152.png"
-   },
-   {
-    "n": 16,
-    "src": "apple-touch-icon 167x167",
-    "ext": "png",
-    "px": "",
-    "bytes": 7418,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/apple-touch-icon-167x167.png"
-   },
-   {
-    "n": 17,
-    "src": "apple-touch-icon 180x180",
-    "ext": "png",
-    "px": "",
-    "bytes": 7912,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/apple-touch-icon-180x180.png"
-   },
-   {
-    "n": 18,
-    "src": "apple-touch-icon 192x192",
-    "ext": "png",
-    "px": "",
-    "bytes": 8623,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/apple-touch-icon.png"
-   },
-   {
-    "n": 19,
     "src": "apple-touch-icon-precomposed",
-    "ext": "png",
+    "ext": "jpg",
     "px": "",
-    "bytes": 8623,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/apple-touch-icon-precomposed.png"
+    "bytes": 2678,
+    "href": "https://m.media-amazon.com/images/G/01/Audible/images/navigation/MobileWeb_IOSandAndroid_460._SY120_CB651482445_.png"
    },
    {
-    "n": 20,
-    "src": "mask-icon",
-    "ext": "svg",
+    "n": 7,
+    "src": "apple-touch-icon-precomposed 152x152",
+    "ext": "jpg",
     "px": "",
-    "bytes": 8094,
-    "href": "https://www.eni.com/content/dam/enicom/images/favicons/safari-pinned-tab.svg"
+    "bytes": 3743,
+    "href": "https://m.media-amazon.com/images/G/01/Audible/images/navigation/MobileWeb_IOSandAndroid_460._SY152_CB651482445_.png"
    },
    {
-    "n": 21,
+    "n": 8,
+    "src": "apple-touch-icon-precomposed 167x167",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 4044,
+    "href": "https://m.media-amazon.com/images/G/01/Audible/images/navigation/MobileWeb_IOSandAndroid_460._SY167_CB651482445_.png"
+   },
+   {
+    "n": 9,
+    "src": "apple-touch-icon-precomposed 180x180",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 4501,
+    "href": "https://m.media-amazon.com/images/G/01/Audible/images/navigation/MobileWeb_IOSandAndroid_460._SY180_CB651482445_.png"
+   },
+   {
+    "n": 10,
     "src": "google-s2",
     "ext": "png",
     "px": "",
-    "bytes": 5104,
-    "href": "https://www.google.com/s2/favicons?domain=eni.com&sz=256"
+    "bytes": 1220,
+    "href": "https://www.google.com/s2/favicons?domain=audible.com&sz=256"
    },
    {
-    "n": 22,
+    "n": 11,
     "src": "duckduckgo",
     "ext": "ico",
     "px": "",
-    "bytes": 1119,
-    "href": "https://icons.duckduckgo.com/ip3/eni.com.ico"
+    "bytes": 1669,
+    "href": "https://icons.duckduckgo.com/ip3/audible.com.ico"
    }
   ]
  },
  {
-  "name": "Q8",
-  "id": "q8",
-  "domain": "q8.it",
-  "home": "http://validate.perfdrive.com/?ssa=58237207-ebef-410e-944e-f540536f581b&ssb=84708265014&ssc=https%3A%2F%2Fq8.it%2F&ssi=683eca6b-btcr-4bea-a692-af113e3cd97c&ssk=support@shieldsquare.com&ssm=49765896405993933107297220545589&ssn=a30c2bb02530b30645043a13232a8e8e5b21d85b7ebd-ef55-4e57-98116c&sso=aa3f7cd4-dacf39c3795e0adddc5fc76ff0858090d1de1c7ef7361141&ssp=86183608391795888292179583420163279&ssq=94016742838452604019828384722736434788138&ssr=My40Mi4xNTcuMjc=&sst=Mozilla/5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2014_5)%20AppleWebKit/605.1.15%20(KHTML,%20like%20Gecko)%20Version/17.5%20Safari/605.1.15&ssu=&ssv=&ssw=&ssx=W10=",
+  "name": "YouTube",
+  "id": "youtube",
+  "domain": "youtube.com",
+  "home": null,
   "got": [
    {
     "n": 1,
-    "src": "appstore-it ClubQ8 | Kuwait Petroleum Italia SpA",
+    "src": "appstore-it YouTube | Google LLC",
     "ext": "jpg",
     "px": "",
-    "bytes": 47046,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/14/66/38146630-6020-0057-e3d7-ccc2eac8194d/AppIcon-0-0-1x_U007emarketing-0-7-0-85-2"
+    "bytes": 13860,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/40/e9/3c40e960-3fc8-beba-ad9a-b71ac5c9e59d/logo_youtube_2024_q4_color-0-0-1x_U007em"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 2293,
+    "href": "https://www.google.com/s2/favicons?domain=youtube.com&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 3214,
+    "href": "https://icons.duckduckgo.com/ip3/youtube.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "YouTube Music",
+  "id": "youtube-music",
+  "domain": "music.youtube.com",
+  "home": null,
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it YouTube Music | Google LLC",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 26847,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/ae/84/bbae8447-05ac-1058-54d4-306f9073d8ec/logo_youtube_music_2024_q4_color-0-0-1x_"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 5385,
+    "href": "https://www.google.com/s2/favicons?domain=music.youtube.com&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 511,
+    "href": "https://icons.duckduckgo.com/ip3/music.youtube.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Apple",
+  "id": "apple",
+  "domain": "apple.com",
+  "home": "https://www.apple.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Apple Store | Apple Distribution International",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 26974,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/60/3f/08/603f0813-d8d8-4478-3373-5a63288415e6/AppIcon-0-1x_U007epad-0-0-0-1-0-0-P3-85-"
    },
    {
     "n": 2,
     "src": "apple-touch-icon",
     "ext": "png",
     "px": "",
-    "bytes": 341,
-    "href": "http://validate.perfdrive.com/apple-touch-icon.png"
+    "bytes": 4506,
+    "href": "https://www.apple.com/apple-touch-icon.png"
    },
    {
     "n": 3,
     "src": "google-s2",
     "ext": "png",
     "px": "",
-    "bytes": 4979,
-    "href": "https://www.google.com/s2/favicons?domain=q8.it&sz=256"
-   }
-  ]
- },
- {
-  "name": "Esso",
-  "id": "esso",
-  "domain": "esso.com",
-  "home": "https://www.esso.com/en",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Esso fleetcard | CRM.COM Software Ltd",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 39291,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/a4/ab/75a4ab02-8db5-dea0-330d-a0122d1ab468/AppIcon-0-0-1x_U007emarketing-0-8-0-85-2"
-   },
-   {
-    "n": 2,
-    "src": "icon 16x16",
-    "ext": "ico",
-    "px": "",
-    "bytes": 85886,
-    "href": "https://www.esso.com/-/media/favicons/fav/esso.ico"
-   },
-   {
-    "n": 3,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 175748,
-    "href": "https://www.esso.com/apple-touch-icon.png"
-   },
-   {
-    "n": 4,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 5648,
-    "href": "https://www.google.com/s2/favicons?domain=esso.com&sz=256"
-   }
-  ]
- },
- {
-  "name": "Skyscanner",
-  "id": "skyscanner",
-  "domain": "skyscanner.net",
-  "home": "https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=Lz8=&uuid=dfdaaa13-eac8-11f1-8a7d-33c6d1ce4a23&vid=",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Skyscanner: Voli Hotel Viaggi | Skyscanner Limited",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 27769,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/60/1e/67601e0e-5b6b-18ee-c77c-3893a6efcf59/LiquidGlassUniversalAppIcon-0-0-1x_U007e"
-   },
-   {
-    "n": 2,
-    "src": "icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 32988,
-    "href": "https://www.skyscanner.net/favicon.ico"
-   },
-   {
-    "n": 3,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 2295,
-    "href": "https://www.google.com/s2/favicons?domain=skyscanner.net&sz=256"
+    "bytes": 2468,
+    "href": "https://www.google.com/s2/favicons?domain=apple.com&sz=256"
    },
    {
     "n": 4,
     "src": "duckduckgo",
     "ext": "ico",
     "px": "",
-    "bytes": 32988,
-    "href": "https://icons.duckduckgo.com/ip3/skyscanner.net.ico"
+    "bytes": 22382,
+    "href": "https://icons.duckduckgo.com/ip3/apple.com.ico"
    }
   ]
  },
  {
-  "name": "Esselunga",
-  "id": "esselunga",
-  "domain": "esselunga.it",
-  "home": "https://www.esselunga.it/it-it/homepage.html",
+  "name": "Apple Music",
+  "id": "apple-music",
+  "domain": "music.apple.com",
+  "home": "https://music.apple.com/us/new",
   "got": [
    {
     "n": 1,
-    "src": "appstore-it Esselunga | Esselunga SPA",
+    "src": "appstore-it Apple Music for Artists | Apple Distribution International",
     "ext": "jpg",
     "px": "",
-    "bytes": 27109,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/47/7c/5e477c8a-534b-7d66-cabb-2d3145b1550d/AppIcon-0-0-1x_U007emarketing-0-5-0-sRGB"
+    "bytes": 33105,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/65/48/906548b1-72d8-5b1b-08d7-7ad0fad2eda6/AppIcon-0-1x_U007ephone-0-1-0-85-220-0.p"
    },
    {
     "n": 2,
-    "src": "icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 1150,
-    "href": "https://www.esselunga.it/media/favicon/favicon.ico"
-   },
-   {
-    "n": 3,
-    "src": "apple-touch-icon",
+    "src": "apple-touch-icon 180x180",
     "ext": "png",
     "px": "",
-    "bytes": 147992,
-    "href": "https://www.esselunga.it/apple-touch-icon.png"
-   }
-  ]
- },
- {
-  "name": "Conad",
-  "id": "conad",
-  "domain": "conad.it",
-  "home": "https://www.conad.it/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it HeyConad | CONAD CONSORZIO NAZIONALE DETTAGLIANTI SOC COOP IN SIGLA CONAD",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 26464,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/10/84/ed10841e-61d1-8aa7-421c-ffa09d3f5124/AppIcon-0-0-1x_U007emarketing-0-11-0-85-"
-   },
-   {
-    "n": 2,
-    "src": "icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 1150,
-    "href": "https://www.conad.it/etc.clientlibs/conad-corporate/clientlibs/clientlib-site/resources/corporate/favicons/favicon.ico"
+    "bytes": 10051,
+    "href": "https://music.apple.com/assets/favicon/favicon-180.png"
    },
    {
     "n": 3,
     "src": "icon 32x32",
     "ext": "png",
     "px": "",
-    "bytes": 1955,
-    "href": "https://www.conad.it/etc.clientlibs/conad-corporate/clientlibs/clientlib-site/resources/corporate/favicons/favicon-32x32.png"
+    "bytes": 1086,
+    "href": "https://music.apple.com/assets/favicon/favicon-32.png"
    },
    {
     "n": 4,
     "src": "icon 16x16",
     "ext": "png",
     "px": "",
-    "bytes": 1171,
-    "href": "https://www.conad.it/etc.clientlibs/conad-corporate/clientlibs/clientlib-site/resources/corporate/favicons/favicon-16x16.png"
+    "bytes": 503,
+    "href": "https://music.apple.com/assets/favicon/favicon-16.png"
    },
    {
     "n": 5,
-    "src": "apple-touch-icon 180x180",
-    "ext": "png",
-    "px": "",
-    "bytes": 10678,
-    "href": "https://www.conad.it/etc.clientlibs/conad-corporate/clientlibs/clientlib-site/resources/corporate/favicons/apple-touch-icon.png"
-   },
-   {
-    "n": 6,
     "src": "mask-icon",
     "ext": "svg",
     "px": "",
-    "bytes": 1527,
-    "href": "https://www.conad.it/etc.clientlibs/conad-corporate/clientlibs/clientlib-site/resources/corporate/favicons/safari-pinned-tab.svg"
-   },
-   {
-    "n": 7,
-    "src": "icon 192x192",
-    "ext": "png",
-    "px": "",
-    "bytes": 11518,
-    "href": "https://www.conad.it/etc.clientlibs/conad-corporate/clientlibs/clientlib-site/resources/corporate/favicons/android-chrome-192x192.png"
-   },
-   {
-    "n": 8,
-    "src": "icon 512x512",
-    "ext": "png",
-    "px": "",
-    "bytes": 9369,
-    "href": "https://www.conad.it/etc.clientlibs/conad-corporate/clientlibs/clientlib-site/resources/corporate/favicons/android-chrome-512x512.png"
-   },
-   {
-    "n": 9,
-    "src": "manifest 36x36",
-    "ext": "png",
-    "px": "",
-    "bytes": 2023,
-    "href": "https://www.conad.it/etc.clientlibs/conad-corporate/clientlibs/clientlib-site/resources/corporate/favicons/android-icon-36x36.png"
-   },
-   {
-    "n": 10,
-    "src": "manifest 48x48",
-    "ext": "png",
-    "px": "",
-    "bytes": 2836,
-    "href": "https://www.conad.it/etc.clientlibs/conad-corporate/clientlibs/clientlib-site/resources/corporate/favicons/android-icon-48x48.png"
-   },
-   {
-    "n": 11,
-    "src": "manifest 72x72",
-    "ext": "png",
-    "px": "",
-    "bytes": 4072,
-    "href": "https://www.conad.it/etc.clientlibs/conad-corporate/clientlibs/clientlib-site/resources/corporate/favicons/android-icon-72x72.png"
-   },
-   {
-    "n": 12,
-    "src": "manifest 96x96",
-    "ext": "png",
-    "px": "",
-    "bytes": 5597,
-    "href": "https://www.conad.it/etc.clientlibs/conad-corporate/clientlibs/clientlib-site/resources/corporate/favicons/android-icon-96x96.png"
-   },
-   {
-    "n": 13,
-    "src": "manifest 144x144",
-    "ext": "png",
-    "px": "",
-    "bytes": 8959,
-    "href": "https://www.conad.it/etc.clientlibs/conad-corporate/clientlibs/clientlib-site/resources/corporate/favicons/android-icon-144x144.png"
-   },
-   {
-    "n": 14,
-    "src": "manifest 192x192",
-    "ext": "png",
-    "px": "",
-    "bytes": 11202,
-    "href": "https://www.conad.it/etc.clientlibs/conad-corporate/clientlibs/clientlib-site/resources/corporate/favicons/android-icon-192x192.png"
-   },
-   {
-    "n": 15,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 11744,
-    "href": "https://www.conad.it/apple-touch-icon.png"
-   },
-   {
-    "n": 16,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 3303,
-    "href": "https://www.google.com/s2/favicons?domain=conad.it&sz=256"
-   },
-   {
-    "n": 17,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 1955,
-    "href": "https://icons.duckduckgo.com/ip3/conad.it.ico"
-   }
-  ]
- },
- {
-  "name": "Coop",
-  "id": "coop",
-  "domain": "e-coop.it",
-  "home": null,
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Coop | Coop Italia Soc Coop.",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 20837,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/5d/d8/7a5dd848-5d59-1a16-87c6-453a983160fb/AppIcon-0-1x_U007ephone-0-1-0-P3-85-220-"
-   }
-  ]
- },
- {
-  "name": "Aldi",
-  "id": "aldi",
-  "domain": "aldi.com",
-  "home": "https://www.aldi.com/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it ALDI Italia | ALDI International Services GmbH & Co. oHG",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 42979,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/87/a4/3487a452-072e-2fd2-325a-69465af455cd/AppStore-0-0-1x_U007emarketing-0-8-0-85-"
-   },
-   {
-    "n": 2,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 198,
-    "href": "https://icons.duckduckgo.com/ip3/aldi.com.ico"
-   }
-  ]
- },
- {
-  "name": "Eurospin",
-  "id": "eurospin",
-  "domain": "eurospin.it",
-  "home": "https://www.eurospin.com/it-it/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Eurospin Family | Eurospin Italia S.p.a.",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 43680,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/6d/8f/6a6d8fdc-4043-6f34-f5ee-85354e383ce0/AppIcon-0-0-1x_U007ephone-0-1-85-220.png"
-   },
-   {
-    "n": 2,
-    "src": "icon 96x96",
-    "ext": "png",
-    "px": "",
-    "bytes": 1599,
-    "href": "https://www.eurospin.com/etc.clientlibs/eurospin/clientlibs/clientlib-site/resources/images/favicon/favicon-96x96.png"
-   },
-   {
-    "n": 3,
-    "src": "icon",
-    "ext": "svg",
-    "px": "",
-    "bytes": 10546,
-    "href": "https://www.eurospin.com/etc.clientlibs/eurospin/clientlibs/clientlib-site/resources/images/favicon/favicon.svg"
-   },
-   {
-    "n": 4,
-    "src": "shortcut icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 15086,
-    "href": "https://www.eurospin.com/etc.clientlibs/eurospin/clientlibs/clientlib-site/resources/images/favicon/favicon.ico"
-   },
-   {
-    "n": 5,
-    "src": "apple-touch-icon 180x180",
-    "ext": "png",
-    "px": "",
-    "bytes": 3241,
-    "href": "https://www.eurospin.com/etc.clientlibs/eurospin/clientlibs/clientlib-site/resources/images/favicon/apple-touch-icon.png"
+    "bytes": 2099,
+    "href": "https://music.apple.com/assets/favicon/favicon.svg"
    },
    {
     "n": 6,
-    "src": "manifest 192x192 maskable",
+    "src": "manifest 192x192 any",
     "ext": "png",
     "px": "",
-    "bytes": 2658,
-    "href": "https://www.eurospin.com/etc.clientlibs/eurospin/clientlibs/clientlib-site/resources/images/favicon/web-app-manifest-192x192.png"
+    "bytes": 3376,
+    "href": "https://music.apple.com/assets/app-icons/pwa-manifest/music-icon_192.png"
    },
    {
     "n": 7,
+    "src": "manifest 384x384 maskable",
+    "ext": "png",
+    "px": "",
+    "bytes": 9078,
+    "href": "https://music.apple.com/assets/app-icons/pwa-manifest/music-icon_384.png"
+   },
+   {
+    "n": 8,
     "src": "manifest 512x512 maskable",
     "ext": "png",
     "px": "",
-    "bytes": 9717,
-    "href": "https://www.eurospin.com/etc.clientlibs/eurospin/clientlibs/clientlib-site/resources/images/favicon/web-app-manifest-512x512.png"
-   },
-   {
-    "n": 8,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 4363,
-    "href": "https://www.google.com/s2/favicons?domain=eurospin.it&sz=256"
+    "bytes": 13476,
+    "href": "https://music.apple.com/assets/app-icons/pwa-manifest/music-icon_512.png"
    },
    {
     "n": 9,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 15086,
-    "href": "https://icons.duckduckgo.com/ip3/eurospin.it.ico"
-   }
-  ]
- },
- {
-  "name": "Pam",
-  "id": "pam",
-  "domain": "pampanorama.it",
-  "home": "https://www.pampanorama.it/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Pam Perte Plus | PAM PANORAMA SPA",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 20545,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/45/37/d84537e7-98f6-20d7-63db-cf11a988fad6/AppIcon-0-0-1x_U007emarketing-0-11-0-85-"
-   },
-   {
-    "n": 2,
-    "src": "icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 9662,
-    "href": "https://www.pampanorama.it/favicon.ico"
-   },
-   {
-    "n": 3,
-    "src": "google-s2",
+    "src": "manifest 1024x1024 maskable",
     "ext": "png",
     "px": "",
-    "bytes": 3711,
-    "href": "https://www.google.com/s2/favicons?domain=pampanorama.it&sz=256"
+    "bytes": 40857,
+    "href": "https://music.apple.com/assets/app-icons/pwa-manifest/music-icon_1024.png"
    },
    {
-    "n": 4,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 9662,
-    "href": "https://icons.duckduckgo.com/ip3/pampanorama.it.ico"
-   }
-  ]
- },
- {
-  "name": "Sainsbury's",
-  "id": "sainsbury-s",
-  "domain": "sainsburys.co.uk",
-  "home": "https://www.sainsburys.co.uk/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Sainsbury's | Sainsburys Supermarkets Ltd",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 24063,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/bb/46/90bb46d5-9cce-9903-3ea2-998ba2bc0e1d/SainsburysGol-0-0-1x_U007epad-0-1-0-85-2"
-   },
-   {
-    "n": 2,
-    "src": "icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 409,
-    "href": "https://www.sainsburys.co.uk/favicon.ico"
-   },
-   {
-    "n": 3,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 300,
-    "href": "https://www.google.com/s2/favicons?domain=sainsburys.co.uk&sz=256"
-   },
-   {
-    "n": 4,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 409,
-    "href": "https://icons.duckduckgo.com/ip3/sainsburys.co.uk.ico"
-   }
-  ]
- },
- {
-  "name": "Waitrose",
-  "id": "waitrose",
-  "domain": "waitrose.com",
-  "home": "https://www.waitrose.com/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Waitrose & Partners | Waitrose Ltd",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 39999,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/5a/db/bc5adb39-969f-3441-0ff0-8a5d9b3d5d25/Default-0-0-1x_U007epad-0-1-sRGB-85-220."
-   },
-   {
-    "n": 2,
-    "src": "icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 15086,
-    "href": "https://www.waitrose.com/favicon.ico"
-   },
-   {
-    "n": 3,
+    "n": 10,
     "src": "apple-touch-icon",
     "ext": "png",
     "px": "",
-    "bytes": 5061,
-    "href": "https://www.waitrose.com/ecom/assets/favicon/favicon-180x180.png"
+    "bytes": 79695,
+    "href": "https://music.apple.com/apple-touch-icon.png"
    },
    {
-    "n": 4,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 3002,
-    "href": "https://www.waitrose.com/apple-touch-icon.png"
-   },
-   {
-    "n": 5,
+    "n": 11,
     "src": "google-s2",
     "ext": "png",
     "px": "",
-    "bytes": 1749,
-    "href": "https://www.google.com/s2/favicons?domain=waitrose.com&sz=256"
+    "bytes": 12011,
+    "href": "https://www.google.com/s2/favicons?domain=music.apple.com&sz=256"
    },
    {
-    "n": 6,
+    "n": 12,
     "src": "duckduckgo",
     "ext": "ico",
     "px": "",
-    "bytes": 15086,
-    "href": "https://icons.duckduckgo.com/ip3/waitrose.com.ico"
+    "bytes": 1086,
+    "href": "https://icons.duckduckgo.com/ip3/music.apple.com.ico"
    }
   ]
  },
  {
-  "name": "Mercadona",
-  "id": "mercadona",
-  "domain": "mercadona.es",
-  "home": "https://www.mercadona.es/",
+  "name": "Apple TV",
+  "id": "apple-tv",
+  "domain": "tv.apple.com",
+  "home": "https://tv.apple.com/",
   "got": [
    {
     "n": 1,
-    "src": "appstore-it Mercadona | Mercadona S.A.",
+    "src": "appstore-it Apple TV | Apple Distribution International",
     "ext": "jpg",
     "px": "",
-    "bytes": 37794,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/78/a6/1d78a675-9d45-b3c3-09a1-aa738076c5f7/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-22"
+    "bytes": 25473,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/74/61/a274610a-1537-0429-df1b-afacfad5a478/tvCalistoga-0-0-1x_U007epad-0-1-0-sRGB-8"
    },
    {
     "n": 2,
-    "src": "manifest 64x64 32x32 24x24 16x16",
-    "ext": "ico",
-    "px": "",
-    "bytes": 15086,
-    "href": "https://www.mercadona.es/favicon.ico"
-   },
-   {
-    "n": 3,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 2613,
-    "href": "https://www.mercadona.es/apple-touch-icon.png"
-   },
-   {
-    "n": 4,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 2192,
-    "href": "https://www.google.com/s2/favicons?domain=mercadona.es&sz=256"
-   },
-   {
-    "n": 5,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 15086,
-    "href": "https://icons.duckduckgo.com/ip3/mercadona.es.ico"
-   }
-  ]
- },
- {
-  "name": "Decathlon",
-  "id": "decathlon",
-  "domain": "decathlon.com",
-  "home": "https://www.decathlon.com/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Decathlon | Decathlon SA",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 27045,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/c3/f8/8bc3f8cf-3f64-1918-c9e4-04492d83aadd/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png"
-   },
-   {
-    "n": 2,
-    "src": "icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 2159,
-    "href": "https://www.decathlon.com/cdn/shop/files/favicon-large.png?crop=center&height=32&v=1749504383&width=32"
-   },
-   {
-    "n": 3,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 1591,
-    "href": "https://www.google.com/s2/favicons?domain=decathlon.com&sz=256"
-   },
-   {
-    "n": 4,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 2908,
-    "href": "https://icons.duckduckgo.com/ip3/decathlon.com.ico"
-   }
-  ]
- },
- {
-  "name": "Primark",
-  "id": "primark",
-  "domain": "primark.com",
-  "home": "https://www.primark.com/en-us",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Primark | Primark Information Services U.K. Limited",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 12029,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d9/e2/83/d9e28327-c534-2dff-db49-2a27f4cd9016/AppIcon-1x_U007ephone-0-11-0-85-220-0.pn"
-   },
-   {
-    "n": 2,
-    "src": "icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 2238,
-    "href": "https://www.primark.com/favicon.ico"
-   },
-   {
-    "n": 3,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 250,
-    "href": "https://www.google.com/s2/favicons?domain=primark.com&sz=256"
-   },
-   {
-    "n": 4,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 2238,
-    "href": "https://icons.duckduckgo.com/ip3/primark.com.ico"
-   }
-  ]
- },
- {
-  "name": "Shein",
-  "id": "shein",
-  "domain": "shein.com",
-  "home": "https://us.shein.com/?cdn_rsite=cf&ref=www&rep=dir&ret=us",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it SHEIN-Acquisti online | ROADGET BUSINESS PTE. LTD.",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 43855,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/3e/41/283e41c0-1b1a-dc99-ffac-945b3af7572e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-2"
-   },
-   {
-    "n": 2,
-    "src": "apple-touch-icon 72x72",
-    "ext": "png",
-    "px": "",
-    "bytes": 1492,
-    "href": "https://sc.ltwebstatic.com/she_dist/images/touch-icon-ipad-72-452a7213ef.png"
-   },
-   {
-    "n": 3,
-    "src": "apple-touch-icon 120x120",
-    "ext": "png",
-    "px": "",
-    "bytes": 2515,
-    "href": "https://sc.ltwebstatic.com/she_dist/images/touch-icon-ipad-120-601ddff8b5.png"
-   },
-   {
-    "n": 4,
-    "src": "apple-touch-icon 144x144",
-    "ext": "png",
-    "px": "",
-    "bytes": 3068,
-    "href": "https://sc.ltwebstatic.com/she_dist/images/touch-icon-ipad-144-47ceee2d97.png"
-   },
-   {
-    "n": 5,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 1006,
-    "href": "https://www.google.com/s2/favicons?domain=shein.com&sz=256"
-   },
-   {
-    "n": 6,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 4286,
-    "href": "https://icons.duckduckgo.com/ip3/shein.com.ico"
-   }
-  ]
- },
- {
-  "name": "Temu",
-  "id": "temu",
-  "domain": "temu.com",
-  "home": "https://www.temu.com/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Temu : Compra da miliardario | Whaleco Inc.",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 45457,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/a8/08/9ea808c5-791b-cb86-ec7a-7b9d7173fcdb/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png"
-   },
-   {
-    "n": 2,
-    "src": "shortcut icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 16958,
-    "href": "https://www.temu.com/favicon.ico"
-   },
-   {
-    "n": 3,
-    "src": "icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 4701,
-    "href": "https://aimg.kwcdn.com/upload_aimg/web/c9653751-0a91-46f1-806a-b639dd32931b.png.slim.png"
-   },
-   {
-    "n": 4,
-    "src": "apple-touch-icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 17609,
-    "href": "https://www.temu.com/apple-touch-icon.png"
-   },
-   {
-    "n": 5,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 3044,
-    "href": "https://www.google.com/s2/favicons?domain=temu.com&sz=256"
-   },
-   {
-    "n": 6,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 16958,
-    "href": "https://icons.duckduckgo.com/ip3/temu.com.ico"
-   }
-  ]
- },
- {
-  "name": "MediaWorld",
-  "id": "mediaworld",
-  "domain": "mediaworld.it",
-  "home": null,
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it MediaWorld App | MMS E-Commerce GmbH",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 52265,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/4e/bf/b94ebf05-f97a-3c5d-1694-3732ac827bb1/AppIcon-mwit-0-0-1x_U007emarketing-0-11-"
-   },
-   {
-    "n": 2,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 2795,
-    "href": "https://www.google.com/s2/favicons?domain=mediaworld.it&sz=256"
-   },
-   {
-    "n": 3,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 2366,
-    "href": "https://icons.duckduckgo.com/ip3/mediaworld.it.ico"
-   }
-  ]
- },
- {
-  "name": "Unieuro",
-  "id": "unieuro",
-  "domain": "unieuro.it",
-  "home": "https://www.unieuro.it/online/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Unieuro | Unieuro SPA",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 11866,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/96/20/3196201a-dd62-99d4-323f-a7790d6f9eef/AppIcon-0-0-1x_U007epad-0-1-85-220.png/5"
-   },
-   {
-    "n": 2,
-    "src": "icon 32x32",
-    "ext": "ico",
-    "px": "",
-    "bytes": 1721,
-    "href": "https://www.unieuro.it/favicon.ico"
-   },
-   {
-    "n": 3,
-    "src": "icon 96x96",
-    "ext": "png",
-    "px": "",
-    "bytes": 1603,
-    "href": "https://www.unieuro.it/icons/favicon-96x96.png"
-   },
-   {
-    "n": 4,
     "src": "apple-touch-icon 180x180",
     "ext": "png",
     "px": "",
-    "bytes": 2817,
-    "href": "https://www.unieuro.it/icons/apple-touch-icon.png"
+    "bytes": 22248,
+    "href": "https://tv.apple.com/assets/favicon/favicon-180.png"
+   },
+   {
+    "n": 3,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 1657,
+    "href": "https://tv.apple.com/assets/favicon/favicon-32.png"
+   },
+   {
+    "n": 4,
+    "src": "icon 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 647,
+    "href": "https://tv.apple.com/assets/favicon/favicon-16.png"
    },
    {
     "n": 5,
     "src": "manifest 192x192 any",
     "ext": "png",
     "px": "",
-    "bytes": 3631,
-    "href": "https://www.unieuro.it/icons/icon-192x192.png"
+    "bytes": 18332,
+    "href": "https://tv.apple.com/assets/app-icons/pwa-manifest/tv-icon_192.png"
    },
    {
     "n": 6,
-    "src": "manifest 512x512 any",
+    "src": "manifest 384x384 maskable",
     "ext": "png",
     "px": "",
-    "bytes": 12616,
-    "href": "https://www.unieuro.it/icons/icon-512x512.png"
+    "bytes": 56760,
+    "href": "https://tv.apple.com/assets/app-icons/pwa-manifest/tv-icon_384.png"
    },
    {
     "n": 7,
-    "src": "manifest 192x192 maskable",
-    "ext": "png",
-    "px": "",
-    "bytes": 2543,
-    "href": "https://www.unieuro.it/icons/icon-maskable-192x192.png"
-   },
-   {
-    "n": 8,
     "src": "manifest 512x512 maskable",
     "ext": "png",
     "px": "",
-    "bytes": 8275,
-    "href": "https://www.unieuro.it/icons/icon-maskable-512x512.png"
-   },
-   {
-    "n": 9,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 1583,
-    "href": "https://www.google.com/s2/favicons?domain=unieuro.it&sz=256"
-   },
-   {
-    "n": 10,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 1721,
-    "href": "https://icons.duckduckgo.com/ip3/unieuro.it.ico"
-   }
-  ]
- },
- {
-  "name": "Sephora",
-  "id": "sephora",
-  "domain": "sephora.com",
-  "home": "https://www.sephora.com/",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Sephora - Beauty Make-Up, Skin | SEPHORA",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 8959,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/ba/b8/2cbab892-c42c-3309-a9ab-962d45d0348f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220"
-   },
-   {
-    "n": 2,
-    "src": "icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 15406,
-    "href": "https://www.sephora.com/img/ufe/favicon.ico"
-   },
-   {
-    "n": 3,
-    "src": "google-s2",
-    "ext": "png",
-    "px": "",
-    "bytes": 1638,
-    "href": "https://www.google.com/s2/favicons?domain=sephora.com&sz=256"
-   },
-   {
-    "n": 4,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 15406,
-    "href": "https://icons.duckduckgo.com/ip3/sephora.com.ico"
-   }
-  ]
- },
- {
-  "name": "Douglas",
-  "id": "douglas",
-  "domain": "douglas.com",
-  "home": "https://www.douglas.ca/?utm_source=direct&utm_medium=douglas_com",
-  "got": [
-   {
-    "n": 1,
-    "src": "appstore-it Douglas | Parfumerie Douglas GmbH",
-    "ext": "jpg",
-    "px": "",
-    "bytes": 28974,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/50/cf/0950cf42-00bc-d786-9675-4efb2f748bca/AppIcon-1x_U007epad-0-1-0-0-GLES2_U002c0"
-   },
-   {
-    "n": 2,
-    "src": "apple-touch-icon",
-    "ext": "png",
-    "px": "",
-    "bytes": 4837,
-    "href": "https://www.douglas.ca/wp-content/themes/dawn-child/assets/images/apple-touch-icon.png"
-   },
-   {
-    "n": 3,
-    "src": "apple-touch-icon 152x152",
-    "ext": "png",
-    "px": "",
-    "bytes": 3352,
-    "href": "https://www.douglas.ca/wp-content/themes/dawn-child/assets/images/apple-touch-icon-152x152.png"
-   },
-   {
-    "n": 4,
-    "src": "apple-touch-icon 152x152",
-    "ext": "png",
-    "px": "",
-    "bytes": 3352,
-    "href": "https://www.douglas.ca/wp-content/themes/dawn-child/assets/images/apple-touch-icon-152x152-precomposed.png"
-   },
-   {
-    "n": 5,
-    "src": "apple-touch-icon 120x120",
-    "ext": "png",
-    "px": "",
-    "bytes": 2881,
-    "href": "https://www.douglas.ca/wp-content/themes/dawn-child/assets/images/apple-touch-icon-120x120.png"
-   },
-   {
-    "n": 6,
-    "src": "apple-touch-icon 120x120",
-    "ext": "png",
-    "px": "",
-    "bytes": 2881,
-    "href": "https://www.douglas.ca/wp-content/themes/dawn-child/assets/images/apple-touch-icon-120x120-precomposed.png"
-   },
-   {
-    "n": 7,
-    "src": "icon 32x32",
-    "ext": "png",
-    "px": "",
-    "bytes": 2419,
-    "href": "https://www.douglas.ca/wp-content/uploads/cropped-douglas_rev-1-1-150x150.png"
+    "bytes": 86257,
+    "href": "https://tv.apple.com/assets/app-icons/pwa-manifest/tv-icon_512.png"
    },
    {
     "n": 8,
-    "src": "icon 192x192",
+    "src": "manifest 1024x1024 maskable",
     "ext": "png",
     "px": "",
-    "bytes": 4837,
-    "href": "https://www.douglas.ca/wp-content/uploads/cropped-douglas_rev-1-1-300x300.png"
+    "bytes": 274743,
+    "href": "https://tv.apple.com/assets/app-icons/pwa-manifest/tv-icon_1024.png"
+   },
+   {
+    "n": 9,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 22248,
+    "href": "https://tv.apple.com/apple-touch-icon.png"
+   },
+   {
+    "n": 10,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 15889,
+    "href": "https://www.google.com/s2/favicons?domain=tv.apple.com&sz=256"
+   },
+   {
+    "n": 11,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1657,
+    "href": "https://icons.duckduckgo.com/ip3/tv.apple.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "iCloud",
+  "id": "icloud",
+  "domain": "icloud.com",
+  "home": "https://www.icloud.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15406,
+    "href": "https://www.icloud.com/favicon.ico"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 16803,
+    "href": "https://www.google.com/s2/favicons?domain=icloud.com&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1463,
+    "href": "https://icons.duckduckgo.com/ip3/icloud.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "DAZN",
+  "id": "dazn",
+  "domain": "dazn.com",
+  "home": "https://www.dazn.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it DAZN: Diretta Calcio e Sport | DAZN Limited",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 20362,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/b0/82/14b082a9-dce9-fe67-72d3-c551fbbf4218/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "svg",
+    "px": "",
+    "bytes": 920,
+    "href": "https://www.dazn.com/favicon.svg"
+   },
+   {
+    "n": 3,
+    "src": "manifest 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 1182,
+    "href": "https://www.dazn.com/icons/android-chrome-192x192.png"
+   },
+   {
+    "n": 4,
+    "src": "manifest 512x512",
+    "ext": "png",
+    "px": "",
+    "bytes": 2924,
+    "href": "https://www.dazn.com/icons/android-chrome-512x512.png"
+   },
+   {
+    "n": 5,
+    "src": "apple-touch-icon 180x180",
+    "ext": "png",
+    "px": "",
+    "bytes": 1327,
+    "href": "https://www.dazn.com/icons/apple-touch-icon-180x180.png"
+   },
+   {
+    "n": 6,
+    "src": "apple-touch-icon 1024x1024",
+    "ext": "png",
+    "px": "",
+    "bytes": 6733,
+    "href": "https://www.dazn.com/icons/apple-touch-icon-1024x1024.png"
+   },
+   {
+    "n": 7,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 102423,
+    "href": "https://www.dazn.com/apple-touch-icon.png"
+   },
+   {
+    "n": 8,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 2904,
+    "href": "https://www.google.com/s2/favicons?domain=dazn.com&sz=256"
+   }
+  ]
+ },
+ {
+  "name": "Sky",
+  "id": "sky",
+  "domain": "sky.com",
+  "home": "https://www.sky.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it My Sky | SKY Italia Srl",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 29104,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/0a/22/f70a22c9-33b3-9cec-5ba4-34d21f7a045b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png"
+   },
+   {
+    "n": 2,
+    "src": "icon 32x32",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1643,
+    "href": "https://static.skyassets.com/favicons/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "icon",
+    "ext": "svg",
+    "px": "",
+    "bytes": 786646,
+    "href": "https://static.skyassets.com/favicons/favicon.svg"
+   },
+   {
+    "n": 4,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 11686,
+    "href": "https://static.skyassets.com/favicons/apple-touch-icon.png"
+   },
+   {
+    "n": 5,
+    "src": "google-s2",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 4435,
+    "href": "https://www.google.com/s2/favicons?domain=sky.com&sz=256"
+   },
+   {
+    "n": 6,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1643,
+    "href": "https://icons.duckduckgo.com/ip3/sky.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "NOW",
+  "id": "now",
+  "domain": "nowtv.com",
+  "home": "https://www.nowtv.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it NOW | SKY Italia Srl",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 22628,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/e3/70/f6e37010-b281-1bfa-bd83-30871e75610d/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15406,
+    "href": "https://www.nowtv.com/static/now-toolkit/53.4.0/now/favicons/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "icon 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 638,
+    "href": "https://www.nowtv.com/static/now-toolkit/53.4.0/now/favicons/favicon_16x16.png"
+   },
+   {
+    "n": 4,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 1646,
+    "href": "https://www.nowtv.com/static/now-toolkit/53.4.0/now/favicons/favicon_32x32.png"
+   },
+   {
+    "n": 5,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 650,
+    "href": "https://www.nowtv.com/static/now-toolkit/53.4.0/now/favicons/apple-touch-icon_32x32.png"
+   },
+   {
+    "n": 6,
+    "src": "icon 120x120",
+    "ext": "png",
+    "px": "",
+    "bytes": 2358,
+    "href": "https://www.nowtv.com/static/now-toolkit/53.4.0/now/favicons/apple-touch-icon_120x120.png"
+   },
+   {
+    "n": 7,
+    "src": "icon 152x152",
+    "ext": "png",
+    "px": "",
+    "bytes": 2900,
+    "href": "https://www.nowtv.com/static/now-toolkit/53.4.0/now/favicons/apple-touch-icon_152x152.png"
+   },
+   {
+    "n": 8,
+    "src": "icon 180x180",
+    "ext": "png",
+    "px": "",
+    "bytes": 3458,
+    "href": "https://www.nowtv.com/static/now-toolkit/53.4.0/now/favicons/apple-touch-icon_180x180.png"
    },
    {
     "n": 9,
     "src": "google-s2",
     "ext": "png",
     "px": "",
-    "bytes": 1701,
-    "href": "https://www.google.com/s2/favicons?domain=douglas.com&sz=256"
-   },
-   {
-    "n": 10,
-    "src": "duckduckgo",
-    "ext": "ico",
-    "px": "",
-    "bytes": 2419,
-    "href": "https://icons.duckduckgo.com/ip3/douglas.com.ico"
+    "bytes": 21249,
+    "href": "https://www.google.com/s2/favicons?domain=nowtv.com&sz=256"
    }
   ]
  },
  {
-  "name": "Enel",
-  "id": "enel",
-  "domain": "enel.it",
-  "home": "https://www.enel.it/it-it",
+  "name": "Paramount+",
+  "id": "paramountplus",
+  "domain": "paramountplus.com",
+  "home": "https://www.paramountplus.com/",
   "got": [
    {
     "n": 1,
-    "src": "appstore-it Enel Energia | Enel Spa",
+    "src": "appstore-it Paramount+ | Paramount Global Streaming International LLC",
     "ext": "jpg",
     "px": "",
-    "bytes": 18305,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/d0/27/c4d027fc-3851-b375-57b0-c596c4f8f596/prodAppIcon-0-0-1x_U007epad-0-1-85-220.p"
+    "bytes": 33612,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/8a/d9/838ad994-4418-3c1b-ef57-6b8c58224071/P_U002bINTLAppIcon-0-0-1x_U007emarketing"
    },
    {
     "n": 2,
     "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 101524,
+    "href": "https://www.paramountplus.com/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "google-s2",
     "ext": "png",
     "px": "",
-    "bytes": 2360,
-    "href": "https://www.enel.it/content/dam/asset/immagini/enel-favicon.png"
+    "bytes": 1834,
+    "href": "https://www.google.com/s2/favicons?domain=paramountplus.com&sz=256"
+   },
+   {
+    "n": 4,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 101524,
+    "href": "https://icons.duckduckgo.com/ip3/paramountplus.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "HBO Max",
+  "id": "hbo-max",
+  "domain": "max.com",
+  "home": "https://www.hbomax.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it HBO Max: guarda film e serie | WarnerMedia Global Digital Services, LLC",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 32550,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b9/86/2b/b9862b25-4b8a-edee-cc76-0e0d36af480d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/5"
+   },
+   {
+    "n": 2,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 565,
+    "href": "https://www.hbomax.com/dotcom/img/hbomax/favicon-32.png"
+   },
+   {
+    "n": 3,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 728362,
+    "href": "https://www.hbomax.com/dotcom/img/hbomax/favicon.ico"
+   },
+   {
+    "n": 4,
+    "src": "apple-touch-icon 180x180",
+    "ext": "png",
+    "px": "",
+    "bytes": 3157,
+    "href": "https://www.hbomax.com/dotcom/img/hbomax/apple-touch-icon.png"
+   },
+   {
+    "n": 5,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 3157,
+    "href": "https://www.hbomax.com/apple-touch-icon.png"
+   },
+   {
+    "n": 6,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 3754,
+    "href": "https://www.google.com/s2/favicons?domain=max.com&sz=256"
+   },
+   {
+    "n": 7,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 565,
+    "href": "https://icons.duckduckgo.com/ip3/max.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Crunchyroll",
+  "id": "crunchyroll",
+  "domain": "crunchyroll.com",
+  "home": null,
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Crunchyroll | Crunchyroll, LLC",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 21024,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/ca/2f/46ca2f65-a321-6c8b-fadf-ee1c2fe2ae1f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 2632,
+    "href": "https://www.google.com/s2/favicons?domain=crunchyroll.com&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 484,
+    "href": "https://icons.duckduckgo.com/ip3/crunchyroll.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Twitch",
+  "id": "twitch",
+  "domain": "twitch.tv",
+  "home": "https://www.twitch.tv/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Twitch: streaming live | Twitch Interactive, Inc.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 21372,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/0c/95/a10c95d9-086a-cbc0-5c76-1279e5ccdfab/TwitchAppIcon-0-0-1x_U007epad-0-1-0-0-sR"
+   },
+   {
+    "n": 2,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 382,
+    "href": "https://assets.twitch.tv/assets/favicon-32-5c61aa63605bca4f740d.png"
+   },
+   {
+    "n": 3,
+    "src": "icon 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 276,
+    "href": "https://assets.twitch.tv/assets/favicon-16-24c010b0dab5e56aef81.png"
+   },
+   {
+    "n": 4,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 524,
+    "href": "https://www.twitch.tv/apple-touch-icon.png"
+   },
+   {
+    "n": 5,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 336,
+    "href": "https://www.google.com/s2/favicons?domain=twitch.tv&sz=256"
+   },
+   {
+    "n": 6,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 382,
+    "href": "https://icons.duckduckgo.com/ip3/twitch.tv.ico"
+   }
+  ]
+ },
+ {
+  "name": "Patreon",
+  "id": "patreon",
+  "domain": "patreon.com",
+  "home": "https://www.patreon.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Patreon | Patreon, Inc",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 10027,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/e6/2f/68e62f8d-ee04-cda1-7444-e05df9d876a0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png"
+   },
+   {
+    "n": 2,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 612,
+    "href": "https://c5.patreon.com/external/favicon/rebrand/favicon-32.png?v=af5597c2ef"
+   },
+   {
+    "n": 3,
+    "src": "icon 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 360,
+    "href": "https://c5.patreon.com/external/favicon/rebrand/favicon-16.png?v=af5597c2ef"
+   },
+   {
+    "n": 4,
+    "src": "manifest 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 2079,
+    "href": "https://c5.patreon.com/external/favicon/rebrand/pwa-192.png?v=af5597c2ef"
+   },
+   {
+    "n": 5,
+    "src": "manifest 512x512",
+    "ext": "png",
+    "px": "",
+    "bytes": 5985,
+    "href": "https://c5.patreon.com/external/favicon/rebrand/pwa-512.png?v=af5597c2ef"
+   },
+   {
+    "n": 6,
+    "src": "shortcut icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 4094,
+    "href": "https://c5.patreon.com/external/favicon/rebrand/favicon.ico?v=af5597c2ef"
+   },
+   {
+    "n": 7,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 2079,
+    "href": "https://www.patreon.com/apple-touch-icon.png"
+   },
+   {
+    "n": 8,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 7772,
+    "href": "https://www.google.com/s2/favicons?domain=patreon.com&sz=256"
+   },
+   {
+    "n": 9,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 612,
+    "href": "https://icons.duckduckgo.com/ip3/patreon.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Duolingo",
+  "id": "duolingo",
+  "domain": "duolingo.com",
+  "home": "https://www.duolingo.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Duolingo: Corsi di lingua | Duolingo, Inc",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 60448,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/b3/f2/deb3f2ac-20ea-3015-e957-79fef651a3c8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/5"
+   },
+   {
+    "n": 2,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 11130,
+    "href": "https://d35aaqx5ub95lt.cloudfront.net/images/duolingo-touch-icon2.png"
+   },
+   {
+    "n": 3,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15406,
+    "href": "https://d35aaqx5ub95lt.cloudfront.net/favicon.ico"
+   },
+   {
+    "n": 4,
+    "src": "manifest 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 12054,
+    "href": "https://d35aaqx5ub95lt.cloudfront.net/images/pwa-icon-circle-192.png"
+   },
+   {
+    "n": 5,
+    "src": "manifest 512x512",
+    "ext": "png",
+    "px": "",
+    "bytes": 36194,
+    "href": "https://d35aaqx5ub95lt.cloudfront.net/images/pwa-icon-circle-512.png"
+   },
+   {
+    "n": 6,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 9900,
+    "href": "https://www.google.com/s2/favicons?domain=duolingo.com&sz=256"
+   },
+   {
+    "n": 7,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15406,
+    "href": "https://icons.duckduckgo.com/ip3/duolingo.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Strava",
+  "id": "strava",
+  "domain": "strava.com",
+  "home": "https://www.strava.com/?hl=it-IT",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Strava: corri, pedala, cammina | Strava Inc.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 25021,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/8b/e3/968be356-9081-dd0a-d8e2-160b678e2d29/AppIcon-Primary-0-0-1x_U007ephone-0-1-0-"
+   },
+   {
+    "n": 2,
+    "src": "apple-touch-icon 180x180",
+    "ext": "png",
+    "px": "",
+    "bytes": 1988,
+    "href": "https://d3nn82uaxijpm6.cloudfront.net/apple-touch-icon-180x180.png?v=dLlWydWlG8"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon 152x152",
+    "ext": "png",
+    "px": "",
+    "bytes": 1728,
+    "href": "https://d3nn82uaxijpm6.cloudfront.net/apple-touch-icon-152x152.png?v=dLlWydWlG8"
+   },
+   {
+    "n": 4,
+    "src": "apple-touch-icon 144x144",
+    "ext": "png",
+    "px": "",
+    "bytes": 1613,
+    "href": "https://d3nn82uaxijpm6.cloudfront.net/apple-touch-icon-144x144.png?v=dLlWydWlG8"
+   },
+   {
+    "n": 5,
+    "src": "apple-touch-icon 120x120",
+    "ext": "png",
+    "px": "",
+    "bytes": 1344,
+    "href": "https://d3nn82uaxijpm6.cloudfront.net/apple-touch-icon-120x120.png?v=dLlWydWlG8"
+   },
+   {
+    "n": 6,
+    "src": "apple-touch-icon 114x114",
+    "ext": "png",
+    "px": "",
+    "bytes": 1302,
+    "href": "https://d3nn82uaxijpm6.cloudfront.net/apple-touch-icon-114x114.png?v=dLlWydWlG8"
+   },
+   {
+    "n": 7,
+    "src": "apple-touch-icon 76x76",
+    "ext": "png",
+    "px": "",
+    "bytes": 894,
+    "href": "https://d3nn82uaxijpm6.cloudfront.net/apple-touch-icon-76x76.png?v=dLlWydWlG8"
+   },
+   {
+    "n": 8,
+    "src": "apple-touch-icon 72x72",
+    "ext": "png",
+    "px": "",
+    "bytes": 866,
+    "href": "https://d3nn82uaxijpm6.cloudfront.net/apple-touch-icon-72x72.png?v=dLlWydWlG8"
+   },
+   {
+    "n": 9,
+    "src": "apple-touch-icon 60x60",
+    "ext": "png",
+    "px": "",
+    "bytes": 747,
+    "href": "https://d3nn82uaxijpm6.cloudfront.net/apple-touch-icon-60x60.png?v=dLlWydWlG8"
+   },
+   {
+    "n": 10,
+    "src": "apple-touch-icon 57x57",
+    "ext": "png",
+    "px": "",
+    "bytes": 723,
+    "href": "https://d3nn82uaxijpm6.cloudfront.net/apple-touch-icon-57x57.png?v=dLlWydWlG8"
+   },
+   {
+    "n": 11,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 512,
+    "href": "https://d3nn82uaxijpm6.cloudfront.net/favicon-32x32.png?v=dLlWydWlG8"
+   },
+   {
+    "n": 12,
+    "src": "icon 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 3802,
+    "href": "https://d3nn82uaxijpm6.cloudfront.net/icon-strava-chrome-192.png?v=dLlWydWlG8"
+   },
+   {
+    "n": 13,
+    "src": "icon 96x96",
+    "ext": "png",
+    "px": "",
+    "bytes": 1149,
+    "href": "https://d3nn82uaxijpm6.cloudfront.net/favicon-96x96.png?v=dLlWydWlG8"
+   },
+   {
+    "n": 14,
+    "src": "icon 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 360,
+    "href": "https://d3nn82uaxijpm6.cloudfront.net/favicon-16x16.png?v=dLlWydWlG8"
+   },
+   {
+    "n": 15,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 1988,
+    "href": "https://www.strava.com/apple-touch-icon.png"
+   },
+   {
+    "n": 16,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 606,
+    "href": "https://www.google.com/s2/favicons?domain=strava.com&sz=256"
+   },
+   {
+    "n": 17,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 512,
+    "href": "https://icons.duckduckgo.com/ip3/strava.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Notion",
+  "id": "notion",
+  "domain": "notion.so",
+  "home": "https://www.notion.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Notion: Notes, Tasks, AI | Notion Labs, Incorporated",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 24160,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/1b/48/ea1b4840-9ee3-ab66-a482-659ced115cbb/AppIconProd-0-0-1x_U007epad-0-0-0-1-0-0-"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "svg",
+    "px": "",
+    "bytes": 2655,
+    "href": "https://www.notion.com/front-static/shared/logos/block-sticker.svg"
    },
    {
     "n": 3,
     "src": "apple-touch-icon",
     "ext": "png",
     "px": "",
-    "bytes": 1708,
-    "href": "https://www.enel.it/apple-touch-icon.png"
+    "bytes": 8078,
+    "href": "https://www.notion.com/front-static/logo-ios.png"
    },
    {
     "n": 4,
     "src": "google-s2",
     "ext": "png",
     "px": "",
-    "bytes": 2447,
-    "href": "https://www.google.com/s2/favicons?domain=enel.it&sz=256"
+    "bytes": 3461,
+    "href": "https://www.google.com/s2/favicons?domain=notion.so&sz=256"
    },
    {
     "n": 5,
     "src": "duckduckgo",
     "ext": "ico",
     "px": "",
-    "bytes": 2360,
-    "href": "https://icons.duckduckgo.com/ip3/enel.it.ico"
+    "bytes": 32038,
+    "href": "https://icons.duckduckgo.com/ip3/notion.so.ico"
    }
   ]
  },
  {
-  "name": "TIM",
-  "id": "tim",
-  "domain": "tim.it",
-  "home": "https://www.tim.it/",
+  "name": "Dropbox",
+  "id": "dropbox",
+  "domain": "dropbox.com",
+  "home": "https://www.dropbox.com/",
   "got": [
    {
     "n": 1,
-    "src": "appstore-it MyTIM | Telecom Italia spa",
+    "src": "appstore-it Dropbox: Archivio file PDF | Dropbox, Inc.",
     "ext": "jpg",
     "px": "",
-    "bytes": 12320,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/c7/1a/42c71adf-6759-3354-f0cd-0acc31fbdd14/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB"
+    "bytes": 21908,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/6d/a3/b06da39b-fab4-1def-e328-369da6f3af9f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-2"
+   },
+   {
+    "n": 2,
+    "src": "shortcut icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 4286,
+    "href": "https://cfl.dropboxstatic.com/static/metaserver/static/images/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 1379,
+    "href": "https://www.google.com/s2/favicons?domain=dropbox.com&sz=256"
+   },
+   {
+    "n": 4,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 4286,
+    "href": "https://icons.duckduckgo.com/ip3/dropbox.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Google",
+  "id": "google",
+  "domain": "google.com",
+  "home": "https://www.google.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Google | Google LLC",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 23743,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/57/23/6e5723af-4edb-7971-583f-5e8f21291082/SuperG_ios26-0-0-1x_U007epad-0-0-0-1-0-0"
    },
    {
     "n": 2,
     "src": "icon",
     "ext": "ico",
     "px": "",
-    "bytes": 15086,
-    "href": "https://risorsec.tim.it/etc.clientlibs/flytoco-areapubblica-aemfe/clientlibs/1.5.4/clientlib-base/resources/img/favicon.ico"
+    "bytes": 1322,
+    "href": "https://www.gstatic.com/images/branding/searchlogo/ico/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 6958,
+    "href": "https://www.google.com/s2/favicons?domain=google.com&sz=256"
+   },
+   {
+    "n": 4,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 5430,
+    "href": "https://icons.duckduckgo.com/ip3/google.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Claude",
+  "id": "claude",
+  "domain": "claude.ai",
+  "home": "https://claude.ai/login",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Claude by Anthropic | Anthropic PBC",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 27957,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/20/d6/dd20d632-fc93-aa7f-ebfb-3ef74468496b/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "svg",
+    "px": "",
+    "bytes": 2558,
+    "href": "https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cd02a42d9-Vq_H3mgS.svg"
    },
    {
     "n": 3,
     "src": "shortcut icon",
     "ext": "ico",
     "px": "",
-    "bytes": 1150,
-    "href": "https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/favicon.ico"
+    "bytes": 2445,
+    "href": "https://claude.ai/favicon.ico"
    },
    {
     "n": 4,
-    "src": "icon 192x192",
+    "src": "apple-touch-icon",
     "ext": "png",
     "px": "",
-    "bytes": 2837,
-    "href": "https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-192-248169.png"
+    "bytes": 47143,
+    "href": "https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c129d018a-0ZbJsTbu.png"
+   },
+   {
+    "n": 5,
+    "src": "manifest 192x192 any",
+    "ext": "png",
+    "px": "",
+    "bytes": 7730,
+    "href": "https://claude.ai/images/icon-192x192.png"
+   },
+   {
+    "n": 6,
+    "src": "manifest 512x512 any",
+    "ext": "png",
+    "px": "",
+    "bytes": 21728,
+    "href": "https://claude.ai/images/icon-512x512-v2.png"
+   },
+   {
+    "n": 7,
+    "src": "manifest 1024x1024 any",
+    "ext": "png",
+    "px": "",
+    "bytes": 45722,
+    "href": "https://claude.ai/images/icon-1024x1024.png"
+   },
+   {
+    "n": 8,
+    "src": "manifest 512x512 maskable",
+    "ext": "png",
+    "px": "",
+    "bytes": 18081,
+    "href": "https://claude.ai/images/icon-maskable-512x512.png"
+   },
+   {
+    "n": 9,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 47143,
+    "href": "https://claude.ai/apple-touch-icon.png"
+   },
+   {
+    "n": 10,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 4475,
+    "href": "https://www.google.com/s2/favicons?domain=claude.ai&sz=256"
+   },
+   {
+    "n": 11,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 2445,
+    "href": "https://icons.duckduckgo.com/ip3/claude.ai.ico"
+   }
+  ]
+ },
+ {
+  "name": "PlayStation",
+  "id": "playstation",
+  "domain": "playstation.com",
+  "home": "https://www.playstation.com/en-us/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it PlayStation App | PlayStation Mobile Inc.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 41111,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/47/a6/7a47a62b-e11d-e11a-62b0-529d38ba42b3/PlayStation-0-0-1x_U007epad-0-1-0-sRGB-8"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "svg",
+    "px": "",
+    "bytes": 1649,
+    "href": "https://www.playstation.com/favicon.svg"
+   },
+   {
+    "n": 3,
+    "src": "google-s2",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 4309,
+    "href": "https://www.google.com/s2/favicons?domain=playstation.com&sz=256"
+   },
+   {
+    "n": 4,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1063,
+    "href": "https://icons.duckduckgo.com/ip3/playstation.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Steam",
+  "id": "steam",
+  "domain": "store.steampowered.com",
+  "home": "https://store.steampowered.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Steam Mobile | Valve Corporation",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 27697,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/ce/ad/4acead91-1501-5579-85c8-b68fdc6e5616/AppIcon-0-0-1x_U007emarketing-0-8-0-85-2"
+   },
+   {
+    "n": 2,
+    "src": "shortcut icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 38554,
+    "href": "https://store.steampowered.com/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 22683,
+    "href": "https://store.steampowered.com/apple-touch-icon.png"
+   },
+   {
+    "n": 4,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 21117,
+    "href": "https://www.google.com/s2/favicons?domain=store.steampowered.com&sz=256"
+   },
+   {
+    "n": 5,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 38554,
+    "href": "https://icons.duckduckgo.com/ip3/store.steampowered.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Tinder",
+  "id": "tinder",
+  "domain": "tinder.com",
+  "home": "https://tinder.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Tinder: app di dating | Tinder LLC",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 20552,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/76/2c/cd762c60-dee9-172d-0538-62912d475762/AppIcon-BrandFlame-0-0-1x_U007ephone-0-1"
+   },
+   {
+    "n": 2,
+    "src": "apple-touch-icon 180x180",
+    "ext": "png",
+    "px": "",
+    "bytes": 6183,
+    "href": "https://tinder.com/static/apple-touch-icon.png"
+   },
+   {
+    "n": 3,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 1034,
+    "href": "https://tinder.com/favicon-32x32.png"
+   },
+   {
+    "n": 4,
+    "src": "icon 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 738,
+    "href": "https://tinder.com/favicon-16x16.png"
+   },
+   {
+    "n": 5,
+    "src": "manifest 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 10275,
+    "href": "https://tinder.com/static/android-chrome-192x192.png"
+   },
+   {
+    "n": 6,
+    "src": "manifest 512x512",
+    "ext": "png",
+    "px": "",
+    "bytes": 28412,
+    "href": "https://tinder.com/static/android-chrome-512x512.png"
+   },
+   {
+    "n": 7,
+    "src": "manifest 192x192 maskable",
+    "ext": "png",
+    "px": "",
+    "bytes": 5069,
+    "href": "https://tinder.com/static/android-chrome-192x192-maskable.png"
+   },
+   {
+    "n": 8,
+    "src": "manifest 512x512 maskable",
+    "ext": "png",
+    "px": "",
+    "bytes": 26506,
+    "href": "https://tinder.com/static/android-chrome-512x512-maskable.png"
+   },
+   {
+    "n": 9,
+    "src": "mask-icon",
+    "ext": "svg",
+    "px": "",
+    "bytes": 1212,
+    "href": "https://tinder.com/static/safari-pinned-tab.svg"
+   },
+   {
+    "n": 10,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 616741,
+    "href": "https://tinder.com/apple-touch-icon.png"
+   },
+   {
+    "n": 11,
+    "src": "google-s2",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 2642,
+    "href": "https://www.google.com/s2/favicons?domain=tinder.com&sz=256"
+   },
+   {
+    "n": 12,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1034,
+    "href": "https://icons.duckduckgo.com/ip3/tinder.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Revolut",
+  "id": "revolut",
+  "domain": "revolut.com",
+  "home": null,
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Revolut — Tutta un'altra banca | Revolut Ltd",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 13540,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/0f/5c/d50f5c86-c0cd-4350-fa99-8a540f8dcf99/AppIcon-Production-0-0-1x_U007epad-0-1-8"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 1256,
+    "href": "https://www.google.com/s2/favicons?domain=revolut.com&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 598,
+    "href": "https://icons.duckduckgo.com/ip3/revolut.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "PayPal",
+  "id": "paypal",
+  "domain": "paypal.com",
+  "home": null,
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it PayPal | PayPal, Inc.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 12486,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2c/00/5a/2c005a68-aae8-b46d-7017-88feffc9753a/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 1469,
+    "href": "https://www.google.com/s2/favicons?domain=paypal.com&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 588,
+    "href": "https://icons.duckduckgo.com/ip3/paypal.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "N26",
+  "id": "n26",
+  "domain": "n26.com",
+  "home": "https://n26.com/en-eu/var049",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it N26 — Love your bank | N26 SE",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 17967,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/d3/09/27d309fd-6dbc-b794-7270-9889e1c4f68c/AppIcon_app_live-0-0-1x_U007ephone-0-1-s"
+   },
+   {
+    "n": 2,
+    "src": "apple-touch-icon 256x256",
+    "ext": "png",
+    "px": "",
+    "bytes": 5318,
+    "href": "https://n26.com/_build/logo-256x256.png"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon 152x152",
+    "ext": "png",
+    "px": "",
+    "bytes": 1211,
+    "href": "https://n26.com/_build/logo-152x152.png"
+   },
+   {
+    "n": 4,
+    "src": "apple-touch-icon 120x120",
+    "ext": "png",
+    "px": "",
+    "bytes": 1002,
+    "href": "https://n26.com/_build/logo-120x120.png"
    },
    {
     "n": 5,
     "src": "apple-touch-icon",
     "ext": "png",
     "px": "",
-    "bytes": 1258,
-    "href": "https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-57-248169.png"
+    "bytes": 622,
+    "href": "https://n26.com/_build/logo.png"
    },
    {
     "n": 6,
-    "src": "apple-touch-icon-precomposed 180x180",
-    "ext": "png",
+    "src": "icon",
+    "ext": "ico",
     "px": "",
-    "bytes": 2524,
-    "href": "https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-180-248169.png"
+    "bytes": 606,
+    "href": "https://n26.com/_build/favico.ico"
    },
    {
     "n": 7,
-    "src": "apple-touch-icon-precomposed 152x152",
+    "src": "apple-touch-icon",
     "ext": "png",
     "px": "",
-    "bytes": 2550,
-    "href": "https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-152-248169.png"
+    "bytes": 622,
+    "href": "https://n26.com/apple-touch-icon.png"
    },
    {
     "n": 8,
-    "src": "apple-touch-icon-precomposed 144x144",
-    "ext": "png",
-    "px": "",
-    "bytes": 2426,
-    "href": "https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-144-248169.png"
-   },
-   {
-    "n": 9,
-    "src": "apple-touch-icon-precomposed 120x120",
-    "ext": "png",
-    "px": "",
-    "bytes": 2016,
-    "href": "https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-120-248169.png"
-   },
-   {
-    "n": 10,
-    "src": "apple-touch-icon-precomposed 114x114",
-    "ext": "png",
-    "px": "",
-    "bytes": 2426,
-    "href": "https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-114-248169.png"
-   },
-   {
-    "n": 11,
-    "src": "apple-touch-icon-precomposed 76x76",
-    "ext": "png",
-    "px": "",
-    "bytes": 1889,
-    "href": "https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-76-248169.png"
-   },
-   {
-    "n": 12,
-    "src": "apple-touch-icon-precomposed 72x72",
-    "ext": "png",
-    "px": "",
-    "bytes": 1384,
-    "href": "https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/hp/icone/favicon/list-icon-72-248169.png"
-   },
-   {
-    "n": 13,
     "src": "google-s2",
     "ext": "png",
     "px": "",
-    "bytes": 2510,
-    "href": "https://www.google.com/s2/favicons?domain=tim.it&sz=256"
+    "bytes": 4124,
+    "href": "https://www.google.com/s2/favicons?domain=n26.com&sz=256"
    },
    {
-    "n": 14,
+    "n": 9,
     "src": "duckduckgo",
     "ext": "ico",
     "px": "",
-    "bytes": 15086,
-    "href": "https://icons.duckduckgo.com/ip3/tim.it.ico"
+    "bytes": 606,
+    "href": "https://icons.duckduckgo.com/ip3/n26.com.ico"
    }
   ]
  },
  {
-  "name": "Iliad",
-  "id": "iliad",
-  "domain": "iliad.it",
-  "home": "https://www.iliad.it/",
+  "name": "Wise",
+  "id": "wise",
+  "domain": "wise.com",
+  "home": "https://wise.com/",
   "got": [
    {
     "n": 1,
-    "src": "appstore-it iliad | Iliad Italia S.p.A.",
+    "src": "appstore-it Wise | Wise Payments Ltd",
     "ext": "jpg",
     "px": "",
-    "bytes": 20492,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/d8/2f/a6d82f4d-90cb-7b45-d92c-23db047a130c/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-2"
+    "bytes": 21478,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/18/24/9b1824d1-9653-0aa5-f4b4-8c56a03f0a3d/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png"
    },
    {
     "n": 2,
-    "src": "manifest 36x36",
+    "src": "icon",
     "ext": "png",
     "px": "",
-    "bytes": 1705,
-    "href": "https://www.iliad.it/assets/favicon/android-icon-36x36.png"
+    "bytes": 337,
+    "href": "https://wise.com/public-resources/assets/icons/wise-personal/favicon.png"
    },
    {
     "n": 3,
-    "src": "manifest 48x48",
+    "src": "apple-touch-icon 180x180",
     "ext": "png",
     "px": "",
-    "bytes": 2030,
-    "href": "https://www.iliad.it/assets/favicon/android-icon-48x48.png"
+    "bytes": 1114,
+    "href": "https://wise.com/public-resources/assets/icons/wise-personal/apple_touch_icon.png"
+   },
+   {
+    "n": 4,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 343,
+    "href": "https://wise.com/public-resources/assets/icons/wise-personal/favicon_32x32.png"
+   },
+   {
+    "n": 5,
+    "src": "icon 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 240,
+    "href": "https://wise.com/public-resources/assets/icons/wise-personal/favicon_16x16.png"
+   },
+   {
+    "n": 6,
+    "src": "mask-icon",
+    "ext": "svg",
+    "px": "",
+    "bytes": 436,
+    "href": "https://wise.com/public-resources/assets/icons/wise-personal/safari_pinned_tab.svg"
+   },
+   {
+    "n": 7,
+    "src": "icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 1237,
+    "href": "https://wise.com/public-resources/assets/icons/wise-personal/android_chrome_192x192.png"
+   },
+   {
+    "n": 8,
+    "src": "icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 1579,
+    "href": "https://wise.com/public-resources/assets/icons/wise-personal/android_chrome_256x256.png"
+   },
+   {
+    "n": 9,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 4296,
+    "href": "https://www.google.com/s2/favicons?domain=wise.com&sz=256"
+   },
+   {
+    "n": 10,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 343,
+    "href": "https://icons.duckduckgo.com/ip3/wise.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Monzo",
+  "id": "monzo",
+  "domain": "monzo.com",
+  "home": "https://monzo.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Monzo Bank - Mobile Banking | Monzo Bank Limited",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 27916,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/3e/55/193e55b2-6eaa-712e-ceb6-6cb6fbb59c32/AppIconProd-0-0-1x_U007ephone-0-1-0-0-sR"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "svg",
+    "px": "",
+    "bytes": 1640,
+    "href": "https://static-assets.monzo.com/monzo-com/e5d8d436785be62a699489a14dd51c322f465b8b/_next/static/media/favicon.4c6ebc6f.svg"
+   },
+   {
+    "n": 3,
+    "src": "shortcut icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 760,
+    "href": "https://static-assets.monzo.com/monzo-com/e5d8d436785be62a699489a14dd51c322f465b8b/_next/static/media/favicon.87a9df8c.png"
    },
    {
     "n": 4,
     "src": "manifest 72x72",
     "ext": "png",
     "px": "",
-    "bytes": 2543,
-    "href": "https://www.iliad.it/assets/favicon/android-icon-72x72.png"
+    "bytes": 865,
+    "href": "https://monzo.com/images/icons/icon-x72.png"
    },
    {
     "n": 5,
-    "src": "manifest 96x96",
+    "src": "manifest 72x72 maskable",
     "ext": "png",
     "px": "",
-    "bytes": 2977,
-    "href": "https://www.iliad.it/assets/favicon/android-icon-96x96.png"
+    "bytes": 865,
+    "href": "https://monzo.com/images/icons/maskable-icon-x72.png"
    },
    {
     "n": 6,
-    "src": "manifest 144x144",
+    "src": "manifest 96x96",
     "ext": "png",
     "px": "",
-    "bytes": 3999,
-    "href": "https://www.iliad.it/assets/favicon/android-icon-144x144.png"
+    "bytes": 1211,
+    "href": "https://monzo.com/images/icons/icon-x96.png"
    },
    {
     "n": 7,
-    "src": "manifest 192x192",
+    "src": "manifest 96x96 maskable",
     "ext": "png",
     "px": "",
-    "bytes": 4019,
-    "href": "https://www.iliad.it/assets/favicon/android-icon-192x192.png"
+    "bytes": 1211,
+    "href": "https://monzo.com/images/icons/maskable-icon-x96.png"
    },
    {
     "n": 8,
-    "src": "icon 32x32",
+    "src": "manifest 128x128",
     "ext": "png",
     "px": "",
     "bytes": 1593,
-    "href": "https://www.iliad.it/assets/favicon/favicon-32x32.png"
+    "href": "https://monzo.com/images/icons/icon-x128.png"
    },
    {
     "n": 9,
-    "src": "icon 96x96",
+    "src": "manifest 128x128 maskable",
     "ext": "png",
     "px": "",
-    "bytes": 2977,
-    "href": "https://www.iliad.it/assets/favicon/favicon-96x96.png"
+    "bytes": 1593,
+    "href": "https://monzo.com/images/icons/maskable-icon-x128.png"
    },
    {
     "n": 10,
-    "src": "icon 16x16",
+    "src": "manifest 192x192",
     "ext": "png",
     "px": "",
-    "bytes": 1100,
-    "href": "https://www.iliad.it/assets/favicon/favicon-16x16.png"
+    "bytes": 2188,
+    "href": "https://monzo.com/images/icons/icon-x192.png"
    },
    {
     "n": 11,
-    "src": "apple-touch-icon 57x57",
+    "src": "manifest 192x192 maskable",
     "ext": "png",
     "px": "",
-    "bytes": 2206,
-    "href": "https://www.iliad.it/assets/favicon/apple-icon-57x57.png"
+    "bytes": 2188,
+    "href": "https://monzo.com/images/icons/maskable-icon-x192.png"
    },
    {
     "n": 12,
-    "src": "apple-touch-icon 60x60",
+    "src": "manifest 384x384",
     "ext": "png",
     "px": "",
-    "bytes": 2263,
-    "href": "https://www.iliad.it/assets/favicon/apple-icon-60x60.png"
+    "bytes": 4948,
+    "href": "https://monzo.com/images/icons/icon-x384.png"
    },
    {
     "n": 13,
-    "src": "apple-touch-icon 72x72",
+    "src": "manifest 384x384 maskable",
     "ext": "png",
     "px": "",
-    "bytes": 2543,
-    "href": "https://www.iliad.it/assets/favicon/apple-icon-72x72.png"
+    "bytes": 4948,
+    "href": "https://monzo.com/images/icons/maskable-icon-x384.png"
    },
    {
     "n": 14,
-    "src": "apple-touch-icon 76x76",
+    "src": "manifest 512x512",
     "ext": "png",
     "px": "",
-    "bytes": 2598,
-    "href": "https://www.iliad.it/assets/favicon/apple-icon-76x76.png"
+    "bytes": 6525,
+    "href": "https://monzo.com/images/icons/icon-x512.png"
    },
    {
     "n": 15,
-    "src": "apple-touch-icon 114x114",
+    "src": "manifest 512x512 maskable",
     "ext": "png",
     "px": "",
-    "bytes": 3363,
-    "href": "https://www.iliad.it/assets/favicon/apple-icon-114x114.png"
+    "bytes": 6525,
+    "href": "https://monzo.com/images/icons/maskable-icon-x512.png"
    },
    {
     "n": 16,
-    "src": "apple-touch-icon 120x120",
+    "src": "manifest 1024x1024",
     "ext": "png",
     "px": "",
-    "bytes": 3521,
-    "href": "https://www.iliad.it/assets/favicon/apple-icon-120x120.png"
+    "bytes": 16835,
+    "href": "https://monzo.com/images/icons/icon-x1024.png"
    },
    {
     "n": 17,
-    "src": "apple-touch-icon 144x144",
+    "src": "manifest 1024x1024 maskable",
     "ext": "png",
     "px": "",
-    "bytes": 3999,
-    "href": "https://www.iliad.it/assets/favicon/apple-icon-144x144.png"
+    "bytes": 9060,
+    "href": "https://monzo.com/images/icons/maskable-icon-x1024.png"
    },
    {
     "n": 18,
-    "src": "apple-touch-icon 152x152",
-    "ext": "png",
-    "px": "",
-    "bytes": 5063,
-    "href": "https://www.iliad.it/assets/favicon/apple-icon-152x152.png"
-   },
-   {
-    "n": 19,
-    "src": "apple-touch-icon 180x180",
-    "ext": "png",
-    "px": "",
-    "bytes": 6056,
-    "href": "https://www.iliad.it/assets/favicon/apple-icon-180x180.png"
-   },
-   {
-    "n": 20,
     "src": "google-s2",
     "ext": "png",
     "px": "",
-    "bytes": 5216,
-    "href": "https://www.google.com/s2/favicons?domain=iliad.it&sz=256"
+    "bytes": 3561,
+    "href": "https://www.google.com/s2/favicons?domain=monzo.com&sz=256"
    },
    {
-    "n": 21,
+    "n": 19,
     "src": "duckduckgo",
     "ext": "ico",
     "px": "",
-    "bytes": 1593,
-    "href": "https://icons.duckduckgo.com/ip3/iliad.it.ico"
+    "bytes": 760,
+    "href": "https://icons.duckduckgo.com/ip3/monzo.com.ico"
    }
   ]
  },
  {
-  "name": "WINDTRE",
-  "id": "windtre",
-  "domain": "windtre.it",
-  "home": "https://www.windtre.it/",
+  "name": "Deliveroo",
+  "id": "deliveroo",
+  "domain": "deliveroo.com",
+  "home": "https://deliveroo.co.uk/",
   "got": [
    {
     "n": 1,
-    "src": "appstore-it WINDTRE | Wind Tre S.p.A.",
+    "src": "appstore-it Deliveroo: Cibo a domicilio | ROOFOODS LTD",
     "ext": "jpg",
     "px": "",
-    "bytes": 30970,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/0b/d3/910bd328-341d-ed9a-3884-7acd051473a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-2"
+    "bytes": 19595,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/62/2f/6b622f96-42c5-232b-d742-105c6fd702a1/DeliverooDefault-0-0-1x_U007epad-0-1-0-8"
+   },
+   {
+    "n": 2,
+    "src": "mask-icon",
+    "ext": "svg",
+    "px": "",
+    "bytes": 4470,
+    "href": "https://cwa.roocdn.com/_next/static/media/safari-pinned-tab.0qt9iiu_rxq_z.svg"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon-precomposed 57x57",
+    "ext": "png",
+    "px": "",
+    "bytes": 2182,
+    "href": "https://cwa.roocdn.com/_next/static/media/apple-touch-icon.0ttpk75_bmbxv.png"
+   },
+   {
+    "n": 4,
+    "src": "shortcut icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 663,
+    "href": "https://cwa.roocdn.com/_next/static/media/favicon-32x32.00q06v5lqjewz.png"
+   },
+   {
+    "n": 5,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 1424,
+    "href": "https://www.google.com/s2/favicons?domain=deliveroo.com&sz=256"
+   },
+   {
+    "n": 6,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 663,
+    "href": "https://icons.duckduckgo.com/ip3/deliveroo.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Glovo",
+  "id": "glovo",
+  "domain": "glovoapp.com",
+  "home": "https://glovoapp.com/en",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Glovo: Cibo a domicilio | Glovoapp 23 SL",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 21142,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/50/13/715013fe-2421-8c43-d614-3db3df2ebdb1/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220"
+   },
+   {
+    "n": 2,
+    "src": "icon 192x192",
+    "ext": "ico",
+    "px": "",
+    "bytes": 3736,
+    "href": "https://glovoapp.com/favicon.ico?de37b08259df3750"
+   },
+   {
+    "n": 3,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 3736,
+    "href": "https://glovoapp.com/favicon.ico"
+   },
+   {
+    "n": 4,
+    "src": "apple-touch-icon 57x57",
+    "ext": "png",
+    "px": "",
+    "bytes": 8791,
+    "href": "https://glovoapp.com/apple-icon.png"
+   },
+   {
+    "n": 5,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 2728,
+    "href": "https://glovoapp.com/apple-touch-icon.png"
+   },
+   {
+    "n": 6,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 6467,
+    "href": "https://www.google.com/s2/favicons?domain=glovoapp.com&sz=256"
+   },
+   {
+    "n": 7,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 3736,
+    "href": "https://icons.duckduckgo.com/ip3/glovoapp.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Just Eat",
+  "id": "just-eat",
+  "domain": "justeat.com",
+  "home": null,
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Just Eat - Cibo a domicilio | Just-Eat Holdings Limited",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 30976,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/65/35/576535d5-ef5f-48c8-0207-a172499f5941/AppIcon-JE-0-0-1x_U007epad-0-1-0-85-220."
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 11667,
+    "href": "https://www.google.com/s2/favicons?domain=justeat.com&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1890,
+    "href": "https://icons.duckduckgo.com/ip3/justeat.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Uber Eats",
+  "id": "uber-eats",
+  "domain": "ubereats.com",
+  "home": null,
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Uber Eats: Consegna di cibo | Uber Technologies, Inc.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 26440,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/d4/3c/6cd43c2b-7b3a-ca96-63c9-ae574a3c6530/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sR"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 17289,
+    "href": "https://www.google.com/s2/favicons?domain=ubereats.com&sz=256"
+   }
+  ]
+ },
+ {
+  "name": "Uber",
+  "id": "uber",
+  "domain": "uber.com",
+  "home": null,
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Uber - Richiedi una corsa | Uber Technologies, Inc.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 16001,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/7a/fd/e67afd4d-c5be-bf2c-b34f-af6ea4d46b82/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 6312,
+    "href": "https://www.google.com/s2/favicons?domain=uber.com&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 9662,
+    "href": "https://icons.duckduckgo.com/ip3/uber.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "McDonald's",
+  "id": "mcdonald-s",
+  "domain": "mcdonalds.com",
+  "home": "https://www.mcdonalds.com/us/en-us.html",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it McDonald's | McDonald's Global Markets LLC",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 18498,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/92/0b/fc920b44-c045-5927-5391-13d06fdfcf05/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-22"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15406,
+    "href": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 1570,
+    "href": "https://www.google.com/s2/favicons?domain=mcdonalds.com&sz=256"
+   },
+   {
+    "n": 4,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15406,
+    "href": "https://icons.duckduckgo.com/ip3/mcdonalds.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Burger King",
+  "id": "burger-king",
+  "domain": "burgerking.com",
+  "home": "https://www.bk.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 14510,
+    "href": "https://www.bk.com/favicon.ico"
+   },
+   {
+    "n": 2,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 5557,
+    "href": "https://www.bk.com/apple-touch-icon.png"
+   },
+   {
+    "n": 3,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 2527,
+    "href": "https://www.google.com/s2/favicons?domain=burgerking.com&sz=256"
+   },
+   {
+    "n": 4,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 14510,
+    "href": "https://icons.duckduckgo.com/ip3/burgerking.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "KFC",
+  "id": "kfc",
+  "domain": "kfc.com",
+  "home": "https://www.kfc.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-us KFC US: Ordering & Delivery | KFC Corporation",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 37871,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/6c/9d/176c9d77-da5a-3205-d672-aec9468caf12/Default-0-0-1x_U007epad-0-1-85-220.png/5"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15406,
+    "href": "https://www.kfc.com/favicon/default/favicon.ico?v=2026-11-19"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon 180x180",
+    "ext": "png",
+    "px": "",
+    "bytes": 45876,
+    "href": "https://www.kfc.com/favicon/default/apple-touch-icon.png?v=2026-11-19"
+   },
+   {
+    "n": 4,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 2376,
+    "href": "https://www.kfc.com/favicon/default/favicon-32x32.png?v=2026-11-19"
+   },
+   {
+    "n": 5,
+    "src": "icon 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 926,
+    "href": "https://www.kfc.com/favicon/default/favicon-16x16.png?v=2026-11-19"
+   },
+   {
+    "n": 6,
+    "src": "manifest 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 51238,
+    "href": "https://www.kfc.com/favicon/default/android-chrome-192x192.png"
+   },
+   {
+    "n": 7,
+    "src": "manifest 512x512",
+    "ext": "png",
+    "px": "",
+    "bytes": 290669,
+    "href": "https://www.kfc.com/favicon/default/android-chrome-512x512.png"
+   },
+   {
+    "n": 8,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15406,
+    "href": "https://www.kfc.com/favicon.ico"
+   },
+   {
+    "n": 9,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 45850,
+    "href": "https://www.google.com/s2/favicons?domain=kfc.com&sz=256"
+   },
+   {
+    "n": 10,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 2376,
+    "href": "https://icons.duckduckgo.com/ip3/kfc.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Starbucks",
+  "id": "starbucks",
+  "domain": "starbucks.com",
+  "home": "https://www.starbucks.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Starbucks Secret Recipes Menu | Mutludev L.L.C-FZ",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 17884,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/e3/5e/74e35ec0-3b48-cbd6-9409-4912529c5aff/AppIcon-0-0-1x_U007ephone-0-1-85-220.png"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15406,
+    "href": "https://www.starbucks.com/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 14821,
+    "href": "https://www.starbucks.com/apple-touch-icon.png"
+   },
+   {
+    "n": 4,
+    "src": "icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 51606,
+    "href": "https://www.starbucks.com/pwa-icon.png"
+   },
+   {
+    "n": 5,
+    "src": "manifest 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 17792,
+    "href": "https://www.starbucks.com/pwa-icon-192.png"
+   },
+   {
+    "n": 6,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 8719,
+    "href": "https://www.google.com/s2/favicons?domain=starbucks.com&sz=256"
+   },
+   {
+    "n": 7,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15406,
+    "href": "https://icons.duckduckgo.com/ip3/starbucks.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Ryanair",
+  "id": "ryanair",
+  "domain": "ryanair.com",
+  "home": "https://www.ryanair.com/it/it",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Ryanair | Ryanair Ltd.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 31224,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/c1/43/87c143fc-d87a-ce9c-d011-a2d40ca39f38/AppIcon-0-0-1x_U007emarketing-0-6-0-85-2"
+   },
+   {
+    "n": 2,
+    "src": "manifest 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 365,
+    "href": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/favicon-16x16.png"
+   },
+   {
+    "n": 3,
+    "src": "manifest 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 861,
+    "href": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/favicon-32x32.png"
+   },
+   {
+    "n": 4,
+    "src": "manifest 96x96",
+    "ext": "png",
+    "px": "",
+    "bytes": 2962,
+    "href": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/favicon-96x96.png"
+   },
+   {
+    "n": 5,
+    "src": "apple-touch-icon 57x57",
+    "ext": "png",
+    "px": "",
+    "bytes": 2876,
+    "href": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/apple-touch-icon-57x57.png"
+   },
+   {
+    "n": 6,
+    "src": "apple-touch-icon 60x60",
+    "ext": "png",
+    "px": "",
+    "bytes": 2921,
+    "href": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/apple-touch-icon-60x60.png"
+   },
+   {
+    "n": 7,
+    "src": "apple-touch-icon 72x72",
+    "ext": "png",
+    "px": "",
+    "bytes": 3415,
+    "href": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/apple-touch-icon-72x72.png"
+   },
+   {
+    "n": 8,
+    "src": "apple-touch-icon 76x76",
+    "ext": "png",
+    "px": "",
+    "bytes": 3505,
+    "href": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/apple-touch-icon-76x76.png"
+   },
+   {
+    "n": 9,
+    "src": "apple-touch-icon 114x114",
+    "ext": "png",
+    "px": "",
+    "bytes": 5081,
+    "href": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/apple-touch-icon-114x114.png"
+   },
+   {
+    "n": 10,
+    "src": "apple-touch-icon 120x120",
+    "ext": "png",
+    "px": "",
+    "bytes": 5412,
+    "href": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/apple-touch-icon-120x120.png"
+   },
+   {
+    "n": 11,
+    "src": "apple-touch-icon 144x144",
+    "ext": "png",
+    "px": "",
+    "bytes": 6503,
+    "href": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/apple-touch-icon-144x144.png"
+   },
+   {
+    "n": 12,
+    "src": "apple-touch-icon 152x152",
+    "ext": "png",
+    "px": "",
+    "bytes": 7003,
+    "href": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/apple-touch-icon-152x152.png"
+   },
+   {
+    "n": 13,
+    "src": "shortcut icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15086,
+    "href": "https://assets.ryanair.com/resources/ui/ryanair3.0/favicons/favicon.ico"
+   },
+   {
+    "n": 14,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 16335,
+    "href": "https://www.ryanair.com/apple-touch-icon.png"
+   },
+   {
+    "n": 15,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 2831,
+    "href": "https://www.google.com/s2/favicons?domain=ryanair.com&sz=256"
+   },
+   {
+    "n": 16,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 861,
+    "href": "https://icons.duckduckgo.com/ip3/ryanair.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "easyJet",
+  "id": "easyjet",
+  "domain": "easyjet.com",
+  "home": null,
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it easyJet: Travel App | easyJet Airline Company Limited",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 16599,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/bb/55/9abb558a-384e-806e-4103-18c54b9854ca/AppIcon-0-0-1x_U007ephone-0-1-85-220.png"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 285,
+    "href": "https://www.google.com/s2/favicons?domain=easyjet.com&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 3262,
+    "href": "https://icons.duckduckgo.com/ip3/easyjet.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Lufthansa",
+  "id": "lufthansa",
+  "domain": "lufthansa.com",
+  "home": null,
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Lufthansa | Lufthansa Group Digital Hangar GmbH",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 33453,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/b8/09/d1b80972-f285-630e-db30-9e64edc8cf42/AppIcon_LH-0-0-1x_U007epad-0-1-0-85-220."
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 2719,
+    "href": "https://www.google.com/s2/favicons?domain=lufthansa.com&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 32988,
+    "href": "https://icons.duckduckgo.com/ip3/lufthansa.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Tesla",
+  "id": "tesla",
+  "domain": "tesla.com",
+  "home": null,
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Tesla | Tesla, Inc.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 21217,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/f6/39/86f6391c-fca1-dbe2-a7a5-4b09c001e498/ProdAppIcon-0-0-1x_U007epad-0-1-0-0-85-2"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 2613,
+    "href": "https://www.google.com/s2/favicons?domain=tesla.com&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 724,
+    "href": "https://icons.duckduckgo.com/ip3/tesla.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Shell",
+  "id": "shell",
+  "domain": "shell.com",
+  "home": "https://www.shell.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Shell | Shell Information Technology International B.V.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 36889,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/60/99/2b609958-22c0-ab1d-a74e-f43db948a381/AppIcon-0-0-1x_U007emarketing-0-8-0-85-2"
    },
    {
     "n": 2,
@@ -3139,183 +2819,1039 @@
     "ext": "ico",
     "px": "",
     "bytes": 34494,
-    "href": "https://www.windtre.it/content/dam/cma/windtre/resources/icon/favico/favicon.ico"
+    "href": "https://www.shell.com/etc.clientlibs/amidala/clientlibs/theme-base/resources/favicon/favicon.ico"
    },
    {
     "n": 3,
-    "src": "apple-touch-icon-precomposed 57x57",
-    "ext": "png",
+    "src": "icon",
+    "ext": "svg",
     "px": "",
-    "bytes": 1965,
-    "href": "https://www.windtre.it/content/dam/cma/windtre/resources/icon/favico/apple-touch-icon-57x57.png"
+    "bytes": 1957,
+    "href": "https://www.shell.com/etc.clientlibs/amidala/clientlibs/theme-base/resources/favicon/favicon.svg"
    },
    {
     "n": 4,
-    "src": "apple-touch-icon-precomposed 114x114",
+    "src": "apple-touch-icon",
     "ext": "png",
     "px": "",
-    "bytes": 4556,
-    "href": "https://www.windtre.it/content/dam/cma/windtre/resources/icon/favico/apple-touch-icon-114x114.png"
+    "bytes": 4161,
+    "href": "https://www.shell.com/etc.clientlibs/amidala/clientlibs/theme-base/resources/favicon/apple-touch-icon.png"
    },
    {
     "n": 5,
-    "src": "apple-touch-icon-precomposed 72x72",
+    "src": "manifest 512x512",
     "ext": "png",
     "px": "",
-    "bytes": 2660,
-    "href": "https://www.windtre.it/content/dam/cma/windtre/resources/icon/favico/apple-touch-icon-72x72.png"
+    "bytes": 13742,
+    "href": "https://www.shell.com/etc.clientlibs/amidala/clientlibs/theme-base/resources/favicon/google-touch-icon.png"
    },
    {
     "n": 6,
-    "src": "apple-touch-icon-precomposed 144x144",
-    "ext": "png",
-    "px": "",
-    "bytes": 6009,
-    "href": "https://www.windtre.it/content/dam/cma/windtre/resources/icon/favico/apple-touch-icon-144x144.png"
-   },
-   {
-    "n": 7,
-    "src": "apple-touch-icon-precomposed 60x60",
-    "ext": "png",
-    "px": "",
-    "bytes": 2072,
-    "href": "https://www.windtre.it/content/dam/cma/windtre/resources/icon/favico/apple-touch-icon-60x60.png"
-   },
-   {
-    "n": 8,
-    "src": "apple-touch-icon-precomposed 120x120",
-    "ext": "png",
-    "px": "",
-    "bytes": 4800,
-    "href": "https://www.windtre.it/content/dam/cma/windtre/resources/icon/favico/apple-touch-icon-120x120.png"
-   },
-   {
-    "n": 9,
-    "src": "apple-touch-icon-precomposed 76x76",
-    "ext": "png",
-    "px": "",
-    "bytes": 2829,
-    "href": "https://www.windtre.it/content/dam/cma/windtre/resources/icon/favico/apple-touch-icon-76x76.png"
-   },
-   {
-    "n": 10,
-    "src": "apple-touch-icon-precomposed 152x152",
-    "ext": "png",
-    "px": "",
-    "bytes": 6410,
-    "href": "https://www.windtre.it/content/dam/cma/windtre/resources/icon/favico/apple-touch-icon-152x152.png"
-   },
-   {
-    "n": 11,
-    "src": "icon 196x196",
-    "ext": "png",
-    "px": "",
-    "bytes": 8633,
-    "href": "https://www.windtre.it/content/dam/cma/windtre/resources/icon/favico/favicon-196x196.png"
-   },
-   {
-    "n": 12,
-    "src": "icon 96x96",
-    "ext": "png",
-    "px": "",
-    "bytes": 3693,
-    "href": "https://www.windtre.it/content/dam/cma/windtre/resources/icon/favico/favicon-96x96.png"
-   },
-   {
-    "n": 13,
-    "src": "icon 32x32",
-    "ext": "png",
-    "px": "",
-    "bytes": 925,
-    "href": "https://www.windtre.it/content/dam/cma/windtre/resources/icon/favico/favicon-32x32.png"
-   },
-   {
-    "n": 14,
-    "src": "icon 16x16",
-    "ext": "png",
-    "px": "",
-    "bytes": 413,
-    "href": "https://www.windtre.it/content/dam/cma/windtre/resources/icon/favico/favicon-16x16.png"
-   },
-   {
-    "n": 15,
-    "src": "icon 128x128",
-    "ext": "png",
-    "px": "",
-    "bytes": 5260,
-    "href": "https://www.windtre.it/content/dam/cma/windtre/resources/icon/favico/favicon-128.png"
-   },
-   {
-    "n": 16,
     "src": "google-s2",
     "ext": "png",
     "px": "",
-    "bytes": 1796,
-    "href": "https://www.google.com/s2/favicons?domain=windtre.it&sz=256"
+    "bytes": 8904,
+    "href": "https://www.google.com/s2/favicons?domain=shell.com&sz=256"
+   },
+   {
+    "n": 7,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 34494,
+    "href": "https://icons.duckduckgo.com/ip3/shell.com.ico"
    }
   ]
  },
  {
-  "name": "Fastweb",
-  "id": "fastweb",
-  "domain": "fastweb.it",
-  "home": "https://www.fastweb.it/",
+  "name": "Booking.com",
+  "id": "booking-com",
+  "domain": "booking.com",
+  "home": "https://booking.com/",
   "got": [
    {
     "n": 1,
-    "src": "appstore-it MyFastweb | FASTWEB SPA",
+    "src": "appstore-it Booking.com Offerte di viaggio | Booking.com B.V.",
     "ext": "jpg",
     "px": "",
-    "bytes": 17118,
-    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/37/66/623766b7-20ad-5763-e1d0-0dd5f838fe6f/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-22"
+    "bytes": 19198,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/b2/cb/49b2cb76-f075-3e59-f4d6-4738b3e985fc/AppIcon-0-0-1x_U007epad-0-9-0-85-220.jpe"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 2828,
+    "href": "https://www.google.com/s2/favicons?domain=booking.com&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 3323,
+    "href": "https://icons.duckduckgo.com/ip3/booking.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Airbnb",
+  "id": "airbnb",
+  "domain": "airbnb.com",
+  "home": "https://www.airbnb.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 15498,
+    "href": "https://www.google.com/s2/favicons?domain=airbnb.com&sz=256"
+   },
+   {
+    "n": 2,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15486,
+    "href": "https://icons.duckduckgo.com/ip3/airbnb.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Expedia",
+  "id": "expedia",
+  "domain": "expedia.com",
+  "home": null,
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-us Expedia: Hotels, Flights, Cars | Expedia, Inc.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 16057,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/de/54/90de54a9-de24-5970-3c5c-b21945c20e35/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png"
    },
    {
     "n": 2,
     "src": "apple-touch-icon",
     "ext": "png",
     "px": "",
-    "bytes": 1456,
-    "href": "https://www.fastweb.it/adsl-fibra-ottica/gfx/favicon/fw_AppIcon57x57.png"
+    "bytes": 987,
+    "href": "https://expedia.com/apple-touch-icon.png"
    },
    {
     "n": 3,
-    "src": "apple-touch-icon 72x72",
-    "ext": "png",
-    "px": "",
-    "bytes": 1888,
-    "href": "https://www.fastweb.it/adsl-fibra-ottica/gfx/favicon/fw_AppIcon72x72.png"
-   },
-   {
-    "n": 4,
-    "src": "apple-touch-icon 114x114",
-    "ext": "png",
-    "px": "",
-    "bytes": 2917,
-    "href": "https://www.fastweb.it/adsl-fibra-ottica/gfx/favicon/fw_AppIcon114x114.png"
-   },
-   {
-    "n": 5,
-    "src": "apple-touch-icon 144x144",
-    "ext": "png",
-    "px": "",
-    "bytes": 3764,
-    "href": "https://www.fastweb.it/adsl-fibra-ottica/gfx/favicon/fw_AppIcon144x144.png"
-   },
-   {
-    "n": 6,
-    "src": "shortcut icon",
-    "ext": "ico",
-    "px": "",
-    "bytes": 25602,
-    "href": "https://www.fastweb.it/adsl-fibra-ottica/gfx/favicon/favicon.ico"
-   },
-   {
-    "n": 7,
     "src": "google-s2",
     "ext": "png",
     "px": "",
+    "bytes": 1072,
+    "href": "https://www.google.com/s2/favicons?domain=expedia.com&sz=256"
+   },
+   {
+    "n": 4,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15086,
+    "href": "https://icons.duckduckgo.com/ip3/expedia.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Carrefour",
+  "id": "carrefour",
+  "domain": "carrefour.com",
+  "home": "https://www.carrefour.com/en",
+  "got": [
+   {
+    "n": 1,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15086,
+    "href": "https://www.carrefour.com/themes/custom/c4com/favicon.ico"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 1018,
+    "href": "https://www.google.com/s2/favicons?domain=carrefour.com&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15086,
+    "href": "https://icons.duckduckgo.com/ip3/carrefour.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Lidl",
+  "id": "lidl",
+  "domain": "lidl.com",
+  "home": "https://www.lidl.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Lidl Plus | Lidl Digital International GmbH & Co. KG",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 37202,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/af/b2/38afb296-dd06-70be-def0-3bdeeeb6adc5/AppIcon-0-0-1x_U007ephone-0-1-P3-85-220."
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "svg",
+    "px": "",
+    "bytes": 1751,
+    "href": "https://www.lidl.com/cdn/assets/logos/1.0.1/lidl-logo-shop-cdn.svg"
+   },
+   {
+    "n": 3,
+    "src": "manifest 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 10867,
+    "href": "https://www.lidl.com/cdn/assets/logos/1.0.1/android-chrome-192x192.png"
+   },
+   {
+    "n": 4,
+    "src": "manifest 512x512",
+    "ext": "png",
+    "px": "",
+    "bytes": 27217,
+    "href": "https://www.lidl.com/cdn/assets/logos/1.0.1/android-chrome-512x512.png"
+   },
+   {
+    "n": 5,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 5804,
+    "href": "https://www.lidl.com/apple-touch-icon.png"
+   },
+   {
+    "n": 6,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 1158,
+    "href": "https://www.google.com/s2/favicons?domain=lidl.com&sz=256"
+   }
+  ]
+ },
+ {
+  "name": "Tesco",
+  "id": "tesco",
+  "domain": "tesco.com",
+  "home": null,
+  "got": [
+   {
+    "n": 1,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 2341,
+    "href": "https://tesco.com/apple-touch-icon.png"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 2796,
+    "href": "https://www.google.com/s2/favicons?domain=tesco.com&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 613,
+    "href": "https://icons.duckduckgo.com/ip3/tesco.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Auchan",
+  "id": "auchan",
+  "domain": "auchan.com",
+  "home": null,
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Auchan | AUCHAN RETAIL PORTUGAL, S.A.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 39672,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/99/83/2d99831a-34c0-7e1d-1e5e-63a3bdc4276e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-2"
+   }
+  ]
+ },
+ {
+  "name": "IKEA",
+  "id": "ikea",
+  "domain": "ikea.com",
+  "home": "https://www.ikea.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it IKEA | Inter IKEA Systems B.V.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 21032,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/56/c6/7556c6e2-da97-b8c0-7779-3f767901e513/AppIcon-0-0-1x_U007epad-0-1-85-220.png/5"
+   },
+   {
+    "n": 2,
+    "src": "shortcut icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15086,
+    "href": "https://www.ikea.com/global/en/images/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 3872,
+    "href": "https://www.ikea.com/apple-touch-icon.png"
+   },
+   {
+    "n": 4,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 1784,
+    "href": "https://www.google.com/s2/favicons?domain=ikea.com&sz=256"
+   },
+   {
+    "n": 5,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15086,
+    "href": "https://icons.duckduckgo.com/ip3/ikea.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Zara",
+  "id": "zara",
+  "domain": "zara.com",
+  "home": "https://www.zara.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it ZARA | Industria de Diseno Textil, S.A.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 23006,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/e3/a9/87e3a9d2-5e5a-330c-28aa-ad9b8b56f596/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 3950,
+    "href": "https://www.google.com/s2/favicons?domain=zara.com&sz=256"
+   }
+  ]
+ },
+ {
+  "name": "H&M",
+  "id": "handm",
+  "domain": "hm.com",
+  "home": null,
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it H&M | H & M Hennes & Mauritz AB",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 25088,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/67/14/72671461-976c-def7-0a7c-5cab925e0e9f/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 1405,
+    "href": "https://www.google.com/s2/favicons?domain=hm.com&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 6518,
+    "href": "https://icons.duckduckgo.com/ip3/hm.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Uniqlo",
+  "id": "uniqlo",
+  "domain": "uniqlo.com",
+  "home": null,
+  "got": [
+   {
+    "n": 1,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 1304,
+    "href": "https://www.google.com/s2/favicons?domain=uniqlo.com&sz=256"
+   },
+   {
+    "n": 2,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 305,
+    "href": "https://icons.duckduckgo.com/ip3/uniqlo.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Zalando",
+  "id": "zalando",
+  "domain": "zalando.com",
+  "home": "https://zalando.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Zalando moda e acquisti online | Zalando SE",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 17091,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/c9/48/a9c948c2-8238-914c-753e-fe98b89d428d/NewAppIcon-0-0-1x_U007epad-0-1-0-sRGB-85"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1150,
+    "href": "https://secure-skin.ztat.net/s/xk1/zalando/img/MAIN/zalando.ico"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 48385,
+    "href": "https://zalando.com/apple-touch-icon.png"
+   },
+   {
+    "n": 4,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 425,
+    "href": "https://www.google.com/s2/favicons?domain=zalando.com&sz=256"
+   },
+   {
+    "n": 5,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1150,
+    "href": "https://icons.duckduckgo.com/ip3/zalando.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Vinted",
+  "id": "vinted",
+  "domain": "vinted.com",
+  "home": "https://www.vinted.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Vinted: acquista e vendi | Vinted Limited",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 15682,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f6/b0/dd/f6b0dd53-56ef-dfa0-b764-3e5b7bdb57d9/VintedAppIcon-0-0-1x_U007epad-0-1-85-220"
+   },
+   {
+    "n": 2,
+    "src": "shortcut icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 4286,
+    "href": "https://marketplace-web-assets.vinted.com/_next/static/media/favicon.34tdf_yyov7d9.ico"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 16171,
+    "href": "https://marketplace-web-assets.vinted.com/_next/static/media/apple-touch-icon.2_t6dikz9a_g6.png"
+   },
+   {
+    "n": 4,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 1999,
+    "href": "https://marketplace-web-assets.vinted.com/_next/static/media/favicon-32x32.28ie6ynd3u3le.png"
+   },
+   {
+    "n": 5,
+    "src": "icon 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 1218,
+    "href": "https://marketplace-web-assets.vinted.com/_next/static/media/favicon-16x16.15wjdefm2ys3w.png"
+   },
+   {
+    "n": 6,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 15950,
+    "href": "https://www.google.com/s2/favicons?domain=vinted.com&sz=256"
+   },
+   {
+    "n": 7,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1999,
+    "href": "https://icons.duckduckgo.com/ip3/vinted.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "eBay",
+  "id": "ebay",
+  "domain": "ebay.com",
+  "home": null,
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it eBay: Shopping e Vendita Usato | eBay Inc.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 19806,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/1b/63/981b630e-443b-6491-61ea-3726503c67f2/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png"
+   },
+   {
+    "n": 2,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 2517,
+    "href": "https://ebay.com/apple-touch-icon.png"
+   },
+   {
+    "n": 3,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 176,
+    "href": "https://www.google.com/s2/favicons?domain=ebay.com&sz=256"
+   },
+   {
+    "n": 4,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1150,
+    "href": "https://icons.duckduckgo.com/ip3/ebay.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "AliExpress",
+  "id": "aliexpress",
+  "domain": "aliexpress.com",
+  "home": "https://www.aliexpress.us/?gatewayAdapt=glo2usa&_randl_shipto=US",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it AliExpress Shopping App | Alibaba.com Singapore E-Commerce Private Limited",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 25759,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/18/12/6c18127a-8456-3646-9302-2be98319d818/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-22"
+   },
+   {
+    "n": 2,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 13874,
+    "href": "https://www.aliexpress.us/apple-touch-icon.png"
+   },
+   {
+    "n": 3,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 24734,
+    "href": "https://www.google.com/s2/favicons?domain=aliexpress.com&sz=256"
+   },
+   {
+    "n": 4,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1150,
+    "href": "https://icons.duckduckgo.com/ip3/aliexpress.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Nike",
+  "id": "nike",
+  "domain": "nike.com",
+  "home": "https://www.nike.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-us Nike: Engineered for Athletes | Nike, Inc",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 10382,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2c/ad/70/2cad70bc-4b40-dc1d-1055-d266bc4224c7/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.p"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15086,
+    "href": "https://www.nike.com/favicon.ico?v=1"
+   },
+   {
+    "n": 3,
+    "src": "icon 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 1436,
+    "href": "https://www.nike.com/android-icon-192x192.png"
+   },
+   {
+    "n": 4,
+    "src": "icon 128x128",
+    "ext": "png",
+    "px": "",
+    "bytes": 1022,
+    "href": "https://www.nike.com/android-icon-128x128.png"
+   },
+   {
+    "n": 5,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 2388,
+    "href": "https://www.nike.com/apple-touch-icon.png"
+   },
+   {
+    "n": 6,
+    "src": "apple-touch-icon 76x76",
+    "ext": "png",
+    "px": "",
+    "bytes": 1096,
+    "href": "https://www.nike.com/apple-touch-icon-76x76-precomposed.png"
+   },
+   {
+    "n": 7,
+    "src": "apple-touch-icon 120x120",
+    "ext": "png",
+    "px": "",
+    "bytes": 1875,
+    "href": "https://www.nike.com/apple-touch-icon-120x120-precomposed.png"
+   },
+   {
+    "n": 8,
+    "src": "apple-touch-icon 152x152",
+    "ext": "png",
+    "px": "",
+    "bytes": 26761,
+    "href": "https://www.nike.com/apple-touch-icon-152x152-precomposed.png"
+   },
+   {
+    "n": 9,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 1463,
+    "href": "https://www.google.com/s2/favicons?domain=nike.com&sz=256"
+   },
+   {
+    "n": 10,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15086,
+    "href": "https://icons.duckduckgo.com/ip3/nike.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Adidas",
+  "id": "adidas",
+  "domain": "adidas.com",
+  "home": null,
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-us adidas: Shop Shoes & Clothing | Adidas International Marketing B.V.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 12844,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/47/1b/40471b3e-eb32-582b-a7bd-60110029adca/AppIcon-0-0-1x_U007emarketing-0-8-0-85-2"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 912,
+    "href": "https://www.google.com/s2/favicons?domain=adidas.com&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 9662,
+    "href": "https://icons.duckduckgo.com/ip3/adidas.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Vodafone",
+  "id": "vodafone",
+  "domain": "vodafone.com",
+  "home": "https://www.vodafone.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-us My Vodafone | Vodafone-Panafon S.A.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 24507,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/3a/f3/623af373-e737-cbc8-6982-febbfdb77e60/AppIcon-0-0-1x_U007emarketing-0-8-0-85-2"
+   },
+   {
+    "n": 2,
+    "src": "shortcut icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 444,
+    "href": "https://www.vodafone.com/~/media/C202CC9916254ACCB647C18EC991C36B.png"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 355138,
+    "href": "https://www.vodafone.com/apple-touch-icon.png"
+   },
+   {
+    "n": 4,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 494,
+    "href": "https://www.google.com/s2/favicons?domain=vodafone.com&sz=256"
+   },
+   {
+    "n": 5,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 444,
+    "href": "https://icons.duckduckgo.com/ip3/vodafone.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Peloton",
+  "id": "peloton",
+  "domain": "onepeloton.com",
+  "home": "https://www.onepeloton.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-us Peloton: Fitness & Workouts | Peloton Interactive, Inc.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 15108,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/c5/ab/32c5ab1d-f454-1a9d-3072-fc10222ad2bb/peloton-white-0-0-1x_U007emarketing-0-8-"
+   },
+   {
+    "n": 2,
+    "src": "shortcut icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 4872,
+    "href": "https://www.onepeloton.com/favicon.png"
+   },
+   {
+    "n": 3,
+    "src": "shortcut icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 4971,
+    "href": "https://www.onepeloton.com/favicon-light.png"
+   },
+   {
+    "n": 4,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 4491,
+    "href": "https://www.onepeloton.com/images/apple-touch-icon.png"
+   },
+   {
+    "n": 5,
+    "src": "apple-touch-icon 57x57",
+    "ext": "png",
+    "px": "",
     "bytes": 2556,
-    "href": "https://www.google.com/s2/favicons?domain=fastweb.it&sz=256"
+    "href": "https://www.onepeloton.com/images/apple-touch-icon-57.png"
+   },
+   {
+    "n": 6,
+    "src": "apple-touch-icon 76x76",
+    "ext": "png",
+    "px": "",
+    "bytes": 17720,
+    "href": "https://www.onepeloton.com/images/apple-touch-icon-76.png"
+   },
+   {
+    "n": 7,
+    "src": "apple-touch-icon 120x120",
+    "ext": "png",
+    "px": "",
+    "bytes": 4491,
+    "href": "https://www.onepeloton.com/images/apple-touch-icon-120.png"
+   },
+   {
+    "n": 8,
+    "src": "apple-touch-icon 128x128",
+    "ext": "png",
+    "px": "",
+    "bytes": 4796,
+    "href": "https://www.onepeloton.com/images/apple-touch-icon-128.png"
+   },
+   {
+    "n": 9,
+    "src": "apple-touch-icon 152x152",
+    "ext": "png",
+    "px": "",
+    "bytes": 5528,
+    "href": "https://www.onepeloton.com/images/apple-touch-icon-152.png"
+   },
+   {
+    "n": 10,
+    "src": "apple-touch-icon 180x180",
+    "ext": "png",
+    "px": "",
+    "bytes": 6517,
+    "href": "https://www.onepeloton.com/images/apple-touch-icon-180.png"
+   },
+   {
+    "n": 11,
+    "src": "apple-touch-icon 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 6909,
+    "href": "https://www.onepeloton.com/images/apple-touch-icon-192.png"
+   },
+   {
+    "n": 12,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 2039,
+    "href": "https://www.google.com/s2/favicons?domain=onepeloton.com&sz=256"
+   },
+   {
+    "n": 13,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 4872,
+    "href": "https://icons.duckduckgo.com/ip3/onepeloton.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Garmin",
+  "id": "garmin",
+  "domain": "garmin.com",
+  "home": "https://www.garmin.com/en-US/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Garmin Connect™ | Garmin International",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 26628,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/d7/53/95d7533d-30b5-bd32-34d6-1f7b2af0b389/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220"
+   },
+   {
+    "n": 2,
+    "src": "apple-touch-icon 180x180",
+    "ext": "png",
+    "px": "",
+    "bytes": 1193,
+    "href": "https://share-assets.fe.garmin.com/apple-touch-icon.png"
+   },
+   {
+    "n": 3,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 511,
+    "href": "https://share-assets.fe.garmin.com/favicon-32x32.png"
+   },
+   {
+    "n": 4,
+    "src": "icon 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 397,
+    "href": "https://share-assets.fe.garmin.com/favicon-16x16.png"
+   },
+   {
+    "n": 5,
+    "src": "manifest 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 1342,
+    "href": "https://share-assets.fe.garmin.com/android-chrome-192x192.png"
+   },
+   {
+    "n": 6,
+    "src": "manifest 512x512",
+    "ext": "png",
+    "px": "",
+    "bytes": 2726,
+    "href": "https://share-assets.fe.garmin.com/android-chrome-512x512.png"
+   },
+   {
+    "n": 7,
+    "src": "manifest 192x192 maskable",
+    "ext": "png",
+    "px": "",
+    "bytes": 2548,
+    "href": "https://share-assets.fe.garmin.com/maskable-192x192.png"
+   },
+   {
+    "n": 8,
+    "src": "manifest 512x512 maskable",
+    "ext": "png",
+    "px": "",
+    "bytes": 2821,
+    "href": "https://share-assets.fe.garmin.com/maskable-512x512.png"
+   },
+   {
+    "n": 9,
+    "src": "mask-icon",
+    "ext": "svg",
+    "px": "",
+    "bytes": 1036,
+    "href": "https://share-assets.fe.garmin.com/safari-pinned-tab.svg"
+   },
+   {
+    "n": 10,
+    "src": "shortcut icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15086,
+    "href": "https://share-assets.fe.garmin.com/favicon.ico"
+   },
+   {
+    "n": 11,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 1137,
+    "href": "https://www.google.com/s2/favicons?domain=garmin.com&sz=256"
+   },
+   {
+    "n": 12,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 511,
+    "href": "https://icons.duckduckgo.com/ip3/garmin.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Fitbit",
+  "id": "fitbit",
+  "domain": "fitbit.com",
+  "home": "https://store.google.com/category/watches_trackers?hl=en-US&utm_source=fitbit_redirect&utm_medium=google_ooo&utm_campaign=category",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Google Health (Fitbit) | Google LLC",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 28467,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/de/25/63de25e6-d7b0-c45b-ea5e-320ecf7830f4/google_health_ios-0-0-1x_U007ephone-0-0-"
+   },
+   {
+    "n": 2,
+    "src": "icon 48x48",
+    "ext": "png",
+    "px": "",
+    "bytes": 7834,
+    "href": "https://www.gstatic.com/store/images/favicons/favicon_gstore_48px_new.png"
+   },
+   {
+    "n": 3,
+    "src": "icon 96x96",
+    "ext": "png",
+    "px": "",
+    "bytes": 13112,
+    "href": "https://www.gstatic.com/store/images/favicons/favicon_gstore_96px_new.png"
+   },
+   {
+    "n": 4,
+    "src": "icon 144x144",
+    "ext": "png",
+    "px": "",
+    "bytes": 18284,
+    "href": "https://www.gstatic.com/store/images/favicons/favicon_gstore_144px_new.png"
+   },
+   {
+    "n": 5,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 2994,
+    "href": "https://www.google.com/s2/favicons?domain=fitbit.com&sz=256"
+   },
+   {
+    "n": 6,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 7834,
+    "href": "https://icons.duckduckgo.com/ip3/fitbit.com.ico"
    }
   ]
  }
