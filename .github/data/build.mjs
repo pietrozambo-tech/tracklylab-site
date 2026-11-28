@@ -92,9 +92,15 @@ async function hicp() {
   const now = new Date();
   // What the dataset calls things: one country, one recent month.
   const probe = await (await get(`${base}&geo=IT&sinceTimePeriod=${now.getUTCFullYear() - 1}-06`)).json();
-  const coicops = Object.keys(probe.dimension.coicop.category.index);
-  const units = Object.keys(probe.dimension.unit.category.index);
-  console.log(`HICP ${DATASET}: dimensions ${probe.id.join(' ')} | units ${units.join(' ')} | ${coicops.length} coicop codes`);
+  console.log(`HICP ${DATASET}: dimensions ${probe.id.map((d) => `${d}(${Object.keys(probe.dimension[d].category.index).slice(0, 6).join(',')})`).join(' ')}`);
+  // The classification's dimension is named after its version (coicop,
+  // coicop18, ecoicop...): found by name, not assumed.
+  const CL = probe.id.find((d) => /coicop/i.test(d));
+  const UN = probe.id.find((d) => /^unit$/i.test(d)) ?? probe.id.find((d) => /unit/i.test(d));
+  if (!CL || !UN) throw new Error(`no coicop/unit dimension in ${probe.id.join(' ')}`);
+  const coicops = Object.keys(probe.dimension[CL].category.index);
+  const units = Object.keys(probe.dimension[UN].category.index);
+  console.log(`HICP: classification "${CL}" with ${coicops.length} codes (${coicops.slice(0, 15).join(' ')}...) | units ${units.join(' ')}`);
   const unit = ['I25', 'I15'].find((u) => units.includes(u)) ?? units.find((u) => /^I\d/.test(u));
   const codeOf = {};
   for (const [name, wants] of Object.entries(GROUPS)) {
@@ -103,7 +109,7 @@ async function hicp() {
     else console.log(`::warning::HICP: no code for ${name} (${wants.join('/')}); near: ${coicops.filter((c) => wants.some((w) => c.startsWith(w.slice(0, 4)))).slice(0, 12).join(' ')}`);
   }
   const since = `${now.getUTCFullYear() - 4}-01`;
-  const js = await (await get(`${base}&unit=${unit}&${Object.values(codeOf).map((c) => `coicop=${c}`).join('&')}&sinceTimePeriod=${since}`)).json();
+  const js = await (await get(`${base}&${UN}=${unit}&${Object.values(codeOf).map((c) => `${CL}=${c}`).join('&')}&sinceTimePeriod=${since}`)).json();
   const ids = js.id, size = js.size;
   const pos = Object.fromEntries(ids.map((d) => [d, js.dimension[d].category.index]));
   const stride = ids.map((_, i) => size.slice(i + 1).reduce((a, b) => a * b, 1));
@@ -112,10 +118,10 @@ async function hicp() {
   for (const geo of Object.keys(pos.geo)) {
     if (geo.length !== 2) continue; // countries, not EU27_2020 / EA20
     for (const [name, code] of Object.entries(codeOf)) {
-      if (pos.coicop[code] === undefined) continue;
+      if (pos[CL][code] === undefined) continue;
       const vals = {};
       for (const t of times) {
-        const at = { freq: 0, unit: pos.unit[unit] ?? 0, coicop: pos.coicop[code], geo: pos.geo[geo], time: pos.time[t] };
+        const at = { [UN]: pos[UN][unit] ?? 0, [CL]: pos[CL][code], geo: pos.geo[geo], time: pos.time[t] };
         const flat = ids.reduce((sum, d, i) => sum + (at[d] ?? 0) * stride[i], 0);
         const v = js.value[flat];
         if (typeof v === 'number') vals[t] = v;
