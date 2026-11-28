@@ -1,0 +1,1873 @@
+[
+ {
+  "name": "American Express",
+  "id": "american-express",
+  "domain": "americanexpress.com",
+  "home": "https://www.americanexpress.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Amex Italia | American Express",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 33502,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2f/f7/66/2ff766ce-8357-196f-c906-bc80d7b4d6d7/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.p"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1358,
+    "href": "https://www.americanexpress.com/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 3673,
+    "href": "https://www.americanexpress.com/apple-touch-icon.png"
+   },
+   {
+    "n": 4,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 487,
+    "href": "https://www.google.com/s2/favicons?domain=americanexpress.com&sz=256"
+   },
+   {
+    "n": 5,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1358,
+    "href": "https://icons.duckduckgo.com/ip3/americanexpress.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Movistar",
+  "id": "movistar",
+  "domain": "movistar.es",
+  "home": "https://www.movistar.es/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Mi Movistar | Telefonica Espana SAU",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 16662,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/89/f5/2b89f544-cae3-2a2e-784f-10ec894bf2ac/AppIcon-0-0-1x_U007epad-0-1-85-220.png/5"
+   },
+   {
+    "n": 2,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 11244,
+    "href": "https://www.movistar.es/apple-touch-icon.png"
+   },
+   {
+    "n": 3,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 6555,
+    "href": "https://www.google.com/s2/favicons?domain=movistar.es&sz=256"
+   },
+   {
+    "n": 4,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 5565,
+    "href": "https://icons.duckduckgo.com/ip3/movistar.es.ico"
+   }
+  ]
+ },
+ {
+  "name": "Intesa Sanpaolo",
+  "id": "intesa-sanpaolo",
+  "domain": "intesasanpaolo.com",
+  "home": "https://www.intesasanpaolo.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Intesa Sanpaolo Mobile | Intesa Sanpaolo S.p.A.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 31690,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/49/28/7c49280a-9496-1cdd-6598-73139a8c1ff9/AppIcon-0-0-1x_U007emarketing-0-6-0-85-2"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 894,
+    "href": "https://www.intesasanpaolo.com/etc/designs/vetrina/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 387,
+    "href": "https://www.google.com/s2/favicons?domain=intesasanpaolo.com&sz=256"
+   },
+   {
+    "n": 4,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 894,
+    "href": "https://icons.duckduckgo.com/ip3/intesasanpaolo.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Isybank",
+  "id": "isybank",
+  "domain": "isybank.com",
+  "home": "https://www.isybank.com/it/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it isybank | Intesa Sanpaolo S.p.A.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 19692,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/20/60/ad206034-4271-e9cf-454b-0449e16eb0c0/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB"
+   },
+   {
+    "n": 2,
+    "src": "shortcut icon 16x16 24x24 32x32 48x48 64x64",
+    "ext": "png",
+    "px": "",
+    "bytes": 27307,
+    "href": "https://www.isybank.com/content/dam/isybank/images/OCAP0/V1/isybank.png"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 62060,
+    "href": "https://www.isybank.com/apple-touch-icon.png"
+   },
+   {
+    "n": 4,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 21192,
+    "href": "https://www.google.com/s2/favicons?domain=isybank.com&sz=256"
+   },
+   {
+    "n": 5,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 27307,
+    "href": "https://icons.duckduckgo.com/ip3/isybank.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "UniCredit",
+  "id": "unicredit",
+  "domain": "unicredit.it",
+  "home": "https://www.unicredit.it/it/privati.html",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Mobile Banking UniCredit | UniCredit S.p.a.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 18593,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/42/97/bc/4297bcff-c877-b638-f3ee-b66cd1740470/AppIcon-1x_U007emarketing-0-9-0-85-220-0"
+   },
+   {
+    "n": 2,
+    "src": "apple-touch-icon 57x57",
+    "ext": "png",
+    "px": "",
+    "bytes": 3618,
+    "href": "https://content.ucgstatic.eu/etc/designs/ucpublic/it/img/favicon/apple-touch-icon-57x57.png"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon 60x60",
+    "ext": "png",
+    "px": "",
+    "bytes": 3863,
+    "href": "https://content.ucgstatic.eu/etc/designs/ucpublic/it/img/favicon/apple-touch-icon-60x60.png"
+   },
+   {
+    "n": 4,
+    "src": "apple-touch-icon 76x76",
+    "ext": "png",
+    "px": "",
+    "bytes": 4868,
+    "href": "https://content.ucgstatic.eu/etc/designs/ucpublic/it/img/favicon/apple-touch-icon-76x76.png"
+   },
+   {
+    "n": 5,
+    "src": "apple-touch-icon 114x114",
+    "ext": "png",
+    "px": "",
+    "bytes": 7543,
+    "href": "https://content.ucgstatic.eu/etc/designs/ucpublic/it/img/favicon/apple-touch-icon-114x114.png"
+   },
+   {
+    "n": 6,
+    "src": "apple-touch-icon 120x120",
+    "ext": "png",
+    "px": "",
+    "bytes": 8006,
+    "href": "https://content.ucgstatic.eu/etc/designs/ucpublic/it/img/favicon/apple-touch-icon-120x120.png"
+   },
+   {
+    "n": 7,
+    "src": "apple-touch-icon 144x144",
+    "ext": "png",
+    "px": "",
+    "bytes": 9748,
+    "href": "https://content.ucgstatic.eu/etc/designs/ucpublic/it/img/favicon/apple-touch-icon-144x144.png"
+   },
+   {
+    "n": 8,
+    "src": "apple-touch-icon 152x152",
+    "ext": "png",
+    "px": "",
+    "bytes": 10310,
+    "href": "https://content.ucgstatic.eu/etc/designs/ucpublic/it/img/favicon/apple-touch-icon-152x152.png"
+   },
+   {
+    "n": 9,
+    "src": "apple-touch-icon 180x180",
+    "ext": "png",
+    "px": "",
+    "bytes": 12377,
+    "href": "https://content.ucgstatic.eu/etc/designs/ucpublic/it/img/favicon/apple-touch-icon-180x180.png"
+   },
+   {
+    "n": 10,
+    "src": "icon 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 13220,
+    "href": "https://content.ucgstatic.eu/etc/designs/ucpublic/it/img/favicon/favicon-192x192.png"
+   },
+   {
+    "n": 11,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 2018,
+    "href": "https://content.ucgstatic.eu/etc/designs/ucpublic/it/img/favicon/favicon-32x32.png"
+   },
+   {
+    "n": 12,
+    "src": "icon 96x96",
+    "ext": "png",
+    "px": "",
+    "bytes": 6287,
+    "href": "https://content.ucgstatic.eu/etc/designs/ucpublic/it/img/favicon/favicon-96x96.png"
+   },
+   {
+    "n": 13,
+    "src": "icon 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 1212,
+    "href": "https://content.ucgstatic.eu/etc/designs/ucpublic/it/img/favicon/favicon-16x16.png"
+   },
+   {
+    "n": 14,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 42878,
+    "href": "https://www.unicredit.it/apple-touch-icon.png"
+   },
+   {
+    "n": 15,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 12022,
+    "href": "https://www.google.com/s2/favicons?domain=unicredit.it&sz=256"
+   },
+   {
+    "n": 16,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 2018,
+    "href": "https://icons.duckduckgo.com/ip3/unicredit.it.ico"
+   }
+  ]
+ },
+ {
+  "name": "Buddybank",
+  "id": "buddybank",
+  "domain": "buddybank.com",
+  "home": "https://www.buddy.unicredit.it/",
+  "got": [
+   {
+    "n": 1,
+    "src": "shortcut icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 2456,
+    "href": "https://www.buddy.unicredit.it/vs-cms/theme/assets/img/favicon-buddy.png"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 2515,
+    "href": "https://www.google.com/s2/favicons?domain=buddybank.com&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 2456,
+    "href": "https://icons.duckduckgo.com/ip3/buddybank.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Hype",
+  "id": "hype",
+  "domain": "hype.it",
+  "home": "https://www.hype.it/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it HYPE - Carta conto e app | Banca Sella Holding",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 26639,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/12/52/591252bd-19e4-408a-d932-c0409c976f32/AppIcon-0-1x_U007ephone-0-1-0-85-220-0.p"
+   },
+   {
+    "n": 2,
+    "src": "icon any",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15086,
+    "href": "https://www.hype.it/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "icon 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 552,
+    "href": "https://www.hype.it/favicon-16x16.png"
+   },
+   {
+    "n": 4,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 1007,
+    "href": "https://www.hype.it/favicon-32x32.png"
+   },
+   {
+    "n": 5,
+    "src": "icon 48x48",
+    "ext": "png",
+    "px": "",
+    "bytes": 1534,
+    "href": "https://www.hype.it/favicon-48x48.png"
+   },
+   {
+    "n": 6,
+    "src": "icon 96x96",
+    "ext": "png",
+    "px": "",
+    "bytes": 9921,
+    "href": "https://www.hype.it/favicon-96x96.png"
+   },
+   {
+    "n": 7,
+    "src": "icon 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 5072,
+    "href": "https://www.hype.it/favicon-192x192.png"
+   },
+   {
+    "n": 8,
+    "src": "icon 192x192",
+    "ext": "svg",
+    "px": "",
+    "bytes": 2133,
+    "href": "https://www.hype.it/favicon.svg"
+   },
+   {
+    "n": 9,
+    "src": "apple-touch-icon 180x180",
+    "ext": "png",
+    "px": "",
+    "bytes": 10479,
+    "href": "https://www.hype.it/apple-touch-icon.png"
+   },
+   {
+    "n": 10,
+    "src": "manifest 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 6724,
+    "href": "https://www.hype.it/android-chrome-192x192.png"
+   },
+   {
+    "n": 11,
+    "src": "manifest 512x512",
+    "ext": "png",
+    "px": "",
+    "bytes": 53409,
+    "href": "https://www.hype.it/android-chrome-512x512.png"
+   },
+   {
+    "n": 12,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 5208,
+    "href": "https://www.google.com/s2/favicons?domain=hype.it&sz=256"
+   },
+   {
+    "n": 13,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1007,
+    "href": "https://icons.duckduckgo.com/ip3/hype.it.ico"
+   }
+  ]
+ },
+ {
+  "name": "Poste Italiane",
+  "id": "poste-italiane",
+  "domain": "poste.it",
+  "home": "https://www.poste.it/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Poste Italiane | Poste Italiane S.p.A",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 15145,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/3a/4e/3c3a4e6e-8c61-02f1-df53-7d8116f49945/AppIcon-0-0-1x_U007epad-0-1-85-220.png/5"
+   },
+   {
+    "n": 2,
+    "src": "manifest 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 32988,
+    "href": "https://www.poste.it/assets-custom/favicons/android-chrome-192x192.png"
+   },
+   {
+    "n": 3,
+    "src": "manifest 512x512",
+    "ext": "png",
+    "px": "",
+    "bytes": 156751,
+    "href": "https://www.poste.it/assets-custom/favicons/android-chrome-512x512.png"
+   },
+   {
+    "n": 4,
+    "src": "apple-touch-icon 57x57",
+    "ext": "png",
+    "px": "",
+    "bytes": 3723,
+    "href": "https://www.poste.it/assets-custom/favicons/apple-touch-icon-57x57.png"
+   },
+   {
+    "n": 5,
+    "src": "apple-touch-icon 60x60",
+    "ext": "png",
+    "px": "",
+    "bytes": 4050,
+    "href": "https://www.poste.it/assets-custom/favicons/apple-touch-icon-60x60.png"
+   },
+   {
+    "n": 6,
+    "src": "apple-touch-icon 72x72",
+    "ext": "png",
+    "px": "",
+    "bytes": 5527,
+    "href": "https://www.poste.it/assets-custom/favicons/apple-touch-icon-72x72.png"
+   },
+   {
+    "n": 7,
+    "src": "apple-touch-icon 76x76",
+    "ext": "png",
+    "px": "",
+    "bytes": 6128,
+    "href": "https://www.poste.it/assets-custom/favicons/apple-touch-icon-76x76.png"
+   },
+   {
+    "n": 8,
+    "src": "apple-touch-icon 114x114",
+    "ext": "png",
+    "px": "",
+    "bytes": 12505,
+    "href": "https://www.poste.it/assets-custom/favicons/apple-touch-icon-114x114.png"
+   },
+   {
+    "n": 9,
+    "src": "apple-touch-icon 120x120",
+    "ext": "png",
+    "px": "",
+    "bytes": 13877,
+    "href": "https://www.poste.it/assets-custom/favicons/apple-touch-icon-120x120.png"
+   },
+   {
+    "n": 10,
+    "src": "apple-touch-icon 144x144",
+    "ext": "png",
+    "px": "",
+    "bytes": 19299,
+    "href": "https://www.poste.it/assets-custom/favicons/apple-touch-icon-144x144.png"
+   },
+   {
+    "n": 11,
+    "src": "apple-touch-icon 152x152",
+    "ext": "png",
+    "px": "",
+    "bytes": 21233,
+    "href": "https://www.poste.it/assets-custom/favicons/apple-touch-icon-152x152.png"
+   },
+   {
+    "n": 12,
+    "src": "apple-touch-icon 167x167",
+    "ext": "png",
+    "px": "",
+    "bytes": 25354,
+    "href": "https://www.poste.it/assets-custom/favicons/apple-touch-icon-167x167.png"
+   },
+   {
+    "n": 13,
+    "src": "apple-touch-icon 180x180",
+    "ext": "png",
+    "px": "",
+    "bytes": 29136,
+    "href": "https://www.poste.it/assets-custom/favicons/apple-touch-icon-180x180.png"
+   },
+   {
+    "n": 14,
+    "src": "icon 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 654,
+    "href": "https://www.poste.it/assets-custom/favicons/favicon-16x16.png"
+   },
+   {
+    "n": 15,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 1524,
+    "href": "https://www.poste.it/assets-custom/favicons/favicon-32x32.png"
+   },
+   {
+    "n": 16,
+    "src": "icon 96x96",
+    "ext": "png",
+    "px": "",
+    "bytes": 9154,
+    "href": "https://www.poste.it/assets-custom/favicons/favicon-96x96.png"
+   },
+   {
+    "n": 17,
+    "src": "icon 128x128",
+    "ext": "png",
+    "px": "",
+    "bytes": 15632,
+    "href": "https://www.poste.it/assets-custom/favicons/favicon-128x128.png"
+   },
+   {
+    "n": 18,
+    "src": "icon 196x196",
+    "ext": "png",
+    "px": "",
+    "bytes": 34263,
+    "href": "https://www.poste.it/assets-custom/favicons/favicon-196x196.png"
+   },
+   {
+    "n": 19,
+    "src": "icon 96x96",
+    "ext": "ico",
+    "px": "",
+    "bytes": 38078,
+    "href": "https://www.poste.it/favicon.ico"
+   },
+   {
+    "n": 20,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 15612,
+    "href": "https://www.poste.it/apple-touch-icon.png"
+   },
+   {
+    "n": 21,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 25163,
+    "href": "https://www.google.com/s2/favicons?domain=poste.it&sz=256"
+   },
+   {
+    "n": 22,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1524,
+    "href": "https://icons.duckduckgo.com/ip3/poste.it.ico"
+   }
+  ]
+ },
+ {
+  "name": "Visa",
+  "id": "visa",
+  "domain": "visa.com",
+  "home": "https://www.visa.com/en-us",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Visa Digital Emergency Card | Visa Inc.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 17572,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/0e/87/e60e875c-ae2c-65c9-d9ef-05df14b0ee7c/AppIcon-0-0-1x_U007emarketing-0-5-0-85-2"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15406,
+    "href": "https://www.visa.com/vcom-assets/content/dam/visa/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 1432,
+    "href": "https://www.google.com/s2/favicons?domain=visa.com&sz=256"
+   },
+   {
+    "n": 4,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15406,
+    "href": "https://icons.duckduckgo.com/ip3/visa.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Mastercard",
+  "id": "mastercard",
+  "domain": "mastercard.com",
+  "home": "https://www.mastercard.com/us/en.html",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Mastercard In Control Pay | Mastercard International Incorporated",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 14113,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/6e/1b/a06e1b21-0432-2bf2-3fb8-7f524857f287/AppIcon-0-0-1x_U007emarketing-0-8-0-85-2"
+   },
+   {
+    "n": 2,
+    "src": "icon 32x32",
+    "ext": "ico",
+    "px": "",
+    "bytes": 4414,
+    "href": "https://www.mastercard.com/etc.clientlibs/marts/clientlibs/clientlib-site/resources/icons/mastercard-favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "icon",
+    "ext": "svg",
+    "px": "",
+    "bytes": 1150,
+    "href": "https://www.mastercard.com/etc.clientlibs/marts/clientlibs/clientlib-site/resources/icons/mastercard-favicon.svg"
+   },
+   {
+    "n": 4,
+    "src": "apple-touch-icon 180x180",
+    "ext": "png",
+    "px": "",
+    "bytes": 2976,
+    "href": "https://www.mastercard.com/etc.clientlibs/marts/clientlibs/clientlib-site/resources/icons/mastercard-apple-touch-icon.png"
+   },
+   {
+    "n": 5,
+    "src": "manifest 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 3437,
+    "href": "https://www.mastercard.com/etc.clientlibs/marts/clientlibs/clientlib-site/resources/icons/mastercard-icon-192.png"
+   },
+   {
+    "n": 6,
+    "src": "manifest 512x512",
+    "ext": "png",
+    "px": "",
+    "bytes": 9167,
+    "href": "https://www.mastercard.com/etc.clientlibs/marts/clientlibs/clientlib-site/resources/icons/mastercard-icon-512.png"
+   },
+   {
+    "n": 7,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 1208,
+    "href": "https://www.google.com/s2/favicons?domain=mastercard.com&sz=256"
+   },
+   {
+    "n": 8,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 4414,
+    "href": "https://icons.duckduckgo.com/ip3/mastercard.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Mediolanum",
+  "id": "mediolanum",
+  "domain": "bancamediolanum.it",
+  "home": "https://www.bancamediolanum.it/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Mediolanum | Banca Mediolanum Spa",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 34443,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/46/c0/2846c0b1-f86a-30f6-6db8-f771faf4de45/bmed_icon_file-0-0-1x_U007ephone-0-1-85-"
+   },
+   {
+    "n": 2,
+    "src": "apple-touch-icon 180x180",
+    "ext": "png",
+    "px": "",
+    "bytes": 7173,
+    "href": "https://www.bancamediolanum.it/static-assets/images/apple-touch-icon.png"
+   },
+   {
+    "n": 3,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 1586,
+    "href": "https://www.bancamediolanum.it/static-assets/images/favicon-32x32.png"
+   },
+   {
+    "n": 4,
+    "src": "icon 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 880,
+    "href": "https://www.bancamediolanum.it/static-assets/images/favicon-16x16.png"
+   },
+   {
+    "n": 5,
+    "src": "manifest 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 7655,
+    "href": "https://www.bancamediolanum.it/static-assets/images/android-chrome-192x192.png"
+   },
+   {
+    "n": 6,
+    "src": "manifest 512x512",
+    "ext": "png",
+    "px": "",
+    "bytes": 20924,
+    "href": "https://www.bancamediolanum.it/static-assets/images/android-chrome-512x512.png"
+   },
+   {
+    "n": 7,
+    "src": "mask-icon",
+    "ext": "svg",
+    "px": "",
+    "bytes": 3517,
+    "href": "https://www.bancamediolanum.it/static-assets/images/safari-pinned-tab.svg"
+   },
+   {
+    "n": 8,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 2356,
+    "href": "https://www.google.com/s2/favicons?domain=bancamediolanum.it&sz=256"
+   },
+   {
+    "n": 9,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1586,
+    "href": "https://icons.duckduckgo.com/ip3/bancamediolanum.it.ico"
+   }
+  ]
+ },
+ {
+  "name": "ING",
+  "id": "ing",
+  "domain": "ing.com",
+  "home": "https://ing.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it ING Italia - Banca Online | ING BANK N.V.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 58357,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/c8/4d/20c84d4d-d410-4101-5cbf-0fbfbb0318c1/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png"
+   },
+   {
+    "n": 2,
+    "src": "shortcut icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15086,
+    "href": "https://ing.com/webfiles/1792143907485/images/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 3698,
+    "href": "https://www.google.com/s2/favicons?domain=ing.com&sz=256"
+   },
+   {
+    "n": 4,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15086,
+    "href": "https://icons.duckduckgo.com/ip3/ing.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "BBVA",
+  "id": "bbva",
+  "domain": "bbva.com",
+  "home": "https://www.bbva.com/en/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it BBVA Italia | Banca Online | BBVA",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 20888,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/5c/fd/bb5cfd01-012b-caea-fcde-8617f3532abf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/5"
+   },
+   {
+    "n": 2,
+    "src": "shortcut icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15406,
+    "href": "https://www.bbva.com/wp-content/themes/coronita-bbvacom/assets/images/comun/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 353,
+    "href": "https://www.google.com/s2/favicons?domain=bbva.com&sz=256"
+   },
+   {
+    "n": 4,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15406,
+    "href": "https://icons.duckduckgo.com/ip3/bbva.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Banco BPM",
+  "id": "banco-bpm",
+  "domain": "bancobpm.it",
+  "home": "https://www.bancobpm.it/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it YouApp - Banco BPM | Banco BPM S.p.A.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 33102,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/ed/60/b9ed60ae-e78d-b148-e690-687e70c2c6bb/AppIcon-BancoBPM-0-0-1x_U007epad-0-9-0-s"
+   },
+   {
+    "n": 2,
+    "src": "apple-touch-icon-precomposed 57x57",
+    "ext": "png",
+    "px": "",
+    "bytes": 2377,
+    "href": "https://www.bancobpm.it/static/images/apple-touch-icon-57x57.png"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon-precomposed 114x114",
+    "ext": "png",
+    "px": "",
+    "bytes": 4156,
+    "href": "https://www.bancobpm.it/static/images/apple-touch-icon-114x114.png"
+   },
+   {
+    "n": 4,
+    "src": "apple-touch-icon-precomposed 72x72",
+    "ext": "png",
+    "px": "",
+    "bytes": 2838,
+    "href": "https://www.bancobpm.it/static/images/apple-touch-icon-72x72.png"
+   },
+   {
+    "n": 5,
+    "src": "apple-touch-icon-precomposed 144x144",
+    "ext": "png",
+    "px": "",
+    "bytes": 4989,
+    "href": "https://www.bancobpm.it/static/images/apple-touch-icon-144x144.png"
+   },
+   {
+    "n": 6,
+    "src": "apple-touch-icon-precomposed 60x60",
+    "ext": "png",
+    "px": "",
+    "bytes": 2474,
+    "href": "https://www.bancobpm.it/static/images/apple-touch-icon-60x60.png"
+   },
+   {
+    "n": 7,
+    "src": "apple-touch-icon-precomposed 120x120",
+    "ext": "png",
+    "px": "",
+    "bytes": 4315,
+    "href": "https://www.bancobpm.it/static/images/apple-touch-icon-120x120.png"
+   },
+   {
+    "n": 8,
+    "src": "apple-touch-icon-precomposed 76x76",
+    "ext": "png",
+    "px": "",
+    "bytes": 2907,
+    "href": "https://www.bancobpm.it/static/images/apple-touch-icon-76x76.png"
+   },
+   {
+    "n": 9,
+    "src": "apple-touch-icon-precomposed 152x152",
+    "ext": "png",
+    "px": "",
+    "bytes": 5269,
+    "href": "https://www.bancobpm.it/static/images/apple-touch-icon-152x152.png"
+   },
+   {
+    "n": 10,
+    "src": "icon 196x196",
+    "ext": "png",
+    "px": "",
+    "bytes": 6518,
+    "href": "https://www.bancobpm.it/static/images/favicon-196x196.png"
+   },
+   {
+    "n": 11,
+    "src": "icon 96x96",
+    "ext": "png",
+    "px": "",
+    "bytes": 3596,
+    "href": "https://www.bancobpm.it/static/images/favicon-96x96.png"
+   },
+   {
+    "n": 12,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 1698,
+    "href": "https://www.bancobpm.it/static/images/favicon-32x32.png"
+   },
+   {
+    "n": 13,
+    "src": "icon 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 1280,
+    "href": "https://www.bancobpm.it/static/images/favicon-16x16.png"
+   },
+   {
+    "n": 14,
+    "src": "icon 128x128",
+    "ext": "png",
+    "px": "",
+    "bytes": 4543,
+    "href": "https://www.bancobpm.it/static/images/favicon-128.png"
+   },
+   {
+    "n": 15,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 6073,
+    "href": "https://www.google.com/s2/favicons?domain=bancobpm.it&sz=256"
+   }
+  ]
+ },
+ {
+  "name": "BPER",
+  "id": "bper",
+  "domain": "bper.it",
+  "home": "https://www.bper.it/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it BPER | Bper Banca Spa",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 11088,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/97/16/ac9716b9-a564-f14e-09bf-87a648304c60/AppIcon-PROD-0-0-1x_U007ephone-0-1-0-0-8"
+   },
+   {
+    "n": 2,
+    "src": "apple-touch-icon 144x144",
+    "ext": "png",
+    "px": "",
+    "bytes": 3100,
+    "href": "https://www.bper.it/o/bper-2026-theme/images/apple-touch-icon.png"
+   },
+   {
+    "n": 3,
+    "src": "icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 1437,
+    "href": "https://www.bper.it/documents/2084926082/2107112385/favicon/876f0e15-fbaf-8f1f-c144-b2d5f47fb26d"
+   },
+   {
+    "n": 4,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 2618,
+    "href": "https://www.google.com/s2/favicons?domain=bper.it&sz=256"
+   }
+  ]
+ },
+ {
+  "name": "Credem",
+  "id": "credem",
+  "domain": "credem.it",
+  "home": "https://www.credem.it/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Credem Banca per privati | Credito Emiliano S.P.A.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 21929,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2f/7b/96/2f7b968b-41ec-3f0a-4b7a-bf3f11e19dd2/AppIcon-0-0-1x_U007epad-0-9-0-85-220.png"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 4286,
+    "href": "https://www.credem.it/etc/designs/credem/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 603,
+    "href": "https://www.google.com/s2/favicons?domain=credem.it&sz=256"
+   },
+   {
+    "n": 4,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 4286,
+    "href": "https://icons.duckduckgo.com/ip3/credem.it.ico"
+   }
+  ]
+ },
+ {
+  "name": "Crédit Agricole",
+  "id": "cr-dit-agricole",
+  "domain": "credit-agricole.it",
+  "home": "https://www.credit-agricole.it/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Crédit Agricole Italia | Credit Agricole Italia S.p.A.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 24497,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/d9/23/efd92316-babb-50e2-a429-85dd71cdf8ee/AppIcon-0-0-1x_U007emarketing-0-6-0-85-2"
+   },
+   {
+    "n": 2,
+    "src": "apple-touch-icon 180x180",
+    "ext": "png",
+    "px": "",
+    "bytes": 1982,
+    "href": "https://www.credit-agricole.it/favicons/apple-touch-icon.png"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon-precomposed 180x180",
+    "ext": "png",
+    "px": "",
+    "bytes": 4992,
+    "href": "https://www.credit-agricole.it/favicons/apple-touch-icon-precomposed.png"
+   },
+   {
+    "n": 4,
+    "src": "apple-touch-icon-precomposed 120x120",
+    "ext": "png",
+    "px": "",
+    "bytes": 5366,
+    "href": "https://www.credit-agricole.it/favicons/apple-touch-icon-120x120-precomposed.png"
+   },
+   {
+    "n": 5,
+    "src": "apple-touch-icon 120x120",
+    "ext": "png",
+    "px": "",
+    "bytes": 5366,
+    "href": "https://www.credit-agricole.it/favicons/apple-touch-icon-120x120.png"
+   },
+   {
+    "n": 6,
+    "src": "apple-touch-icon 152x152",
+    "ext": "png",
+    "px": "",
+    "bytes": 8107,
+    "href": "https://www.credit-agricole.it/favicons/apple-touch-icon-152x152.png"
+   },
+   {
+    "n": 7,
+    "src": "apple-touch-icon-precomposed 152x152",
+    "ext": "png",
+    "px": "",
+    "bytes": 8107,
+    "href": "https://www.credit-agricole.it/favicons/apple-touch-icon-152x152-precomposed.png"
+   },
+   {
+    "n": 8,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 733,
+    "href": "https://www.credit-agricole.it/favicons/favicon-32x32.png"
+   },
+   {
+    "n": 9,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 557,
+    "href": "https://www.credit-agricole.it/favicons/favicon-16x16.png"
+   },
+   {
+    "n": 10,
+    "src": "manifest 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 2354,
+    "href": "https://www.credit-agricole.it/favicon-192x192.png"
+   },
+   {
+    "n": 11,
+    "src": "manifest 512x512",
+    "ext": "png",
+    "px": "",
+    "bytes": 5815,
+    "href": "https://www.credit-agricole.it/favicon-512x512.png"
+   },
+   {
+    "n": 12,
+    "src": "manifest 48x48",
+    "ext": "ico",
+    "px": "",
+    "bytes": 15086,
+    "href": "https://www.credit-agricole.it/favicons/favicon.ico"
+   },
+   {
+    "n": 13,
+    "src": "manifest any",
+    "ext": "svg",
+    "px": "",
+    "bytes": 3365,
+    "href": "https://www.credit-agricole.it/favicons/safari-pinned-tab.svg"
+   },
+   {
+    "n": 14,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 1982,
+    "href": "https://www.credit-agricole.it/apple-touch-icon.png"
+   },
+   {
+    "n": 15,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 1980,
+    "href": "https://www.google.com/s2/favicons?domain=credit-agricole.it&sz=256"
+   },
+   {
+    "n": 16,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 557,
+    "href": "https://icons.duckduckgo.com/ip3/credit-agricole.it.ico"
+   }
+  ]
+ },
+ {
+  "name": "Banca Sella",
+  "id": "banca-sella",
+  "domain": "sella.it",
+  "home": "https://www.sella.it/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Sella | Banca Sella Holding",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 20958,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/70/a4/8270a477-a8d7-8882-aefa-fa9206626726/AppIcon-1-0-0-1x_U007epad-0-1-85-220.png"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 1447,
+    "href": "https://www.google.com/s2/favicons?domain=sella.it&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 101146,
+    "href": "https://icons.duckduckgo.com/ip3/sella.it.ico"
+   }
+  ]
+ },
+ {
+  "name": "Widiba",
+  "id": "widiba",
+  "domain": "widiba.it",
+  "home": "https://www.widiba.it/banca-online",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Banca Widiba | WISE DIALOG BANK SPA IN BREVE BANCA WIDIBA SPA O WIDIBA",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 27912,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/e7/8e/b2e78e7f-4155-2c96-73de-d9e43335afd7/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB"
+   },
+   {
+    "n": 2,
+    "src": "icon 48x48",
+    "ext": "png",
+    "px": "",
+    "bytes": 1564,
+    "href": "https://www.widiba.it/sf-renderer-resources/icons/favicon-48x48.png"
+   },
+   {
+    "n": 3,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 1017,
+    "href": "https://www.widiba.it/sf-renderer-resources/icons/favicon-32x32.png"
+   },
+   {
+    "n": 4,
+    "src": "icon 16x16",
+    "ext": "png",
+    "px": "",
+    "bytes": 474,
+    "href": "https://www.widiba.it/sf-renderer-resources/icons/favicon-16x16.png"
+   },
+   {
+    "n": 5,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 2201,
+    "href": "https://www.google.com/s2/favicons?domain=widiba.it&sz=256"
+   }
+  ]
+ },
+ {
+  "name": "illimity",
+  "id": "illimity",
+  "domain": "illimity.com",
+  "home": "https://www.illimity.com/it",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it illimity Banca Ifis | Banca IFIS S.p.A.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 39088,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/a3/f3/7da3f3c9-f6aa-61a1-2f3a-29c0339725da/AppIcon-0-1x_U007ephone-0-1-85-220-0.png"
+   },
+   {
+    "n": 2,
+    "src": "icon 32x32",
+    "ext": "png",
+    "px": "",
+    "bytes": 1395,
+    "href": "https://www.illimity.com/assets/img/favicon.png"
+   },
+   {
+    "n": 3,
+    "src": "shortcut icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1150,
+    "href": "https://www.illimity.com/assets/img/favicon.ico"
+   },
+   {
+    "n": 4,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 1050,
+    "href": "https://www.google.com/s2/favicons?domain=illimity.com&sz=256"
+   },
+   {
+    "n": 5,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1395,
+    "href": "https://icons.duckduckgo.com/ip3/illimity.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Nexi",
+  "id": "nexi",
+  "domain": "nexi.it",
+  "home": "https://www.nexi.it/it",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Nexi Pay | Nexi Payments S.p.A.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 32741,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/05/83/83058335-c071-659a-bbff-6b84ca132c15/AppIcon-0-0-1x_U007emarketing-0-7-0-85-2"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 34494,
+    "href": "https://www.nexi.it/etc.clientlibs/nexinew/clientlibs/clientlib-site/resources/favicons/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 801,
+    "href": "https://www.nexi.it/etc.clientlibs/nexinew/clientlibs/clientlib-site/resources/favicons/favicon.png"
+   },
+   {
+    "n": 4,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 397,
+    "href": "https://www.google.com/s2/favicons?domain=nexi.it&sz=256"
+   },
+   {
+    "n": 5,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 34494,
+    "href": "https://icons.duckduckgo.com/ip3/nexi.it.ico"
+   }
+  ]
+ },
+ {
+  "name": "Klarna",
+  "id": "klarna",
+  "domain": "klarna.com",
+  "home": "https://www.klarna.com/us/?grs=%2F&grr=empty",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Klarna: Soldi più smart | Klarna Bank AB",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 14524,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/0b/0a/f80b0aa5-224e-6e7a-e29e-6c4cb1ef1815/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.p"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 7406,
+    "href": "https://www.klarna.com/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 2110,
+    "href": "https://owp.klarna.com/public/klarna/appIcon.png"
+   },
+   {
+    "n": 4,
+    "src": "manifest 192x192",
+    "ext": "png",
+    "px": "",
+    "bytes": 2472,
+    "href": "https://owp.klarna.com/public/klarna/b2b/img/brand-2.0/android-chrome-192x192.png"
+   },
+   {
+    "n": 5,
+    "src": "manifest 512x512",
+    "ext": "png",
+    "px": "",
+    "bytes": 6251,
+    "href": "https://owp.klarna.com/public/klarna/b2b/img/brand-2.0/android-chrome-512x512.png"
+   },
+   {
+    "n": 6,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 2240,
+    "href": "https://www.google.com/s2/favicons?domain=klarna.com&sz=256"
+   }
+  ]
+ },
+ {
+  "name": "Scalapay",
+  "id": "scalapay",
+  "domain": "scalapay.com",
+  "home": "https://www.scalapay.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Scalapay | Shopping a rate | SCALAPAY SRL",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 21126,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/82/a5/1182a5f4-6215-8bb1-aa94-eb160db1bbdb/AppIcon-0-0-1x_U007emarketing-0-11-0-85-"
+   },
+   {
+    "n": 2,
+    "src": "shortcut icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 1179,
+    "href": "https://cdn.prod.website-files.com/614b9948e0cc06785c60efe7/67c9cc3f4506acdef5bdf6a0_favicon-32px.png"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 68416,
+    "href": "https://cdn.prod.website-files.com/614b9948e0cc06785c60efe7/67c9cc48ae95dd9c93be62c3_favicon-256.png"
+   },
+   {
+    "n": 4,
+    "src": "google-s2",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 3309,
+    "href": "https://www.google.com/s2/favicons?domain=scalapay.com&sz=256"
+   },
+   {
+    "n": 5,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1179,
+    "href": "https://icons.duckduckgo.com/ip3/scalapay.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Trade Republic",
+  "id": "trade-republic",
+  "domain": "traderepublic.com",
+  "home": "https://traderepublic.com/en-de",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Trade Republic: Broker e Banca | Trade Republic Bank GmbH",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 13080,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/7e/81/847e816c-c64c-3e1e-1be1-191ef43c8e11/ComposedAppIcon-0-0-1x_U007ephone-0-1-85"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 8395,
+    "href": "https://www.google.com/s2/favicons?domain=traderepublic.com&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 285478,
+    "href": "https://icons.duckduckgo.com/ip3/traderepublic.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "bunq",
+  "id": "bunq",
+  "domain": "bunq.com",
+  "home": "https://www.bunq.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it bunq | bunq B.V.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 26138,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b8/6f/01b86f4c-4524-0adb-6460-27de466200c1/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 540,
+    "href": "https://framerusercontent.com/images/ziGDZruFQDclo0tQlc6TKONVk.png"
+   },
+   {
+    "n": 3,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 493,
+    "href": "https://www.google.com/s2/favicons?domain=bunq.com&sz=256"
+   },
+   {
+    "n": 4,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 540,
+    "href": "https://icons.duckduckgo.com/ip3/bunq.com.ico"
+   }
+  ]
+ },
+ {
+  "name": "Curve",
+  "id": "curve",
+  "domain": "curve.com",
+  "home": "https://www.curve.com/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Curve Pay: Wallet & Cashback | CURVE UK LIMITED",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 20905,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/da/56/4b/da564b47-135c-ce25-592d-5420cb147b48/CurveAppIcon-0-0-1x_U007ephone-0-1-0-85-"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "svg",
+    "px": "",
+    "bytes": 3263,
+    "href": "https://www.curve.com/images/curve-icon.svg"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 84761,
+    "href": "https://www.curve.com/apple-touch-icon.png"
+   },
+   {
+    "n": 4,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 3821,
+    "href": "https://www.google.com/s2/favicons?domain=curve.com&sz=256"
+   }
+  ]
+ },
+ {
+  "name": "ho. Mobile",
+  "id": "ho-mobile",
+  "domain": "ho-mobile.it",
+  "home": "https://www.ho-mobile.it/",
+  "got": [
+   {
+    "n": 1,
+    "src": "shortcut icon 16x16 24x24 32x32 48x48 64x64",
+    "ext": "png",
+    "px": "",
+    "bytes": 1725,
+    "href": "https://www.ho-mobile.it/etc/designs/lean/favico/64x64.png"
+   },
+   {
+    "n": 2,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 1725,
+    "href": "https://www.google.com/s2/favicons?domain=ho-mobile.it&sz=256"
+   },
+   {
+    "n": 3,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 1725,
+    "href": "https://icons.duckduckgo.com/ip3/ho-mobile.it.ico"
+   }
+  ]
+ },
+ {
+  "name": "Kena Mobile",
+  "id": "kena-mobile",
+  "domain": "kenamobile.it",
+  "home": "https://www.kenamobile.it/",
+  "got": []
+ },
+ {
+  "name": "Very Mobile",
+  "id": "very-mobile",
+  "domain": "verymobile.it",
+  "home": "https://verymobile.it/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Very Mobile | VIP-CKH Luxembourg",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 14279,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/28/a5/ec28a567-36f8-a03b-48d7-91b161d395aa/AppIcon-Store-0-0-1x_U007emarketing-0-11"
+   },
+   {
+    "n": 2,
+    "src": "icon",
+    "ext": "ico",
+    "px": "",
+    "bytes": 776,
+    "href": "https://verymobile.it/content/dam/cma/verymobile/resources/images/icon/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "apple-touch-icon 152x152",
+    "ext": "png",
+    "px": "",
+    "bytes": 277,
+    "href": "https://verymobile.it/content/dam/cma/verymobile/resources/images/apple-icons/apple-touch-icon-152x152.png"
+   },
+   {
+    "n": 4,
+    "src": "apple-touch-icon-precomposed 152x152",
+    "ext": "png",
+    "px": "",
+    "bytes": 277,
+    "href": "https://verymobile.it/content/dam/cma/verymobile/resources/images/apple-icons/apple-touch-icon-152x152-precomposed.png"
+   },
+   {
+    "n": 5,
+    "src": "apple-touch-icon 144x144",
+    "ext": "png",
+    "px": "",
+    "bytes": 268,
+    "href": "https://verymobile.it/content/dam/cma/verymobile/resources/images/apple-icons/apple-touch-icon-144x144.png"
+   },
+   {
+    "n": 6,
+    "src": "apple-touch-icon-precomposed 144x144",
+    "ext": "png",
+    "px": "",
+    "bytes": 268,
+    "href": "https://verymobile.it/content/dam/cma/verymobile/resources/images/apple-icons/apple-touch-icon-144x144-precomposed.png"
+   },
+   {
+    "n": 7,
+    "src": "apple-touch-icon 120x120",
+    "ext": "png",
+    "px": "",
+    "bytes": 1341,
+    "href": "https://verymobile.it/content/dam/cma/verymobile/resources/images/apple-icons/apple-touch-icon-120x120.png"
+   },
+   {
+    "n": 8,
+    "src": "apple-touch-icon-precomposed 120x120",
+    "ext": "png",
+    "px": "",
+    "bytes": 1336,
+    "href": "https://verymobile.it/content/dam/cma/verymobile/resources/images/apple-icons/apple-touch-icon-120x120-precomposed.png"
+   },
+   {
+    "n": 9,
+    "src": "apple-touch-icon 114x114",
+    "ext": "png",
+    "px": "",
+    "bytes": 237,
+    "href": "https://verymobile.it/content/dam/cma/verymobile/resources/images/apple-icons/apple-touch-icon-114x114.png"
+   },
+   {
+    "n": 10,
+    "src": "apple-touch-icon-precomposed 114x114",
+    "ext": "png",
+    "px": "",
+    "bytes": 237,
+    "href": "https://verymobile.it/content/dam/cma/verymobile/resources/images/apple-icons/apple-touch-icon-114x114-precomposed.png"
+   },
+   {
+    "n": 11,
+    "src": "apple-touch-icon 76x76",
+    "ext": "png",
+    "px": "",
+    "bytes": 210,
+    "href": "https://verymobile.it/content/dam/cma/verymobile/resources/images/apple-icons/apple-touch-icon-76x76.png"
+   },
+   {
+    "n": 12,
+    "src": "apple-touch-icon-precomposed 76x76",
+    "ext": "png",
+    "px": "",
+    "bytes": 210,
+    "href": "https://verymobile.it/content/dam/cma/verymobile/resources/images/apple-icons/apple-touch-icon-76x76-precomposed.png"
+   },
+   {
+    "n": 13,
+    "src": "apple-touch-icon 57x57",
+    "ext": "png",
+    "px": "",
+    "bytes": 201,
+    "href": "https://verymobile.it/content/dam/cma/verymobile/resources/images/apple-icons/apple-touch-icon-57x57.png"
+   },
+   {
+    "n": 14,
+    "src": "apple-touch-icon-precomposed 57x57",
+    "ext": "png",
+    "px": "",
+    "bytes": 201,
+    "href": "https://verymobile.it/content/dam/cma/verymobile/resources/images/apple-icons/apple-touch-icon-57x57-precomposed.png"
+   },
+   {
+    "n": 15,
+    "src": "apple-touch-icon",
+    "ext": "png",
+    "px": "",
+    "bytes": 24838,
+    "href": "https://verymobile.it/apple-touch-icon.png"
+   },
+   {
+    "n": 16,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 682,
+    "href": "https://www.google.com/s2/favicons?domain=verymobile.it&sz=256"
+   },
+   {
+    "n": 17,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 776,
+    "href": "https://icons.duckduckgo.com/ip3/verymobile.it.ico"
+   }
+  ]
+ },
+ {
+  "name": "O2",
+  "id": "o2",
+  "domain": "o2.co.uk",
+  "home": "https://www.o2.co.uk/",
+  "got": [
+   {
+    "n": 1,
+    "src": "appstore-it Moje O2 | O2 Czech Republic a.s.",
+    "ext": "jpg",
+    "px": "",
+    "bytes": 24816,
+    "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/d0/25/dcd02598-8bad-eba3-5c47-41a7536448c8/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-"
+   },
+   {
+    "n": 2,
+    "src": "icon any",
+    "ext": "ico",
+    "px": "",
+    "bytes": 67646,
+    "href": "https://www.o2.co.uk/favicon.ico"
+   },
+   {
+    "n": 3,
+    "src": "google-s2",
+    "ext": "png",
+    "px": "",
+    "bytes": 3351,
+    "href": "https://www.google.com/s2/favicons?domain=o2.co.uk&sz=256"
+   },
+   {
+    "n": 4,
+    "src": "duckduckgo",
+    "ext": "ico",
+    "px": "",
+    "bytes": 67646,
+    "href": "https://icons.duckduckgo.com/ip3/o2.co.uk.ico"
+   }
+  ]
+ }
+]
