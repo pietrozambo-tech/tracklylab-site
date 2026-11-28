@@ -1,0 +1,300 @@
+<!DOCTYPE html><html lang="it" data-action-bar-layout="none"><head><script>
+    (function() {
+      var host = window.location.hostname.toLowerCase();
+      // A static production build is also served by local and Replit previews.
+      if (host === 'localhost' || /^127\./.test(host) || host === '::1' || host === '[::1]' ||
+          host.endsWith('.replit.dev') || host.endsWith('.repl.co')) return;
+
+      // Astro transitions can execute inline head scripts again on navigation.
+      if (window.__productionScriptsDocument === document) return;
+      window.__productionScriptsDocument = document;
+
+      var cookiebot = document.createElement('script');
+      cookiebot.id = 'Cookiebot';
+      cookiebot.src = 'https://consent.cookiebot.com/uc.js';
+      cookiebot.async = false;
+      cookiebot.setAttribute('data-cbid', 'ca5bde8c-6ad7-4809-a791-737ed20b237e');
+      cookiebot.setAttribute('data-blockingmode', 'auto');
+      cookiebot.onload = function() {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var gtm = document.createElement('script');
+        gtm.async = true;
+        gtm.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-KLJN3BW';
+        document.head.appendChild(gtm);
+      };
+      // On an error, leave GTM unloaded (including on subsequent transitions).
+      cookiebot.onerror = function() {};
+      document.head.appendChild(cookiebot);
+    })();
+  </script><meta charset="UTF-8"><script type="module">var e,t=null;function n(){clearTimeout(e),t?.removeAttribute(`data-faq-highlight`),t=null}function r(){let r;try{r=decodeURIComponent(location.hash.slice(1))}catch{return}let i=document.getElementById(r);i instanceof HTMLDetailsElement&&i.closest(`[data-faq-group]`)&&(n(),i.open=!0,t=i,i.setAttribute(`data-faq-highlight`,``),i.scrollIntoView({block:`start`,behavior:`instant`}),e=setTimeout(n,1800))}document.addEventListener(`toggle`,e=>{let t=e.target;t instanceof HTMLDetailsElement&&t.open&&t.closest(`[data-faq-group]`)?.querySelectorAll(`details[open]`).forEach(e=>{e!==t&&(e.open=!1)})},!0),document.addEventListener(`keydown`,e=>{let t=e.target;if(!(t instanceof HTMLElement)||t.tagName!==`SUMMARY`)return;let n=t.closest(`[data-faq-group]`);if(!n||![`ArrowDown`,`ArrowUp`,`Home`,`End`].includes(e.key))return;let r=Array.from(n.querySelectorAll(`summary`)),i=r.indexOf(t),a=e.key===`Home`?0:e.key===`End`?r.length-1:(i+(e.key===`ArrowDown`?1:-1)+r.length)%r.length;e.preventDefault(),r[a]?.focus()}),window.addEventListener(`hashchange`,r),document.addEventListener(`astro:page-load`,r),document.addEventListener(`astro:before-swap`,n),r();</script><script>// One-time, narrowly scoped repair for the removed /it-it/business/ -> Privati 301.
+// This is injected as a classic script in BaseLayout's head so it can run before
+// the navbar hydrates. Keep it independent of Astro's navigation runtime.
+(function () {
+  var win = window;
+  if (win.__businessCacheRepairV1) return;
+
+  var path = '/it-it/business/';
+  var url = win.location.origin + path;
+  var key = 'satispay_business_cached301_repaired_v1';
+  var state = { inFlight: null, complete: false, lastAttemptPath: null, warned: false, pendingClick: false };
+  win.__businessCacheRepairV1 = state;
+
+  function warn() {
+    if (state.warned) return;
+    state.warned = true;
+    console.warn('Business cache repair could not be verified; it will retry on a later page.');
+  }
+
+  function verify(response, html) {
+    if (response.status !== 200 || response.url !== url ||
+        !/^\s*text\/html(?:\s*;|$)/i.test(response.headers.get('content-type') || '')) {
+      throw new Error('Unexpected Business response');
+    }
+    var parsed = new DOMParser().parseFromString(html, 'text/html');
+    if (!parsed.querySelector('[data-page="negozi"]')) throw new Error('Missing Business marker');
+  }
+
+  function request(cacheMode) {
+    var controller = new AbortController();
+    var timer;
+    // A race is necessary as well as abort: an intermediary may ignore abort.
+    var timeout = new Promise(function (_, reject) {
+      timer = win.setTimeout(function () {
+        controller.abort();
+        reject(new Error('Business request timed out'));
+      }, 2500);
+    });
+    return Promise.race([
+      Promise.resolve().then(function () {
+        return fetch(url, { cache: cacheMode, credentials: 'same-origin', redirect: 'error', signal: controller.signal });
+      })
+        .then(function (response) {
+          // Body reads are covered by the same deadline.
+          return response.text().then(function (html) { verify(response, html); });
+        }),
+      timeout
+    ]).finally(function () { win.clearTimeout(timer); });
+  }
+
+  function repair() {
+    if (state.complete || state.inFlight) return state.inFlight;
+    state.lastAttemptPath = win.location.pathname;
+    state.inFlight = request('reload')
+      .then(function () { return request('default'); })
+      .then(function () {
+        state.complete = true;
+        try { win.localStorage.setItem(key, '1'); } catch (_) { /* Still verified in this window. */ }
+        return true;
+      })
+      .catch(function () { warn(); return false; })
+      .finally(function () { state.inFlight = null; });
+    return state.inFlight;
+  }
+
+  try { state.complete = win.localStorage.getItem(key) === '1'; }
+  catch (_) { /* Storage restrictions must not suppress the repair. */ }
+
+  // A failed attempt is retried on a subsequent page, not on every click or
+  // repeated page-load event from the same document.
+  document.addEventListener('astro:page-load', function () {
+    if (!state.complete && !state.inFlight && state.lastAttemptPath !== win.location.pathname) repair();
+  });
+
+  document.addEventListener('click', function (event) {
+    // Only protect a click that races the repair. Once settled, leave ordinary
+    // links to Astro/the browser exactly as authored (including footer links).
+    var pending = state.inFlight;
+    if (!pending || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey ||
+        event.shiftKey || event.altKey) return;
+    var target = event.target;
+    var anchor = target && target.closest && target.closest('a[href]');
+    if (!anchor || anchor.hasAttribute('download') ||
+        (anchor.target && anchor.target.toLowerCase() !== '_self')) return;
+    var destination;
+    try { destination = new URL(anchor.href, win.location.href); } catch (_) { return; }
+    if (destination.origin !== win.location.origin ||
+        (destination.pathname !== path && destination.pathname !== '/it-it/business')) return;
+
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    if (state.pendingClick) return;
+    state.pendingClick = true;
+    // Do not block unrelated navigation or wait indefinitely for a stalled repair.
+    var timer;
+    Promise.race([
+      pending,
+      new Promise(function (resolve) { timer = win.setTimeout(resolve, 5200); })
+    ]).then(function () {
+      win.clearTimeout(timer);
+      win.location.assign(destination.href);
+    });
+  }, true);
+
+  if (!state.complete) repair();
+})();</script><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"><link rel="icon" href="/favicon.ico" sizes="any"><title>Pagina non trovata - Satispay</title><link rel="canonical" href="https://www.satispay.com/404/" data-canonical-source="https://www.satispay.com/404/"><meta property="og:title" content="Pagina non trovata - Satispay"><meta property="og:type" content="website"><meta property="og:url" content="https://www.satispay.com/404/"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/_astro/ClientRouter.astro_astro_type_script_index_0_lang.CZ4RRV3d.js"></script><script>
+  // Keep Astro's loader intact: besides fetching HTML it validates the
+  // destination and prepares its styles. Once that work is complete, decode
+  // the only above-the-fold homepage image while the old page is still live.
+  // A short timeout and the navigation AbortSignal ensure a slow asset never
+  // makes navigation feel stuck. Videos are deliberately not preloaded here.
+  if (window.__criticalHeroPreparationHandler) {
+    document.removeEventListener('astro:before-preparation', window.__criticalHeroPreparationHandler);
+  }
+  window.__criticalHeroPreparationHandler = function(event) {
+    var defaultLoader = event.loader;
+    event.loader = async function() {
+      var requestedHomepage = /^\/(?:it-it|en-it|fr-fr|fr-lu|en-lu)\/(?:privati|welfare|business)\/?$/.test(
+        event.to.pathname
+      );
+      await defaultLoader();
+      if (event.defaultPrevented) {
+        // Astro normally turns a failed client-side fetch into a hard
+        // navigation to the failed destination. For the three homepage tabs
+        // that can replace a useful page with the browser's blank network
+        // error document. Redirect that native fallback to the still-current
+        // URL instead. An aborted request belongs to a newer navigation and
+        // Astro already ignores it, so never interfere with that race.
+        if (requestedHomepage && !event.signal.aborted) {
+          event.to.href = event.from.href;
+        }
+        return;
+      }
+      if (event.signal.aborted) return;
+
+      var pathname = event.to.pathname.replace(/\/+$/, '');
+      if (!/\/privati$/.test(pathname)) return;
+      var criticalImage = event.newDocument.querySelector(
+        '[data-page="privati"] img[src="/figmaAssets/phone-main.webp"]'
+      );
+      if (!criticalImage) return;
+
+      var source = criticalImage.getAttribute('src');
+      if (!source) return;
+      await new Promise(function(resolve) {
+        var settled = false;
+        var image = new Image();
+        var timeoutId;
+        var finish = function() {
+          if (settled) return;
+          settled = true;
+          clearTimeout(timeoutId);
+          event.signal.removeEventListener('abort', finish);
+          image.onload = null;
+          image.onerror = null;
+          resolve();
+        };
+        event.signal.addEventListener('abort', finish, { once: true });
+        timeoutId = window.setTimeout(finish, 1200);
+        image.onload = function() {
+          if (typeof image.decode === 'function') {
+            image.decode().catch(function() {}).then(finish);
+          } else {
+            finish();
+          }
+        };
+        image.onerror = finish;
+        image.src = source;
+        if (image.complete) {
+          if (typeof image.decode === 'function') {
+            image.decode().catch(function() {}).then(finish);
+          } else {
+            finish();
+          }
+        }
+      });
+    };
+  };
+  document.addEventListener('astro:before-preparation', window.__criticalHeroPreparationHandler);
+  </script><script>(function(){const showBanner = false;
+
+    var __isDesktopBanner = window.matchMedia('(min-width: 768px)').matches;
+    if (showBanner && __isDesktopBanner && !document.documentElement.style.getPropertyValue('--promo-banner-height')) {
+      try {
+        if (!localStorage.getItem('satispay_promo_dismissed_v5')) {
+          document.documentElement.style.setProperty('--promo-banner-height', '42px');
+        }
+      } catch(e) {
+        document.documentElement.style.setProperty('--promo-banner-height', '42px');
+      }
+    }
+  })();</script><style>@keyframes astroFadeInOut{0%{opacity:1}to{opacity:0}}@keyframes astroFadeIn{0%{opacity:0;mix-blend-mode:plus-lighter}to{opacity:1;mix-blend-mode:plus-lighter}}@keyframes astroFadeOut{0%{opacity:1;mix-blend-mode:plus-lighter}to{opacity:0;mix-blend-mode:plus-lighter}}@keyframes astroSlideFromRight{0%{transform:translate(100%)}}@keyframes astroSlideFromLeft{0%{transform:translate(-100%)}}@keyframes astroSlideToRight{to{transform:translate(100%)}}@keyframes astroSlideToLeft{to{transform:translate(-100%)}}@media (prefers-reduced-motion){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*),[data-astro-transition-scope]{animation:none!important}}[data-promo-attention]{outline:none}[data-promo-attention]:after{content:"";pointer-events:none;border:3px solid #ff3d00;border-radius:23px;animation:1.4s ease-out both promo-form-red-halo;position:absolute;inset:-3px;box-shadow:0 0 14px 4px #ff3d0066}@keyframes promo-form-red-halo{0%,15%{opacity:1;transform:scale(1)}to{opacity:0;transform:scale(1.035)}}@media (prefers-reduced-motion:reduce){[data-promo-attention]:after{opacity:1;animation:none;transform:none}}
+.astro-route-announcer{clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;width:1px;height:1px;position:absolute;top:0;left:0;overflow:hidden}
+</style><link rel="stylesheet" href="/_astro/global.BlyaLN1W.css"><script type="module" src="/_astro/page.C77Wkffh.js"></script><style>[data-astro-transition-scope="astro-nfpogox7-1"] { view-transition-name: astro-nfpogox7-1; }@layer astro { ::view-transition-old(astro-nfpogox7-1) { animation: none; opacity: 0; mix-blend-mode: normal; }::view-transition-new(astro-nfpogox7-1) { animation: none; mix-blend-mode: normal; }::view-transition-group(astro-nfpogox7-1) { animation: none } }[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-nfpogox7-1"],
+			[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-nfpogox7-1"] { animation: none; mix-blend-mode: normal; }[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-nfpogox7-1"],
+			[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-nfpogox7-1"] { animation: none; mix-blend-mode: normal; }</style></head><body data-show-banner="false"><!-- No GTM noscript iframe: it cannot honor the runtime preview/consent gate. --><div data-astro-transition-persist="promo-banner" data-promo-banner class="hidden md:block !hidden"><style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).load=e;window.dispatchEvent(new Event("astro:load"));})();</script><script>(()=>{var g=Object.defineProperty;var w=(a,s,c)=>s in a?g(a,s,{enumerable:!0,configurable:!0,writable:!0,value:c}):a[s]=c;var l=(a,s,c)=>w(a,typeof s!="symbol"?s+"":s,c);var E=new Set(["__proto__","constructor","prototype"]);{let a={0:t=>y(t),1:t=>c(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(c(t)),5:t=>new Set(c(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>Number.POSITIVE_INFINITY*t},s=t=>{let[p,e]=t;return p in a?a[p](e):void 0},c=t=>t.map(s),y=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([p,e])=>[p,s(e)]));class f extends HTMLElement{constructor(){super(...arguments);l(this,"Component");l(this,"hydrator");l(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let r=this.querySelectorAll("astro-slot"),n={},d=this.querySelectorAll("template[data-astro-template]");for(let o of d){let i=o.closest(this.tagName);i!=null&&i.isSameNode(this)&&(n[o.getAttribute("data-astro-template")||"default"]=o.innerHTML,o.remove())}for(let o of r){let i=o.closest(this.tagName);i!=null&&i.isSameNode(this)&&(n[o.getAttribute("name")||"default"]=o.innerHTML)}let u;try{u=this.hasAttribute("props")?y(JSON.parse(this.getAttribute("props"))):{}}catch(o){let i=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(i+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${i}`,this.getAttribute("props"),o),o}let h;await this.hydrator(this)(this.Component,u,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});l(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),r.disconnect(),this.childrenConnectedCallback()},r=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});r.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}getRetryImportUrl(e){let r=new URL(e,document.baseURI);return r.searchParams.set("astro-retry",Date.now().toString()),r.toString()}async importWithRetry(e){try{return await import(e)}catch(r){return await new Promise(n=>setTimeout(n,1e3)),import(this.getRetryImportUrl(e))}}handleHydrationError(e){let r=this.getAttribute("component-url"),n=new CustomEvent("astro:hydration-error",{cancelable:!0,bubbles:!0,composed:!0,detail:{error:e,componentUrl:r}});this.dispatchEvent(n)&&console.error(`[astro-island] Error hydrating ${r}`,e)}async start(){let e=JSON.parse(this.getAttribute("opts")),r=this.getAttribute("client");if(Astro[r]===void 0){window.addEventListener(`astro:${r}`,()=>this.start(),{once:!0});return}try{await Astro[r](async()=>{let n=this.getAttribute("renderer-url");try{let[d,{default:u}]=await Promise.all([this.importWithRetry(this.getAttribute("component-url")),n?this.importWithRetry(n):Promise.resolve({default:()=>()=>{}})]),h=this.getAttribute("component-export")||"default";if(h.includes(".")){this.Component=d;for(let m of h.split(".")){if(E.has(m)||!this.Component||typeof this.Component!="object"&&typeof this.Component!="function"||!Object.hasOwn(this.Component,m))throw new Error(`Invalid component export path: ${h}`);this.Component=this.Component[m]}}else{if(E.has(h))throw new Error(`Invalid component export path: ${h}`);this.Component=d[h]}return this.hydrator=u,this.hydrate}catch(d){return this.handleHydrationError(d),()=>{}}},e,this)}catch(n){this.handleHydrationError(n)}}attributeChangedCallback(){this.hydrate()}}l(f,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",f)}})();</script><astro-island uid="ZGhIMC" prefix="r4" component-url="/_astro/GreenPromoBanner.BFLyo1_l.js" component-export="GreenPromoBanner" renderer-url="/_astro/client.B-Ov0gnE.js" props="{}" ssr client="load" opts="{&quot;name&quot;:&quot;GreenPromoBanner&quot;,&quot;value&quot;:true}"></astro-island></div><astro-island uid="1Ilxoa" prefix="r5" component-url="/_astro/Navbar.D5NDWM69.js" component-export="Navbar" renderer-url="/_astro/client.B-Ov0gnE.js" props="{&quot;currentPath&quot;:[0,&quot;/404&quot;],&quot;data-astro-transition-persist&quot;:[0,&quot;main-navbar&quot;]}" ssr client="load" opts="{&quot;name&quot;:&quot;Navbar&quot;,&quot;value&quot;:true}" data-astro-transition-persist="main-navbar" await-children><div class="fixed left-0 right-0 z-[200] will-change-transform" style="top:calc(var(--promo-banner-height, 0px) + var(--action-bar-height, 0px) + var(--red-promo-height, 0px));transform:translateY(0);transition:transform 300ms cubic-bezier(0.4, 0, 0.2, 1), top 300ms cubic-bezier(0.4, 0, 0.2, 1);view-transition-name:persistent-navbar" data-testid="navbar-floating"><div class="max-w-[1728px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-[85px]"><div class="grid grid-cols-[1fr_auto_1fr] items-center gap-3 lg:gap-4 py-3"><div class="flex items-center flex-shrink-0 justify-self-start"><a href="/it-it/privati" data-astro-prefetch="hover" class="h-11 lg:h-12 flex items-center justify-center flex-shrink-0 cursor-pointer rounded-[12px] px-3 lg:px-4 transition-[background-color,box-shadow] duration-300 shadow-[0_2px_8px_rgba(41,4,2,0.08)]" style="background-color:var(--ds-surface-base)" data-testid="button-logo"><img src="https://www.datocms-assets.com/133951/1720164277-group-1321316881.svg" alt="Satispay" class="h-[22px] lg:h-[26px] w-auto transition-[filter] duration-300 "/></a></div><div class="relative flex-shrink-0 justify-self-center"><div class="relative hidden lg:inline-flex items-center gap-1 lg:gap-[5.34px] p-[3px] lg:p-[5.34px] rounded-[13px] shadow-[0_2px_8px_rgba(41,4,2,0.08)]" style="background-color:var(--ds-surface-base)"><a href="/it-it/privati" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:text-accent-foreground relative z-10 h-8 lg:h-[37.34px] px-2.5 lg:px-4 py-1 lg:py-[5.34px] rounded-[10px] cursor-pointer bg-transparent transition-colors hover:bg-black/[0.05] text-[var(--ds-dark-aubergine)]" data-testid="button-tab-privati"><span aria-hidden="true" class="absolute inset-0 bg-[var(--ds-light-gray-100)] rounded-[10px] -z-10"></span><span class="[font-family:&#x27;Inter&#x27;,Helvetica] font-semibold text-xs lg:text-base xl:text-lg tracking-[0] leading-[21.4px]">Privati</span></a><a href="/it-it/welfare" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 relative z-10 h-8 lg:h-[37.34px] px-2.5 lg:px-4 py-1 lg:py-[5.34px] rounded-[10px] cursor-pointer bg-transparent transition-colors hover:bg-black/[0.05] text-[var(--ds-light-gray-700)] hover:text-[var(--ds-dark-aubergine)]" data-testid="button-tab-welfare"><span class="[font-family:&#x27;Inter&#x27;,Helvetica] font-semibold text-xs lg:text-base xl:text-lg tracking-[0] leading-[21.4px]">Welfare</span></a><a href="/it-it/business" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 relative z-10 h-8 lg:h-[37.34px] px-2.5 lg:px-4 py-1 lg:py-[5.34px] rounded-[10px] cursor-pointer bg-transparent transition-colors hover:bg-black/[0.05] text-[var(--ds-light-gray-700)] hover:text-[var(--ds-dark-aubergine)]" aria-expanded="false" data-testid="button-tab-negozi"><span class="[font-family:&#x27;Inter&#x27;,Helvetica] font-semibold text-xs lg:text-base xl:text-lg tracking-[0] leading-[21.4px]">Negozi</span></a></div></div><div class="flex items-center gap-2 lg:gap-3 flex-shrink-0 justify-self-end"><button class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground hidden w-11 lg:w-12 h-11 lg:h-12 rounded-[12px] p-3 lg:p-4 shadow-[0_2px_8px_rgba(41,4,2,0.08)]" style="background-color:var(--ds-surface-base);color:var(--ds-action-secondary-text)" aria-label="Apri ricerca" aria-keyshortcuts="Control+K Meta+K /" data-testid="button-search"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search w-5 h-5"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg></button><a href="/it-it/lavorare-in-satispay" class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground py-2 hidden sm:flex h-11 lg:h-12 px-3 lg:px-4 rounded-[12px] shadow-[0_2px_8px_rgba(41,4,2,0.08)]" style="background-color:var(--ds-surface-base);color:var(--ds-action-secondary-text)" data-testid="button-lavora-con-noi"><span class="[font-family:&#x27;Inter&#x27;,Helvetica] font-semibold text-xs lg:text-sm xl:text-[14px] tracking-[0] leading-[20px]">Lavora con noi</span></a><button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground lg:hidden order-first w-11 h-11 rounded-[12px] p-3 shadow-[0_2px_8px_rgba(41,4,2,0.08)]" style="background-color:var(--ds-surface-base);color:var(--ds-action-secondary-text)" aria-label="Apri menu" data-testid="button-mobile-menu"><div style="opacity:1;transform:none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu w-5 h-5"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></div></button><button class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground py-2 hidden sm:flex h-11 lg:h-12 px-3 lg:px-4 rounded-[12px] shadow-[0_2px_8px_rgba(41,4,2,0.08)]" style="background-color:var(--ds-surface-base);color:var(--ds-action-secondary-text)" data-testid="button-accedi"><span class="[font-family:&#x27;Inter&#x27;,Helvetica] font-semibold text-xs lg:text-sm xl:text-[14px] tracking-[0] leading-[20px]">Accedi</span></button><button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground py-2 h-11 lg:h-12 px-3 lg:px-4 rounded-[12px] transition-colors duration-300 shadow-[0_2px_8px_rgba(41,4,2,0.08)]" type="button" style="background-color:var(--ds-satispay-500);color:var(--ds-off-white)" data-testid="button-iscriviti"><span class="[font-family:&#x27;Inter&#x27;,Helvetica] font-semibold text-xs lg:text-sm xl:text-[14px] tracking-[0] leading-[20px]"><span>Iscriviti</span></span></button></div></div></div></div><!--astro:end--></astro-island><astro-island uid="Z1cXOXM" prefix="r6" component-url="/_astro/WelfareActionBar.oSGrtwYd.js" component-export="WelfareActionBar" renderer-url="/_astro/client.B-Ov0gnE.js" props="{&quot;initialVisible&quot;:[0,false],&quot;initialSection&quot;:[0,&quot;welfare&quot;],&quot;initialPath&quot;:[0,&quot;/404&quot;],&quot;data-astro-transition-persist&quot;:[0,&quot;welfare-action-bar&quot;]}" ssr client="load" opts="{&quot;name&quot;:&quot;WelfareActionBar&quot;,&quot;value&quot;:true}" data-astro-transition-persist="welfare-action-bar"></astro-island><astro-island uid="XutRS" prefix="r7" component-url="/_astro/AppDownloadQRBadge.DYlr5P6_.js" component-export="AppDownloadQRBadge" renderer-url="/_astro/client.B-Ov0gnE.js" props="{&quot;initialVisible&quot;:[0,false],&quot;initialDraft&quot;:[0,false],&quot;initialPromoPath&quot;:[0],&quot;data-astro-transition-persist&quot;:[0,&quot;app-download-qr-badge&quot;]}" ssr client="load" opts="{&quot;name&quot;:&quot;AppDownloadQRBadge&quot;,&quot;value&quot;:true}" data-astro-transition-persist="app-download-qr-badge" await-children><div class="hidden lg:block fixed bottom-12 z-[150] right-12 xl:right-[85px]" style="view-transition-name:persistent-qr-badge;display:none" aria-hidden="true" data-testid="app-download-qr-badge"><div class="flex items-center gap-[18px] rounded-[24px] shadow-[0_8px_24px_rgba(41,4,2,0.15)] ring-1 ring-black/5 p-3" style="background-color:var(--ds-navbar-grey);padding-right:24px"><div class="rounded-[10px] flex-shrink-0"><img src="https://www.datocms-assets.com/133951/1737978066-qr_code_svg_giftcard_mainpage.svg" alt="QR code per scaricare l&#x27;app Satispay" class="w-[102px] h-[102px] block" data-testid="img-app-download-qr"/></div><div class="overflow-hidden" style="width:auto;opacity:1"><p class="font-[&#x27;Inter&#x27;] text-[20px] leading-[1.3] text-[#290402] whitespace-nowrap pr-1.5" data-testid="text-app-download-copy">Scarica l&#x27;app<br/>e ottieni<!-- --> <span class="font-semibold text-[#ff3d00]">5€</span></p></div></div></div><!--astro:end--></astro-island><div data-astro-transition-scope="astro-nfpogox7-1"><div class="min-h-screen flex flex-col lg:flex-row"><!-- Left: image + lilac block with scalloped divider --><div class="w-full lg:w-1/2 flex flex-col"><div class="relative flex-1 min-h-[320px] lg:min-h-0"><img src="/404_image.webp" alt="Errore 404" class="absolute inset-0 w-full h-full object-cover object-top"></div><div class="relative bg-[#C8BFF5] px-6 sm:px-10 pb-14 pt-12 text-center"><div class="absolute -top-[14px] left-0 right-0 h-[15px] bg-[#C8BFF5]" style="mask-image: radial-gradient(circle 15px at 15px 0, transparent 14px, black 15px); -webkit-mask-image: radial-gradient(circle 15px at 15px 0, transparent 14px, black 15px); mask-size: 30px 15px; -webkit-mask-size: 30px 15px; mask-repeat: repeat-x; -webkit-mask-repeat: repeat-x;"></div><p class="font-['Inter'] font-bold uppercase tracking-[1px] text-[#ff3d00] text-sm mb-4">Error 404</p><h1 class="font-['Bricolage_Grotesque'] font-extrabold text-[#290402] text-[32px] sm:text-[40px] lg:text-[46px] leading-[1.1] tracking-[-1px] max-w-[640px] mx-auto">La faccia di chi non trova la pagina che stava cercando.</h1></div></div><!-- Right: links --><div class="w-full lg:w-1/2 bg-[#fffbef] flex items-start lg:items-center px-6 sm:px-10 lg:px-20 py-14 lg:py-0"><div class="max-w-[560px]"><div><h2 class="font-['Inter'] font-bold text-[#290402] text-lg">Riparti da qui</h2><p class="font-['Inter'] text-[#290402] text-base mt-2">È il più classico dei suggerimenti. Ma funziona sempre.</p><a href="/it-it/privati" class="mt-4 inline-flex items-center gap-2 font-['Inter'] font-semibold text-[#290402] hover:opacity-70 transition-opacity" data-testid="link-404-home">Torna in home<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></a></div><a href="https://satispaysupport.zendesk.com/hc/it" target="_blank" rel="noopener noreferrer" class="mt-6 inline-flex items-center gap-2 font-['Inter'] font-semibold text-[#290402] hover:opacity-70 transition-opacity" data-testid="link-404-assistenza">Assistenza<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></a></div></div></div></div><script>
+    // Cookiebot injects its banner + floating widget into <body> at runtime.
+    // View Transitions swap the whole body, so those injected nodes would be
+    // lost on navigation. Carry them over into the incoming document.
+    if (window.__cookiebotSwapHandler) {
+      document.removeEventListener('astro:before-swap', window.__cookiebotSwapHandler);
+    }
+    window.__cookiebotSwapHandler = function(event) {
+      if (!event.newDocument) return;
+      var selectors = '#CookiebotWidget, [id^="CybotCookiebot"], [id^="CookiebotWidget"]';
+      // Body nodes (banner + floating widget) AND head nodes (Cookiebot-injected
+      // styles/scripts) must both be carried over: the head is swapped too, so
+      // transported body nodes would otherwise render unstyled/invisible.
+      document.head.querySelectorAll(selectors).forEach(function(el) {
+        if (!event.newDocument.getElementById(el.id)) {
+          event.newDocument.head.appendChild(el);
+        }
+      });
+      document.body.querySelectorAll(selectors).forEach(function(el) {
+        if (!event.newDocument.getElementById(el.id)) {
+          event.newDocument.body.appendChild(el);
+        }
+      });
+    };
+    document.addEventListener('astro:before-swap', window.__cookiebotSwapHandler);
+
+    if (window.__bannerSwapHandler) {
+      document.removeEventListener('astro:after-swap', window.__bannerSwapHandler);
+    }
+    window.__bannerSwapHandler = function() {
+      var show = document.body.dataset.showBanner === 'true';
+      var isDesktop = window.matchMedia('(min-width: 768px)').matches;
+      var bannerWrap = document.querySelector('[data-promo-banner]');
+      if (!bannerWrap) return;
+      if (show && isDesktop) {
+        bannerWrap.classList.remove('!hidden');
+        requestAnimationFrame(function() {
+          var inner = bannerWrap.querySelector('[data-testid="banner-promo"]');
+          if (inner) {
+            document.documentElement.style.setProperty('--promo-banner-height', inner.offsetHeight + 'px');
+          }
+        });
+      } else {
+        if (!show) bannerWrap.classList.add('!hidden');
+        document.documentElement.style.setProperty('--promo-banner-height', '0px');
+      }
+    };
+    document.addEventListener('astro:after-swap', window.__bannerSwapHandler);
+
+    if (!window.__bannerResizeHandler) {
+      window.__bannerResizeHandler = function() {
+        var show = document.body.dataset.showBanner === 'true';
+        if (!show) return;
+        var isDesktop = window.matchMedia('(min-width: 768px)').matches;
+        if (!isDesktop) {
+          document.documentElement.style.setProperty('--promo-banner-height', '0px');
+        } else {
+          var inner = document.querySelector('[data-testid="banner-promo"]');
+          if (inner) {
+            document.documentElement.style.setProperty('--promo-banner-height', inner.offsetHeight + 'px');
+          }
+        }
+      };
+      window.addEventListener('resize', window.__bannerResizeHandler);
+    }
+
+    if (!window.__spaceScrollBlocker) {
+      window.__spaceScrollBlocker = function(e) {
+        if (e.code !== 'Space' && e.key !== ' ') return;
+        var t = e.target;
+        if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT' || t.tagName === 'BUTTON' || t.tagName === 'SUMMARY' || t.isContentEditable)) return;
+        e.preventDefault();
+      };
+      window.addEventListener('keydown', window.__spaceScrollBlocker);
+    }
+  </script></body></html>

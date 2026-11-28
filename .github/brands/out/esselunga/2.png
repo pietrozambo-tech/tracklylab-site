@@ -1,0 +1,4844 @@
+
+<!DOCTYPE HTML>
+<html lang="it">
+    <head>
+  <meta charset="UTF-8"/>
+  <title>Supermercati, promozioni e servizi | Esselunga</title>
+  
+  
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "image": "www.esselunga.it/media/icons/LOGO%20ESSE.svg",
+  "url": "http://www.esselunga.it",
+  "logo": "www.esselunga.it/media/icons/LOGO%20ESSE.svg",
+  "name": "Esselunga S.p.A.",
+  "description": "Scopri i supermercati Esselunga, le promozioni e i servizi ogni giorno a disposizione per te.",
+  "email": "servizio-clienti@esselunga.it",
+  "telephone": "+39800666555",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via Giambologna, 1",
+    "addressLocality": "Milano",
+    "addressCountry": "IT",
+    "addressRegion": "Lombardia",
+    "postalCode": "20096"
+  },
+  "vatID": "04916380159",
+  "taxID": "01255720169",
+  "foundingDate": "1957-04-13"
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://www.esselunga.it",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.esselunga.it/it-it/ricerca.html?q={search_term_string}&search_type=ricerca_diretta"
+        },
+        "query-input": "required name=search_term_string"
+    }
+}
+</script>
+
+
+
+  
+  <meta name="description" content="Scopri i supermercati Esselunga, le promozioni e i servizi ogni giorno a disposizione per te."/>
+  <meta name="template" content="generic-template"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+
+  
+
+  
+  
+    <link rel="icon" href="/media/favicon/favicon.ico"/>
+    <link rel="canonical" href="/it-it/homepage.html"/>
+    
+    
+
+  
+
+    
+    <link rel="stylesheet" href="/etc.clientlibs/istituzionale35/clientlibs/clientlib-base.min.css" type="text/css">
+
+
+    
+
+
+
+
+
+  
+    
+    
+
+    
+
+    
+    <script src="/etc.clientlibs/istituzionale35/clientlibs/clientlib-dependencies.min.js"></script>
+
+
+    
+    <link rel="stylesheet" href="/etc.clientlibs/istituzionale35/clientlibs/clientlib-dependencies.min.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/istituzionale35/clientlibs/clientlib-site.min.css" type="text/css">
+
+
+    
+    
+
+  
+  
+
+  
+  <script class="didomi-script-template" type="text/javascript">
+    (function(){(function(e,i,o){var n=document.createElement("link");n.rel="preconnect";n.as="script";
+    var t=document.createElement("link");t.rel="dns-prefetch";t.as="script";
+    var r=document.createElement("script");r.id="spcloader";r.type="text/javascript";
+    r["async"]=true;r.charset="utf-8";window.didomiConfig=window.didomiConfig||{};
+    window.didomiConfig.sdkPath=window.didomiConfig.sdkPath||o||"https://sdk.privacy-center.org/";
+    const d=window.didomiConfig.sdkPath;var a=d+e+"/loader.js?target_type=notice&target="+i;
+    if(window.didomiConfig&&window.didomiConfig.user){var c=window.didomiConfig.user;
+    var s=c.country;var f=c.region;if(s){a=a+"&country="+s;if(f){a=a+"&region="+f}}}n.href=d;
+    t.href=d;r.src=a;var m=document.getElementsByTagName("script")[0];m.parentNode.insertBefore(n,m);
+    m.parentNode.insertBefore(t,m);m.parentNode.insertBefore(r,m)})
+    ("244ebe88-9bcd-4f20-a3d8-484e071fe589", 'fVtjGpbC')})();
+  </script>
+
+  <script type="text/javascript">
+
+    window.didomiConfig = {
+      cookies: {
+        storageSources: {
+          cookies: true,
+          localStorage: false
+        },
+        local: {
+          customDomain: location.hostname
+        },
+      }
+    };
+
+    // CSS
+    var css = '#text > a {display: none !important;}div.didomi-consent-popup-body.didomi-popup-body > span {display: none !important;}div.didomi-consent-popup-footer.didomi-popup-footer > a > img {display: none !important;}#didomi-consent-popup-information-save {display: none !important;}div.didomi-content > div > div.didomi-consent-popup-categories {display: none !important;}.didomi-consent-popup-container-click-all {display: none !important;}';
+
+    var head = document.head || document.getElementsByTagName('head')[0];
+    var style = document.createElement('style');
+    style.type = 'text/css';
+
+    if (style.styleSheet) {
+        style.styleSheet.cssText = css;
+    } else {
+        style.appendChild(document.createTextNode(css));
+    }
+
+    head.appendChild(style);
+  </script>
+
+  
+  <script class="gtm-script-template" type="text/javascript">
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KJDX7LHG');
+  </script>
+  
+
+  
+  <script class="gtm-no-script-template" type="text/html">
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJDX7LHG"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </script>
+  
+</head>
+    <body class="page basicpage" id="page-833b0f841e" data-cmp-link-accessibility-enabled data-cmp-link-accessibility-text="apri in un nuovo tab" data-navigation-section="home" data-navigation-area="corporate">
+
+
+    
+
+
+
+
+    
+<div class="i35-core-container">
+
+    
+    <div id="container-a218b0b4fc" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<div id="experiencefragment-6029dafa1e" class="cmp-experiencefragment cmp-experiencefragment--header">
+
+
+    
+    <div id="container-d9c1a43bc6" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="i35-header aem-GridColumn aem-GridColumn--default--12">
+
+    <!--googleoff: index-->
+    <header id="el-header">
+
+        <header-bar data-welcome-message="Ciao" data-my-account-page="/it-it/my-account.html" data-logged-image="/media/icons/loggedUserIcon.svg" data-alt-logged-image="logged -user" data-logged-user-check-image-url="https://account.esselunga.it/area-utenti/getSecuredImg?appName=sitoIst35" data-logged-user-check-image-timeout="1">
+
+
+            
+
+
+    
+
+<esselungaaccessibility>
+    <nav aria-label="Navigazione sezioni principali">
+        
+            <a href="javascript:void(0)" class="nav-accessibility" data-attribute="cmp-container--internal-wrapper">Posizionati sul contenuto principale</a>
+        
+            <a href="javascript:void(0)" class="nav-accessibility" data-attribute="hamburger-btn">Posizionati sul menù principale</a>
+        
+            <a href="javascript:void(0)" class="nav-accessibility" data-attribute="nav-footer">Posizionanti sul footer</a>
+        
+    </nav>
+</esselungaaccessibility>
+
+
+            <div class="menu-wrapper">
+                <nav class="hamburger-menu">
+                    <div class="navbar">
+                        <div class="container nav-container">
+                            <button class="hamburger-btn" aria-controls="menu-principale" data-bs-toggle="modal" data-bs-target=".menu-modal" aria-label="menu principale">
+                                <span class="hamburger-lines">
+                                    <span class="line line1"></span>
+                                    <span class="line line2"></span>
+                                    <span class="line line3"></span>
+                                </span>
+                            </button>
+                            <div class="logo">
+                                
+<div data-cmp-src="/content/experience-fragments/istituzionale35/it/it/site/header/master/_jcr_content/root/header/logo.coreimg{.width}.svg/1774968917677/logo-esse.svg" data-asset-id="c66d3ebb-c7e8-4b69-b6ab-3c0bbd9bf5d7" id="image-c188feb8d3" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    <a class="cmp-image__link" title="torna alla homepage" href="/it-it/homepage.html">
+        <img src="/media/icons/LOGO%20ESSE.svg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" alt="Esselunga - vai alla home del sito"/>
+        
+        
+    </a>
+
+</div>
+
+    
+
+
+                            </div>
+                            <div class="desktop-search">
+
+                                <div>
+
+<vertex-suggestion data-search-url="/it-it/ricerca.html">
+    <div class="search-container">
+        <div class="search form-group">
+            <label class="visually-hidden" for="search">Cerca</label>
+            <input type="text" class="form-control" id="search" placeholder="Cerca" aria-autocomplete="both" aria-expanded="false"/>
+            <button class="search-button">
+                <img src="/media/icons/search.svg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="33" height="31" alt="Avvia la ricerca"/>
+            </button>
+        </div>
+    </div>
+</vertex-suggestion>
+</div>
+                                
+                            </div>
+
+                            <div class="actions-container">
+                                <div class="login-container">
+                                    <div class="user-not-logged-template container-teaser">
+                                        
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-2b6e2e259e" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="#">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <p class="cmp-teaser__title">
+        Accedi
+    </p>
+
+                
+                
+    
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/experience-fragments/istituzionale35/it/it/site/header/master/_jcr_content/root/header/headerLogin.coreimg{.width}.svg/1709284144777/big-login.svg" data-asset-id="a1330388-f79c-4e31-92bd-933cc4975718" id="teaser-2b6e2e259e-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/icons/big-login.svg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+
+                                    </div>
+
+                                    <script type="text/template" class="user-logged-template">
+                                        <div class="user-logged-template">
+                                            <a href="{{myAccountPage}}" class="cmp-teaser__link">
+                                                <div class="cmp-teaser__content">
+                                                    <p class="cmp-teaser__title">{{welcomeMessage}}&nbsp;{{userName}}</p>
+                                                </div>
+                                                <div class="cmp-teaser__image">
+                                                    <div class="cmp-image">
+                                                        <img src="{{loggedImage}}" alt="{{altLoggedImage}}"
+                                                             class="el-c-textButton__icon">
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </script>
+                                </div>
+                                <div class="cart-container">
+                                    <span class="cart-count"><span class="visually-hidden">prodotti nel carrello</span><span class="number"></span></span>
+                                    
+
+
+<button-component data-enable-custom-login-popup="false">
+    <button type="button" id="button-dccf8fb31a" class="cmp-button">
+        
+    
+
+        <img class="cmp-button__img" src="/media/icons/cart-empty.svg" alt/>
+        <span class="cmp-button__text">Carrello</span>
+    </button>
+
+    
+
+</button-component>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-line">
+                        <div class="container row">
+                            <div class="col-7 col-sm-6 no-padding">
+                                <div class="grocery-container">
+                                    
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-b9315244e9" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="https://spesaonline.esselunga.it/" target="_blank">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <p class="cmp-teaser__title">
+        Spesa Online
+    </p>
+
+                
+                
+    
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/experience-fragments/istituzionale35/it/it/site/header/master/_jcr_content/root/header/headerSpesaOnline.coreimg{.width}.svg/1709212812486/pomodoro.svg" data-asset-id="80f15a25-1308-40a3-a04a-da687ba919e2" id="teaser-b9315244e9-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/icons/pomodoro.svg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+
+                                </div>
+                                <div class="store-locator-container">
+                                    
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-e45be5fad3" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="/it-it/negozi.html">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <p class="cmp-teaser__title">
+        Negozi
+    </p>
+
+                
+                
+    
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/experience-fragments/istituzionale35/it/it/site/header/master/_jcr_content/root/header/headerFindStore.coreimg{.width}.svg/1709212832359/findstore.svg" data-asset-id="b5792460-5a92-4982-811b-fb1045418c67" id="teaser-e45be5fad3-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/icons/findStore.svg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+
+                                </div>
+                            </div>
+                            <div class="action-container col-5 col-sm-6 no-padding">
+                                <div class="chatbot-container">
+                                    
+<teaser data-remove-link="true" data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-450e95d38b" class="cmp-teaser">
+        
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <p class="cmp-teaser__title">
+        Chatta con
+    </p>
+
+                
+                
+    
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/experience-fragments/istituzionale35/it/it/site/header/master/_jcr_content/root/header/headerChatbot.coreimg{.width}.png/1785304136949/focaccina-chatbot-banner.png" data-asset-id="a1581efe-cd16-4b5c-97bf-82cff6358b1a" id="teaser-450e95d38b-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/icons/focaccina-chatbot-banner.png" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="188" height="188" alt="chatbot"/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        
+    </div>
+    
+    
+
+</teaser>
+
+                                    <img style="height: 12px;position: relative; top: -38px; left: 60px;" src="/media/icons/logo-olivia-header.jpg"/>
+                                </div>
+                                <div class="help-container">
+                                    
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-68521187ed" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="/it-it/servizio-clienti/faq.html">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <p class="cmp-teaser__title">
+        Servizio clienti
+    </p>
+
+                
+                
+    
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/experience-fragments/istituzionale35/it/it/site/header/master/_jcr_content/root/header/headerAiuto.coreimg{.width}.svg/1785303951989/call-center.svg" data-asset-id="ff3c07cb-dd32-4cc1-8c5f-c8684c2f6ce0" id="teaser-68521187ed-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/icons/call-center.svg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" alt="aiuto"/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+
+                                </div>
+                                <div class="list-container">
+                                    
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-101cf94176" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="/it-it/liste-della-spesa.html">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <p class="cmp-teaser__title">
+        Liste
+    </p>
+
+                
+                
+    
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/experience-fragments/istituzionale35/it/it/site/header/master/_jcr_content/root/header/headerListe.coreimg{.width}.svg/1718783914656/shopping-list.svg" data-asset-id="2e565ef2-d8aa-4718-adf1-67253080f22e" id="teaser-101cf94176-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/icons/shopping-list.svg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+
+                                </div>
+                                <div class="mobile-search">
+                                    <button type="button" data-bs-toggle="collapse" data-bs-target="#mobile-search-container" aria-expanded="false" aria-controls="mobile-search-container">
+                                        <img src="/media/icons/search.svg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="33" height="31" alt="Carrello"/>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="mobile-search-container" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <label class="visually-hidden" for="searchMobile">Cerca</label>
+                            <input type="text" class="form-control" id="searchMobile" placeholder="cerca" autocomplete="off"/>
+                            <button class="btn search-button">
+                                cerca
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            
+    <floating-cart data-ecommerce-cart-url="https://spesaonline.esselunga.it/commerce/vy/{{navigation}}/trolley.html" data-disabled-count="false">
+        <div class="modal floating-cart-modal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="floating-cart">
+                            <section>
+                                <h3>Carrello</h3>
+                                <p class="cart-empty-label" style="display:none;">Vuoto</p>
+                                <p class="cart-products-label"></p>
+                            </section>
+                            <div class="item-list-wrapper">
+                                
+    <div class="cart-spinner" style="display:none">
+        <div class="d-flex justify-content-center">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Caricamento...</span>
+            </div>
+        </div>
+    </div>
+
+                            </div>
+                            <div class="checkout-wrapper" style="display: none">
+                                <section>
+                                    <p>Importo finale</p>
+                                    <p><span class="total-amount"></span> <span>€</span> </p>
+                                </section>
+                                <a class="btn-blue-primary cart-link">VAI AL CARRELLO</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="messages d-none">
+            <span data-name="product">prodotto</span>
+            <span data-name="products">prodotti</span>
+        </div>
+
+        <script class="cart-item-template" type="text/html">
+            <div class="cart-item">
+                <section>
+                    <img src="{{imageURL}}" alt="prodotto">
+                </section>
+                <section>
+                    <p class="description">{{description}}</p>
+                    <p class="label">{{label}}</p>
+                </section>
+                <section>
+                    <p class="unit">Unità</p>
+                    <p class="unitPrice">{{unitPrice}} <span>€</span></p>
+                </section>
+                <section>
+                    <p class="quantity">Importo finale</p>
+                    <p class="quantityAwarePrice">{{quantityAwarePrice}} <span>€</span></p>
+                </section>
+                <section>
+                    <p class="quantity"><span>x</span>{{quantity}}</p>
+                </section>
+            </div>
+        </script>
+    </floating-cart>
+
+
+            <div class="modal menu-modal" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="menu-items" id="menu-principale">
+                                <div class="menu-container">
+                                    <div class="close-btn-container">
+                                        <button class="close-hamburger-btn" data-bs-dismiss="modal" aria-controls="menu-principale" aria-label="menu principale">
+                                    <span class="hamburger-lines">
+                                        <span class="line line1"></span>
+                                        <span class="line line2"></span>
+                                        <span class="line line3"></span>
+                                    </span>
+                                        </button>
+                                    </div>
+                                    <div class="menu-container-overflow">
+                                        
+
+<nav id="navigationheader-f687637000" class="cmp-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+    <ul class="cmp-navigation__group">
+        
+
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+        <a class="cmp-navigation__item-link" href="/it-it/promozioni.html">Promozioni</a>
+
+        
+
+    </li>
+
+    
+        
+
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+        <a class="cmp-navigation__item-link" href="/it-it/fidaty.html">Fìdaty</a>
+
+        
+
+    </li>
+
+    
+        
+
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+        <a class="cmp-navigation__item-link" href="/it-it/sostenibilita.html">Sostenibilità</a>
+
+        
+
+    </li>
+
+    
+        
+
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+        <a class="cmp-navigation__item-link" href="/it-it/servizi-utili.html">Servizi utili</a>
+
+        
+
+    </li>
+
+    
+        
+
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+        <a class="cmp-navigation__item-link" href="/it-it/i-nostri-marchi.html">I nostri marchi</a>
+
+        
+
+    </li>
+
+    
+        
+
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+        <a class="cmp-navigation__item-link" href="/it-it/fatti-da-noi.html">Fatti da noi</a>
+
+        
+
+    </li>
+
+    
+        
+
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+        <a class="cmp-navigation__item-link" href="/it-it/brand-del-gruppo.html">Brand del gruppo</a>
+
+        
+
+    </li>
+
+    
+        
+
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+        <a class="cmp-navigation__item-link" href="/it-it/chi-siamo.html">Chi siamo</a>
+
+        
+
+    </li>
+
+    </ul>
+</nav>
+
+    
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header-bar>
+
+    </header>
+
+<!--googleon: index-->
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</div>
+<div class="i35-breadcrumb aem-GridColumn aem-GridColumn--default--12">
+
+
+
+    
+    
+
+    
+
+
+
+<!--googleoff: index-->
+
+<!--googleon: index-->
+</div>
+<div class="i35-secondmenu aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+
+
+
+</div>
+<div class="i35-core-container aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-5a544a574e" class="cmp-container">
+        
+        <div class="i35-container-istituzionale cmp-container--yellow-arch-bottom cmp-container--bg-yellow">
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent">
+                    
+                        
+                            
+                                
+
+
+
+
+    
+    
+    <div class="i35-title text-center">
+<div id="title-8e7e9aeab3" class="cmp-title">
+    <h1 class="cmp-title__text">BENVENUTO NEL MONDO ESSELUNGA</h1>
+</div>
+
+    
+
+</div>
+
+
+    
+    
+    <div class="i35-container-istituzionale">
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent row">
+                    
+                        <div class="col-12 col-lg-10 col-md-12 col-sm-12">
+                            
+                                
+
+
+
+
+    
+    
+    <div class="i35-title text-center">
+<div id="title-6169d3d961" class="cmp-title">
+    <h3 class="cmp-title__text">COSA STAI CERCANDO?</h3>
+</div>
+
+    
+
+</div>
+
+
+
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+</div>
+
+
+    
+    
+    <div class="i35-carousel cmp-carousel--images">
+
+  
+  <carousel data-type="images" data-autoplay="false" data-track-view-promotion="true" data-track-select-promotion="true" data-creative-name="nd" data-creative-slot="benvenuto_nel_mondo_esselunga_1" data-promotion-name="nd">
+
+    
+
+    
+      
+        <div class="carousel-container">
+          <button type="button" class="swiper-button-outer-prev d-none" aria-label="indietro"></button>
+          <div class="swiper swiper-slider">
+            <button type="button" class="swiper-button-prev d-none" aria-label="indietro"></button>
+            <div class="swiper-wrapper">
+              
+                <div class="swiper-slide" data-index="1" data-title="nd">
+                  <div class="i35-image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1285046621/item0/carousel/item_1693929298786.coreimg{.width}.png/1703000503496/esselunga-online.png" data-asset-id="b0f9d624-0252-438f-8712-e1ae9f2433ff" id="image-28a1630daa" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    <a class="cmp-image__link" href="https://spesaonline.esselunga.it/" target="_blank">
+        <img src="/media/homepage/hub/esselunga-online.png" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="428" height="372" alt="Esselunga Online"/>
+        
+        
+    </a>
+
+</div>
+
+    
+
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="2" data-title="nd">
+                  <div class="i35-image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1285046621/item0/carousel/item_1693929290819.coreimg{.width}.png/1704443267744/enoteca.png" data-asset-id="0627c211-48a0-4eeb-ac28-a65bfa7781c7" id="image-f95014564b" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    <a class="cmp-image__link" href="https://enoteca.esselunga.it/" target="_blank">
+        <img src="/media/homepage/hub/enoteca.png" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="428" height="372" alt="vino"/>
+        
+        
+    </a>
+
+</div>
+
+    
+
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="3" data-title="nd">
+                  <div class="i35-image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1285046621/item0/carousel/item_1693929301271.coreimg{.width}.png/1742896655549/banner-b2b.png" data-asset-id="f1748893-28ab-4bc1-b757-9d7e8be92e69" id="image-1147e66a97" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    <a class="cmp-image__link" href="https://b2b.esselunga.it/ecommerce/nav/b2b/store/home" target="_blank">
+        <img src="/media/homepage/hub/banner_b2b.png" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="428" height="372" alt="Esselunga Business"/>
+        
+        
+    </a>
+
+</div>
+
+    
+
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="4" data-title="nd">
+                  <div class="i35-image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1285046621/item0/carousel/item_1693929301271_c.coreimg{.width}.png/1736762039855/eb.png" data-asset-id="b971334c-9dea-4443-9750-82ae4702c1bc" id="image-161c4b0bd3" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    <a class="cmp-image__link" href="https://www.esserbellaprofumerie.it/" target="_blank">
+        <img src="/media/homepage/hub/eb.png" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="428" height="372" alt="esserbella Profumerie"/>
+        
+        
+    </a>
+
+</div>
+
+    
+
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="5" data-title="nd">
+                  <div class="i35-image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1285046621/item0/carousel/item_1693929303742_c.coreimg{.width}.png/1707903378907/parafarmacia.png" data-asset-id="b83cb74a-f6c5-4633-a1a3-40fcaf4f2815" id="image-d980750415" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    <a class="cmp-image__link" href="https://parafarmacia.esselunga.it/" target="_blank">
+        <img src="/media/homepage/hub/parafarmacia.png" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="428" height="372" alt="Parafarmacia"/>
+        
+        
+    </a>
+
+</div>
+
+    
+
+</div>
+
+                </div>
+              
+            </div>
+            <div class="swiper-pagination"></div>
+            <button type="button" class="swiper-button-next d-none" aria-label="avanti"></button>
+          </div>
+          <div class="swiper-pagination-outer"></div>
+          <button type="button" class="swiper-button-outer-next d-none" aria-label="avanti"></button>
+        </div>
+      
+      
+    
+
+    <script class="bullet-template" type="text/template">
+      <button class="{{className}}" aria-label="slide {{slideNumber}} di {{allSlides}}"></button>
+    </script>
+  </carousel>
+
+
+</div>
+
+
+    
+    
+    <div class="i35-container-istituzionale">
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent">
+                    
+                        
+                            
+                                
+
+
+
+
+    
+    
+    <div class="i35-accordion cmp-accordion--center-down-arrow">
+<accordion data-analytics-label="servizi_homepage">
+  <div id="accordion-9adf755aa4" class="cmp-accordion" data-cmp-is="accordion" data-placeholder-text="false">
+    <div class="cmp-accordion__item" data-cmp-hook-accordion="item" id="accordion-9adf755aa4-item-48c4bbef5d">
+      <h3 class="cmp-accordion__header">
+        <button id="accordion-9adf755aa4-item-48c4bbef5d-button" class="cmp-accordion__button" aria-controls="accordion-9adf755aa4-item-48c4bbef5d-panel" data-cmp-hook-accordion="button">
+          <div class="cmp-wrapper-group">
+            <div class="cmp-subheading">
+              
+              <span class="cmp-accordion__title">Conosci gli altri servizi di Esselunga?</span>
+            </div>
+          </div>
+          <span class="cmp-accordion__icon"><i class="fa-solid fa-chevron-down"></i></span>
+        </button>
+      </h3>
+      <div data-cmp-hook-accordion="panel" id="accordion-9adf755aa4-item-48c4bbef5d-panel" class="cmp-accordion__panel cmp-accordion__panel--hidden" role="region" aria-labelledby="accordion-9adf755aa4-item-48c4bbef5d-button"><div class="i35-container-istituzionale">
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent">
+                    
+                        
+                            
+                                
+
+
+
+
+    
+    
+    <div class="i35-carousel cmp-carousel--images">
+
+  
+  <carousel data-type="images" data-autoplay="false" data-track-view-promotion="true" data-track-select-promotion="true" data-creative-name="nd" data-creative-slot="benvenuto_nel_mondo_esselunga_2" data-promotion-name="nd">
+
+    
+
+    
+      
+        <div class="carousel-container">
+          <button type="button" class="swiper-button-outer-prev d-none" aria-label="indietro"></button>
+          <div class="swiper swiper-slider">
+            <button type="button" class="swiper-button-prev d-none" aria-label="indietro"></button>
+            <div class="swiper-wrapper">
+              
+                <div class="swiper-slide" data-index="1" data-title="nd">
+                  <div class="i35-image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1285046621/item0/container_istituzion_1195989541/item0/accordion/item_1/item0/carousel_copy/item_1693929290819.coreimg{.width}.png/1706008709303/piante.png" data-asset-id="2f00ede6-cc5e-4c52-9ad4-d9e4e62dd00e" id="image-d822c2294f" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    <a class="cmp-image__link" href="/it-it/altri-servizi/piante-e-fiori.html">
+        <img src="/media/homepage/hub/piante.png" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="428" height="372" alt="Ravviva il tuo balcone"/>
+        
+        
+    </a>
+
+</div>
+
+    
+
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="2" data-title="nd">
+                  <div class="i35-image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1285046621/item0/container_istituzion_1195989541/item0/accordion/item_1/item0/carousel_copy/item_1693929298786.coreimg{.width}.png/1706010218730/libri.png" data-asset-id="673db3f7-23f5-490a-a2b5-da0cbcbae6ab" id="image-a17389ed7b" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    <a class="cmp-image__link" href="/it-it/altri-servizi/prenotazione-libri.html">
+        <img src="/media/homepage/hub/libri.png" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="428" height="372" alt="prenota i libri"/>
+        
+        
+    </a>
+
+</div>
+
+    
+
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="3" data-title="nd">
+                  <div class="i35-image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1285046621/item0/container_istituzion_1195989541/item0/accordion/item_1/item0/carousel_copy/item_1693929301271.coreimg{.width}.png/1772189077004/stampa.png" data-asset-id="98b9008d-885b-42b4-b78e-6993a11bc1ee" id="image-fefd09676f" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    <a class="cmp-image__link" title="stampa.png" href="/it-it/altri-servizi/stampa-foto.html">
+        <img src="/media/homepage/hub/stampa.png" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="428" height="372" alt="Stampa i tuoi ricordi"/>
+        
+        
+    </a>
+
+</div>
+
+    
+
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="4" data-title="nd">
+                  <div class="i35-image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1285046621/item0/container_istituzion_1195989541/item0/accordion/item_1/item0/carousel_copy/item_1702312465141.coreimg{.width}.png/1706008765024/carte-regalo.png" data-asset-id="a9d5325c-36ec-46fa-ae0f-db1fcead1474" id="image-12764fc6fa" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    <a class="cmp-image__link" href="/it-it/altri-servizi/carte-regalo.html">
+        <img src="/media/homepage/hub/carte-regalo.png" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="428" height="372" alt="Carte regalo"/>
+        
+        
+    </a>
+
+</div>
+
+    
+
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="5" data-title="nd">
+                  <div class="i35-image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1285046621/item0/container_istituzion_1195989541/item0/accordion/item_1/item0/carousel_copy/item_1707472907188.coreimg{.width}.png/1707473237503/viaggi.png" data-asset-id="9b6d9c33-7eaa-45f9-9168-5fb762999b68" id="image-beb8e5b77c" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    <a class="cmp-image__link" href="https://www.servizioviaggi.it/" target="_blank">
+        <img src="/media/homepage/hub/viaggi.png" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="428" height="372" alt="Servizio viaggi"/>
+        
+        
+    </a>
+
+</div>
+
+    
+
+</div>
+
+                </div>
+              
+            </div>
+            <div class="swiper-pagination"></div>
+            <button type="button" class="swiper-button-next d-none" aria-label="avanti"></button>
+          </div>
+          <div class="swiper-pagination-outer"></div>
+          <button type="button" class="swiper-button-outer-next d-none" aria-label="avanti"></button>
+        </div>
+      
+      
+    
+
+    <script class="bullet-template" type="text/template">
+      <button class="{{className}}" aria-label="slide {{slideNumber}} di {{allSlides}}"></button>
+    </script>
+  </carousel>
+
+
+</div>
+
+
+
+                            
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+</div>
+</div>
+    </div>
+
+    
+  </div>
+</accordion>
+</div>
+
+
+
+                            
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+</div>
+
+
+
+                            
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+</div>
+<div class="i35-container-istituzionale">
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent">
+                    
+                        
+                            
+                                
+
+
+
+
+    
+    
+    <div class="i35-container-istituzionale">
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent row">
+                    
+                        <div class="col-12 col-lg-11 col-md-11 col-sm-12">
+                            
+                                
+
+
+
+
+    
+    
+    <div class="i35-teaser cmp-teaser--imageLeft cmp-teaser--cta-button cmp-teaser--content-center">
+<teaser data-remove-link="true" data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-53037ea902" class="cmp-teaser">
+        
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h3 class="cmp-teaser__title">
+        la tua spesa conviene, ogni giorno.
+    </h3>
+
+                
+                
+    <div class="cmp-teaser__description"><p>Prodotti a marchio, freschi e nostre specialità: scopri tante proposte per una spesa completa di qualità a <b>prezzi bassi</b>.</p>
+</div>
+
+                
+    <div class="cmp-teaser__action-container">
+        
+    <a class="cmp-teaser__action-link" id="teaser-53037ea902-cta-329018443c" href="/it-it/promo-e-news/landing/qualita-giusto-prezzo.html">scopri di più</a>
+
+    </div>
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_691860184/item0/container_istituzion/item0/teaser_copy_12642015.coreimg{.width}.jpeg/1793847920382/header-convenienza-evidenza.jpeg" data-asset-id="51418c93-d22b-4b25-81a6-91c9ba735f78" id="teaser-53037ea902-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/homepage/in-evidenza/header-convenienza-evidenza.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="750" height="540" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+
+    
+    
+    <div class="i35-title text-center no-space-top no-space-bottom">
+<div id="title-00f4afa3e6" class="cmp-title">
+    <h2 class="cmp-title__text">In evidenza</h2>
+</div>
+
+    
+
+</div>
+
+
+    
+    
+    <div class="i35-carousel cmp-carousel--simple">
+
+  
+  <carousel data-type="simple" data-autoplay="true" data-autoplay-speed="5000" data-pause-autoplay="true" data-track-select-promotion="true" data-creative-name="nd" data-creative-slot="in_evidenza_3" data-promotion-name="nd">
+
+    
+
+    
+      
+        <div class="carousel-container">
+          <button type="button" class="swiper-button-outer-prev d-none" aria-label="indietro"></button>
+          <div class="swiper cmp-carousel--wrapper-teasers swiper-slider">
+            <button type="button" class="swiper-button-prev d-none" aria-label="indietro"></button>
+            <div class="swiper-wrapper">
+              
+                <div class="swiper-slide cmp-carousel--slide-teaser" data-index="1" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageLeft cmp-teaser--cta-button cmp-teaser--content-center">
+<teaser data-remove-link="true" data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-b2b4e999e7" class="cmp-teaser">
+        
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h3 class="cmp-teaser__title">
+        Riapertura Esselunga di Gessate
+    </h3>
+
+                
+                
+    <div class="cmp-teaser__description"><p>Esselunga riapre a <b style="">Gessate</b>, più grande, più assortimento, più servizi. Fino al 28 novembre risparmia con il <b style="">Sottocosto. </b></p>
+</div>
+
+                
+    <div class="cmp-teaser__action-container">
+        
+    <a class="cmp-teaser__action-link" id="teaser-b2b4e999e7-cta-f4f4f07317" href="/it-it/promo-e-news/apertura-gessate.html">scopri di più</a>
+
+    </div>
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_691860184/item0/container_istituzion/item0/carousel_copy_copy_c_2019975999/teaser_copy_12642015.coreimg{.width}.jpeg/1795171837133/gessate.jpeg" data-asset-id="c4e9ac41-1b90-4395-bb30-2a40f2c7b160" id="teaser-b2b4e999e7-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/homepage/in-evidenza/gessate.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="750" height="540" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide cmp-carousel--slide-teaser" data-index="2" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageLeft cmp-teaser--cta-button cmp-teaser--content-center">
+<teaser data-remove-link="true" data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-25ccc59996" class="cmp-teaser">
+        
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h3 class="cmp-teaser__title">
+        Black Days
+    </h3>
+
+                
+                
+    <div class="cmp-teaser__description"><p>Tantissimi <b>prodotti tecnologici </b>a <b>prezzi imperdibili</b>, fino al 29 novembre.</p>
+</div>
+
+                
+    <div class="cmp-teaser__action-container">
+        
+    <a class="cmp-teaser__action-link" id="teaser-25ccc59996-cta-84bae8092e" href="/it-it/promo-e-news/landing/black-days.html">scopri di più</a>
+
+    </div>
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_691860184/item0/container_istituzion/item0/carousel_copy_copy_c_2019975999/teaser_copy_12642015_202860951.coreimg{.width}.jpeg/1794819703927/black-days.jpeg" data-asset-id="9f044966-2c6d-456d-89af-5d457370b670" id="teaser-25ccc59996-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/homepage/in-evidenza/black-days.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="750" height="540" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide cmp-carousel--slide-teaser" data-index="3" data-title="Offerta esclusiva iphone 17">
+                  <div class="i35-teaser cmp-teaser--imageLeft cmp-teaser--cta-button cmp-teaser--content-center">
+<teaser data-remove-link="true" data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-3e680f9e35" class="cmp-teaser">
+        
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h3 class="cmp-teaser__title">
+        Offerta esclusiva iphone 17
+    </h3>
+
+                
+                
+    <div class="cmp-teaser__description"><p><b>Fino al 31 Dicembre</b>, acquista iPhone 17 256 GB a €1.099 e ricevi 14 buoni da €30 (totale €420) da usare sulle prossime spese.</p>
+</div>
+
+                
+    <div class="cmp-teaser__action-container">
+        
+    <a class="cmp-teaser__action-link" id="teaser-3e680f9e35-cta-2eeaa46620" href="/it-it/promo-e-news/landing/cashback-smartphone/offerta-esclusiva-iphone-17.html">scopri di più</a>
+
+    </div>
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_691860184/item0/container_istituzion/item0/carousel_copy_copy_c_2019975999/teaser_copy_12642015_139387524.coreimg{.width}.jpeg/1795172933086/iphone17-evidenza.jpeg" data-asset-id="3ea1d11b-ecc9-486e-96ab-b3760ea2e1a8" id="teaser-3e680f9e35-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/homepage/in-evidenza/iphone17-evidenza.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="750" height="540" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide cmp-carousel--slide-teaser" data-index="4" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageLeft cmp-teaser--cta-button cmp-teaser--content-center">
+<teaser data-remove-link="true" data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-2bea44a871" class="cmp-teaser">
+        
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h3 class="cmp-teaser__title">
+        Offerta esclusiva Olio
+    </h3>
+
+                
+                
+    <div class="cmp-teaser__description"><p>Fino al 31 dicembre, acquista 5 litri di <b>Olio Extra Vergine di Oliva Esselunga</b> a €30 e ricevi un <b>buono da 10€</b> per la tua prossima spesa.</p>
+</div>
+
+                
+    <div class="cmp-teaser__action-container">
+        
+    <a class="cmp-teaser__action-link" id="teaser-2bea44a871-cta-2e3f245a8b" href="/it-it/promo-e-news/landing/cashback/olio.html">scopri di più</a>
+
+    </div>
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_691860184/item0/container_istituzion/item0/carousel_copy_copy_c_2019975999/teaser_copy_12642015_398366540.coreimg{.width}.jpeg/1795012177536/olio.jpeg" data-asset-id="1c5e3d96-1fb6-4c73-8e97-00f930e2accb" id="teaser-2bea44a871-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/homepage/in-evidenza/olio.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="500" height="360" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide cmp-carousel--slide-teaser" data-index="5" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageLeft cmp-teaser--cta-button cmp-teaser--content-center">
+<teaser data-remove-link="true" data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-93055c5dd0" class="cmp-teaser">
+        
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h3 class="cmp-teaser__title">
+        Dona i buoni amici di scuola e dello sport
+    </h3>
+
+                
+                
+    <div class="cmp-teaser__description"><p>È il momento di donarli tutti: <b>azzera</b> il saldo dei Buoni sulla tua Carta Fìdaty</p>
+</div>
+
+                
+    <div class="cmp-teaser__action-container">
+        
+    <a class="cmp-teaser__action-link" id="teaser-93055c5dd0-cta-66ff342b6f" href="https://www.esselunga.it/it-it/amici-di-scuola-e-dello-sport/dona-i-tuoi-buoni.html">scopri come donare</a>
+
+    </div>
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_691860184/item0/container_istituzion/item0/carousel_copy_copy_c_2019975999/teaser_copy_copy_cop_515834943.coreimg{.width}.jpeg/1795012640371/ams.jpeg" data-asset-id="428d4e35-c493-47d2-8078-210e2f51adca" id="teaser-93055c5dd0-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/homepage/in-evidenza/ams.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="750" height="540" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide cmp-carousel--slide-teaser" data-index="6" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageLeft cmp-teaser--cta-button cmp-teaser--content-center">
+<teaser data-remove-link="true" data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-9d6714cce9" class="cmp-teaser">
+        
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h3 class="cmp-teaser__title">
+        Scopri i premi x factor
+    </h3>
+
+                
+                
+    <div class="cmp-teaser__description"><p>Colleziona i fantastici <b>premi X FACTOR</b>! Raccogli i <b>buoni digitali</b> e usali subito!</p>
+</div>
+
+                
+    <div class="cmp-teaser__action-container">
+        
+    <a class="cmp-teaser__action-link" id="teaser-9d6714cce9-cta-7b93307574" href="/it-it/promozioni/xfactor.html">scopri la collezione</a>
+
+    </div>
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_691860184/item0/container_istituzion/item0/carousel_copy_copy_c_2019975999/teaser_copy_copy_cop_1107847418.coreimg{.width}.jpeg/1794927425832/xfactor-in-evidenza.jpeg" data-asset-id="1ab2a31a-e72f-491a-8261-6cfbe6a06606" id="teaser-9d6714cce9-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/homepage/in-evidenza/xfactor-in-evidenza.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="750" height="540" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+            </div>
+            <div class="swiper-pagination"></div>
+            <button type="button" class="swiper-button-next d-none" aria-label="avanti"></button>
+          </div>
+          <div class="swiper-pagination-outer"></div>
+          <button type="button" class="swiper-button-outer-next d-none" aria-label="avanti"></button>
+        </div>
+      
+      
+    
+
+    <script class="bullet-template" type="text/template">
+      <button class="{{className}}" aria-label="slide {{slideNumber}} di {{allSlides}}"></button>
+    </script>
+  </carousel>
+
+
+</div>
+
+
+
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+</div>
+
+
+    
+    
+    
+
+
+                            
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+</div>
+<div class="i35-container-istituzionale">
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent">
+                    
+                        
+                            
+                                
+
+
+
+
+    
+    
+    <div class="i35-carousel cmp-carousel--teasers cmp-carousel--border-shadow">
+
+  
+  <carousel data-type="teasers" data-autoplay="true" data-autoplay-speed="20000" data-pause-autoplay="true" data-track-select-promotion="true" data-creative-name="nd" data-creative-slot="news_4" data-promotion-name="nd">
+
+    
+
+    
+      
+        <div class="carousel-container">
+          <button type="button" class="swiper-button-outer-prev d-none" aria-label="indietro"></button>
+          <div class="swiper swiper-slider">
+            <button type="button" class="swiper-button-prev d-none" aria-label="indietro"></button>
+            <div class="swiper-wrapper">
+              
+                <div class="swiper-slide" data-index="1" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-3956ad6662" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="/it-it/show-your-shopping-attitude.html" target="_blank">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        Il tuo stile sostiene il progetto AYA     
+    </h4>
+
+                
+                
+    
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1097978811/item0/carousel_copy_copy_c/item_1695128566153_c_319882601.coreimg{.width}.jpeg/1795172326925/adidas.jpeg" data-asset-id="bcb700f0-5cd7-4c58-a977-b146917abced" id="teaser-3956ad6662-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/homepage/news/adidas.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="426" height="378" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="2" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-3fae99178f" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="https://www.servizioviaggi.it/" target="_blank">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        Servizio Viaggi Vacanze invernali 2026/2027
+    </h4>
+
+                
+                
+    
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1097978811/item0/carousel_copy_copy_c/item_1695128566153_c_602085488.coreimg{.width}.jpeg/1791800265581/card-servizio-viaggi-inverno-2026.jpeg" data-asset-id="6b1612ca-e28a-4001-bc77-17fa654abbf1" id="teaser-3fae99178f-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/news/card-servizio-viaggi-inverno-2026.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="426" height="378" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="3" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-e8fb97566b" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="https://www.esselunga.it/it-it/promo-e-news/landing/bollini-digitali.html">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        le raccolte bollini diventano digitali
+    </h4>
+
+                
+                
+    
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1097978811/item0/carousel_copy_copy_c/item_1695128566153_c.coreimg{.width}.jpeg/1790930758449/card-bollini-digitali.jpeg" data-asset-id="73982e65-4e27-4b29-9223-0115b6b38363" id="teaser-e8fb97566b-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/homepage/news/card-bollini-digitali.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="426" height="378" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="4" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-6f154a2fbd" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="https://www.esselunga.it/media/fidaty/carte-fidaty/Informativa-sulla-privacy.pdf">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        Aggiornamento Informativa Privacy Fìdaty
+    </h4>
+
+                
+                
+    
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1097978811/item0/carousel_copy_copy_c/item_1695128566153_c_1166189789.coreimg{.width}.jpeg/1792501842237/survey-def.jpeg" data-asset-id="57b9f488-059a-424f-bd50-d7a436ac55b1" id="teaser-6f154a2fbd-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/news/survey_def.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="426" height="378" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="5" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-bd253a332c" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="/it-it/approfondimenti/frodi-online.html">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        Allerta Frodi
+    </h4>
+
+                
+                
+    
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1097978811/item0/carousel_copy_copy_c/item_1695128566153.coreimg{.width}.jpeg/1774875948486/allerta-frodi.jpeg" data-asset-id="daadfacf-9e3e-412a-8af0-95d0389fe248" id="teaser-bd253a332c-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/approfondimenti/frodi-online/allerta-frodi.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="426" height="378" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+            </div>
+            <div class="swiper-pagination"></div>
+            <button type="button" class="swiper-button-next d-none" aria-label="avanti"></button>
+          </div>
+          <div class="swiper-pagination-outer"></div>
+          <button type="button" class="swiper-button-outer-next d-none" aria-label="avanti"></button>
+        </div>
+      
+      
+    
+
+    <script class="bullet-template" type="text/template">
+      <button class="{{className}}" aria-label="slide {{slideNumber}} di {{allSlides}}"></button>
+    </script>
+  </carousel>
+
+
+</div>
+
+
+
+                            
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+</div>
+<div class="i35-container-istituzionale">
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent row">
+                    
+                        <div class="col-12 col-lg-10 col-md-12 col-sm-12">
+                            
+                                
+
+
+
+
+    
+    
+    <div class="mission-and-cashback">
+
+<mission-and-cashback>
+    <div style="background-color:">
+        <div class="mission-container">
+            <div class="mission-header">
+            </div>
+            <div>
+                <p class="mission-title" style="color:">
+                    I TUOI GOAL IN CORSO
+                </p>
+                <div class="mission-button-mobile">
+                    <a href="https://www.esselunga.it/area-utenti/ist35/myesselunga/missioni" style="color:;">
+                        Scoprili tutti
+                    </a>
+                </div>
+            </div>
+            <div>
+                <ul class="mission-carousel">
+                </ul>
+            </div>
+            <div class="mission-button">
+                <a href="https://www.esselunga.it/area-utenti/ist35/myesselunga/missioni" style="color:; border: 2px solid ">
+                    Scoprili tutti
+                    <img src="/media/icons/chevron-right-white.png" alt=""/>
+                </a>
+            </div>
+            <div></div>
+        </div>
+    </div>
+
+    <script class="carousel-template" type="text/template">
+        <li>
+            <a href="https://www.esselunga.it/area-utenti/ist35/myesselunga/missioni">
+                <img src="{{img}}" alt="{{altImg}}">
+                <div class="mission-content">
+                    <p class="title">{{title}}</p>
+                    <p class="desc">{{text}}</p>
+                    <div>
+<!--/*                         <img src="{{icon}}" alt="{{altIcon}}"> */-->
+                        <div class="progress-bar">
+                            <div class="progress-fill"></div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </li>
+    </script>
+
+    <script class="mission-progress-bar-template" type="text/template">
+        <div class="step {{step-x}}">
+            <img src="/media/asset/icons/progress-bar-step.png" alt="step-icon">
+        </div>
+    </script>
+
+    <script class="mission-header-template" type="text/template">
+        <img src="{{img}}" alt="{{altImg}}">
+    </script>
+
+    <script class="default-mission-template" type="text/template">
+        <a class="default-mission-content" href="https://www.esselunga.it/area-utenti/ist35/myesselunga/missioni" style="width:100%">
+            <img src="{{img}}" alt="{{altImg}}">
+        </a>
+    </script>
+
+</mission-and-cashback>
+</div>
+
+
+
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+</div>
+<div class="i35-container-istituzionale">
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="margin-top: 60px !important;">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent">
+                    
+                        
+                            
+                                
+
+
+
+
+    
+    
+    <div class="i35-title text-center no-padding no-space-top">
+<div id="title-ed8d2434b5" class="cmp-title">
+    <h2 class="cmp-title__text">PROMOZIONI</h2>
+</div>
+
+    
+
+</div>
+
+
+    
+    
+    <div class="i35-carousel cmp-carousel--teasers cmp-carousel--border-shadow no-space-top">
+
+  
+  <carousel data-type="teasers" data-autoplay="true" data-autoplay-speed="5000" data-pause-autoplay="true" data-track-select-promotion="true" data-creative-name="nd" data-creative-slot="promozioni_5" data-promotion-name="nd">
+
+    
+
+    
+      
+        <div class="carousel-container">
+          <button type="button" class="swiper-button-outer-prev d-none" aria-label="indietro"></button>
+          <div class="swiper swiper-slider">
+            <button type="button" class="swiper-button-prev d-none" aria-label="indietro"></button>
+            <div class="swiper-wrapper">
+              
+                <div class="swiper-slide" data-index="1" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-07c1856b41" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="/it-it/promozioni/volantini.html">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        Sottocosto
+    </h4>
+
+                
+                
+    <div class="cmp-teaser__description"><p>19 - 28 novembre</p>
+</div>
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1776014228/item0/carousel_copy_copy_c/item_1695128566153_c_303642806.coreimg{.width}.jpeg/1795013052515/sottocosto.jpeg" data-asset-id="bac97fea-7186-40cc-9103-49a74104f7d4" id="teaser-07c1856b41-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/promozioni/cards/istituzionale/sottocosto.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="426" height="378" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="2" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-148897dd86" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="/it-it/promozioni/offerta-tech.html">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        Offerta Tech
+    </h4>
+
+                
+                
+    <div class="cmp-teaser__description"><p>19 - 29 novembre</p>
+</div>
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1776014228/item0/carousel_copy_copy_c/item_1695128566153_c_1200071253.coreimg{.width}.jpeg/1795016723341/gta.jpeg" data-asset-id="53fee3b6-2b50-4a0d-abbd-c695e224b025" id="teaser-148897dd86-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/promozioni/cards/offerta-tech/gta.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="426" height="378" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="3" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-397886ceae" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="/it-it/promozioni/volantini.html">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        Voglia di Natale
+    </h4>
+
+                
+                
+    <div class="cmp-teaser__description"><p>12 novembre - 24 dicembre</p>
+</div>
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1776014228/item0/carousel_copy_copy_c/item_1695128566153_c_1134911629.coreimg{.width}.jpeg/1794473976302/voglia-natale.jpeg" data-asset-id="563eb845-44e4-493f-8e23-d1040f99ba9e" id="teaser-397886ceae-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/news/voglia-natale.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="1000" height="887" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="4" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-8bc5b6bcf8" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="/it-it/promozioni/volantini.html">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        Sotto l’albero
+    </h4>
+
+                
+                
+    <div class="cmp-teaser__description"><p>12 novembre - 31 dicembre</p>
+</div>
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1776014228/item0/carousel_copy_copy_c/item_1695128566153_c_379722814.coreimg{.width}.jpeg/1794473873613/sotto-albero.jpeg" data-asset-id="29ee520b-d17a-497e-8a4e-0687afe86cc7" id="teaser-8bc5b6bcf8-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/news/sotto-albero.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="1000" height="887" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="5" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-0719c92655" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="/it-it/promozioni/volantini.html">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    
+
+                
+                
+    <div class="cmp-teaser__description"><h4 class="fs-6"><b>LA TUA SPESA CONVIENE, OGNI GIORNO.</b></h4>
+<p> </p>
+</div>
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1776014228/item0/carousel_copy_copy_c/item_1695128566153_c_1869351446.coreimg{.width}.jpeg/1793805233377/card-convenienza-home.jpeg" data-asset-id="46254c61-088a-4448-95c1-89410a8c580d" id="teaser-0719c92655-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/promozioni/cards/volantini-speciali/card-convenienza-home.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="426" height="378" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="6" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-d95408aaa6" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="/it-it/promozioni/volantini.html">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        collection x factor + back to school
+    </h4>
+
+                
+                
+    
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1776014228/item0/carousel_copy_copy_c/item_1695128566153_c_1322135618.coreimg{.width}.jpeg/1795536293242/xfactor-card.jpeg" data-asset-id="b4bc38b9-225f-49fc-90af-d51b67eb95f2" id="teaser-d95408aaa6-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/promozioni/cards/collection/xfactor-card.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="426" height="378" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="7" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-22456d5dfc" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="/it-it/promozioni/volantini.html">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        offerte settimanali super fresche
+    </h4>
+
+                
+                
+    <div class="cmp-teaser__description"><p>23 - 29 novembre</p>
+</div>
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1776014228/item0/carousel_copy_copy_c/item_1695128566153_c_961923150.coreimg{.width}.jpeg/1795536340549/card-promozioni-arance-426x378px.jpeg" data-asset-id="19d1fea8-1ccd-4f42-9621-f3238c3de0f5" id="teaser-22456d5dfc-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/promozioni/cards/offerte-settimanali/CARD%20PROMOZIONI_ARANCE_426x378px.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="426" height="378" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="8" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-ac4302200f" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="/it-it/promozioni/volantini.html">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        appuntamento sconto più facile
+    </h4>
+
+                
+                
+    <div class="cmp-teaser__description"><p>16 novembre - 13 dicembre</p>
+</div>
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1776014228/item0/carousel_copy_copy_c/item_1695128566153_c_1828182210.coreimg{.width}.jpeg/1795536374205/sconto-facile.jpeg" data-asset-id="46de18ff-5bc8-48a8-a161-adc0fa0aec7b" id="teaser-ac4302200f-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/promozioni/cards/sconto-piu-facile/sconto-facile.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="426" height="378" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="9" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-9b0b8a0591" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="/it-it/promo-e-news/landing/1000-prodotti-esselunga.html">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        La tua spesa completa firmata esselunga
+    </h4>
+
+                
+                
+    <div class="cmp-teaser__description"><p>fino al 31 dicembre</p>
+</div>
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1776014228/item0/carousel_copy_copy_c/item_1695128566153_c_312620704.coreimg{.width}.jpeg/1790928475759/spesa-completa-card.jpeg" data-asset-id="16d2e1c7-d024-4685-b834-be0a92d7ae3d" id="teaser-9b0b8a0591-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/promozioni/cards/volantini-speciali/spesa-completa-card.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="426" height="378" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+            </div>
+            <div class="swiper-pagination"></div>
+            <button type="button" class="swiper-button-next d-none" aria-label="avanti"></button>
+          </div>
+          <div class="swiper-pagination-outer"></div>
+          <button type="button" class="swiper-button-outer-next d-none" aria-label="avanti"></button>
+        </div>
+      
+      
+    
+
+    <script class="bullet-template" type="text/template">
+      <button class="{{className}}" aria-label="slide {{slideNumber}} di {{allSlides}}"></button>
+    </script>
+  </carousel>
+
+
+</div>
+
+
+
+                            
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+</div>
+<div class="i35-container-istituzionale cmp-container--yellow-wave-fidaty">
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="margin-top: 30px !important;">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent">
+                    
+                        
+                            
+                                
+
+
+
+
+    
+    
+    <div class="i35-title text-center">
+<div id="title-041d675afc" class="cmp-title">
+    <h2 class="cmp-title__text">FÌDATY</h2>
+</div>
+
+    
+
+</div>
+
+
+    
+    
+    <div class="i35-teaser cmp-teaser--imageRight cmp-teaser--cta-button cmp-teaser--content-center">
+<teaser data-remove-link="true" data-author-istance="false" data-track-select-promotion="true" data-creative-name="nd" data-creative-slot="fidaty_6" data-promotion-name="nd">
+    <div id="teaser-41e48bf6ba" class="cmp-teaser">
+        
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h3 class="cmp-teaser__title">
+        Conosci le Fìdaty Card?
+    </h3>
+
+                
+                
+    <div class="cmp-teaser__description"><p>Un mondo di opportunità racchiuso in una Carta: i Punti Fìdaty, i buoni sconto e le offerte.<br />
+Inoltre, scopri tutti gli altri esclusivi vantaggi che Esselunga ha dedicato ai titolari di Carta Fìdaty Oro.</p>
+</div>
+
+                
+    <div class="cmp-teaser__action-container">
+        
+    <a class="cmp-teaser__action-link" id="teaser-41e48bf6ba-cta-6ff04e533c" href="/it-it/fidaty/le-carte.html">scopri di più</a>
+
+    </div>
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1963257722/item0/teaser.coreimg{.width}.png/1775212134853/carte-fidaty-homepage.png" data-asset-id="f780ad93-2704-4438-a9d7-afd257d2a23a" id="teaser-41e48bf6ba-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/homepage/fidaty/carte-fidaty-homepage.png" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="940" height="469" alt="Carta Oro | Carta Fìdaty"/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+
+    
+    
+    <div class="i35-teaser cmp-teaser--imageLeft cmp-teaser--cta-button cmp-teaser--content-center">
+<teaser data-remove-link="true" data-author-istance="false" data-track-select-promotion="true" data-creative-name="nd" data-creative-slot="fidaty_7" data-promotion-name="nd">
+    <div id="teaser-b0c3e97693" class="cmp-teaser">
+        
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h3 class="cmp-teaser__title">
+        lasciati ispirare!
+    </h3>
+
+                
+                
+    <div class="cmp-teaser__description"><p>Richiedi i tuoi premi preferiti da app e sito oppure in negozio, scegliendo tra tantissime proposte.</p>
+</div>
+
+                
+    <div class="cmp-teaser__action-container">
+        
+    <a class="cmp-teaser__action-link" id="teaser-b0c3e97693-cta-1123488391" href="/it-it/fidaty/catalogo-premi.html">scopri il catalogo</a>
+
+    </div>
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1963257722/item0/teaser_copy.coreimg{.width}.png/1791883791967/catalogo-10-2026.png" data-asset-id="91fe93c3-daa5-483b-93bf-c9e821211570" id="teaser-b0c3e97693-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/homepage/fidaty/catalogo_10_2026.png" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="640" height="664" alt="Catalogo Fìdaty  |  Ottobre 2026 - Aprile 2027" title="catalogo-fidaty-ottobre-maggio25.png"/>
+        
+        <meta itemprop="caption" content="catalogo-fidaty-ottobre-maggio25.png"/>
+    
+
+</div>
+
+    
+
+</div>
+
+        
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+
+
+                            
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+</div>
+<div class="i35-container-istituzionale">
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="margin-bottom: 60px !important;">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent">
+                    
+                        
+                            
+                                
+
+
+
+
+    
+    
+    <div class="i35-carousel cmp-carousel--teasers cmp-carousel--border-shadow">
+
+  
+  <carousel data-type="teasers" data-autoplay="false" data-track-select-promotion="true" data-creative-name="nd" data-creative-slot="sostenibilita_9" data-promotion-name="nd">
+
+    
+
+    
+      
+        <div class="carousel-container">
+          <button type="button" class="swiper-button-outer-prev d-none" aria-label="indietro"></button>
+          <div class="swiper swiper-slider">
+            <button type="button" class="swiper-button-prev d-none" aria-label="indietro"></button>
+            <div class="swiper-wrapper">
+              
+                <div class="swiper-slide" data-index="1" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter cmp-teaser--content-center">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-6f4f7ac1af" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="/it-it/fidaty/catalogo-premi/premio.modellatore-ad-aria.912402.html">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    
+
+                
+                
+    <div class="cmp-teaser__description"><h4 class="text-center"><b>Modellatore ad aria</b></h4>
+</div>
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_2022041032/item0/carousel_copy/item_1695128566153_c.coreimg{.width}.jpeg/1794308358698/1.jpeg" data-asset-id="ebe16a21-1be6-403d-90b5-141f87e0da4d" id="teaser-6f4f7ac1af-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/fidaty/catalogo-56/912402/1.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="640" height="640" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="2" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter cmp-teaser--content-center">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-b8150b922a" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="/it-it/fidaty/catalogo-premi/premio.tritatutto.912397.html">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    
+
+                
+                
+    <div class="cmp-teaser__description"><h4 class="text-center"><b>Tritatutto</b></h4>
+</div>
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_2022041032/item0/carousel_copy/item_1695128566153_c_1660559311.coreimg{.width}.jpeg/1794308500858/1.jpeg" data-asset-id="6a6fabd4-242d-40b3-b20d-f78a85a191fd" id="teaser-b8150b922a-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/fidaty/catalogo-56/912397/1.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="640" height="640" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="3" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-c3b2fbbd70" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="/it-it/fidaty/catalogo-premi/premio.parure-copripiumino-matrimoniale.912368.html">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    
+
+                
+                
+    <div class="cmp-teaser__description"><h4 class="text-center"><b>Parure copripiumino matrimoniale</b></h4>
+</div>
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_2022041032/item0/carousel_copy/item_1695128566153_c_1698970604.coreimg{.width}.jpeg/1794308590597/1.jpeg" data-asset-id="c2ba7c99-b06f-4307-a12a-59527a3c9db3" id="teaser-c3b2fbbd70-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/fidaty/catalogo-56/912368/1.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="640" height="640" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+            </div>
+            <div class="swiper-pagination"></div>
+            <button type="button" class="swiper-button-next d-none" aria-label="avanti"></button>
+          </div>
+          <div class="swiper-pagination-outer"></div>
+          <button type="button" class="swiper-button-outer-next d-none" aria-label="avanti"></button>
+        </div>
+      
+      
+    
+
+    <script class="bullet-template" type="text/template">
+      <button class="{{className}}" aria-label="slide {{slideNumber}} di {{allSlides}}"></button>
+    </script>
+  </carousel>
+
+
+</div>
+
+
+    
+    
+    <div class="i35-button cmp-button--button">
+
+
+<button-component data-enable-custom-login-popup="false">
+    <a id="button-d775cb112c" class="cmp-button" href="/it-it/fidaty/catalogo-premi.html">
+        
+    
+
+        
+        <span class="cmp-button__text">scopri i nostri premi</span>
+    </a>
+
+    
+
+</button-component>
+</div>
+
+
+
+                            
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+</div>
+<div class="i35-container-istituzionale cmp-container--yellow-wave-fidaty-carousel">
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent">
+                    
+                        
+                            
+                                
+
+
+
+
+    
+    
+    <div class="i35-title text-center">
+<div id="title-c417b7e57b" class="cmp-title">
+    <h2 class="cmp-title__text">Sostenibilità</h2>
+</div>
+
+    
+
+</div>
+
+
+    
+    
+    <div class="i35-teaser cmp-teaser--imageRight cmp-teaser--cta-button cmp-teaser--content-center">
+<teaser data-remove-link="true" data-author-istance="false" data-track-select-promotion="true" data-creative-name="nd" data-creative-slot="sostenibilita_8" data-promotion-name="nd">
+    <div id="teaser-a12414827d" class="cmp-teaser">
+        
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h3 class="cmp-teaser__title">
+        Obiettivi per uno sviluppo sostenibile
+    </h3>
+
+                
+                
+    <div class="cmp-teaser__description"><p>Esselunga guarda al futuro.<br />
+Sostenibilità, per noi, non riguarda solo l’ambiente ma è parte integrante del nostro modo di vivere come azienda, ma soprattutto come persone.<br />
+Per questo, ci poniamo obiettivi sfidanti ai quali tendere ogni giorno.</p>
+</div>
+
+                
+    <div class="cmp-teaser__action-container">
+        
+    <a class="cmp-teaser__action-link" id="teaser-a12414827d-cta-8e5968a7d0" href="/it-it/sostenibilita/la-strategia.html">scopri di più</a>
+
+    </div>
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_603433979/item0/teaser.coreimg{.width}.png/1782133201388/politica-sostenibilita-2026-2030.png" data-asset-id="076c48b0-4b5d-4574-9b8a-37b084e36181" id="teaser-a12414827d-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/sostenibilita/pillar-obiettivi/2026/politica-sostenibilita-2026-2030.png" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="480" height="482" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+
+    
+    
+    <div class="i35-carousel cmp-carousel--teasers cmp-carousel--border-shadow">
+
+  
+  <carousel data-type="teasers" data-autoplay="false" data-track-select-promotion="true" data-creative-name="nd" data-creative-slot="sostenibilita_9" data-promotion-name="nd">
+
+    
+
+    
+      
+        <div class="carousel-container">
+          <button type="button" class="swiper-button-outer-prev d-none" aria-label="indietro"></button>
+          <div class="swiper swiper-slider">
+            <button type="button" class="swiper-button-prev d-none" aria-label="indietro"></button>
+            <div class="swiper-wrapper">
+              
+                <div class="swiper-slide" data-index="1" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter cmp-teaser--content-center">
+<teaser data-remove-link="true" data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-54e65eab2f" class="cmp-teaser">
+        
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        sostenere le persone e le comunità
+    </h4>
+
+                
+                
+    
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_603433979/item0/carousel/item_1695128566153_c.coreimg{.width}.jpeg/1782133254109/persone-hp.jpeg" data-asset-id="c47a2f72-474e-4236-89e6-bba86ae7d0a7" id="teaser-54e65eab2f-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/sostenibilita/homepage/2026/persone-hp.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="500" height="444" alt title="1"/>
+        
+        <meta itemprop="caption" content="1"/>
+    
+
+</div>
+
+    
+
+</div>
+
+        
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="2" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter cmp-teaser--content-center">
+<teaser data-remove-link="true" data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-990bf8deee" class="cmp-teaser">
+        
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        sviluppare  le filiere e i prodotti
+    </h4>
+
+                
+                
+    
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_603433979/item0/carousel/item_1695128566153_c_1660559311.coreimg{.width}.jpeg/1782133292383/prodotti-hp.jpeg" data-asset-id="3664c935-6e40-4ad2-a9a4-dc7965a146dd" id="teaser-990bf8deee-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/sostenibilita/homepage/2026/prodotti-hp.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="500" height="444" alt title="1"/>
+        
+        <meta itemprop="caption" content="1"/>
+    
+
+</div>
+
+    
+
+</div>
+
+        
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="3" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter">
+<teaser data-remove-link="true" data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-b33fd19e08" class="cmp-teaser">
+        
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        salvaguardare il clima e le risorse
+    </h4>
+
+                
+                
+    
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_603433979/item0/carousel/item_1695128566153_c_1698970604.coreimg{.width}.jpeg/1782133335628/clima-hp.jpeg" data-asset-id="6056dcc2-82cf-435f-bb35-6947185afce9" id="teaser-b33fd19e08-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/sostenibilita/homepage/2026/clima-hp.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="500" height="443" alt title="1"/>
+        
+        <meta itemprop="caption" content="1"/>
+    
+
+</div>
+
+    
+
+</div>
+
+        
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+            </div>
+            <div class="swiper-pagination"></div>
+            <button type="button" class="swiper-button-next d-none" aria-label="avanti"></button>
+          </div>
+          <div class="swiper-pagination-outer"></div>
+          <button type="button" class="swiper-button-outer-next d-none" aria-label="avanti"></button>
+        </div>
+      
+      
+    
+
+    <script class="bullet-template" type="text/template">
+      <button class="{{className}}" aria-label="slide {{slideNumber}} di {{allSlides}}"></button>
+    </script>
+  </carousel>
+
+
+</div>
+
+
+    
+    
+    <div class="i35-button cmp-button--button text-center cmp-button--margin-bottom">
+
+
+<button-component data-enable-custom-login-popup="false">
+    <a id="button-de0a3e4379" class="cmp-button" href="/it-it/sostenibilita/area-download/politica-di-sostenibilita-2026-2030.html" target="_blank">
+        
+    
+
+        
+        <span class="cmp-button__text">scopri il Nostro Impegno</span>
+    </a>
+
+    
+
+</button-component>
+</div>
+
+
+
+                            
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+</div>
+<div class="i35-container-istituzionale cmp-container--bg-yellow">
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="margin-top: 50px !important;">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent">
+                    
+                        
+                            
+                                
+
+
+
+
+    
+    
+    <div class="i35-teaser cmp-teaser--imageLeft cmp-teaser--cta-button cmp-teaser--content-center">
+<teaser data-remove-link="true" data-author-istance="false" data-track-select-promotion="true" data-creative-name="nd" data-creative-slot="chi_siamo_10" data-promotion-name="nd">
+    <div id="teaser-eb41adf64c" class="cmp-teaser">
+        
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h2 class="cmp-teaser__title">
+        Chi siamo
+    </h2>
+
+                
+                
+    <div class="cmp-teaser__description"><p>Dal 1957 la spesa da Esselunga è un’esperienza che mette al centro il piacere di acquistare, scegliendo, variando e scoprendo tante novità giorno dopo giorno, con i migliori servizi e la massima comodità. <br />
+Una filosofia che mescola pionierismo, ingegno, attenzione per ogni cliente e soprattutto ricerca dell’eccellenza in ogni aspetto, dalla ricetta dell’hamburger perfetto all’architettura ideale del negozio.<br />
+</p>
+<p>Perché <i>“le cose, in Esselunga, si fanno per bene, o non si fanno per niente”.</i></p>
+</div>
+
+                
+    <div class="cmp-teaser__action-container">
+        
+    <a class="cmp-teaser__action-link" id="teaser-eb41adf64c-cta-b8e0fd80f1" href="/it-it/chi-siamo.html">scopri la nostra storia</a>
+
+    </div>
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_2137833334/item0/teaser.coreimg{.width}.jpeg/1778167101344/1957-1.jpeg" data-asset-id="8d06a5ee-a177-4e6c-86d6-ed8f40bdc81e" id="teaser-eb41adf64c-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/asset/home/1957_1.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="510" height="392" alt="Supermarket"/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+
+
+                            
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+</div>
+<div class="i35-container-istituzionale">
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="margin-top: 60px !important;">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent">
+                    
+                        
+                            
+                                
+
+
+
+
+
+                            
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+</div>
+<div class="i35-container-istituzionale">
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent">
+                    
+                        
+                            
+                                
+
+
+
+
+    
+    
+    <div class="i35-title text-center no-space-bottom">
+<div id="title-a84e875042" class="cmp-title">
+    <h1 class="cmp-title__text">Esselungajob</h1>
+</div>
+
+    
+
+</div>
+
+
+    
+    
+    <div class="i35-title text-center no-padding no-space-top no-space-bottom">
+<div id="title-771faf21b0" class="cmp-title">
+    <h4 class="cmp-title__text">Entra nel mondo Esselunga</h4>
+</div>
+
+    
+
+</div>
+
+
+    
+    
+    <div class="i35-carousel cmp-carousel--teasers cmp-carousel--border-shadow">
+
+  
+  <carousel data-type="teasers" data-autoplay="false" data-track-select-promotion="true" data-creative-name="nd" data-creative-slot="esselungajob_11" data-promotion-name="nd">
+
+    
+
+    
+      
+        <div class="carousel-container">
+          <button type="button" class="swiper-button-outer-prev d-none" aria-label="indietro"></button>
+          <div class="swiper swiper-slider">
+            <button type="button" class="swiper-button-prev d-none" aria-label="indietro"></button>
+            <div class="swiper-wrapper">
+              
+                <div class="swiper-slide" data-index="1" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter cmp-teaser--cta-center">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-13ba163367" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="https://bit.ly/4rpWVJm" target="_blank">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        Allievo/a responsabile
+    </h4>
+
+                
+                
+    <div class="cmp-teaser__description"><p>Scopri la posizione</p>
+</div>
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1631604677/item0/carousel_copy_copy_c/item_1695128566153_c_1109475584.coreimg{.width}.jpeg/1784212372502/allievo-responsabile.jpeg" data-asset-id="d6ff4424-638d-4452-a4e4-7a8781cdd2a2" id="teaser-13ba163367-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/homepage/lavora-con-noi/Allievo-Responsabile.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="426" height="378" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="2" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter cmp-teaser--cta-button cmp-teaser--cta-center">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-83312fd050" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="https://bit.ly/4jLILAc" target="_blank">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        Barista
+    </h4>
+
+                
+                
+    <div class="cmp-teaser__description"><p>Scopri la posizione</p>
+</div>
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1631604677/item0/carousel_copy_copy_c/item_1695128566153_c.coreimg{.width}.jpeg/1774875966999/barista.jpeg" data-asset-id="932ca278-958d-4271-b67f-af74831ab766" id="teaser-83312fd050-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/homepage/lavora-con-noi/Barista.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="426" height="378" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="3" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter cmp-teaser--cta-button cmp-teaser--cta-center">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-5b082cde90" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="https://esselungajob.it/search/?createNewAlert=false&q=parrucchiere&utm_source=careersite&utm_campaign=Carosello-sito-istituzionale-Parrucchiere-luglio-2026" target="_blank">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        Parrucchiere/a
+    </h4>
+
+                
+                
+    <div class="cmp-teaser__description"><p>Scopri la posizione</p>
+</div>
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1631604677/item0/carousel_copy_copy_c/item_1695128566153_c_1490987816.coreimg{.width}.jpeg/1784212385277/beauty-consultant-2.jpeg" data-asset-id="e459d7a9-7653-4b36-ab63-36dcf86c2afc" id="teaser-5b082cde90-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/homepage/lavora-con-noi/beauty-consultant-2.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="426" height="378" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="4" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter cmp-teaser--cta-button cmp-teaser--cta-center">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-8d312fc960" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="https://bit.ly/3NiS7ah" target="_blank">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        Farmacista
+    </h4>
+
+                
+                
+    <div class="cmp-teaser__description"><p>Scopri la posizione</p>
+</div>
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1631604677/item0/carousel_copy_copy_c/item_1695128566153_c_1390896971.coreimg{.width}.jpeg/1774875976218/farmacista.jpeg" data-asset-id="149d9f26-9630-471e-8282-4ec7be281b1d" id="teaser-8d312fc960-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/homepage/lavora-con-noi/Farmacista.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="426" height="378" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+                <div class="swiper-slide" data-index="5" data-title="nd">
+                  <div class="i35-teaser cmp-teaser--imageTop cmp-teaser--textCenter cmp-teaser--cta-button cmp-teaser--cta-center">
+<teaser data-author-istance="false" data-creative-name="nd" data-creative-slot="nd" data-promotion-name="nd">
+    <div id="teaser-2fefea4c75" class="cmp-teaser">
+        <a class="cmp-teaser__link" href="https://bit.ly/4jLqgvI" target="_blank">
+            <div class="cmp-teaser__content">
+                
+    
+
+                
+    <h4 class="cmp-teaser__title">
+        Manutentore/ice tecnico/a
+    </h4>
+
+                
+                
+    <div class="cmp-teaser__description"><p>Scopri la posizione</p>
+</div>
+
+                
+    
+
+            </div>
+            
+    <div class="cmp-teaser__image">
+<div data-cmp-src="/content/istituzionale35/it/it/homepage/_jcr_content/root/container/container_istituzion_1631604677/item0/carousel_copy_copy_c/item_1695128566153_c_1123038172.coreimg{.width}.jpeg/1784212400064/manutentore-tecnico.jpeg" data-asset-id="d391b5d8-1e68-4e70-a9a5-629e674bbcb0" id="teaser-2fefea4c75-image" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/media/homepage/lavora-con-noi/Manutentore-Tecnico.jpg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="426" height="378" alt/>
+        
+        
+    
+
+</div>
+
+    
+
+</div>
+
+        </a>
+    </div>
+    
+    
+
+</teaser>
+</div>
+
+                </div>
+              
+            </div>
+            <div class="swiper-pagination"></div>
+            <button type="button" class="swiper-button-next d-none" aria-label="avanti"></button>
+          </div>
+          <div class="swiper-pagination-outer"></div>
+          <button type="button" class="swiper-button-outer-next d-none" aria-label="avanti"></button>
+        </div>
+      
+      
+    
+
+    <script class="bullet-template" type="text/template">
+      <button class="{{className}}" aria-label="slide {{slideNumber}} di {{allSlides}}"></button>
+    </script>
+  </carousel>
+
+
+</div>
+
+
+
+                            
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+</div>
+<div class="i35-container-istituzionale">
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent">
+                    
+                        
+                            
+                                
+
+
+
+
+
+                            
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+</div>
+<div class="i35-container-istituzionale cmp-container--newsletter">
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent row">
+                    
+                        <div class="col-12 col-lg-10 col-md-12 col-sm-12">
+                            
+                                
+
+
+
+
+    
+    
+    <div class="i35-newsletter">
+
+<newsletter data-google-recaptcha-js-api-script="https://www.google.com/recaptcha/enterprise.js" data-recaptcha-enabled="false" data-language="it" style="display:none;">
+
+    <div class="row">
+        <div class="col-12 col-sm-5 col-md-4">
+            
+<div id="text-75157811bc" class="cmp-text">
+    <p><b>Iscriviti alla</b> <b>newsletter</b></p>
+<p>Riceverai in anteprima <br />
+tutte le <b>novità</b> del mondo Esselunga e potrai approfittare di tante <b>offerte</b> e <b>promozioni</b> vantaggiose.</p>
+
+</div>
+
+    
+
+
+        </div>
+        <div class="col-12 col-sm-7 col-md-8">
+            <form class="i35-form">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="form-floating">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Nome"/>
+                            <label for="name" class="required">Nome</label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="form-floating">
+                            <input type="text" id="email" name="email" class="form-control" placeholder="E-mail"/>
+                            <label for="email" class="required">E-mail</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        
+<div id="text-3a61430197" class="cmp-text">
+    <p>Iscrivendomi alla Newsletter dichiaro di aver preso visione dell'<a href="/it-it/informativa.html" target="_self">informativa</a> per il trattamento dei dati personali ai sensi dell'art. 13 GDPR.</p>
+
+</div>
+
+    
+
+
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-12">
+                            <button type="submit" class="btn">iscrivimi</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="validation-messages d-none">
+        <span data-name="nameRequired">Il campo ’Nome’ è obbligatorio</span>
+        <span data-name="emailRequired">Il campo ’E-mail’ è obbligatorio</span>
+        <span data-name="emailInvalid">Inserire un&#39;e-mail valida</span>
+        <span data-name="recaptchaRequired">Validare il recaptcha</span>
+        <span data-name="successMessage">Sottoscrizione andata a buon fine</span>
+        <span data-name="errorMessage">Si è verificato un errore durante la sottoscrizione</span>
+    </div>
+
+</newsletter>
+</div>
+
+
+
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+</div>
+<div class="i35-container-istituzionale">
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent row">
+                    
+                        <div class="col-12 col-lg-10 col-md-12 col-sm-12">
+                            
+                                
+
+
+
+
+    
+    
+    <div class="html-box">
+
+    
+
+
+    <style>
+@media (max-width: 600px) and (min-width: 331px){
+        chatbot-banner .banner-desc img {
+                height: auto !important;
+        }
+         chatbot-banner .banner-image img {
+                height: auto !important;
+        }
+    }
+ 
+    @media (max-width: 331px) {
+         chatbot-banner .banner-desc img {
+                height: fit-content !important;
+        }
+ 
+        chatbot-banner .banner-image img {
+                height: fit-content !important;
+        }
+    }
+</style>
+
+</div>
+
+
+    
+    
+    <div class="chatbot-banner"><chatbot-banner>
+    <div>
+        <div class="banner-content">
+            <p class="banner-title">Hai bisogno di aiuto?</p>
+            <div>
+                <p class="banner-desc">Chiedi a <img style="mix-blend-mode: multiply; padding-bottom: 1.5%; height: 25px;" src="/media/icons/logo-olivia-banner.png" alt="olivia icon"/> </p>
+                <p class="banner-desc">il nostro assistente virtuale.</p>
+            </div>
+            <div class="banner-button">
+                <a>Chatta ora</a>
+            </div>
+        </div>
+        <div class="banner-image">
+            <img src="/media/icons/focaccina-chatbot-banner.png" alt="chatbot"/>
+        </div>
+    </div>
+</chatbot-banner></div>
+
+
+
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+</div>
+<div class="html-box">
+
+    
+
+
+    <script>
+setTimeout(function() {
+document.querySelectorAll('.progress-fill').forEach(function(element) {
+        let width = parseFloat(element.style.width);
+
+        if (width > 100) {
+            element.style.width = '100%';
+        }
+    });
+}, 2000);
+</script>
+
+</div>
+
+        
+    </div>
+
+</div>
+<div class="experiencefragment aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--12 aem-GridColumn--offset--default--0">
+<div id="experiencefragment-9773c145aa" class="cmp-experiencefragment cmp-experiencefragment--footer">
+
+
+    
+    <div id="container-caa62dff3f" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="i35-footer aem-GridColumn aem-GridColumn--default--12"><!--googleoff: index-->
+
+<footer>
+    <div class="footer-upper-wrapper">
+        
+
+
+
+
+    <div class="footer-upper">
+        <div class="social">
+            <p>Seguici</p>
+            <div class="icons">
+                
+                    <a href="https://it-it.facebook.com/Esselunga/" target="_blank">
+                        <img src="/media/icons/facebook-icon.png" alt="Facebook"/>
+                    </a>
+                
+                    <a href="https://www.instagram.com/esselunga/?hl=it" target="_blank">
+                        <img src="/media/icons/instagram-icon.png" alt="instagram"/>
+                    </a>
+                
+                    <a href="https://www.linkedin.com/company/esselunga/" target="_blank">
+                        <img src="/media/icons/linkedin-icon.png" alt="Linkedin"/>
+                    </a>
+                
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+    </div>
+
+    <div class="nav-footer">
+        
+
+
+
+
+    
+    
+
+    
+
+
+
+
+
+<container-istituzionale>
+    <div class="cmp-container--external-wrapper" style="">
+        <div class="cmp-container--wrapperContainer cmp-container--wrapperContainerBackground">
+            <div class="cmp-container--internal-wrapper" style="">
+                <div class="justify-content-center cmp-container--wrapperContainerContent row">
+                    
+                        <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+                            
+                                
+
+
+
+
+    
+    
+    <div class="i35-navigation">
+        <nav id="navigation-ef6467245b" class="cmp-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Corporate &amp; Legal">
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="/it-it/corporate-e-legal.html" class="cmp-navigation__item-link " target="_self">Corporate &amp; legal</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/corporate-e-legal/dati-societari.html" class="cmp-navigation__item-link " target="_self">Dati societari</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/corporate-e-legal/governance.html" class="cmp-navigation__item-link " target="_self">Governance</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/corporate-e-legal/garanzia-legale-conformita.html" class="cmp-navigation__item-link " target="_self">Garanzia Legale</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/corporate-e-legal/dichiarazione-accesibilita.html" class="cmp-navigation__item-link " target="_self">Accessibilità</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/corporate-e-legal/fea.html" class="cmp-navigation__item-link " target="_self">FEA (Firma elettronica avanzata)</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+</nav>
+
+    
+</div>
+
+
+    
+    
+    <div class="i35-navigation">
+        <nav id="navigation-48069305be" class="cmp-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Lavora con Noi">
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="https://www.esselungajob.it/" class="cmp-navigation__item-link " target="_self">Lavora con noi</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="https://esselungajob.it/?utm_source=careersite&utm_campaign=Sito-istituzionale-Esselunga-footer-Esselungajob" class="cmp-navigation__item-link " target="_blank">Esselungajob</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="https://esselungajob.it/go/Risultati_Ricerca/4414201/" class="cmp-navigation__item-link " target="_blank">Posizioni aperte</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="https://esselungajob.it/content/VIrtual_Job_Day/?locale=it_IT&utm_source=careersite&utm_campaign=Sito-istituzionale-Esselunga-footer-eventi-di-recruiting" class="cmp-navigation__item-link " target="_blank">Eventi di recruiting</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+</nav>
+
+    
+</div>
+
+
+
+                            
+                        </div>
+                    
+                        <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+                            
+                                
+
+
+
+
+    
+    
+    <div class="i35-navigation">
+        <nav id="navigation-6a6b67562e" class="cmp-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Servizio Clienti">
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="/it-it/servizio-clienti.html" class="cmp-navigation__item-link " target="_self">Servizio Clienti</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/servizio-clienti/faq.html" class="cmp-navigation__item-link " target="_self">Faq e Contatti</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/servizio-clienti/allerte-e-richiami.html" class="cmp-navigation__item-link " target="_self">Allerte e richiami</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/servizio-clienti/smaltimento-confezioni.html" class="cmp-navigation__item-link " target="_self">Smaltimento confezioni</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/servizio-clienti/detersivi-insetticidi.html" class="cmp-navigation__item-link " target="_self">Detersivi e insetticidi</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/servizio-clienti/agevolazioni-consegna.html" class="cmp-navigation__item-link " target="_self">Agevolazioni</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/servizio-clienti/tabelle-comparative.html" class="cmp-navigation__item-link " target="_self">Tabelle comparative</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+</nav>
+
+    
+</div>
+
+
+    
+    
+    <div class="i35-navigation">
+        <nav id="navigation-c4dbc4fd87" class="cmp-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Privacy">
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="/it-it/privacy.html" class="cmp-navigation__item-link " target="_self">Privacy</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/privacy/privacy.html" class="cmp-navigation__item-link " target="_self">Privacy</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="#" class="cmp-navigation__item-link cookie-policy" target="_self">Consensi cookie</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/privacy/dpo.html" class="cmp-navigation__item-link " target="_self">DPO</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+</nav>
+
+    
+</div>
+
+
+
+                            
+                        </div>
+                    
+                        <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+                            
+                                
+
+
+
+
+    
+    
+    <div class="i35-navigation">
+        <nav id="navigation-e923129c68" class="cmp-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Altri Servizi">
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="/it-it/altri-servizi.html" class="cmp-navigation__item-link " target="_self">Altri Servizi</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/altri-servizi/servizi-per-le-aziende.html" class="cmp-navigation__item-link " target="_self">Servizi per le aziende</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/altri-servizi/piante-e-fiori.html" class="cmp-navigation__item-link " target="_self">Piante e fiori</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/altri-servizi/prenotazione-libri.html" class="cmp-navigation__item-link " target="_self">Prenotazione libri</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/altri-servizi/stampa-foto.html" class="cmp-navigation__item-link " target="_self">Stampa Foto</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/altri-servizi/carte-regalo.html" class="cmp-navigation__item-link " target="_self">Carte regalo</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+</nav>
+
+    
+</div>
+
+
+    
+    
+    <div class="i35-navigation">
+        <nav id="navigation-b306d43d5f" class="cmp-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Area Stampa">
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="/it-it/area-stampa.html" class="cmp-navigation__item-link " target="_self">Area Stampa</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/area-stampa/comunicati.html" class="cmp-navigation__item-link " target="_self">Comunicati</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/area-stampa/fotogallery.html" class="cmp-navigation__item-link " target="_self">Fotogallery</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/area-stampa/cartella-stampa.html" class="cmp-navigation__item-link " target="_self">Cartella Stampa</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+</nav>
+
+    
+</div>
+
+
+
+                            
+                        </div>
+                    
+                        <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+                            
+                                
+
+
+
+
+    
+    
+    <div class="i35-navigation">
+        <nav id="navigation-64fb427ab1" class="cmp-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Investor Relations">
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="/it-it/investor-relations.html" class="cmp-navigation__item-link " target="_self">Investor Relations</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/investor-relations/financial-information.html" class="cmp-navigation__item-link " target="_self">Financial Information</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/investor-relations/financial-releases.html" class="cmp-navigation__item-link " target="_self">Financial Releases</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/investor-relations/rating.html" class="cmp-navigation__item-link " target="_self">Rating</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/investor-relations/contact-us.html" class="cmp-navigation__item-link " target="_self">Contacts</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+</nav>
+
+    
+</div>
+
+
+    
+    
+    <div class="i35-navigation">
+        <nav id="navigation-0db6ec2459" class="cmp-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Area Fornitori">
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="/it-it/area-fornitori.html" class="cmp-navigation__item-link " target="_self">Area Fornitori</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/area-fornitori/portale-fornitori.html" class="cmp-navigation__item-link " target="_self">Portale Fornitori</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="/it-it/area-fornitori/opere-di-urbanizzazione.html" class="cmp-navigation__item-link " target="_self">Bandi opere di urbanizzazione</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+</nav>
+
+    
+</div>
+
+
+
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</container-istituzionale>
+
+    </div>
+    <div class="footer-lower-wrapper">
+        <div class="footer-lower">
+            
+
+
+
+
+
+    <div class="left-side">
+        <img src="/media/icons/esselunga-app-icon.png" alt/>
+        <div class="store">
+            <p>Scarica l&#39;app dei servizi Esselunga</p>
+            <div class="badges">
+                
+                    <a href="https://apps.apple.com/it/app/esselunga/id472618543" target="_blank">
+                        <img src="/media/icons/app-store-logo.png" alt="Scarica App dei servizi Esselunga Online per Apple Store"/>
+                    </a>
+                
+                    <a href="https://play.google.com/store/apps/details?id=it.esselunga.mobile" target="_blank">
+                        <img src="/media/icons/google-play-logo.png" alt="Scarica App dei servizi Esselunga Online per Android"/>
+                    </a>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="right-side">
+        <img src="/media/icons/esselunga-online-app-icon.png" class="lista-app-esse" alt/>
+        <div class="store">
+            <p>Scarica l&#39;app della spesa</p>
+            <div class="badges">
+                
+                    <a href="https://apps.apple.com/it/app/esselunga-online/id1276117735" target="_blank">
+                        <img src="/media/icons/app-store-logo.png" alt="Scarica App della spesa online Esselunga per Apple Store"/>
+                    </a>
+                
+                    <a href="https://play.google.com/store/apps/details?id=it.esselunga.mobile.ecommerce" target="_blank">
+                        <img src="/media/icons/google-play-logo.png" alt="Scarica App della spesa online Esselunga per Android"/>
+                    </a>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+        </div>
+    </div>
+    
+    <cookie-manager data-type="didomi">
+        
+    </cookie-manager>
+
+</footer>
+
+<div class="i35-text">
+    <div class="cmp-text">
+        <p class="text-center" style="font-size: 13px">
+            Copyright © 2026 Esselunga S.p.A. Tutti i diritti riservati - P.Iva: 04916380159
+        </p>
+    </div>
+</div>
+<!--googleon: index-->
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+
+    
+    
+    <script src="/etc.clientlibs/istituzionale35/clientlibs/clientlib-site.min.js"></script>
+
+
+    
+
+    
+    <script async src="/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.min.js"></script>
+<script async src="/etc.clientlibs/core/wcm/components/commons/site/clientlibs/imageDynamicMedia.min.js"></script>
+<script async src="/etc.clientlibs/istituzionale35/clientlibs/clientlib-base.min.js"></script>
+
+
+    
+
+
+
+    <scroll-top>
+        <button class="scroll-top-btn" aria-label="Torna in cima" style="display: none">
+            <div class="d-flex align-items-center justify-content-center">
+                <i class="icon fa-solid fa-chevron-up"></i>
+            </div>
+        </button>
+    </scroll-top>
+
+
+
+    <chat data-script="https://www.esselunga.it/cdn/external/chat-esselunga/js/bundle/browser/esselunga-web-chat.ccc508561d87c605fa8c.js" data-scroll-top-bottom="100" data-read-real-time-last-script-name="true" data-root-initialization-type="bot" data-chat-tutorial-enabled="true">
+        <script class="chat-template" type="text/template">
+            <el-lib-chat
+                    id="elLibChat"
+                    has-scrollbar=""
+                    site-theme="istituzionale"
+                    chat-initialization-type="bot"
+                    service="CC_ChatIstituzionale_VQ"
+                    config="{}"
+                    tracking-enabled="true"
+                    config="{}"
+                    has-badge="false"
+                    external-events-enabled="true"
+                    tutorial-trigger-selector=".chatbot-container"
+                    tutorial-enabled="true"></el-lib-chat>
+        </script>
+    </chat>
+
+
+    
+
+    
+
+    
+    
+
+
+</body>
+</html>
