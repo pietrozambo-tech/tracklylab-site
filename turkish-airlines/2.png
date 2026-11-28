@@ -1,0 +1,126 @@
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Turkish Airlines ®️ | Flying to the Most Countries</title>
+<link rel="shortcut icon" href="/Akamai_access_denied_staticpage/favicon.ico">
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+ 
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+        }
+ 
+        .tkheader {
+            background-color: #232b38;
+            border-color: #0f1319;
+            position: fixed;
+            right: 0;
+            left: 0;
+            padding: 12px 6px;
+        }
+ 
+        .container-fluid {
+            position: relative;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+ 
+        .wrapper--notfound {
+            width: 100%;
+            height: 550px;
+            padding-top: 50px;
+            background-image: url(/Akamai_access_denied_staticpage/errorpagebackground.jpg);
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+ 
+        .main--notfound {
+            width: 750px;
+            padding: 0 100px;
+        }
+ 
+        .title {
+            font-size: 32px;
+            padding-bottom: 18px;
+        }
+ 
+        .description {  
+            line-height: 1.5;
+            font-size: 26px;
+        }
+
+        .refcode {
+            font-size: 14px;
+        }
+ 
+        @media screen and (max-width:767px) and (min-width:320px) {
+            .wrapper--notfound {
+                width: 100%;
+                height: 100vh;
+                background-size: contain;
+                display: flex;
+                color: white;
+                justify-content: center;
+                align-items: center;
+            }
+ 
+            .main--notfound {
+                width: 240px;
+                background: #00000038;
+                padding: 40px;
+            }
+ 
+            .title {
+                font-size: 24px;
+                padding-bottom: 12px;
+            }
+ 
+            .description {
+                font-size: 18px;
+            }
+
+            .refcode {
+                font-size: 11px;
+            }
+        }
+</style>
+<script >bazadebezolkohpepadr="1525097545"</script><script type="text/javascript" src="https://www.turkishairlines.com/akam/13/5ae727c2"  defer></script></head>
+ 
+<body>
+<header style="position: relative;">
+<div class="tkheader" role="navigation">
+<div class="container-fluid">
+<div class="navbar-header">
+<div class="navbar-brand">                               
+<img src="/Akamai_access_denied_staticpage/THY-LOGO.png" height="40px" alt="THY LOGO">                         
+</div>                
+</div>
+</div>
+</div>
+</header>
+<div class="wrapper--notfound">
+<div class="main--notfound">
+<div class="title">
+<span>Take a short break from your passion for travel!</span>
+</div>
+<br><br>
+<div class="description">
+<span>We share your excitement about the discovery, but you are not able to access our site right now. 
+                      You can try again on another device or network, and if the problem persists, you can contact our call center.
+</span>
+</div>
+<br><br><br><br>
+</div>
+ 
+
+</div>
+<script type="text/javascript" src="/F5S_LSrpMqAw/kpDlxa/EUMT88/1wuizk0SYu/PCRj/AAI4C/h0fKno"></script>
+ 
+<link rel="stylesheet" type="text/css"  href="/YITSMPfPFK54/TUIiXU/9f2ijQ/cbm5O9/MwZxYA/GCFlIhV/SCnVX"><script  src="/YITSMPfPFK54/TUIiXU/9f2ijQ/cbm5O9/MwZxYA/S1thdm5/XNWYo" async defer></script><div id="sec-overlay" style="display:none;"><div id="sec-container"></div></div><noscript><img src="https://www.turkishairlines.com/akam/13/pixel_5ae727c2?a=dD1jODAwMWNkMjk4M2IxNzkwZmNmODYzNWYyZDNhYWJlNTM1NmNjODFmJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body></html>

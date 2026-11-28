@@ -1,0 +1,19 @@
+<!DOCTYPE html><html>
+<head>
+<meta name="INTERSHOP" content="Powered by INTERSHOP 7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diese Seite ist offline.</title>
+<link rel="stylesheet" href="/INTERSHOP/static/WFS/Plus-NettoDE-Site/-/-/de_DE/css/offline.css?timestamp=20200630">
+</head>
+<body>
+<div class="wartungsContainer">
+<a href="https://www.netto-online.de/" title="Netto Marken-Discount"><img src="/INTERSHOP/static/WFS/Plus-NettoDE-Site/-/-/de_DE/images/netto_logo.svg"></a>
+<h1>Wir sind bald wieder da!</h1>
+<p><span>Liebe Kundin, lieber Kunde,</span></p>
+<p>leider ist unser Online-Shop aus technischen Gründen momentan nicht erreichbar.</p>
+<p>Wir arbeiten allerdings mit Hochdruck daran, dass du bald wieder nach Herzenslust in unseren Angeboten stöbern kannst.</p>
+<p>… nur noch einen kurzen Augenblick.</p>
+<p>Dein Netto Online-Team</p>
+</div>
+</body>
+</html>

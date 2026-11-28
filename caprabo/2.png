@@ -1,0 +1,1874 @@
+<!DOCTYPE html>
+<!-- JSP CHEMAJF full.jsp -->
+
+<html lang="es-ES">
+
+<head>
+    <title>error</title>
+<meta name="description" content="Castellano">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="/es/error/404.html">
+<meta name="twitter:site" content="Caprabo - Tu supermercado en Cataluña y Navarra">
+<meta name="twitter:title" content="error">
+<meta name="twitter:description" content="Castellano">
+<meta name="twitter:creator" content="Caprabo">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="error"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="/es/error/404.html"/>
+<meta property="og:description" content="Castellano"/>
+<meta property="og:site_name" content="Caprabo - Tu supermercado en Cataluña y Navarra"/>
+<link rel="stylesheet" href="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/js/slick/slick.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/js/slick/slick-theme.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/com.caprabo.mrmmccann.caprabocom.indigital/resources/css/indigitall.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/css/caprabo-theme.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/css/cambios-home.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/css/sg-style.css?v=58" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/com.caprabo.mrmmccann.caprabocom.ofertas/resources/css/ofertas.css" type="text/css">
+<script src='/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/js/jquery-1.11.3.min.js'></script>
+<script src='/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/js/jquery.cookie.js'></script>
+<script src='/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/js/dataLayer.js'></script>
+<script src='/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/js/bootstrap.min.js'></script>
+<script src='/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/js/masonry.pkgd.min.js'></script>
+<script src='/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/js/imagesloaded.pkgd.min.js'></script>
+<script src='/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/js/jquery.scrollUp.min.js'></script>
+<script src='/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/js/equalheight-dynamic.js'></script>
+<script src='/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/js/caprabo.js'></script>
+<script src='/system/modules/com.caprabo.mrmmccann.caprabocom.megamenu/resources/js/megamenu.js'></script>
+
+<script src="/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/js/indigitall/sdk.min.js" async></script>
+<script src='/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/js/home-subhomes.js'></script>
+<!-- Google Tak Manager -->
+<script>
+    var datas = {
+        'pageType': '',
+        'pageCategory': '',
+        'uri': window.location.pathname,
+        'pageLanguage': 'es',
+        'userLoggedIn': 'false',
+        'userId': 'undefined',
+        'userIdMdm': 'undefined',
+        'userRegisterDate': 'undefined',
+        'userGender': 'undefined',
+        'userAccountType': 'undefined',
+        'userCapraboClubType': 'undefined',
+        'userCapraboClubCard': 'undefined',
+        'userStore': 'undefined',
+        'userOro': 'undefined',
+        'useroroType': 'undefined',
+    };
+
+    $.ajax({
+        type: 'POST',
+        url: '/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/elements/gtm-ajax.jsp',
+        data: datas,
+        success: function (res) {
+            
+            // console.log('La respuesta es: ', res);
+            $('head').prepend(res);
+        },
+        error: function (jqXHR, exception) {
+            var msg = '';
+            if (jqXHR.status === 0) {
+                msg = 'Sin conexión.\n verificar red.';
+            } else if (jqXHR.status === 404) {
+                msg = 'Página no encontrada. [404]';
+            } else if (jqXHR.status === 500) {
+                msg = 'Error Interno de Servidor [500].';
+            } else if (exception === 'parsererror') {
+                msg = 'Error en parseo de JSON.';
+            } else if (exception === 'timeout') {
+                msg = 'Time out.';
+            } else if (exception === 'abort') {
+                msg = 'Petición Ajax abortada.';
+            } else {
+                msg = 'Error no categorizado.\n' + jqXHR.responseText;
+            }
+            console.error(msg);
+        }
+    });
+</script><c:if test="true">
+    <link rel="alternate" href="<cms:link>/ca/error/404.html</cms:link>" hreflang="ca-ES" />
+</c:if>
+<c:if test="false">
+    <link rel="alternate" href="<cms:link></cms:link>" hreflang="es-ES" />
+</c:if><!-- OneTrust Cookies Consent Notice start for www.caprabo.com -->
+                <script src="https://cdn.cookielaw.org/consent/7e7a5b7c-6c71-4812-abc6-663091a18dd3/otSDKStub.js" data-document-language="true" integrity="sha384-BL5fgF2EqntdlRLYCMN8p+UM21GStIiIZFyumR8cBqU1G5vlZrziQ3VkGg8zips+" crossorigin="anonymous" type="text/javascript" charset="UTF-8" data-domain-script="7e7a5b7c-6c71-4812-abc6-663091a18dd3" ></script>
+                <script type="text/javascript">
+                    function OptanonWrapper() { }
+                </script>
+                <!-- OneTrust Cookies Consent Notice end for www.caprabo.com -->
+            <!-- Enable Direct Edit functionality -->
+</head>
+
+<body class="template_2020 estado_online p_3f323c35-559e-11e7-98db-06b49d2b5d65 n_404.html caprabocom-node2" data-origen="">
+
+<h1 class="sr-only"></h1>
+<a href="#content" class="sr-only" accesskey="">Ir al contenido principal de la página</a>
+<div id="window" class="">
+    <div id="web" class="container">
+
+        <header id="header" class="row nopadding">
+        <div id="navbars" class="nopadding">
+            <div class="header-line1">
+        <div id="zu-zona-usuario"
+     class="zona_usuario zona_usuario-noLogado">
+    <div id="zu-loading" class="zu-loading"></div>
+    <div id="zu-user-login-container">
+        <div id="zu-error" class="hidden">
+            
+
+
+
+
+
+
+
+
+    <div class="zu-cabecera">
+        <div class="zu-derecha">
+                <span class="zu-cabecera-titulo">
+                    Mi Cuenta
+                </span>
+        </div>
+    </div>
+    <div class="zu-cuerpo">
+        <div class="zu-linea">
+            <a id="zu_header_boton_login" href="#" title="Identifícate" class="boton_login">Identifícate</a>
+        </div>
+        <div class="zu-linea">
+            <p class="zu-text">
+                ¿Aún no tienes una cuenta digital?
+            </p>
+            <p class="zu-text">
+                <a href="https://club.caprabo.com/areacliente/es/nlrHome"
+                   title="Empieza aquí" class="enlace_registro">Empieza aquí</a>
+            </p>
+        </div>
+    </div>
+
+</div>
+        <div id="zu-cabecera-txt" class="zu-cabecera"></div>
+    </div>
+</div>
+
+<form id="getTicketForm" action="https://club.caprabo.com/areacliente/es/nlrLogin" method="post" class="hidden">
+    <input type="hidden" id="fromApp" name="fromApp" value="caprabo_com">
+    <input type="hidden" id="fromUrl" name="fromUrl" value="">
+</form>
+
+<script type="text/javascript">
+    const isOnLine = 'true';
+    console.log('isOnLine', isOnLine);
+    let usuarioClubCapraboLogado = false;
+    const fromUrl = window.location.href.split('?')[0];
+    const language = 'es';
+
+    // Si tenemos valor en el parámetro 'fromApp' no iniciamos el proceso de SSO
+    
+    // console.log('isEmptyFromApp', isEmptyFromApp);
+    console.log('usuarioClubCapraboLogado', usuarioClubCapraboLogado);
+
+    // Iniciamos el SSO
+    $(document).ready(function () {
+            try {
+                // if (isEmptyFromApp) {
+                    console.log('usuarioClubCapraboLogado', usuarioClubCapraboLogado);
+                    if (usuarioClubCapraboLogado) {
+                        userMenuFromSesion();
+                    } else {
+                        // setTimeout(inicioSSO, 1);
+                        error();
+                    }
+                // } else {
+                //     error();
+                // }
+            } catch (e) {
+                console.error('Error GENERAL: ' + e);
+                error();
+            }
+        }
+    );
+
+    function estiloNoLogado() {
+        $('div#zu-zona-usuario').removeClass("zona_usuario-logado");
+        $('div#zu-zona-usuario').addClass("zona_usuario-noLogado");
+    }
+
+    //
+    function eventoClick() {
+        // Despliega la zona de usuario en click
+        $('.zu-derecha .zu-cabecera-titulo').click(function () {
+            $('.zona_usuario').toggleClass('zona_activa');
+        });
+
+        $('.zu-cuerpo .zu-cuerpo-titulo').click(function () {
+            $(this).parent().toggleClass('zona_activa')
+        });
+
+        $('#zu_header_boton_login').click(function (e) {
+            e.preventDefault();
+            $('input#fromUrl').val(window.location.href.split('?')[0]);
+            $('#getTicketForm').submit();
+        });
+    }
+
+    //
+    function error() {
+        $("#zu-error").toggleClass('hidden');
+        $('#zu-loading').toggleClass('hidden');
+        $('#zu-cabecera-txt').toggleClass('hidden');
+        eventoClick();
+        estiloNoLogado();
+    }
+
+    //
+    function userMenuFromSesion() {
+        console.log('userMenuFromSesion_ [/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/sso/zu-header-from-sesion.jsp]');
+        $.ajax({
+            type: 'POST',
+            url: '/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/sso/zu-header-from-sesion.jsp',
+            data: {language: 'es'},
+            dataType: 'HTML',
+            success: function (res) {
+                console.log('Éxito AJAX - zu-header-from-sesion.jsp');
+                //console.log(res);
+                $('#zu-user-login-container').html(res);
+                eventoClick();
+
+                $('.zu-loading').toggleClass('hidden');
+
+            },
+            error: function (jqXHR, exception) {
+                var msg = '';
+                if (jqXHR.status === 0) {
+                    msg = 'Sin conexión.\n verificar red.';
+                } else if (jqXHR.status === 404) {
+                    msg = 'Página no encontrada. [404]';
+                } else if (jqXHR.status === 500) {
+                    msg = 'Error Interno de Servidor [500].';
+                } else if (exception === 'parsererror') {
+                    msg = 'Error en parseo de JSON.';
+                } else if (exception === 'timeout') {
+                    msg = 'Time out.';
+                } else if (exception === 'abort') {
+                    msg = 'Petición Ajax abortada.';
+                } else {
+                    msg = 'Error no categorizado.\n' + jqXHR.responseText;
+                }
+                console.error(msg);
+
+                $('.zu-loading').toggleClass('hidden');
+            }
+        });
+
+    }
+
+</script>
+<nav id="navbar-sites" class="hidden-xs container-fluid nopadding topbar">
+                <ul class="nav navbar-nav">
+
+                    <li>
+                        <a class="img"
+                           href="https://www.capraboacasa.com?utm_source=caprabo&utm_medium=home&utm_campaign=menu_capraboacasa_"
+                           target="_blank"
+                           onclick="ga('send', 'event', 'home', 'cabecera', 'capraboacasa')">
+
+                            <img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/1-capraboacasa-desktop.svg" class="img-responsive" /></a>
+                        <a class="text"
+                           href="https://www.capraboacasa.com?utm_source=caprabo&utm_medium=home&utm_campaign=menu_capraboacasa_"
+                           target="_blank"
+                           onclick="ga('send', 'event', 'home', 'cabecera', 'capraboacasa')">
+
+                            Capraboacasa</a>
+                    </li>
+
+                    <li>
+                        <a class="img"
+                           href="http://www.chefcaprabo.com/es//home?utm_source=caprabo&utm_medium=home&utm_campaign=menu_chefcaprabo"
+                           target="_self"
+                           onclick="ga('send', 'event', 'home', 'cabecera', 'chefcaprabo')">
+
+                            <img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/3-chef-dekstop.svg" class="img-responsive" /></a>
+                        <a class="text"
+                           href="http://www.chefcaprabo.com/es//home?utm_source=caprabo&utm_medium=home&utm_campaign=menu_chefcaprabo"
+                           target="_self"
+                           onclick="ga('send', 'event', 'home', 'cabecera', 'chefcaprabo')">
+
+                            Chef Caprabo</a>
+                    </li>
+
+                    <li>
+                        <a class="img"
+                           href="https://franquicias.caprabo.com/es/"
+                           target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'franquicias')">
+                            <img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/franquicias-icono.svg" class="img-responsive" /></a>
+                        <a class="text"
+                           href="https://franquicias.caprabo.com/es/"
+                           target="_blank"
+                           onclick="ga('send', 'event', 'home', 'cabecera', 'franquicias')">
+
+                            Franquicias</a>
+                    </li>
+
+                    <li>
+                        <a class="img"
+                           href="/es/caprabo-al-dia/"
+                           target="_self"
+                           onclick="ga('send', 'event', 'home', 'cabecera', 'blog')">
+
+                            <img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/icono-aldia.svg" class="img-responsive aldia" /></a>
+                        <a class="text"
+                           href="/es/caprabo-al-dia/"
+                           target="_self">
+
+                            Blog</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    <div class="header-line2">
+            <div class="logo-nav">
+                <div id="logo" class="hidden-xs text-center">
+    <a href="/es/"
+               onclick="ga('send', 'event', 'navegacion', 'cabecera', 'logo')">
+                <img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/logo-caprabo-blanco.svg" class="img-responsive" /></a>
+        </div><nav id="navbar-idioma" class="hidden-xs container-fluid">
+                    <div class="container-fluid">
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="localizador-super">
+                                <a class="img" href="/es/home/localizador-de-supermercados/"
+                                   onclick="ga('send', 'event', 'navegacion', 'cabecera', 'localizador')">
+
+                                    <img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/localizador-blanco.svg" class="img-responsive" /></a>
+                                <a class="txt-localizador"
+                                   href="/es/home/localizador-de-supermercados/"
+                                   onclick="ga('send', 'event', 'navegacion', 'cabecera', 'localizador')">
+
+                                    Localizador de supermercados</a>
+                            </li>
+                            <li class="buscador-top">
+                                <form name="search" method="post" action="javascript:fGoogleSearch('es')" style="margin:0; padding:0;">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control"
+                                               placeholder="Buscador" id="q" name="q" value="">
+                                        <div class="input-group-btn">
+                                            <button type="submit" class="btn"
+                                                    onclick="ga('send', 'event', 'navegacion', 'cabecera', 'buscador')">
+                                                <span class="glyphicon glyphicon-search"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </li>
+
+                            <li class="cat-select">
+                                <a class=""
+                                   href="/ca/error/404.html">
+                                    CAT
+                                </a>
+                            </li>
+                            <li class="separador">|</li>
+                            <li class="cast-select">
+                                <a class="active_lang"
+                                   href="/es/error/404.html">
+                                    CAST
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+        <nav id="navbar-principal" class="navbar navbar-default">
+        <div id="navbar-principal-content" class="container-fluid">
+            <div class="navbar-header">
+                <div class="logo-mobile">
+                    <a id="logo-xs" class="navbar-brand visible-xs" href="/es/" onclick="ga('send', 'event', 'home', 'logo', 'caprabo')">
+                        <img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/logo-caprabo.svg" class="img-responsive" /></a>
+                </div>
+                <div class="elements-right-mobile">
+                    <a class="img" href="/es/home/localizador-de-supermercados/" onclick="ga('send', 'event', 'navegacion', 'cabecera', 'localizador')">
+                        <img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/localizador.svg" /></a>
+                    <a href="/es/home/buscador/index.html" class="navbar-toggle search" onclick="ga('send', 'event', 'navegacion', 'cabecera', 'buscador')">
+                        <img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/buscador.svg" /></a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-principal-collapse-mobile" onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'inicio')">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <div class="container-fluid" >
+
+                        <div class="collapse navbar-collapse nav-header-desktop" id="navbar-principal-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                        <a class="dropdown-toggle"
+                                               href="/es/ofertas-y-promociones/"
+                                                    
+                                                        title="Consulta nuestros folletos"
+                                                    onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'ofertas_promociones')"
+
+                                               target="_self">
+                                                    Folletos y promociones</a>
+
+
+                                            <button type="button" class="btn dropdown-toggle">
+                                                    <span class="caret"></span>
+                                                    <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                            <ul class="dropdown-menu">
+                                            <li class="nav-item">
+				<a href="/es/ofertas-y-promociones/ofertas/" class="nav-link"onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'ofertas')">
+						Folletos</a>
+		<div class="dropdown-menu">
+			
+        <a class="dropdown-item" href="/es/ofertas-y-promociones/ofertas/atraccio_21/">Atracció 21</a>
+		<a class="dropdown-item" href="/es/ofertas-y-promociones/ofertas/proximitat_51/">Proximitat 51</a>
+		<a class="dropdown-item" href="/es/ofertas-y-promociones/ofertas/autoservei_71/">Autoservei 71</a>
+		<a class="dropdown-item" href="/es/ofertas-y-promociones/ofertas/piloto_atraccio/">Pilot d'atracció</a>
+		</div>
+</li>
+
+<li class="nav-item">
+				<a href="/es/ofertas-y-promociones/promociones-caprabo" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'promociones')">Promociones</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/ofertas-y-promociones/encargos/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'encargos')">Encargos</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/ofertas-y-promociones/promociones/" class="nav-link  nav-link--button"onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'mecanica')">Mecánica promocional</a>
+			</li>
+		</ul>
+                                    </li>
+                                <li class="dropdown">
+                                        <a class="dropdown-toggle"
+                                               href="/es/nostra-terra/"
+                                                    
+                                                        title="La Nostra Terra"
+                                                    
+
+                                               target="_self">
+                                                    La Nostra Terra</a>
+
+
+                                            <button type="button" class="btn dropdown-toggle">
+                                                    <span class="caret"></span>
+                                                    <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                            <ul class="dropdown-menu">
+                                            <li class="nav-item">
+				<a href="/es/nostra-terra/proximo-a-ti" class="nav-link ">Mapa Interactivo</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nostra-terra/productores" class="nav-link ">Productores</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nostra-terra/diccionario" class="nav-link  nav-link--button">Diccionario</a>
+			</li>
+		</ul>
+                                    </li>
+                                <li class="dropdown">
+                                        <a class="dropdown-toggle"
+                                               href="/es/salud/"
+                                                    
+                                                        title="Salud"
+                                                    onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'salud')"
+
+                                               target="_self">
+                                                    Salud</a>
+
+
+                                            <button type="button" class="btn dropdown-toggle">
+                                                    <span class="caret"></span>
+                                                    <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                            <ul class="dropdown-menu">
+                                            <li class="nav-item">
+				<a href="/es/salud/pesca-sostenible.html" class="nav-link ">Pesca Sostenible</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/bienestar-animal" class="nav-link ">Bienestar Animal</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/5-compromisos" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'compromisos')">5 compromisos</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/nutriscore" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'nutriscore')">Nutriscore</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/tria-bo" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'triabo')">Tria bo</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/microdonaciones" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'microdonaciones')">Microdonaciones</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/sostenibilidad" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'sostenibilidad')">Sostenibilidad</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/compromiso-responsable" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'compromiso responsable')">Compromiso responsable</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/seguridad-alimentaria/" class="nav-link  nav-link--button"onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'seguridad-alimentaria')">Alertas de producto</a>
+			</li>
+		</ul>
+                                    </li>
+                                <li class="dropdown">
+                                        <a class="dropdown-toggle"
+                                               href="/es/clubcaprabo/"
+                                                    
+                                                        title="Club Caprabo"
+                                                    onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'miclub_caprabo')"
+
+                                               target="_self">
+                                                    Club Caprabo</a>
+
+
+                                            <button type="button" class="btn dropdown-toggle">
+                                                    <span class="caret"></span>
+                                                    <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                            <ul class="dropdown-menu">
+                                            <li class="nav-item">
+				<a href="/es/clubcaprabo/hazte-del-club" class="nav-link ">Hazte del club</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/clubcaprabo/ventajas/" class="nav-link ">Ventajas</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/clubcaprabo/mas-familia-mas-ahorro/" class="nav-link ">Más familia, más ahorro</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/clubcaprabo/acumula-euros/" class="nav-link ">Acumula euros</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/clubcaprabo/mas-promociones/" class="nav-link ">Más Promociones</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/clubcaprabo/app/" class="nav-link  nav-link--button">App</a>
+			</li>
+		</ul>
+                                    </li>
+                                <li class="dropdown">
+                                        <a class="dropdown-toggle"
+                                               href="/es/nuestras-marcas/"
+                                                    
+                                                        title="Nuestras marcas"
+                                                    onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'nuestras_marcas')"
+
+                                               target="_self">
+                                                    Nuestras marcas</a>
+
+
+                                            <button type="button" class="btn dropdown-toggle">
+                                                    <span class="caret"></span>
+                                                    <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                            <ul class="dropdown-menu">
+                                            <li class="nav-item">
+				<a href="/es/nuestras-marcas/valores-de-marca/" class="nav-link"onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'valores_marca')">
+						Valores de marca</a>
+		<div class="dropdown-menu">
+			
+        <a class="dropdown-item" href="/es/nuestras-marcas/valores-de-marca/sin-grasas/">Sin grasas</a>
+		<a class="dropdown-item" href="/es/nuestras-marcas/valores-de-marca/ahorro-cien-por-cien/">Ahorro 100%</a>
+		<a class="dropdown-item" href="/es/nuestras-marcas/valores-de-marca/libres-grasa-palma/">Libres de grasa de palma</a>
+		<a class="dropdown-item" href="/es/nuestras-marcas/valores-de-marca/semaforo-nutricional/">Semáforo nutricional</a>
+		</div>
+</li>
+
+<li class="nav-item">
+				<a href="/es/nuestras-marcas/eroski/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'eroski')">Eroski</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/bio/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'bio')">Bio</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/natur/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'eroski_natur')">Natur</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/seleqtia/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'eroski_seleqtia')">SeleQtia</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/belle/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'belle')">Belle</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/basic/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'eroski_basic')">Basic</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/sin-gluten/" class="nav-link ">Sin gluten</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/veggie/" class="nav-link  nav-link--button">Veggie</a>
+			</li>
+		</ul>
+                                    </li>
+                                <li class="dropdown">
+                                        <a class="dropdown-toggle"
+                                               href="/es/bienvenido-bb/"
+                                                    
+                                                        title="Bienvenido Bebé"
+                                                    onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'bienvenido_bebe')"
+
+                                               target="_self">
+                                                    Bienvenido Bebé</a>
+
+
+                                            <button type="button" class="btn dropdown-toggle">
+                                                    <span class="caret"></span>
+                                                    <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                            <ul class="dropdown-menu">
+                                            <li class="nav-item">
+				<a href="/es/bienvenido-bb/solicitud-canastilla" class="nav-link ">Solicita la canastilla</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/bienvenido-bb/consultas-a-la-matrona/" class="nav-link">
+						Consultas a la matrona</a>
+		<div class="dropdown-menu">
+			
+        <a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/cuidarme-antes-embarazo/">¿Cómo cuidarme antes del embarazo?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/que-comer-embarazada/">¿Qué debo comer si estoy embarazada?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/prevenir-aliviar-estrenimiento-embarazo/">¿Cómo prevenir o aliviar el estreñimiento durante el embarazo?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/minimizar-dolor-parto/">¿Cómo minimizar el dolor durante el parto?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/sintomas-cuarentena/">¿Qué síntomas puedo tener durante la cuarentena?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/duele-pecho-mamar/">Me duele el pecho al dar de mamar, ¿qué puedo hacer?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/cuando-dar-bebe-alimento/">¿Cuándo se puede dar al bebé algún alimento que no sea leche?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/cuando-dar-agua-bebe/">¿Cuándo se puede dar agua al bebé?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/colecho-familiar/">¿Es recomendable el colecho familiar?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/funciones-matrona/">¿Qué funciones tiene la matrona?</a>
+		</div>
+</li>
+
+<li class="nav-item">
+				<a href="/es/bienvenido-bb/tramites-administrativos/" class="nav-link">
+						Trámites administrativos</a>
+		<div class="dropdown-menu">
+			
+        <a class="dropdown-item" href="/es/bienvenido-bb/tramites-administrativos/registro-civil-bebe/">Registro civil del bebé</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/tramites-administrativos/alta-padron-municipal/">Alta en el padrón municipal</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/tramites-administrativos/permiso-maternidad-paternidad/">Permiso de maternidad y paternidad</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/tramites-administrativos/alta-bebe-sistema-sanitario/">Alta del bebé en el sistema sanitario como beneficiario</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/tramites-administrativos/tarjeta-catsalut/">Tarjeta Sanitaria Integral del CatSalut (TSI)</a>
+		</div>
+</li>
+
+<li class="nav-item">
+				<a href="/es/bienvenido-bb/preguntas-frecuentes/" class="nav-link ">Preguntas frecuentes</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/bienvenido-bb/reforzando-el-vinculo/" class="nav-link  nav-link--button">Reforzando el vínculo</a>
+			</li>
+		</ul>
+                                    </li>
+                                <li>
+                                    <button type="button" class="navbar-toggle collapsed principal" data-toggle="modal" data-target="#modalNavigationTwo" aria-expanded="true" onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'inicio')">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar top-bar"></span>
+                                        <span class="icon-bar middle-bar"></span>
+                                        <span class="icon-bar bottom-bar"></span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    <div class="collapse navbar-collapse nav-header-mobile" id="navbar-principal-collapse-mobile">
+                            <div class="idiomas">
+                                <li id="lang-mobile" class="dropdown hidden-sm hidden-md hidden-lg text-center">
+                                    <a
+                                            
+
+                                            href="/ca/error/404.html">
+                                        CAT
+                                    </a><span class="separador-lang-mobile">|</span>
+
+                                    <a
+                                            class="active-lang-mobile"
+
+                                            href="/es/error/404.html">
+                                        CAST
+                                    </a>
+                                </li>
+                            </div>
+
+                            <div class="menus">
+                                <div class="menu-padre">
+                                    <ul class="mega-nav-principal-responsive">
+                                        <li>
+                                                <a id="btn-parent-megamenu-mobile-1" class="hasChild"" data-megamenu-mobile-parent-count="1" 
+                                                        title="Consulta nuestros folletos"
+                                                    onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'ofertas_promociones')"
+
+                                                    target="_self">
+                                                    Folletos y promociones</a>
+                                                </li>
+                                        <li>
+                                                <a id="btn-parent-megamenu-mobile-2" class="hasChild"" data-megamenu-mobile-parent-count="2" 
+                                                        title="La Nostra Terra"
+                                                    
+
+                                                    target="_self">
+                                                    La Nostra Terra</a>
+                                                </li>
+                                        <li>
+                                                <a id="btn-parent-megamenu-mobile-3" class="hasChild"" data-megamenu-mobile-parent-count="3" 
+                                                        title="Salud"
+                                                    onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'salud')"
+
+                                                    target="_self">
+                                                    Salud</a>
+                                                </li>
+                                        <li>
+                                                <a id="btn-parent-megamenu-mobile-4" class="hasChild"" data-megamenu-mobile-parent-count="4" 
+                                                        title="Club Caprabo"
+                                                    onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'miclub_caprabo')"
+
+                                                    target="_self">
+                                                    Club Caprabo</a>
+                                                </li>
+                                        <li>
+                                                <a id="btn-parent-megamenu-mobile-5" class="hasChild"" data-megamenu-mobile-parent-count="5" 
+                                                        title="Nuestras marcas"
+                                                    onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'nuestras_marcas')"
+
+                                                    target="_self">
+                                                    Nuestras marcas</a>
+                                                </li>
+                                        <li>
+                                                <a id="btn-parent-megamenu-mobile-6" class="hasChild"" data-megamenu-mobile-parent-count="6" 
+                                                        title="Bienvenido Bebé"
+                                                    onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'bienvenido_bebe')"
+
+                                                    target="_self">
+                                                    Bienvenido Bebé</a>
+                                                </li>
+                                        </ul>
+
+                                        <div class="col-xxs-12 col-xs-6 col-sm-6">
+                                            <ul class="mega-nav-secundario">
+                                                <li><a
+                                                            href="/es/clubcaprabo/app/"
+
+                                                            
+
+                                                            target="_self"
+                                                            
+                                                                title="APP Caprabo"
+                                                            >
+                                                        APP Caprabo</a>
+                                                    </li>
+                                                <li><a
+                                                            href="https://franquicias.caprabo.com/es/"
+
+                                                             onclick="ga('send','event','utu','rtyu','rtyu')" 
+
+                                                            target="_blank"
+                                                            
+                                                                title="Franquicias Caprabo"
+                                                            >
+                                                        Franquicias Caprabo</a>
+                                                    </li>
+                                                <li><a
+                                                            href="/es/forma-parte-de-caprabo/trabaja-con-nosotros/"
+
+                                                            
+
+                                                            target="_self"
+                                                            
+                                                                title="Trabaja con nosotros"
+                                                            >
+                                                        Trabaja con nosotros</a>
+                                                    </li>
+                                                </ul>
+                                        </div>
+                                        <div class="col-xxs-12 col-xs-6 col-sm-6">
+                                            <ul class="mega-nav-secundario">
+                                                <li><a
+                                                            href="/es/conoce-caprabo/sala-de-prensa/"
+
+                                                             onclick="ga('send','event','ryuryu','rtyurt','yuryurtyurt')" 
+
+                                                            target="_self"
+                                                            
+                                                                title="Sala de prensa"
+                                                            >
+                                                        Sala de prensa</a>
+                                                    </li>
+                                                <li><a
+                                                            href="/es/conoce-caprabo/"
+
+                                                            
+
+                                                            target="_self"
+                                                            
+                                                                title="Conoce Caprabo"
+                                                            >
+                                                        Conoce Caprabo</a>
+                                                    </li>
+                                                <li><a
+                                                            href="/es/atencion-cliente/"
+
+                                                            
+
+                                                            target="_blank"
+                                                            
+                                                                title="Atención al cliente"
+                                                            >
+                                                        Atención al cliente</a>
+                                                    </li>
+                                                </ul>
+                                        </div>
+                                    </div>
+
+                                <div class="menu-hijo" id="child-panel-mobile">
+                                    <div class="back-parent">
+                                        <div class="btn-back-parent"><a id="btn-child-panel-mobile"><span><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/back-parent-menu.png_908243151.png" width="10" height="16" /></span><span>volver</span></a></div>
+                                    </div>
+                                    <div class="child-nav-content">
+                                        <div id ="child-megamenu-mobile-1" class="hideChilds" data-megamenu-mobile-child-count="1">
+                                                <h3 class="title-nav">
+                                                        <a
+                                                                href="/es/ofertas-y-promociones/"
+
+                                                                onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'ofertas_promociones')"
+
+                                                                target="_self"
+
+                                                                
+                                                                    title="Consulta nuestros folletos"
+                                                                >
+                                                                Folletos y promociones</a>
+                                                    </h3>
+                                                <ul class="mega-nav-child">
+                                                    <li class="nav-item">
+				<a href="/es/ofertas-y-promociones/ofertas/" class="nav-link"onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'ofertas')">
+						Folletos</a>
+
+			<div class="dropdown-menu">
+		<a class="dropdown-item" href="/es/ofertas-y-promociones/ofertas/atraccio_21/">Atracció 21</a>
+		<a class="dropdown-item" href="/es/ofertas-y-promociones/ofertas/proximitat_51/">Proximitat 51</a>
+		<a class="dropdown-item" href="/es/ofertas-y-promociones/ofertas/autoservei_71/">Autoservei 71</a>
+		<a class="dropdown-item" href="/es/ofertas-y-promociones/ofertas/piloto_atraccio/">Pilot d'atracció</a>
+		</div>
+</li>
+
+<li class="nav-item">
+				<a href="/es/ofertas-y-promociones/promociones-caprabo" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'promociones')">Promociones</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/ofertas-y-promociones/encargos/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'encargos')">Encargos</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/ofertas-y-promociones/promociones/" class="nav-link  nav-link--button"onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'mecanica')">Mecánica promocional</a>
+			</li>
+		</ul>
+                                            </div>
+                                        <div id ="child-megamenu-mobile-2" class="hideChilds" data-megamenu-mobile-child-count="2">
+                                                <h3 class="title-nav">
+                                                        <a
+                                                                href="/es/nostra-terra/"
+
+                                                                
+
+                                                                target="_self"
+
+                                                                
+                                                                    title="La Nostra Terra"
+                                                                >
+                                                                La Nostra Terra</a>
+                                                    </h3>
+                                                <ul class="mega-nav-child">
+                                                    <li class="nav-item">
+				<a href="/es/nostra-terra/proximo-a-ti" class="nav-link ">Mapa Interactivo</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nostra-terra/productores" class="nav-link ">Productores</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nostra-terra/diccionario" class="nav-link  nav-link--button">Diccionario</a>
+			</li>
+		</ul>
+                                            </div>
+                                        <div id ="child-megamenu-mobile-3" class="hideChilds" data-megamenu-mobile-child-count="3">
+                                                <h3 class="title-nav">
+                                                        <a
+                                                                href="/es/salud/"
+
+                                                                onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'salud')"
+
+                                                                target="_self"
+
+                                                                
+                                                                    title="Salud"
+                                                                >
+                                                                Salud</a>
+                                                    </h3>
+                                                <ul class="mega-nav-child">
+                                                    <li class="nav-item">
+				<a href="/es/salud/pesca-sostenible.html" class="nav-link ">Pesca Sostenible</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/bienestar-animal" class="nav-link ">Bienestar Animal</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/5-compromisos" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'compromisos')">5 compromisos</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/tria-bo" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'triabo')">Tria bo</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/microdonaciones" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'microdonaciones')">Microdonaciones</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/sostenibilidad" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'sostenibilidad')">Sostenibilidad</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/compromiso-responsable" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'compromiso responsable')">Compromiso responsable</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/seguridad-alimentaria/" class="nav-link  nav-link--button"onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'seguridad-alimentaria')">Alertas de producto</a>
+			</li>
+		</ul>
+                                            </div>
+                                        <div id ="child-megamenu-mobile-4" class="hideChilds" data-megamenu-mobile-child-count="4">
+                                                <h3 class="title-nav">
+                                                        <a
+                                                                href="/es/clubcaprabo/"
+
+                                                                onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'miclub_caprabo')"
+
+                                                                target="_self"
+
+                                                                
+                                                                    title="Club Caprabo"
+                                                                >
+                                                                Club Caprabo</a>
+                                                    </h3>
+                                                <ul class="mega-nav-child">
+                                                    <li class="nav-item">
+				<a href="/es/clubcaprabo/hazte-del-club" class="nav-link ">Hazte del club</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/clubcaprabo/ventajas/" class="nav-link ">Ventajas</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/clubcaprabo/mas-familia-mas-ahorro/" class="nav-link ">Más familia, más ahorro</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/clubcaprabo/acumula-euros/" class="nav-link ">Acumula euros</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/clubcaprabo/mas-promociones/" class="nav-link ">Más Promociones</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/clubcaprabo/app/" class="nav-link  nav-link--button">App</a>
+			</li>
+		</ul>
+                                            </div>
+                                        <div id ="child-megamenu-mobile-5" class="hideChilds" data-megamenu-mobile-child-count="5">
+                                                <h3 class="title-nav">
+                                                        <a
+                                                                href="/es/nuestras-marcas/"
+
+                                                                onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'nuestras_marcas')"
+
+                                                                target="_self"
+
+                                                                
+                                                                    title="Nuestras marcas"
+                                                                >
+                                                                Nuestras marcas</a>
+                                                    </h3>
+                                                <ul class="mega-nav-child">
+                                                    <li class="nav-item">
+				<a href="/es/nuestras-marcas/valores-de-marca/" class="nav-link"onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'valores_marca')">
+						Valores de marca</a>
+
+			<div class="dropdown-menu">
+		<a class="dropdown-item" href="/es/nuestras-marcas/valores-de-marca/sin-grasas/">Sin grasas</a>
+		<a class="dropdown-item" href="/es/nuestras-marcas/valores-de-marca/ahorro-cien-por-cien/">Ahorro 100%</a>
+		<a class="dropdown-item" href="/es/nuestras-marcas/valores-de-marca/libres-grasa-palma/">Libres de grasa de palma</a>
+		<a class="dropdown-item" href="/es/nuestras-marcas/valores-de-marca/semaforo-nutricional/">Semáforo nutricional</a>
+		</div>
+</li>
+
+<li class="nav-item">
+				<a href="/es/nuestras-marcas/eroski/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'eroski')">Eroski</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/bio/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'bio')">Bio</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/natur/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'eroski_natur')">Natur</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/seleqtia/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'eroski_seleqtia')">SeleQtia</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/belle/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'belle')">Belle</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/basic/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'eroski_basic')">Basic</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/sin-gluten/" class="nav-link ">Sin gluten</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/veggie/" class="nav-link  nav-link--button">Veggie</a>
+			</li>
+		</ul>
+                                            </div>
+                                        <div id ="child-megamenu-mobile-6" class="hideChilds" data-megamenu-mobile-child-count="6">
+                                                <h3 class="title-nav">
+                                                        <a
+                                                                href="/es/bienvenido-bb/"
+
+                                                                onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'bienvenido_bebe')"
+
+                                                                target="_self"
+
+                                                                
+                                                                    title="Bienvenido Bebé"
+                                                                >
+                                                                Bienvenido Bebé</a>
+                                                    </h3>
+                                                <ul class="mega-nav-child">
+                                                    <li class="nav-item">
+				<a href="/es/bienvenido-bb/solicitud-canastilla" class="nav-link ">Solicita la canastilla</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/bienvenido-bb/consultas-a-la-matrona/" class="nav-link">
+						Consultas a la matrona</a>
+
+			<div class="dropdown-menu">
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/cuidarme-antes-embarazo/">¿Cómo cuidarme antes del embarazo?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/que-comer-embarazada/">¿Qué debo comer si estoy embarazada?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/prevenir-aliviar-estrenimiento-embarazo/">¿Cómo prevenir o aliviar el estreñimiento durante el embarazo?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/minimizar-dolor-parto/">¿Cómo minimizar el dolor durante el parto?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/sintomas-cuarentena/">¿Qué síntomas puedo tener durante la cuarentena?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/duele-pecho-mamar/">Me duele el pecho al dar de mamar, ¿qué puedo hacer?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/cuando-dar-bebe-alimento/">¿Cuándo se puede dar al bebé algún alimento que no sea leche?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/cuando-dar-agua-bebe/">¿Cuándo se puede dar agua al bebé?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/colecho-familiar/">¿Es recomendable el colecho familiar?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/funciones-matrona/">¿Qué funciones tiene la matrona?</a>
+		</div>
+</li>
+
+<li class="nav-item">
+				<a href="/es/bienvenido-bb/tramites-administrativos/" class="nav-link">
+						Trámites administrativos</a>
+
+			<div class="dropdown-menu">
+		<a class="dropdown-item" href="/es/bienvenido-bb/tramites-administrativos/registro-civil-bebe/">Registro civil del bebé</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/tramites-administrativos/alta-padron-municipal/">Alta en el padrón municipal</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/tramites-administrativos/permiso-maternidad-paternidad/">Permiso de maternidad y paternidad</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/tramites-administrativos/alta-bebe-sistema-sanitario/">Alta del bebé en el sistema sanitario como beneficiario</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/tramites-administrativos/tarjeta-catsalut/">Tarjeta Sanitaria Integral del CatSalut (TSI)</a>
+		</div>
+</li>
+
+<li class="nav-item">
+				<a href="/es/bienvenido-bb/preguntas-frecuentes/" class="nav-link ">Preguntas frecuentes</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/bienvenido-bb/reforzando-el-vinculo/" class="nav-link  nav-link--button">Reforzando el vínculo</a>
+			</li>
+		</ul>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="iconos">
+                                <div class="bottom-bar-nav">
+                                    <nav id="navbar-sites-menu" class="container-fluid nopadding topbar">
+                                        <ul class="nav navbar-nav">
+                                            <li><a class="img" href="https://www.capraboacasa.com?utm_source=caprabo&utm_medium=home&utm_campaign=menu_capraboacasa_" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'capraboacasa')"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/1-capraboacasa-mobile-azul.svg" class="img-responsive" /></a><a class="text" href="https://www.capraboacasa.com?utm_source=caprabo&utm_medium=home&utm_campaign=menu_capraboacasa_" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'capraboacasa')">Capraboacasa</a></li>
+                                                <li><a class="img" href="/es/clubcaprabo/?utm_source=caprabo&utm_medium=home&utm_campaign=menu_miclubahorro" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'miclubcaprabo')"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/2-miclubcaprabo-mobile-azul.svg" class="img-responsive" /></a><a class="text" href="/es/clubcaprabo/?utm_source=caprabo&utm_medium=home&utm_campaign=menu_miclubahorro" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'miclubcaprabo')">Club Caprabo</a></li>
+                                                <li><a class="img" href="https://www.chefcaprabo.com/es/home/?utm_source=caprabo&utm_medium=home&utm_campaign=menu_chefcaprabo" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'chefcaprabo')"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/3-chef-mobile-azul.svg" class="img-responsive" /></a><a class="text" href="https://www.chefcaprabo.com/es/home/?utm_source=caprabo&utm_medium=home&utm_campaign=menu_chefcaprabo" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'chefcaprabo')">Chef Caprabo</a></li>
+                                                <li><a class="img" href="http://www.bienvenidamatrona.es/es?utm_source=caprabo&utm_medium=home&utm_campaign=menu_bienvenidobebe" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'mundobebe')"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/4-matrona-mobile-azul.svg" class="img-responsive" /></a><a class="text" href="http://www.bienvenidamatrona.com/es?utm_source=caprabo&utm_medium=home&utm_campaign=menu_bienvenidobebe" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'mundobebe')">Bienvenida Matrona</a></li>
+												<li><a class="img" href="/es/caprabo-al-dia/?utm_source=caprabo&utm_medium=home&utm_campaign=menu_capraboaldia" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'capraboaldia')"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/icono-aldia-azul.svg" class="img-responsive aldia" /></a><a class="text" href="/es/caprabo-al-dia/?utm_source=caprabo&utm_medium=home&utm_campaign=menu_capraboaldia" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'capraboaldia')">Blog</a></li>
+                                            </ul>
+                                    </nav>
+                                </div>
+
+                            </div>
+                        </div>
+                    <div class="modal fade modal-fullscreen-menu caprabomenu gradient-one" id="modalNavigationTwo" role="dialog" tabindex="-1" style="display: none;">
+
+                        <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                            <span class="sr-only">Close navigation</span>
+                            <span class="glyphicon glyphicon-remove"></span>
+                        </button>
+                        <div class="modal-dialog">
+                            <div class="modal-topbar">
+                                <div class="logo-modal-menu col-xxs-12 col-xs-12 col-sm-4">
+                                        <div id="logo-menu" class="hidden-xs text-center">
+                                            <a
+                                                    
+                                                        href="/es/"
+                                                        onclick="ga('send', 'event', 'navegacion', 'cabecera', 'logo')"
+                                                        
+                                                            title="Ir a la Home"
+                                                        
+                                                        target="_self">
+                                                    <img  src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/logo-caprabo-blanco.svg" class="img-responsive"
+                                                                title="logo-caprabo-blanco"
+                                                                alt="logo-caprabo-blanco"
+                                                        />
+                                                    </a>
+                                        </div>
+                                    </div>
+                                <div class="empty-modal-menu col-xxs-12 col-xs-12 col-sm-4"></div>
+                                <div class="language-modal-menu col-xxs-12 col-xs-12 col-sm-4">
+                                    <ul class="nav navbar-nav pull-right">
+                                        <li class="buscador-top">
+                                            <form name="ModalSearch" method="post" action="javascript:fGoogleSearch('es')" style="margin:0px;padding:0px;">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control"
+                                                    
+                                                           placeholder="Buscador"
+                                                    
+                                                           id="qModal" name="q" value="">
+
+                                                    <div class="input-group-btn">
+                                                        <button type="submit" class="btn" onclick="ga('send', 'event', 'navegacion', 'cabecera', 'buscador')"><span class="glyphicon glyphicon-search"></span></button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </li>
+
+                                        <li class="cat-select"><a  href="/ca/error/404.html">CAT</a></li>
+                                        <li class="separador">|</li>
+                                        <li class="cast-select"><a class="active_lang" href="/es/error/404.html">CAST</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content-cols-mega">
+                                <div class="parent-nav col-xxs-12 col-xs-12 col-sm-4">
+                                    <div class="nav-elementos-principales">
+                                        <ul class="mega-nav-principal">
+                                            <li>
+                                                    <a id="btn-parent-megamenu-desktop-1" class="hasChild" data-megamenu-parent-count="1"
+                                                                 class="hasChild"onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'ofertas_promociones')"
+                                                                    title="Consulta nuestros folletos"
+                                                                
+
+                                                           target="_self">
+                                                                Folletos y promociones</a>
+                                                    </li>
+                                            <li>
+                                                    <a id="btn-parent-megamenu-desktop-2" class="hasChild" data-megamenu-parent-count="2"
+                                                                 class="hasChild"
+                                                                    title="La Nostra Terra"
+                                                                
+
+                                                           target="_self">
+                                                                La Nostra Terra</a>
+                                                    </li>
+                                            <li>
+                                                    <a id="btn-parent-megamenu-desktop-3" class="hasChild" data-megamenu-parent-count="3"
+                                                                 class="hasChild"onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'salud')"
+                                                                    title="Salud"
+                                                                
+
+                                                           target="_self">
+                                                                Salud</a>
+                                                    </li>
+                                            <li>
+                                                    <a id="btn-parent-megamenu-desktop-4" class="hasChild" data-megamenu-parent-count="4"
+                                                                 class="hasChild"onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'miclub_caprabo')"
+                                                                    title="Club Caprabo"
+                                                                
+
+                                                           target="_self">
+                                                                Club Caprabo</a>
+                                                    </li>
+                                            <li>
+                                                    <a id="btn-parent-megamenu-desktop-5" class="hasChild" data-megamenu-parent-count="5"
+                                                                 class="hasChild"onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'nuestras_marcas')"
+                                                                    title="Nuestras marcas"
+                                                                
+
+                                                           target="_self">
+                                                                Nuestras marcas</a>
+                                                    </li>
+                                            <li>
+                                                    <a id="btn-parent-megamenu-desktop-6" class="hasChild" data-megamenu-parent-count="6"
+                                                                 class="hasChild"onclick="ga('send', 'event', 'navegacion', 'menu_principal', 'bienvenido_bebe')"
+                                                                    title="Bienvenido Bebé"
+                                                                
+
+                                                           target="_self">
+                                                                Bienvenido Bebé</a>
+                                                    </li>
+                                            </ul>
+
+                                            <div class="nav-elementos-secundarios">
+                                                <div class="col-xxs-12 col-xs-12 col-sm-6">
+                                                    <ul class="mega-nav-secundario">
+                                                        <li><a
+                                                                    href="/es/clubcaprabo/app/"
+
+                                                                    
+
+                                                                    target="_self"
+                                                                    
+                                                                        title="APP Caprabo"
+                                                                    >
+                                                                APP Caprabo</a>
+                                                            </li>
+                                                        <li><a
+                                                                    href="https://franquicias.caprabo.com/es/"
+
+                                                                     onclick="ga('send','event','utu','rtyu','rtyu')" 
+
+                                                                    target="_blank"
+                                                                    
+                                                                        title="Franquicias Caprabo"
+                                                                    >
+                                                                Franquicias Caprabo</a>
+                                                            </li>
+                                                        <li><a
+                                                                    href="/es/forma-parte-de-caprabo/trabaja-con-nosotros/"
+
+                                                                    
+
+                                                                    target="_self"
+                                                                    
+                                                                        title="Trabaja con nosotros"
+                                                                    >
+                                                                Trabaja con nosotros</a>
+                                                            </li>
+                                                        </ul>
+                                                </div>
+                                                <div class="col-xxs-12 col-xs-12 col-sm-6">
+                                                    <ul class="mega-nav-secundario">
+                                                        <li><a
+                                                                    href="/es/conoce-caprabo/sala-de-prensa/"
+
+                                                                     onclick="ga('send','event','ryuryu','rtyurt','yuryurtyurt')" 
+
+                                                                    target="_self"
+                                                                    
+                                                                        title="Sala de prensa"
+                                                                    >
+                                                                Sala de prensa</a>
+                                                            </li>
+                                                        <li><a
+                                                                    href="/es/conoce-caprabo/"
+
+                                                                    
+
+                                                                    target="_self"
+                                                                    
+                                                                        title="Conoce Caprabo"
+                                                                    >
+                                                                Conoce Caprabo</a>
+                                                            </li>
+                                                        <li><a
+                                                                    href="/es/atencion-cliente/"
+
+                                                                    
+
+                                                                    target="_blank"
+                                                                    
+                                                                        title="Atención al cliente"
+                                                                    >
+                                                                Atención al cliente</a>
+                                                            </li>
+                                                        </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+
+                                <div class="child-nav col-xxs-12 col-xs-12 col-sm-4">
+                                    <div class="child-nav-content">
+                                        <div class="child-megamenu-desktop-1" data-megamenu-child-count="1">
+                                                <h3 class="title-nav">
+                                                        <a href="/es/ofertas-y-promociones/"
+                                                                onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'ofertas_promociones')"
+                                                           target="_self"
+
+                                                                
+                                                                    title="Consulta nuestros folletos"
+                                                                >
+
+                                                                Folletos y promociones</a>
+                                                    </h3>
+                                                <ul class="mega-nav-child">
+                                                    <li class="nav-item">
+				<a href="/es/ofertas-y-promociones/ofertas/" class="nav-link"onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'ofertas')">
+						Folletos</a>
+
+			<div class="dropdown-menu">
+		<a class="dropdown-item" href="/es/ofertas-y-promociones/ofertas/atraccio_21/">Atracció 21</a>
+		<a class="dropdown-item" href="/es/ofertas-y-promociones/ofertas/proximitat_51/">Proximitat 51</a>
+		<a class="dropdown-item" href="/es/ofertas-y-promociones/ofertas/autoservei_71/">Autoservei 71</a>
+		<a class="dropdown-item" href="/es/ofertas-y-promociones/ofertas/piloto_atraccio/">Pilot d'atracció</a>
+		</div>
+</li>
+
+<li class="nav-item">
+				<a href="/es/ofertas-y-promociones/promociones-caprabo" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'promociones')">Promociones</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/ofertas-y-promociones/encargos/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'encargos')">Encargos</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/ofertas-y-promociones/promociones/" class="nav-link  nav-link--button"onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'mecanica')">Mecánica promocional</a>
+			</li>
+		</ul>
+                                            </div>
+                                        <div class="child-megamenu-desktop-2" data-megamenu-child-count="2">
+                                                <h3 class="title-nav">
+                                                        <a href="/es/nostra-terra/"
+                                                                
+                                                           target="_self"
+
+                                                                
+                                                                    title="La Nostra Terra"
+                                                                >
+
+                                                                La Nostra Terra</a>
+                                                    </h3>
+                                                <ul class="mega-nav-child">
+                                                    <li class="nav-item">
+				<a href="/es/nostra-terra/proximo-a-ti" class="nav-link ">Mapa Interactivo</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nostra-terra/productores" class="nav-link ">Productores</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nostra-terra/diccionario" class="nav-link  nav-link--button">Diccionario</a>
+			</li>
+		</ul>
+                                            </div>
+                                        <div class="child-megamenu-desktop-3" data-megamenu-child-count="3">
+                                                <h3 class="title-nav">
+                                                        <a href="/es/salud/"
+                                                                onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'salud')"
+                                                           target="_self"
+
+                                                                
+                                                                    title="Salud"
+                                                                >
+
+                                                                Salud</a>
+                                                    </h3>
+                                                <ul class="mega-nav-child">
+                                                    <li class="nav-item">
+				<a href="/es/salud/pesca-sostenible.html" class="nav-link ">Pesca Sostenible</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/bienestar-animal" class="nav-link ">Bienestar Animal</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/5-compromisos" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'compromisos')">5 compromisos</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/tria-bo" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'triabo')">Tria bo</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/microdonaciones" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'microdonaciones')">Microdonaciones</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/sostenibilidad" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'sostenibilidad')">Sostenibilidad</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/compromiso-responsable" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'compromiso responsable')">Compromiso responsable</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/salud/seguridad-alimentaria/" class="nav-link  nav-link--button"onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'seguridad-alimentaria')">Alertas de producto</a>
+			</li>
+		</ul>
+                                            </div>
+                                        <div class="child-megamenu-desktop-4" data-megamenu-child-count="4">
+                                                <h3 class="title-nav">
+                                                        <a href="/es/clubcaprabo/"
+                                                                onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'miclub_caprabo')"
+                                                           target="_self"
+
+                                                                
+                                                                    title="Club Caprabo"
+                                                                >
+
+                                                                Club Caprabo</a>
+                                                    </h3>
+                                                <ul class="mega-nav-child">
+                                                    <li class="nav-item">
+				<a href="/es/clubcaprabo/hazte-del-club" class="nav-link ">Hazte del club</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/clubcaprabo/ventajas/" class="nav-link ">Ventajas</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/clubcaprabo/mas-familia-mas-ahorro/" class="nav-link ">Más familia, más ahorro</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/clubcaprabo/acumula-euros/" class="nav-link ">Acumula euros</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/clubcaprabo/mas-promociones/" class="nav-link ">Más Promociones</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/clubcaprabo/app/" class="nav-link  nav-link--button">App</a>
+			</li>
+		</ul>
+                                            </div>
+                                        <div class="child-megamenu-desktop-5" data-megamenu-child-count="5">
+                                                <h3 class="title-nav">
+                                                        <a href="/es/nuestras-marcas/"
+                                                                onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'nuestras_marcas')"
+                                                           target="_self"
+
+                                                                
+                                                                    title="Nuestras marcas"
+                                                                >
+
+                                                                Nuestras marcas</a>
+                                                    </h3>
+                                                <ul class="mega-nav-child">
+                                                    <li class="nav-item">
+				<a href="/es/nuestras-marcas/valores-de-marca/" class="nav-link"onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'valores_marca')">
+						Valores de marca</a>
+
+			<div class="dropdown-menu">
+		<a class="dropdown-item" href="/es/nuestras-marcas/valores-de-marca/sin-grasas/">Sin grasas</a>
+		<a class="dropdown-item" href="/es/nuestras-marcas/valores-de-marca/ahorro-cien-por-cien/">Ahorro 100%</a>
+		<a class="dropdown-item" href="/es/nuestras-marcas/valores-de-marca/libres-grasa-palma/">Libres de grasa de palma</a>
+		<a class="dropdown-item" href="/es/nuestras-marcas/valores-de-marca/semaforo-nutricional/">Semáforo nutricional</a>
+		</div>
+</li>
+
+<li class="nav-item">
+				<a href="/es/nuestras-marcas/eroski/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'eroski')">Eroski</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/bio/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'bio')">Bio</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/natur/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'eroski_natur')">Natur</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/seleqtia/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'eroski_seleqtia')">SeleQtia</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/belle/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'belle')">Belle</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/basic/" class="nav-link "onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'eroski_basic')">Basic</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/sin-gluten/" class="nav-link ">Sin gluten</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/nuestras-marcas/veggie/" class="nav-link  nav-link--button">Veggie</a>
+			</li>
+		</ul>
+                                            </div>
+                                        <div class="child-megamenu-desktop-6" data-megamenu-child-count="6">
+                                                <h3 class="title-nav">
+                                                        <a href="/es/bienvenido-bb/"
+                                                                onclick="ga('send', 'event', 'navegacion', 'menu_lateral', 'bienvenido_bebe')"
+                                                           target="_self"
+
+                                                                
+                                                                    title="Bienvenido Bebé"
+                                                                >
+
+                                                                Bienvenido Bebé</a>
+                                                    </h3>
+                                                <ul class="mega-nav-child">
+                                                    <li class="nav-item">
+				<a href="/es/bienvenido-bb/solicitud-canastilla" class="nav-link ">Solicita la canastilla</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/bienvenido-bb/consultas-a-la-matrona/" class="nav-link">
+						Consultas a la matrona</a>
+
+			<div class="dropdown-menu">
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/cuidarme-antes-embarazo/">¿Cómo cuidarme antes del embarazo?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/que-comer-embarazada/">¿Qué debo comer si estoy embarazada?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/prevenir-aliviar-estrenimiento-embarazo/">¿Cómo prevenir o aliviar el estreñimiento durante el embarazo?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/minimizar-dolor-parto/">¿Cómo minimizar el dolor durante el parto?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/sintomas-cuarentena/">¿Qué síntomas puedo tener durante la cuarentena?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/duele-pecho-mamar/">Me duele el pecho al dar de mamar, ¿qué puedo hacer?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/cuando-dar-bebe-alimento/">¿Cuándo se puede dar al bebé algún alimento que no sea leche?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/cuando-dar-agua-bebe/">¿Cuándo se puede dar agua al bebé?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/colecho-familiar/">¿Es recomendable el colecho familiar?</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/consultas-a-la-matrona/funciones-matrona/">¿Qué funciones tiene la matrona?</a>
+		</div>
+</li>
+
+<li class="nav-item">
+				<a href="/es/bienvenido-bb/tramites-administrativos/" class="nav-link">
+						Trámites administrativos</a>
+
+			<div class="dropdown-menu">
+		<a class="dropdown-item" href="/es/bienvenido-bb/tramites-administrativos/registro-civil-bebe/">Registro civil del bebé</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/tramites-administrativos/alta-padron-municipal/">Alta en el padrón municipal</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/tramites-administrativos/permiso-maternidad-paternidad/">Permiso de maternidad y paternidad</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/tramites-administrativos/alta-bebe-sistema-sanitario/">Alta del bebé en el sistema sanitario como beneficiario</a>
+		<a class="dropdown-item" href="/es/bienvenido-bb/tramites-administrativos/tarjeta-catsalut/">Tarjeta Sanitaria Integral del CatSalut (TSI)</a>
+		</div>
+</li>
+
+<li class="nav-item">
+				<a href="/es/bienvenido-bb/preguntas-frecuentes/" class="nav-link ">Preguntas frecuentes</a>
+			</li>
+		<li class="nav-item">
+				<a href="/es/bienvenido-bb/reforzando-el-vinculo/" class="nav-link  nav-link--button">Reforzando el vínculo</a>
+			</li>
+		</ul>
+                                            </div>
+                                        </div>
+                                </div>
+
+                                    <div class="freehtml-container col-xxs-12 col-xs-12 col-sm-4">
+                                    <div class="freehtml-megamenu-desktop-1 free-nav-content" >
+                                                    <p><img alt="megamenu-ofertas" src="/export/sites/caprabocom/es/home/.galleries/IMAGENES-rediseno-home/megamenu-ofertas.png" /></p></div>
+                                        <div class="freehtml-megamenu-desktop-3 free-nav-content" >
+                                                    <p><img alt="10compromisos-megamenu" src="/export/sites/caprabocom/es/home/.galleries/IMAGENES-rediseno-home/10compromisos-megamenu.png" /></p></div>
+                                        <div class="freehtml-megamenu-desktop-4 free-nav-content" >
+                                                    <p><img alt="club-megamenu" src="/export/sites/caprabocom/es/home/.galleries/IMAGENES-rediseno-home/club-megamenu.png" /></p></div>
+                                        <div class="freehtml-megamenu-desktop-5 free-nav-content" >
+                                                    <p style="text-align: center;"><img src="/export/sites/caprabocom/es/home/.galleries/IMAGENES-rediseno-home/megamenu-nuestras-marcas.png" alt="megamenu-nuestras-marcas" /></p>
+<h3 style="text-align: center;">Tomate Natur</h3>
+<p style="text-align: center;">500g</p></div>
+                                        <div class="freehtml-megamenu-desktop-6 free-nav-content" >
+                                                    <p><img alt="bebe-megamenu" src="/export/sites/caprabocom/es/home/.galleries/IMAGENES-rediseno-home/bebe-megamenu.png" /></p></div>
+                                        </div>
+
+                                    <div class="bottom-bar-nav">
+                                    <nav id="navbar-sites-menu" class="hidden-xs container-fluid nopadding topbar">
+                                        <ul class="nav navbar-nav">
+                                            <li><a class="img" href="https://www.capraboacasa.com?utm_source=caprabo&utm_medium=home&utm_campaign=menu_capraboacasa_" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'capraboacasa')"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/1-capraboacasa-mobile-azul.svg" class="img-responsive" /></a><a class="text" href="https://www.capraboacasa.com?utm_source=caprabo&utm_medium=home&utm_campaign=menu_capraboacasa_" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'capraboacasa')">Capraboacasa</a></li>
+                                                <li><a class="img" href="/es/clubcaprabo/?utm_source=caprabo&utm_medium=home&utm_campaign=menu_miclubahorro" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'miclubcaprabo')"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/2-miclubcaprabo-mobile-azul.svg" class="img-responsive" /></a><a class="text" href="/es/clubcaprabo/?utm_source=caprabo&utm_medium=home&utm_campaign=menu_miclubahorro" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'miclubcaprabo')">Club Caprabo</a></li>
+                                                <li><a class="img" href="https://www.chefcaprabo.com/es/home/?utm_source=caprabo&utm_medium=home&utm_campaign=menu_chefcaprabo" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'chefcaprabo')"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/3-chef-mobile-azul.svg" class="img-responsive" /></a><a class="text" href="https://www.chefcaprabo.com/es/home/?utm_source=caprabo&utm_medium=home&utm_campaign=menu_chefcaprabo" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'chefcaprabo')">Chef Caprabo</a></li>
+                                                <li><a class="img" href="http://www.bienvenidamatrona.es/es?utm_source=caprabo&utm_medium=home&utm_campaign=menu_bienvenidobebe" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'mundobebe')"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/4-matrona-mobile-azul.svg" class="img-responsive" /></a><a class="text" href="http://www.bienvenidamatrona.es/es?utm_source=caprabo&utm_medium=home&utm_campaign=menu_bienvenidobebe" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'mundobebe')">Bienvenida Matrona</a></li>
+												<li><a class="img" href="/es/caprabo-al-dia/?utm_source=caprabo&utm_medium=home&utm_campaign=menu_capraboaldia" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'capraboaldia')"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/icono-aldia-azul.svg" class="img-responsive aldia" /></a><a class="text" href="/es/caprabo-al-dia/?utm_source=caprabo&utm_medium=home&utm_campaign=menu_capraboaldia" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'capraboaldia')">Blog</a></li>
+                                            </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+            <div id="container" class="row nopadding " style="margin-top:20px;">
+            <div id="col-right" class="col-xs-12 col-sm-12 col-lg-12 nopadding">
+                <!-- INICIO CONTENIDO -->
+                <div  id="webdetail-container" ><div>
+
+		<div id="webdetail-container"><div>
+
+		<style> .error{
+padding:45px;
+background-color:#FFF;
+text-align:center;
+}</style>
+				<div class="error">
+<p><img class="img-responsive" dir="ltr" style="width: 171px; display: inline-block;" title="caprabo_404" src="/export/shared/.galleries/flexible/caprabo_404.png" alt="caprabo_404"></p>
+<h1 style="font-family: 'elkwood';">¡UPS! NO ENCONTRAMOS ESTA PÁGINA</h1>
+<p>La página que buscas no existe o ha sido eliminada.</p>
+<p>Puedes volver a la&nbsp;<span id="elemento1"><a href="/" style="text-decoration: underline;"></a></span><span id="elemento2"><span> y seguir navegando.</span></span></p>
+</div>
+<script>
+var link = "http://www.caprabo.com";
+var style = "text-decoration: underline;";
+var element = document.createElement("a");
+var element2 = document.createElement("span");
+element2.innerHTML = " y seguir navegando.";
+element.setAttribute("href", link);
+element.setAttribute("style", style);
+element.innerHTML = "home";
+document.getElementById("elemento1").appendChild(element);
+document.getElementById("elemento2").appendChild(element2);
+</script></div>
+	
+</div></div>
+	
+</div><!-- FIN CONTENIDO -->
+            </div>
+        </div>
+        
+
+
+
+
+ 
+
+				
+					<div id="sites" class="hidden-sm hidden-md hidden-lg col-sm-12 col-xs-12">
+						<div class="item-site col-xs-4 col-sm-4">
+							<a href="https://www.capraboacasa.com?utm_source=caprabo&utm_medium=home&utm_campaign=menu_capraboacasa_" target="_blank" class="is-content"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/all-logo-cac_dark.png"/><br>Capraboacasa</a>
+						</div>
+						<div class="item-site col-xs-4 col-sm-4">
+							<a href="http://www.miclubcaprabo.com/es/?utm_source=caprabo&utm_medium=home&utm_campaign=menu_miclubahorro" target="_blank" class="is-content"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/all-logo-club_dark.png"/><br>Mi Club Caprabo</a>
+						</div>
+						<div class="item-site col-xs-4 col-sm-4">
+							<a href="https://www.chefcaprabo.com/es/home/?utm_source=caprabo&utm_medium=home&utm_campaign=menu_chefcaprabo" target="_blank" class="is-content"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/all-logo-chef_dark2.png"/><br>Chef Caprabo</a>
+						</div>
+						<div class="item-site  col-xs-offset-2 col-xs-4 col-sm-4">
+							<a href="http://www.bienvenidamatrona.com/es?utm_source=caprabo&utm_medium=home&utm_campaign=menu_bienvenidobebe" target="_blank" class="is-content"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/all-logo-bebe_dark.png"/><br>Bienvenida Matrona</a>
+						</div>
+						<div class="item-site col-xs-4 col-sm-4">
+							<a href="http://www.viajescaprabo.es" target="_blank" class="is-content"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/all-logo-viajes_dark.png"/><br>Viajes Caprabo</a>
+						</div>
+					</div>
+				
+				
+
+
+</div>
+
+        <!-- Site footer -->
+       <footer class="col-xs-12 foot">
+        <div class="secciones-footer">
+                    <div class="footer-col-1">
+                        <h4 class="title">RSC</h4>
+                        <div class="col-uno-rsc">
+                            <ul class="footer-list">
+                                <li><a href="/es/rsc/compromiso-responsable/" onclick="ga('send', 'event', 'navegacion', 'footer', 'compromiso_responsable')">Compromiso responsable</a></li>
+                                <li><a href="/es/salud/centimos-solidarios/" onclick="ga('send', 'event', 'navegacion', 'footer', 'centimos_solidarios')">Céntimos Solidarios</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-dos-rsc">
+                            <ul class="footer-list">
+                                <li><a href="/es/rsc/elige-bueno-elige-sano/" onclick="ga('send', 'event', 'navegacion', 'footer', 'elige_sano')">Elige bueno elige sano</a></li>
+                                <li><a href="https://www.sostenibilitatcaprabo.cat/es/" onclick="ga('send', 'event', 'navegacion', 'footer', 'sostenibilidad')">Sostenibilidad</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <h4 class="title">Forma parte de Caprabo</h4>
+                        <ul class="footer-list">
+                            <li><a href="http://franquicias.caprabo.com/" onclick="ga('send', 'event', 'navegacion', 'footer', 'franquicias')">Franquicias</a></li>
+                            <li><a href="/es/forma-parte-de-caprabo/trabaja-con-nosotros/" onclick="ga('send', 'event', 'navegacion', 'footer', 'empleo')">Trabaja con nosotros</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-3">
+                        <h4 class="title">Conoce Caprabo</h4>
+                        <ul class="footer-list">
+                            <li><a href="/es/conoce-caprabo/sala-de-prensa/caprabo-corporativo/" onclick="ga('send', 'event', 'navegacion', 'footer', 'about_us')">Caprabo</a></li>
+                            <li><a href="/es/conoce-caprabo/sala-de-prensa/" onclick="ga('send', 'event', 'navegacion', 'footer', 'sala_prensa')">Sala de prensa</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <div class="img-atencion-cliente equal-height-zero">
+                            <img src="/export/sites/caprabocom/es/home/.galleries/IMAGENES-rediseno-home/atencion-al-cliente-caprabo-es.png" class="img-responsive" alt="Atención al cliente de caprabo"/>
+                                </div>
+                        <div class="titulo-cliente equal-height-zero">
+                            <h4><a href="/es/atencion-cliente/" onclick="ga('send', 'event', 'navegacion', 'footer', 'atencion_cliente')" title='Atención al cliente'>Atención al cliente</a></h4>
+                        </div>
+                        <div class="img-mejor-comercio equal-height-zero">
+                            <img src="/export/sites/caprabocom/es/home/.galleries/IMAGENES-rediseno-home/logo-mejor-comercio-es.jpg" class="img-responsive" alt="Logo mejor comercio"/>
+                            </div>
+                    </div>
+                </div>
+            <div class="copy-footer">
+            <div class="logo-footer">
+                <a href="/es/" onclick="ga('send', 'event', 'navegacion', 'footer', 'logo')">
+                            <img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/logo-caprabo.svg" class="img-responsive" /></a>
+                    </div>
+            <div class="copy-txt">
+                <ul>
+                        <li><a target="_blank" href="/es/atencion-cliente/">Atención al cliente</a></li>
+                        <li>|</li>
+                            <li><a href="/es/home/aviso-legal/#copyright">Copyright</a></li>
+                        <li>|</li>
+                        <li><a href="/es/home/politica-de-cookies/">Política de cookies</a></li>
+                        <li>|</li>
+                        <li><a href="/es/home/aviso-legal/">Aviso legal</a></li>
+                        <li>|</li>
+                        <li><a href="https://whistleblowersoftware.com/secure/Canal_interno_de_informacion_GRUPOEROSKI" target="_blank" rel="noopener noreferrer">Canal interno de información</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/es/home/condiciones-club/">Condiciones del club</a></li>
+                        <li>|</li>
+                        <li><a href="/es/home/politica-de-privacidad/">Política de Protección de datos</a></li>
+                        <li class="sep-responsive">-</li>
+                        <li class="copy">© 2025 Caprabo, S.A.U. Todos los derechos reservados </li>
+                    </ul>
+                <div class="copy-responsive copy">
+                    © 2025 Caprabo, S.A.U. Todos los derechos reservados </div>
+            </div>
+            <div class="social-iconos">
+                    <a href="https://www.instagram.com/caprabo_supermercats/" target="_blank" onclick="ga('send', 'event', 'social', 'boton', 'instagram')">
+                        <img class="img-responsive"
+                             src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/rs_i.png_191919849.png" width="51" height="51" alt="Logo Instagram">
+                    </a>
+                    <a href="https://www.tiktok.com/@caprabo_supermercats" target="_blank" onclick="ga('send', 'event', 'social', 'boton', 'tiktok')">
+                        <img class="img-responsive"
+                             src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/rs_tiktok.png_724213015.png" width="40" height="40" alt="Logo TikTok">
+                    </a>
+                    <a href="https://www.youtube.com/user/Caprabo50" target="_blank" onclick="ga('send', 'event', 'social', 'boton', 'youtube')">
+                        <img class="img-responsive"
+                             src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/rs_yt.png_191919849.png" width="51" height="51" alt="Logo Youtube">
+                    </a>
+                    <a href="https://www.facebook.com/Caprabo" target="_blank" onclick="ga('send', 'event', 'social', 'boton', 'facebook')">
+                        <img class="img-responsive"
+                             src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/rs_fb.png_191919849.png" width="51" height="51" alt="Logo Facebook">
+                    </a>
+                    <a href="https://twitter.com/caprabo" target="_blank" onclick="ga('send', 'event', 'social', 'boton', 'twitter')">
+                        <img class="img-responsive"
+                             src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/rs_t.png_191919849.png" width="51" height="51" alt="Logo Twitter">
+                    </a>
+                </div>
+            </div>
+    </footer>
+
+    <div class="modal fade modal-fullscreen-menu caprabomenu" id="modalNavigation" role="dialog" tabindex="-1" style="display: none;">
+        <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+            <span class="sr-only">Close navigation</span>
+            <span class="glyphicon glyphicon-remove"></span>
+        </button>
+        <div class="modal-dialog">
+            <div class="modal-topbar">
+                <div class="logo-modal-menu col-xxs-12 col-xs-12 col-sm-4">
+                    <div id="logo-menu" class="hidden-xs text-center">
+                        <a href="/es/" onclick="ga('send', 'event', 'navegacion', 'footer', 'logo')">
+                            </a>
+                    </div>
+                </div>
+
+                <div class="empty-modal-menu col-xxs-12 col-xs-12 col-sm-4"></div>
+                <div class="language-modal-menu col-xxs-12 col-xs-12 col-sm-4">
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="buscador-top">
+                            <form name="search" method="post" action="javascript:fGoogleSearch('es')" style="margin:0; padding:0;">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Buscador" id="q" name="q" value="">
+                                    <div class="input-group-btn">
+                                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </li>
+
+
+                        <li class="cat-select"><a
+                             href="/ca/error/404.html">CAT</a></li>
+                        <li class="separador">|</li>
+                        <li class="cast-select"><a
+                            class="active_lang" href="/es/error/404.html">CAST</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content-cols-mega">
+                <div class="parent-nav col-xxs-12 col-xs-12 col-sm-4">
+                    <div class="nav-elementos-principales">
+                        <ul class="mega-nav-principal">
+                            <li><a href="">Ofertas y Promociones</a></li>
+                            <li><a href="">Próximo a ti</a></li>
+                            <li><a href="">Mi Club Caprabo</a></li>
+                            <li><a href="">Salud</a></li>
+                            <li class="active"><a href="">Nuestras Marcas</a></li>
+                            <li><a href="">Bienvenido Bebé</a></li>
+                        </ul>
+                        <div class="nav-elementos-secundarios">
+                            <div class="col-xxs-12 col-xs-12 col-sm-6">
+                                <ul class="mega-nav-secundario">
+                                    <li><a href="">Apps Caprabo</a></li>
+                                    <li><a href="">Franquicias Caprabo</a></li>
+                                    <li><a href="">Trabaja con nosotros</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xxs-12 col-xs-12 col-sm-6">
+                                <ul class="mega-nav-secundario">
+                                    <li><a href="">Sala de prensa</a></li>
+                                    <li><a href="">Conoce Caprabo</a></li>
+                                    <li><a href="">Atención al cliente</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="child-nav col-xxs-12 col-xs-12 col-sm-4">
+                    <div class="child-nav-content">
+                        <h3 class="title-nav">
+                            <a href="">Nuestras Marcas</a>
+                        </h3>
+                        <ul class="mega-nav-child">
+                            <li><a href="">Valores de marca</a></li>
+                            <li><a href="">Eroski</a></li>
+                            <li><a href="">Eroski Basic</a></li>
+                            <li><a href="">Eroski Sannia</a></li>
+                            <li><a href="">Eroski Natur</a></li>
+                            <li><a href="">Eroski Seleqtia</a></li>
+                            <li><a href="">Belle</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="free-nav col-xxs-12 col-xs-12 col-sm-4">
+                    <div class="free-nav-content">
+                        <p style="text-align: center">
+                            <img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/sample-img-free-nav.png_1352530555.png" width="150" height="150" /></p>
+                        <h4 class="title" style="text-align: center;">Oferta Tomate Rama Natur</h4>
+                        <p class="description" style="text-align: center; font-style: italic;">500g</p>
+                        <div class="btn-destacado">
+                            <button type="button" class="destacado-horizontal-home">ver oferta</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-bar-nav">
+                <nav id="navbar-sites-menu" class="hidden-xs container-fluid nopadding topbar">
+                    <ul class="nav navbar-nav">
+                        <li><a class="img" href="https://www.capraboacasa.com?utm_source=caprabo&utm_medium=home&utm_campaign=menu_capraboacasa_" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'capraboacasa')"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/1-capraboacasa-mobile-azul.svg" class="img-responsive" /></a><a class="text" href="https://www.capraboacasa.com?utm_source=caprabo&utm_medium=home&utm_campaign=menu_capraboacasa_" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'capraboacasa')">Capraboacasa</a></li>
+                            <li><a class="img" href="http://www.miclubcaprabo.com/es/?utm_source=caprabo&utm_medium=home&utm_campaign=menu_miclubahorro" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'miclubcaprabo')"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/2-miclubcaprabo-mobile-azul.svg" class="img-responsive" /></a><a class="text" href="http://www.miclubcaprabo.com/es/?utm_source=caprabo&utm_medium=home&utm_campaign=menu_miclubahorro" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'miclubcaprabo')">Mi Club Caprabo</a></li>
+                            <li><a class="img" href="https://www.chefcaprabo.com/es/home/?utm_source=caprabo&utm_medium=home&utm_campaign=menu_chefcaprabo" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'chefcaprabo')"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/3-chef-mobile-azul.svg" class="img-responsive" /></a><a class="text" href="https://www.chefcaprabo.com/es/home/?utm_source=caprabo&utm_medium=home&utm_campaign=menu_chefcaprabo" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'chefcaprabo')">Chef Caprabo</a></li>
+                            <li><a class="img" href="http://www.bienvenidamatrona.es/es?utm_source=caprabo&utm_medium=home&utm_campaign=menu_bienvenidobebe" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'mundobebe')"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/4-matrona-mobile-azul.svg" class="img-responsive" /></a><a class="text" href="http://www.bienvenidamatrona.com/es?utm_source=caprabo&utm_medium=home&utm_campaign=menu_bienvenidobebe" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'mundobebe')">Bienvenida Matrona</a></li>
+                            <li><a class="img" href="http://www.viajescaprabo.es" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'viajescaprabo')"><img src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/img/estructura/5-viajes-mobile-azul.svg" class="img-responsive" /></a><a class="text" href="http://www.viajescaprabo.es" target="_blank" onclick="ga('send', 'event', 'home', 'cabecera', 'viajescaprabo')">Viajes Caprabo</a></li>
+                        </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSLWGFK7"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- End: page -->
+
+<!-- Notificaciones Indigitall -->
+<script src="/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/js/indigitall.impl.js"></script>
+
+<script src="/export/system/modules/com.caprabo.mrmmccann.caprabocom.ofertas/resources/js/shopping-cart-ofertas.js"></script>
+<script src="/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/js/frontend.js?v=6"></script>
+<script src="/system/modules/com.caprabo.mrmmccann.caprabocom.formatters/resources/js/one-template.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('body').oneTemplate();
+    });
+</script>
+
+</body>
+</html>

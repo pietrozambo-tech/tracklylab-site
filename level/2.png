@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FlyLevel</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <link href="FlyLevel_fitxers/css.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="FlyLevel_fitxers/styles.css"> -->
+    <link rel="icon" href="https://sorry.flylevel.com/images/flylevel-favicon-16.png" sizes="16x16">
+    <link rel="icon" href="https://sorry.flylevel.com/images/flylevel-favicon-32.png" sizes="32x32">
+    <link rel="icon" href="https://sorry.flylevel.com/images/flylevel-favicon-48.png" sizes="48x48">
+    <link rel="icon" href="https://sorry.flylevel.com/images/flylevel-favicon-64.png" sizes="64x64">
+    <link rel="icon" href="https://sorry.flylevel.com/images/flylevel-favicon-128.png" sizes="128x128">
+ <!-- DataLayer init: must be before GTM snippet -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+            event: "datalayer-initialized",
+            page: {
+                path: "sorry.flylevel.com",
+                channel: "web",
+                customerJourney: "sorry page",
+                language: (navigator.language || "es-ES").split('-')[0],
+                country: (navigator.language || "es-ES").split('-')[1]?.toUpperCase() || "ES",
+                type: "sorry",
+                currency:  undefined,
+                culture: navigator.language || "es-ES",
+                pnr_temporal: undefined
+            },
+            site: {
+                id: "005",
+                environment: "PRO"
+            },
+            user: {
+                logged_in: "no",
+                id: undefined
+            }
+        });
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KFT37DM');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFT37DM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<body>
+<div class="aligner-item">
+    <table class="taula" style="padding-bottom:10px;" cellspacing="0" cellpadding="25" bgcolor="#FFFFFF" align="center">
+        <tbody>
+        <tr>
+            <td>
+                <header>
+                    <object type="image/svg+xml" data="images/level-logo.svg">
+                        <img src="images/level-logo.png" alt="Level Airlines" border="0" width="142" height="26">
+                    </object>
+
+                </header>
+                <div class="clearFix"></div>
+                <section>
+                            <span class="table-styles">
+                                <article>
+                                    <div class="culture">
+                                        <strong>
+                                            <br/>
+                                            <br/>
+                                            Thanks for visiting flylevel.com 
+                                        </strong>
+                                        <br/>
+                                        We are experiencing a technical issue with our systems that is beyond our company's control, and it is affecting our website, reservations, check-in, and airport procedures. We are working to resolve the problem as quickly as possible.
+                                         <br/>
+                                        <br/>
+                                       If you have a flight today we recommend arriving at the airport as early as possible, and check-in through our airport counters in person, even if you have already checked-in online, or already have a boarding pass.
+                                        Please remember that our airport counters open 4 hours prior to the flight's departure. We appreciate your understanding and apologize for any inconvenience caused.
+                                         <br/>
+                                        <br/>
+                                        <br/>
+                                        Additional information on our official channels.
+                                        <br/>
+                                        <br/>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="culture">
+                                        <strong>
+                                            <br/>
+                                            <br/>
+                                            Gracias por visitar flylevel.com
+                                        </strong>
+                                        <br/>
+                                       Estamos experimentando una incidencia técnica en nuestros sistemas ajena a nuestra compañía y ésta tiene afectación en nuestra página web, reservas, check-in y procesos del aeropuerto. Estamos trabajando para solucionar el problema en la mayor brevedad posible.
+                                         <br/>
+                                        <br/>
+                                      En el caso de tener un vuelo hoy te recomendamos acudir al aeropuerto con la mayor antelación posible y acudir a los mostradores de facturación aunque ya hayas realizado el check-in online. Recuerda que los mostradores abren 4 horas antes de la salida del vuelo. Agradecemos tu comprensión y te pedimos una disculpa por las molestias ocasionadas.
+                                        <br/>
+                                        <br/>
+                                        Más información en nuestros canales oficiales.
+                                        <br/>
+                                        <br/>
+                                    </div>
+                                </article>
+
+                                <div class="clearFix"></div>
+                            </span>
+                </section>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <footer>
+        <div>
+            <p>© 2026 Fly Level</p>
+        </div>
+    </footer>
+
+</div>
+
+<script>
+    function setHeightMainContainer() {
+        var container = document.querySelector('.aligner-item');
+        container.style.height = innerHeight + 'px';
+    }
+
+    window.addEventListener('DOMContentLoaded', function() {
+        setHeightMainContainer();
+    }, false);
+</script>
+<style>
+    body {
+        background-image: linear-gradient(to bottom, #067fb5, #067fb5 50%, #23893c 50%, #23893c);
+        background-size: cover;
+        background-color: #111111;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .taula {
+        width: 90%;
+        max-width: 932px;
+        margin-top: 16%;
+    }
+
+    .aligner-item {
+        max-width: 90%;
+    }
+
+    .table-styles {
+        font-size: 14px;
+        font-family: 'Rubik', sans-serif, 'Helvetica', 'Arial', sans-serif;
+        color: #111111;
+    }
+
+    .clearFix {
+        clear: both;
+    }
+
+    @media (min-width: 679px) {
+        .culture {
+            width: 48%;
+            float: left;
+            padding-left: 1%;
+            padding-right: 1%;
+        }
+    }
+    /**
+     links
+     */
+
+    a {
+        color: #067fb5;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    a:hover {
+        color: #067fb5;
+    }
+    /**
+     footer section
+     */
+
+    footer div {
+        margin-bottom: 15px;
+    }
+
+    footer div p {
+        text-align: center;
+        font-family: 'Rubik', sans-serif, 'Helvetica', 'Arial', sans-serif;
+        color: #ffffff;
+        font-size: .8em;
+    }
+</style>
+
+</body>
+
+</html>
