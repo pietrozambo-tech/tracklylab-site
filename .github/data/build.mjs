@@ -86,6 +86,7 @@ const GROUPS = {
   fuel: ['CP0722'],                // fuels for personal transport
   energy: ['CP045'],               // electricity, gas and other fuels
   clothing: ['CP03'],              // clothing and footwear
+  rent: ['CP041'],                 // actual rentals for housing
 };
 const base = `https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/${DATASET}?format=JSON&lang=EN`;
 async function hicp() {
