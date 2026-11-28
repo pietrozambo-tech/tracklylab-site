@@ -1,6 +1,6 @@
 # Brand icons for the app (see .github/brands/fetch.mjs). On request only:
 # collects every icon each brand's own site offers, for a person to choose
-# from, into .github/brands/out/. Not served to the app.
+# from, onto the brand-candidates branch (not served by the site).
 name: Brand icons
 
 on:
@@ -21,10 +21,18 @@ jobs:
       - name: Collect candidates
         run: |
           node .github/brands/fetch.mjs .github/brands/list.json .github/brands/out
-      - name: Keep them
+      # On a branch of their own, never on gh-pages: other companies' icons
+      # are material to choose from, not something this site serves.
+      - name: Keep them on the brand-candidates branch
         run: |
           set -euo pipefail
-          git add .github/brands/out
+          tmp=$(mktemp -d)
+          cp -r .github/brands/out/. "$tmp/"
+          git fetch -q origin brand-candidates || true
+          if git rev-parse -q --verify origin/brand-candidates >/dev/null; then git checkout -q -B brand-candidates origin/brand-candidates; else git checkout -q --orphan brand-candidates; git rm -rq --cached . || true; fi
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -r "$tmp/." .
+          git add -A
           if git diff --cached --quiet; then echo "no change"; exit 0; fi
           git -c user.name="brand-icons" -c user.email="brand-icons@users.noreply.github.com" commit -qm "Brand icon candidates $(date -u +%F)"
-          git push -q
+          git push -q origin brand-candidates
