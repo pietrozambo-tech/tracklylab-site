@@ -1,0 +1,31 @@
+# Brand icons for the app (see .github/brands/fetch.mjs). On request only:
+# collects every icon each brand's own site offers, for a person to choose
+# from, into .github/brands/out/. Not served to the app.
+name: Brand icons
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Collect candidates
+        run: |
+          command -v convert identify
+          node .github/brands/fetch.mjs .github/brands/list.json .github/brands/out
+      - name: Keep them
+        run: |
+          set -euo pipefail
+          git add .github/brands/out
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git -c user.name="brand-icons" -c user.email="brand-icons@users.noreply.github.com" commit -qm "Brand icon candidates $(date -u +%F)"
+          git push -q
