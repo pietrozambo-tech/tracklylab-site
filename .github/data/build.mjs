@@ -74,50 +74,59 @@ async function ecb() {
 }
 
 // ── Eurostat HICP ───────────────────────────────────────────────────────
-// The groups the app can match to a person's categories. Codes are COICOP.
+// Since 2026 the HICP is classified by ECOICOP ver.2, in prc_hicp_minr (the
+// old prc_hicp_midx stops at 2025-12). The codes for each group are looked up
+// in the dataset itself first, so a renamed code shows in the log instead of
+// silently emptying a group.
+const DATASET = 'prc_hicp_minr';
 const GROUPS = {
-  CP011: 'food',            // food (groceries)
-  CP111: 'eatingOut',       // restaurants, cafés, canteens
-  CP0722: 'fuel',           // fuels for personal transport
-  CP045: 'energy',          // electricity, gas and other fuels
-  CP03: 'clothing',         // clothing and footwear
-  CP00: 'all',              // everything (the headline figure)
+  all: ['CP00', 'TOTAL'],          // everything (the headline figure)
+  food: ['CP011'],                 // food (groceries)
+  eatingOut: ['CP111', 'CP1111'],  // restaurants, cafés, canteens
+  fuel: ['CP0722'],                // fuels for personal transport
+  energy: ['CP045'],               // electricity, gas and other fuels
+  clothing: ['CP03'],              // clothing and footwear
 };
+const base = `https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/${DATASET}?format=JSON&lang=EN`;
 async function hicp() {
   const now = new Date();
+  // What the dataset calls things: one country, one recent month.
+  const probe = await (await get(`${base}&geo=IT&sinceTimePeriod=${now.getUTCFullYear() - 1}-06`)).json();
+  const coicops = Object.keys(probe.dimension.coicop.category.index);
+  const units = Object.keys(probe.dimension.unit.category.index);
+  console.log(`HICP ${DATASET}: dimensions ${probe.id.join(' ')} | units ${units.join(' ')} | ${coicops.length} coicop codes`);
+  const unit = ['I25', 'I15'].find((u) => units.includes(u)) ?? units.find((u) => /^I\d/.test(u));
+  const codeOf = {};
+  for (const [name, wants] of Object.entries(GROUPS)) {
+    const code = wants.find((c) => coicops.includes(c));
+    if (code) codeOf[name] = code;
+    else console.log(`::warning::HICP: no code for ${name} (${wants.join('/')}); near: ${coicops.filter((c) => wants.some((w) => c.startsWith(w.slice(0, 4)))).slice(0, 12).join(' ')}`);
+  }
   const since = `${now.getUTCFullYear() - 4}-01`;
-  const q = Object.keys(GROUPS).map((c) => `coicop=${c}`).join('&');
-  const url = `https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_midx?format=JSON&lang=EN&${q}&sinceTimePeriod=${since}`;
-  const js = await (await get(url)).json();
+  const js = await (await get(`${base}&unit=${unit}&${Object.values(codeOf).map((c) => `coicop=${c}`).join('&')}&sinceTimePeriod=${since}`)).json();
   const ids = js.id, size = js.size;
   const pos = Object.fromEntries(ids.map((d) => [d, js.dimension[d].category.index]));
-  console.log('HICP dimensions:', ids.map((d, i) => `${d}(${size[i]})`).join(' '));
-  console.log('HICP units:', Object.keys(pos.unit ?? {}).join(' '), '| coicop:', Object.keys(pos.coicop ?? {}).join(' '));
-  // One index base, the newest the dataset carries (I25 after the 2026
-  // rebase, I15 before). Ratios between months do not care which.
-  const units = Object.keys(pos.unit ?? {});
-  const unit = ['I25', 'I15', ...units].find((u) => units.includes(u));
   const stride = ids.map((_, i) => size.slice(i + 1).reduce((a, b) => a * b, 1));
-  const series = {};
   const times = Object.entries(pos.time).sort((a, b) => a[1] - b[1]).map(([t]) => t);
+  const series = {};
   for (const geo of Object.keys(pos.geo)) {
-    if (geo.length !== 2 && geo !== 'EL') continue; // countries only, not EU27_2020 / EA20
-    for (const [code, name] of Object.entries(GROUPS)) {
+    if (geo.length !== 2) continue; // countries, not EU27_2020 / EA20
+    for (const [name, code] of Object.entries(codeOf)) {
       if (pos.coicop[code] === undefined) continue;
       const vals = {};
       for (const t of times) {
-        const at = { freq: pos.freq ? Object.values(pos.freq)[0] : 0, unit: pos.unit[unit], coicop: pos.coicop[code], geo: pos.geo[geo], time: pos.time[t] };
-        const flat = ids.reduce((s, d, i) => s + (at[d] ?? 0) * stride[i], 0);
+        const at = { freq: 0, unit: pos.unit[unit] ?? 0, coicop: pos.coicop[code], geo: pos.geo[geo], time: pos.time[t] };
+        const flat = ids.reduce((sum, d, i) => sum + (at[d] ?? 0) * stride[i], 0);
         const v = js.value[flat];
         if (typeof v === 'number') vals[t] = v;
       }
       if (Object.keys(vals).length >= 13) ((series[geo === 'EL' ? 'GR' : geo] ??= {})[name] = vals);
     }
   }
-  const latest = times.filter((t) => Object.values(series).some((g) => Object.values(g).some((s) => s[t] !== undefined))).at(-1);
+  const latest = times.filter((t) => Object.values(series).some((g) => Object.values(g).some((x) => x[t] !== undefined))).at(-1);
   mkdirSync(`${OUT}/prices`, { recursive: true });
-  const changed = writeIfChanged(`${OUT}/prices/hicp.json`, { source: 'Eurostat HICP (prc_hicp_midx)', unit, latest, groups: Object.values(GROUPS), series });
-  console.log(`HICP: unit ${unit}, ${Object.keys(series).length} countries, latest ${latest}, ${changed ? 'changed' : 'unchanged'}`);
+  const changed = writeIfChanged(`${OUT}/prices/hicp.json`, { source: `Eurostat HICP (${DATASET})`, unit, codes: codeOf, latest, series });
+  console.log(`HICP: unit ${unit}, codes ${JSON.stringify(codeOf)}, ${Object.keys(series).length} countries, latest ${latest}, ${changed ? 'changed' : 'unchanged'}`);
   const ageMonths = (now.getUTCFullYear() * 12 + now.getUTCMonth()) - (+latest.slice(0, 4) * 12 + +latest.slice(5, 7) - 1);
   if (ageMonths > 3) { console.log(`::warning::HICP latest month ${latest} is ${ageMonths} months old - catalogue follows`); await hicpCatalogue(); }
 }
