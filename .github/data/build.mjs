@@ -118,6 +118,15 @@ async function hicp() {
   mkdirSync(`${OUT}/prices`, { recursive: true });
   const changed = writeIfChanged(`${OUT}/prices/hicp.json`, { source: 'Eurostat HICP (prc_hicp_midx)', unit, latest, groups: Object.values(GROUPS), series });
   console.log(`HICP: unit ${unit}, ${Object.keys(series).length} countries, latest ${latest}, ${changed ? 'changed' : 'unchanged'}`);
+  const ageMonths = (now.getUTCFullYear() * 12 + now.getUTCMonth()) - (+latest.slice(0, 4) * 12 + +latest.slice(5, 7) - 1);
+  if (ageMonths > 3) { console.log(`::warning::HICP latest month ${latest} is ${ageMonths} months old - catalogue follows`); await hicpCatalogue(); }
+}
+
+// While the price series looks stale, list Eurostat's HICP datasets in the
+// log, so the right one can be picked (2026: the COICOP 2018 move).
+async function hicpCatalogue() {
+  const toc = await (await get('https://ec.europa.eu/eurostat/api/dissemination/catalogue/toc/txt?lang=en')).text();
+  for (const line of toc.split('\n')) if (/hicp/i.test(line) && /prc_hicp/i.test(line)) console.log('  TOC', line.replace(/\s+/g, ' ').trim().slice(0, 220));
 }
 
 let failed = 0;
